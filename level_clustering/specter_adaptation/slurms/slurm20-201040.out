@@ -1,0 +1,7 @@
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[GPU] GPU Available: True
+[GPU] CUML Available: True
+[scan] Using 138 shard folders
+[load] Total paragraphs (after sampling): 1375099, dim=768
+Load shards:   0%|          | 0/138 [00:00<?, ?chunk/s]Load shards:   1%|          | 1/138 [00:03<07:37,  3.34s/chunk]Load shards:   1%|▏         | 2/138 [00:06<06:44,  2.97s/chunk]Load shards:   2%|▏         | 3/138 [00:09<07:31,  3.35s/chunk]Load shards:   3%|▎         | 4/138 [00:14<08:47,  3.94s/chunk]Load shards:   4%|▎         | 5/138 [00:21<10:43,  4.84s/chunk]Load shards:   4%|▍         | 6/138 [00:24<09:28,  4.31s/chunk]slurmstepd: error: *** JOB 201040 ON gpuvm09 CANCELLED AT 2025-09-04T18:13:16 ***

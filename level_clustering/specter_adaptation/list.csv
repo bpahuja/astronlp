@@ -1,0 +1,638 @@
+obs. type,parameter,value,upper error,lower error,journal,lead author,month,year,num cites,reference,arXiv,Notes
+other,Omega_Lambda,0,0,0,ApJ,Alcaniz,8,1999,49,http://adsabs.harvard.edu/abs/1999ApJ...521L..87A,astro-ph/9902298,
+CMB,H_0,53,38,-28,ApJ,Andreani,3,1999,18,http://adsabs.harvard.edu/abs/1999ApJ...513...23A,,
+lensing,Sigma_8,0.97,0.13,0,ApJ,Bacon,9,2003,127,http://adsabs.harvard.edu/abs/2003MNRAS.344..673B,astro-ph/0203134,Actually MNRAS?
+lensing,Omega_M,0.395,0.25,0,ApJ,Bacon,9,2003,127,http://adsabs.harvard.edu/abs/2003MNRAS.344..673B,astro-ph/0203134,Actually MNRAS?
+Clusters,Omega_M,0.34,0.13,0,ApJ,Bahcall,8,1997,236,http://adsabs.harvard.edu/abs/1997ApJ...485L..53B,astro-ph/9706018,
+Clusters,Sigma_8,0.85,0.15,0,ApJ,Bahcall,8,1997,236,http://adsabs.harvard.edu/abs/1997ApJ...485L..53B,astro-ph/9706018,
+Clusters,Omega_M,0.2,0.15,-0.05,ApJ,Bahcall,9,1998,310,http://adsabs.harvard.edu/abs/1998ApJ...504....1B,astro-ph/9803277,
+Clusters,Sigma_8,1,0.25,-0.2,ApJ,Bahcall,9,1998,310,http://adsabs.harvard.edu/abs/1998ApJ...504....1B,astro-ph/9803277,
+Clusters,Omega_M,0.16,0.05,0,ApJ,Bahcall,9,2000,86,http://adsabs.harvard.edu/abs/2000ApJ...541....1B,astro-ph/0002310,
+Clusters,Omega_M,0.19,0.08,-0.07,ApJ,Bahcall,3,2003,114,http://adsabs.harvard.edu/abs/2003ApJ...585..182B,astro-ph/0205490,
+Clusters,Sigma_8,0.9,0.3,-0.2,ApJ,Bahcall,3,2003,114,http://adsabs.harvard.edu/abs/2003ApJ...585..182B,astro-ph/0205490,
+Clusters,Sigma_8,0.98,0.1,0,ApJ,Bahcall,5,2003,56,http://adsabs.harvard.edu/abs/2003ApJ...588L...1B,astro-ph/0212363,Origin UCP?
+Clusters,Omega_M,0.17,0.05,0,ApJ,Bahcall,5,2003,56,http://adsabs.harvard.edu/abs/2003ApJ...588L...1B,astro-ph/0212363,Origin UCP?
+CMB,Omega_K,0,0.15,-0.075,ApJ,Balbi,12,2000,341,http://adsabs.harvard.edu/abs/2000ApJ...545L...1B,,
+CMB,Omega_M,0.4,0.2,-0.1,ApJ,Balbi,12,2000,341,http://adsabs.harvard.edu/abs/2000ApJ...545L...1B,,
+CMB,n,1.08,0.05,0,ApJ,Balbi,12,2000,341,http://adsabs.harvard.edu/abs/2000ApJ...545L...1B,,
+CMB,Omega_baryon,0.06,0.02,0,ApJ,Balbi,12,2000,341,http://adsabs.harvard.edu/abs/2000ApJ...545L...1B,,
+CMB,w_0,-0.75,0.25,0,ApJ,Balbi,2,2001,43,http://adsabs.harvard.edu/abs/2001ApJ...547L..89B,astro-ph/0009432,UCP?
+LSS,Sigma_8,0.73,0.02,0,ApJ,Basilikos,10,2006,12,,,Can’t find
+Clusters,H_0,40,12,0,ApJ,Birkinshaw,10,1991,132,http://adsabs.harvard.edu/abs/1991ApJ...379..466B,,
+other,H_0,74,8,0,ApJ,Blakeslee,12,1999,34,http://adsabs.harvard.edu/abs/1999ApJ...527L..73B,astro-ph/9910340,
+pec vels,Beta,0.42,0.1,-0.06,ApJ,Blakeslee,12,1999,34,http://adsabs.harvard.edu/abs/1999ApJ...527L..73B,astro-ph/9910340,
+other,Omega_M,0.6,0.15,0,ApJ,Bludman,12,1998,10,http://adsabs.harvard.edu/abs/1998ApJ...508..535B,astro-ph/9706047,
+Clusters,H_0,76.9,3.9,-3.4,ApJ,Bonamente,8,2006,97,http://adsabs.harvard.edu/abs/2006ApJ...647...25B,astro-ph/0512349,
+Clusters,Sigma_8,0.7,0.11,0,ApJ,Bond,3,1996,52,http://adsabs.harvard.edu/abs/1996ApJS..103...63B,,
+pec vels,Omega_M*H_0,0.5,0.17,-0.09,ApJ,Borgani,6,1997,26,http://adsabs.harvard.edu/abs/1997ApJ...482L.121B,astro-ph/9703148,Is listed value correct here?
+Clusters,n,0.964,0.01,0,ApJ,Borgani,5,1999,110,,,Can’t work out which one this is… papers noted
+pec vels,Omega_M*H_0,0.51,0.24,-0.09,ApJ,Borgani,7,2000,18,http://adsabs.harvard.edu/abs/2000ApJ...537L...1B,astro-ph/0005450,Correct parameter?
+Clusters,Omega_M,0.35,0.13,-0.1,ApJ,Borgani,11,2001,194,http://adsabs.harvard.edu/abs/2001ApJ...561...13B,astro-ph/0106428,
+Clusters,Sigma_8,0.66,0.06,-0.05,ApJ,Borgani,11,2001,194,http://adsabs.harvard.edu/abs/2001ApJ...561...13B,astro-ph/0106428,
+pec vels,Omega_M,2.2,1,-1,ApJ,Bothun,8,1992,22,http://adsabs.harvard.edu/abs/1992ApJ...395..347B,,
+ISW,Omega_Lambda,0,0,0,ApJ,Boughn,12,2002,19,http://adsabs.harvard.edu/abs/2002ApJ...580..672B,astro-ph/0208153,Correct value?
+other,H_0,69,11,0,ApJ,Braatz,8,2010,2,http://adsabs.harvard.edu/abs/2010ApJ...718..657B,1005.1955,Lower error value provided (and non-zero)?
+SN,H_0,51,12,0,ApJ,Branch,3,1993,60,http://adsabs.harvard.edu/abs/1993ApJ...405L...5B,,
+SN,H_0,57,4,0,ApJ,Branch,7,1996,65,http://adsabs.harvard.edu/abs/1996ApJ...465...73B,astro-ph/9510071,
+lensing,Omega_K,0.2,1.2,0,ApJ,Broadhurst,3,2005,120,,,Can’t find value in paper
+z distort,Beta,0.8,0.4,-0.3,ApJ,Bromley,2,1997,13,http://adsabs.harvard.edu/abs/1997ApJ...475..414B,astro-ph/9701177,
+CMB,Omega_Lambda,0,0,0,ApJ,Bunn,6,1995,70,http://adsabs.harvard.edu/abs/1995ApJ...446...49B,astro-ph/9407069,Omega_Lambda or Lambda? (Difference?)
+other,H_0,74,11,0,ApJ,Bureau,5,1996,58,http://adsabs.harvard.edu/abs/1996ApJ...463...60B,,
+BBN,Omega_baryon,0.037,0.003,0,ApJ,Burles,5,1998,350,http://adsabs.harvard.edu/abs/1998ApJ...499..699B,astro-ph/9712108,Can’t find value in paper (h parameterised)
+BBN,Omega_baryon,0.041,0.004,0,ApJ,Burles,5,2001,325,http://adsabs.harvard.edu/abs/2001ApJ...552L...1B,astro-ph/0010171,Can’t find value in paper (h parameterised)
+other,Omega_baryon,0.036,0.002,0,ApJ,Burles,11,1998,316,http://adsabs.harvard.edu/abs/1998ApJ...507..732B,astro-ph/9712109,Can’t find value in paper (h parameterised)
+lensing,H_0,52,7,-4,ApJ,Burud,11,2000,61,http://adsabs.harvard.edu/abs/2000ApJ...544..117B,astro-ph/0007136,
+LSS,Omega_M,0,0,0,ApJ,Carlberg,8,1990,39,http://adsabs.harvard.edu/abs/1990ApJ...359L...1C,,Zeroes? Need to check in article
+LSS,Omega_Lambda,0,0,0,ApJ,Carlberg,7,1991,16,http://adsabs.harvard.edu/abs/1991ApJ...375..429C,,Zeroes? Need to check in article
+Clusters,Omega_M,0.24,0.13,0,ApJ,Carlberg,5,1996,420,http://adsabs.harvard.edu/abs/1996ApJ...462...32C,astro-ph/9509034,
+Clusters,Omega_M,0.4,0.2,0,ApJ,Carlberg,4,1997,134,http://adsabs.harvard.edu/abs/1997ApJ...479L..19C,astro-ph/9612169,
+Clusters,Sigma_8,0.75,0.1,0,ApJ,Carlberg,4,1997,134,http://adsabs.harvard.edu/abs/1997ApJ...479L..19C,astro-ph/9612169,
+Clusters,Omega_M,0.2,0.1,0,ApJ,Carlberg,4,1997,134,http://adsabs.harvard.edu/abs/1997ApJ...479L..19C,astro-ph/9612169,
+Clusters,Sigma_8,0.95,0.1,0,ApJ,Carlberg,4,1997,134,http://adsabs.harvard.edu/abs/1997ApJ...479L..19C,astro-ph/9612169,
+lensing,Omega_M,0.26,0.12,-0.08,ApJ,Chae,4,2007,20,http://adsabs.harvard.edu/abs/2007ApJ...658L..71C,astro-ph/0611898,
+lensing,H_0,69,18,-12,ApJ,Chae,10,1999,16,http://adsabs.harvard.edu/abs/1999ApJ...524..582C,astro-ph/9906179,
+lensing,Sigma_8,1,0.2,0,ApJ,Chang,12,2004,18,http://adsabs.harvard.edu/abs/2004ApJ...617..794C,astro-ph/0408548,
+lensing,Sigma_8,1,0.3,0,ApJ,Chen,4,2003,22,http://adsabs.harvard.edu/abs/2003ApJ...587L..55C,astro-ph/0301037,
+other,H_0,93,1,0,ApJ,Chiba,3,1995,10,http://adsabs.harvard.edu/abs/1995ApJ...442...82C,astro-ph/9409083,
+lensing,Omega_M,0.3,0.2,-0.1,ApJ,Chiba,1,1999,92,http://adsabs.harvard.edu/abs/1999ApJ...510...42C,astro-ph/9808321,Omega_M correct? Just Omega?
+CMB,Omega_M,0.264,0.038,0,ApJ,Chiu,12,2003,47,http://adsabs.harvard.edu/abs/2003ApJ...599..759C,astro-ph/0304234,Omega_M correct? Just Omega?
+other,H_0,78,7,0,ApJ,Ciardullo,9,2002,76,http://adsabs.harvard.edu/abs/2002ApJ...577...31C,astro-ph/0206177,
+Clusters,Omega_M,0,0,0,ApJ,Cirimele,1,1997,42,http://adsabs.harvard.edu/abs/1997ApJ...475...11C,,Zeroes? Need to check in article
+SN,Omega_Lambda,0.71,0.06,-0.05,ApJ,Clocchiatt,5,2006,51,,,Can’t find
+lensing,Omega_Lambda,0,0,0,ApJ,Cooray,2,1999,33,http://adsabs.harvard.edu/abs/1999ApJ...511..562C,astro-ph/9806080,I think this is right… Lower limit given in article – why zero here?
+lensing,Omega_M,0,0,0,ApJ,Cooray,10,1999,19,http://adsabs.harvard.edu/abs/1999ApJ...524..504C,astro-ph/9904245,Why zero here?
+Clusters,Omega_baryon,0.19,0.07,0,ApJ,Cruddace,2,1997,4,http://adsabs.harvard.edu/abs/1997ApJ...476..479C,,Value not in abstract – check article
+lensing,Sigma_8,0.67,0.04,0,ApJ,Dahle,12,2006,38,http://adsabs.harvard.edu/abs/2006ApJ...653..954D,astro-ph/0608480,
+other,Omega_M,0.35,0.15,0,ApJ,Dai,9,2004,85,http://adsabs.harvard.edu/abs/2004ApJ...612L.101D,astro-ph/0407497,
+other,w_0,-0.84,0.57,-0.83,ApJ,Dai,9,2004,85,http://adsabs.harvard.edu/abs/2004ApJ...612L.101D,astro-ph/0407497,
+Clusters,Omega_M,0.15,0.05,0,ApJ,David,6,1995,224,http://adsabs.harvard.edu/abs/1995ApJ...445..578D,,
+z distort,Omega_M,0.14,0.05,0,ApJ,Davis,11,1997,42,http://adsabs.harvard.edu/abs/1997ApJ...490...63D,astro-ph/9705224,
+CMB,n,0.95,0.13,-0.08,ApJ,DeBernardi,9,1994,16,,,Both papers seem to be non-astro?
+pec vels,Beta,1.28,0.38,-0.3,ApJ,Dekel,7,1993,134,http://adsabs.harvard.edu/abs/1993ApJ...412....1D,,
+pec vels,Omega_M,0,0,0,ApJ,Dekel,2,1994,59,http://adsabs.harvard.edu/abs/1994ApJ...422L...1D,astro-ph/9308029,Zero values?
+Clusters,Omega_M,0.27,0.1,0,ApJ,Donahue,10,1999,65,http://adsabs.harvard.edu/abs/1999ApJ...523L.137D,astro-ph/9907333,More than one value actually given in abstract
+combined,Omega_M,0.36,0.21,-0.11,ApJ,Durrer,1,2003,38,http://adsabs.harvard.edu/abs/2003ApJ...583...33D,astro-ph/0111594,
+combined,Omega_Lambda,0.64,0.14,-0.27,ApJ,Durrer,1,2003,38,http://adsabs.harvard.edu/abs/2003ApJ...583...33D,astro-ph/0111594,
+combined,n,1,0.59,-0.17,ApJ,Durrer,1,2003,38,http://adsabs.harvard.edu/abs/2003ApJ...583...33D,astro-ph/0111594,
+combined,H_0,65,35,-27,ApJ,Durrer,1,2003,38,http://adsabs.harvard.edu/abs/2003ApJ...583...33D,astro-ph/0111594,
+combined,Omega_baryon,0.047,0.093,-0.024,ApJ,Durrer,1,2003,38,http://adsabs.harvard.edu/abs/2003ApJ...583...33D,astro-ph/0111594,
+LSS,Sigma_8,0.68,0.09,0,ApJ,Einasto,7,1999,19,http://adsabs.harvard.edu/abs/1999ApJ...519..456E,astro-ph/9812248,More than one value actually given in abstract
+LSS,Gamma,0.28,-0.09,0,ApJ,Eisenstein,1,2001,47,http://adsabs.harvard.edu/abs/2001ApJ...546....2E,astro-ph/9912149,Range data in abstract
+BAO,Omega_M,0.273,0.025,0,ApJ,Eisenstein,11,2005,1050,http://adsabs.harvard.edu/abs/2005ApJ...633..560E,astro-ph/0501171,
+BAO,Omega_K,-0.01,0.009,0,ApJ,Eisenstein,11,2005,1050,http://adsabs.harvard.edu/abs/2005ApJ...633..560E,astro-ph/0501171,
+Clusters,Sigma_8,1.04,0.104,0,ApJ,Evrard,7,2002,224,http://adsabs.harvard.edu/abs/2002ApJ...573....7E,astro-ph/0110246,
+lensing,H_0,79.3,6.7,-8.5,ApJ,Fadely,3,2010,6,http://adsabs.harvard.edu/abs/2010ApJ...711..246F,0909.1807,
+lensing,H_0,62,7,0,ApJ,Falco,7,1997,55,http://adsabs.harvard.edu/abs/1997ApJ...484...70F,astro-ph/9702152,
+lensing,Omega_M,1.15,0.51,0,ApJ,Falco,2,1998,196,http://adsabs.harvard.edu/abs/1998ApJ...494...47F,astro-ph/9707032,"Maybe this one, but I can’t find referenced value in text"
+Clusters,Sigma_8,0.83,0.15,0,ApJ,Fan,12,1997,71,http://adsabs.harvard.edu/abs/1997ApJ...490L.123F,astro-ph/9709265,
+Clusters,Omega_M,0.3,0.1,0,ApJ,Fan,12,1997,71,http://adsabs.harvard.edu/abs/1997ApJ...490L.123F,astro-ph/9709265,
+Clusters,Omega_M,0.3,0.05,0,ApJ,Fan,4,2001,25,http://adsabs.harvard.edu/abs/2001ApJ...550..547F,astro-ph/0011452,
+lensing,H_0,59,17,0,ApJ,Fassnacht,12,1999,55,http://adsabs.harvard.edu/abs/1999ApJ...527..498F,astro-ph/9907257,
+lensing,H_0,63,15,0,ApJ,Fassnacht,12,2002,55,http://adsabs.harvard.edu/abs/2002ApJ...581..823F,astro-ph/0208420,
+pec vels,Omega_M,0.3,0.17,0,ApJ,Feldman,10,2003,50,http://adsabs.harvard.edu/abs/2003ApJ...596L.131F,astro-ph/0305078,
+pec vels,Sigma_8,1.13,0.22,-0.23,ApJ,Feldman,10,2003,50,http://adsabs.harvard.edu/abs/2003ApJ...596L.131F,astro-ph/0305078,
+other,H_0,84,4,0,ApJ,Ford,2,1996,32,http://adsabs.harvard.edu/abs/1996ApJ...458..455F,,More than one value actually given in abstract
+ISW,Omega_Lambda,0.775,0.085,0,ApJ,Fosalba,11,2003,151,http://adsabs.harvard.edu/abs/2003ApJ...597L..89F,astro-ph/0307249,Range data in abstract – can’t see listed value
+other,H_0,68,8,0,ApJ,Fouque,1,1990,119,http://adsabs.harvard.edu/abs/1990ApJ...349....1F,,
+BAO,w_0,-1.05,0.13,0,ApJ,Freedman,10,2009,14,http://adsabs.harvard.edu/abs/2009ApJ...704.1036F,0907.4524,
+BAO,Omega_M,0.27,0.02,0,ApJ,Freedman,10,2009,14,http://adsabs.harvard.edu/abs/2009ApJ...704.1036F,0907.4524,
+pec vels,Omega_M,0,0,0,ApJ,Freudling,8,1991,27,http://adsabs.harvard.edu/abs/1991ApJ...377..349F,,Why zero here?
+pec vels,Omega_M*H_0,0.82,0.12,0,ApJ,Freudling,9,1999,53,http://adsabs.harvard.edu/abs/1999ApJ...523....1F,astro-ph/9904118,Incorrect parameter here
+CMB,H_0,90,10,0,ApJ,Fukugita,7,1990,20,http://adsabs.harvard.edu/abs/1990ApJ...358...28F,,Value not in abstract – check article
+SN,H_0,87.5,12.5,0,ApJ,Fukugita,2,1991,16,http://adsabs.harvard.edu/abs/1991ApJ...368L..11F,,Range data in abstract
+Clusters,H_0,47,14,0,ApJ,Furuzawa,9,1998,10,http://adsabs.harvard.edu/abs/1998ApJ...504...35F,,
+SN,w_0,0,0,0,ApJ,Garnavich,12,1998,511,http://adsabs.harvard.edu/abs/1998ApJ...509...74G,astro-ph/9806396,"I think this is it, but can’t find values"
+SN,Omega_K,-0.06,0.26,0,ApJ,Garnavich,12,1998,511,http://adsabs.harvard.edu/abs/1998ApJ...509...74G,astro-ph/9806396,"I think this is it, but can’t find values"
+SN,Omega_K,-0.06,0.26,0,ApJ,Garnavich,12,1998,522,,,Umm…?
+other,H_0,90,17,0,ApJ,Gavazzi,11,1991,16,http://adsabs.harvard.edu/abs/1991ApJ...382...19G,,
+other,Omega_Lambda,0.71,0.05,0,ApJ,Ghirlanda,9,2004,102,http://adsabs.harvard.edu/abs/2004ApJ...613L..13G,astro-ph/0408350,
+other,H_0,68,5.4,0,ApJ,Gibson,2,2000,131,http://adsabs.harvard.edu/abs/2000ApJ...529..723G,astro-ph/9908149,
+other,H_0,69,5,0,ApJ,Giovanelli,3,1997,112,http://adsabs.harvard.edu/abs/1997ApJ...477L...1G,astro-ph/9612072,
+Clusters,Sigma_8,1.01,0.067,0,ApJ,Girardi,10,1998,110,http://adsabs.harvard.edu/abs/1998ApJ...506...45G,astro-ph/9804188,"I think this is right, but values are parameterised"
+CMB,Omega_M,0,0,0,ApJ,Gouda,5,1991,8,http://adsabs.harvard.edu/abs/1991ApJ...372L..49G,,
+pec vels,Beta,0.45,0.05,0,ApJ,Gramman,1,1998,6,,,No results in ADS?
+Clusters,Omega_M,0.25,0.15,0,ApJ,Grego,5,2001,117,http://adsabs.harvard.edu/abs/2001ApJ...552....2G,astro-ph/0012067,
+other,Omega_M,0.1,0.25,0,ApJ,Guerra,12,2000,59,http://adsabs.harvard.edu/abs/2000ApJ...544..659G,astro-ph/9807249,
+lensing,Sigma_8,0.97,0.35,0,ApJ,Hamana,11,2003,88,http://adsabs.harvard.edu/abs/2003ApJ...597...98H,astro-ph/0210450,More than one value in abstract – and more than one parameter given?
+z distort,Omega_M,0,0,-0.25,ApJ,Hamilton,4,1993,51,http://adsabs.harvard.edu/abs/1993ApJ...406L..47H,,Wrong value listed?
+Clusters,Omega_baryon,0.1,0.05,0,ApJ,Hanami,9,1993,14,http://adsabs.harvard.edu/abs/1993ApJ...415...42H,,
+Clusters,Omega_M,0.55,0.17,0,ApJ,Henry,11,1997,173,http://adsabs.harvard.edu/abs/1997ApJ...489L...1H,,
+Clusters,Sigma_8,0.66,0.34,-0.17,ApJ,Henry,11,1997,173,http://adsabs.harvard.edu/abs/1997ApJ...489L...1H,,
+Clusters,Omega_M,0.44,0.12,0,ApJ,Henry,5,2000,196,http://adsabs.harvard.edu/abs/2000ApJ...534..565H,astro-ph/0002365,More than one value actually given in abstract
+Clusters,Sigma_8,0.77,0.15,0,ApJ,Henry,5,2000,196,http://adsabs.harvard.edu/abs/2000ApJ...534..565H,astro-ph/0002365,More than one value actually given in abstract
+Clusters,w_0,-0.42,0.21,0,ApJ,Henry,7,2004,78,http://adsabs.harvard.edu/abs/2004ApJ...609..603H,astro-ph/0404142,
+Clusters,Sigma_8,0.66,0.16,0,ApJ,Henry,7,2004,78,http://adsabs.harvard.edu/abs/2004ApJ...609..603H,astro-ph/0404142,
+Clusters,Sigma_8,0.85,0.04,-0.02,ApJ,Henry,2,2009,24,http://adsabs.harvard.edu/abs/2009ApJ...691.1307H,0809.3832,More than one parameter actually given
+Clusters,H_0,71,30,-25,ApJ,Herbig,8,1995,101,http://adsabs.harvard.edu/abs/1995ApJ...449L...5H,,
+SN,H_0,67,4.5,0,ApJ,Hoeflich,2,1996,252,http://adsabs.harvard.edu/abs/1996ApJ...457..500H,astro-ph/9602025,
+lensing,Omega_M,0.13,0.07,0,ApJ,Hoekstra,2,2001,48,http://adsabs.harvard.edu/abs/2001ApJ...548L...5H,astro-ph/0012169,
+lensing,Sigma_8,0.86,0.09,-0.13,ApJ,Hoekstra,10,2002,144,http://adsabs.harvard.edu/abs/2002ApJ...577..595H,astro-ph/0204295,"I think this is it, but value is parameterised"
+Clusters,H_0,78,60,-40,ApJ,Holzapfel,5,1997,83,http://adsabs.harvard.edu/abs/1997ApJ...480..449H,astro-ph/9702224,
+Clusters,Omega_M,0.175,0.025,0,ApJ,Hradecky,11,2000,34,http://adsabs.harvard.edu/abs/2000ApJ...543..521H,astro-ph/0006397,
+combined,Omega_M,0.425,0.175,0,ApJ,Hu,3,2001,174,http://adsabs.harvard.edu/abs/2001ApJ...549..669H,astro-ph/0006436,"I think this is it, but can’t find values"
+combined,H_0,75,15,0,ApJ,Hu,3,2001,174,http://adsabs.harvard.edu/abs/2001ApJ...549..669H,astro-ph/0006436,"I think this is it, but can’t find values"
+CMB,Omega_baryon,0.036,0,-0.018,ApJ,Hu,3,2001,182,http://adsabs.harvard.edu/abs/2001ApJ...549..669H,astro-ph/0006436,"I think this is it, but can’t find values"
+CMB,Omega_M,0.792,0,-0.396,ApJ,Hu,3,2001,182,http://adsabs.harvard.edu/abs/2001ApJ...549..669H,astro-ph/0006436,"I think this is it, but can’t find values"
+Clusters,H_0,51.5,12.5,0,ApJ,Hughes,7,1998,95,http://adsabs.harvard.edu/abs/1998ApJ...501....1H,astro-ph/9801183,
+CMB,H_0,47,23,-15,ApJ,Hughes,7,1998,96,http://adsabs.harvard.edu/abs/1998ApJ...501....1H,astro-ph/9801183,
+LSS,Omega_baryon,0.06,0.02,0,ApJ,Hui,1,2002,25,http://adsabs.harvard.edu/abs/2002ApJ...564..525H,astro-ph/0104442,"I think this is it, but value is parameterised"
+LSS,Omega_M,0.375,0.087,0,ApJ,Huterer,7,2001,13,http://adsabs.harvard.edu/abs/2001ApJ...555..547H,astro-ph/0011069,
+lensing,Omega_Lambda,0.64,0.15,-0.26,ApJ,Im,2,1997,36,http://adsabs.harvard.edu/abs/1997ApJ...475..457I,astro-ph/9611105,
+lensing,H_0,44,4,0,ApJ,Impey,12,1998,109,http://adsabs.harvard.edu/abs/1998ApJ...509..551I,astro-ph/9803207,More than one value actually given in abstract
+BBN,Omega_baryon,0.025,0.05,0,ApJ,Izotov,1,1997,320,http://adsabs.harvard.edu/abs/1997ApJS..108....1I,,Not sure if this is right
+BBN,Omega_baryon,0.128,0.028,-0.023,ApJ,Izotov,12,1999,123,http://adsabs.harvard.edu/abs/1999ApJ...527..757I,astro-ph/9907228,Parameterised value
+other,Omega_baryon,0.023,0.006,-0.004,ApJ,Izotov,2,2004,168,http://adsabs.harvard.edu/abs/2004ApJ...602..200I,astro-ph/0310421,Parameterised value
+other,Omega_M,0.5,0.2,0,ApJ,Jaffe,12,1995,21,http://adsabs.harvard.edu/abs/1995ApJ...455...26J,astro-ph/9408046,Not sure if this is right
+other,H_0,87,11,0,ApJ,Jensen,1,1999,28,http://adsabs.harvard.edu/abs/1999ApJ...510...71J,astro-ph/9807326,
+other,H_0,69,12,0,ApJ,Jimenez,8,2003,81,http://adsabs.harvard.edu/abs/2003ApJ...593..622J,astro-ph/0302560,
+z distort,Omega_M*H_0,0.45,0.05,0,ApJ,Jing,2,1998,182,http://adsabs.harvard.edu/abs/1998ApJ...494....1J,astro-ph/9707106,Not sure if this is right parameter
+pec vels,Beta,0.3,0.1,0,ApJ,Kashlinsky,1,1998,23,http://adsabs.harvard.edu/abs/1998ApJ...492....1K,astro-ph/9705002,Can’t see values in abstract
+LSS,Omega_M,0.275,0.025,0,ApJ,Kashlinsky,1,1998,23,http://adsabs.harvard.edu/abs/1998ApJ...492....1K,astro-ph/9705002,Can’t see values in abstract
+lensing,H_0,51,14,-13,ApJ,Keeton,9,1997,93,http://adsabs.harvard.edu/abs/1997ApJ...487...42K,astro-ph/9611216,
+BBN,Omega_baryon,0.043,0.004,0,ApJ,Kirkman,11,2003,283,http://adsabs.harvard.edu/abs/2003ApJS..149....1K,astro-ph/0302006,Parameterised value
+Clusters,Sigma_8,1.04,0.04,0,ApJ,Kitayama,12,1997,127,http://adsabs.harvard.edu/abs/1997ApJ...490..557K,astro-ph/9702017,"I think this is it, but can’t find values"
+LSS,Omega_M,0,0,0,ApJ,Klypin,6,1994,32,http://adsabs.harvard.edu/abs/1994ApJ...428..399K,astro-ph/9309034,Zero values?
+SN,Omega_M,0.25,0.07,-0.06,ApJ,Knop,11,2003,882,http://adsabs.harvard.edu/abs/2003ApJ...598..102K,astro-ph/0309368,
+SN,Omega_Lambda,0.75,0.06,-0.07,ApJ,Knop,11,2003,882,http://adsabs.harvard.edu/abs/2003ApJ...598..102K,astro-ph/0309368,
+SN,w_0,-1.05,0.15,-0.2,ApJ,Knop,11,2003,882,http://adsabs.harvard.edu/abs/2003ApJ...598..102K,astro-ph/0309368,
+CMB,Omega_Lambda,0,0,0,ApJ,Knox,12,2001,95,http://adsabs.harvard.edu/abs/2001ApJ...563L..95K,astro-ph/0109232,Zero values?
+lensing,Omega_M,0.32,0.11,0,ApJ,Kochanek,11,1995,82,http://adsabs.harvard.edu/abs/1995ApJ...453..545K,astro-ph/9411082,"I think this is it, but can’t find values"
+lensing,Omega_Lambda,0,0,0,ApJ,Kochanek,8,1996,353,http://adsabs.harvard.edu/abs/1996ApJ...466..638K,astro-ph/9510077,
+lensing,H_0,72,8,0,ApJ,Kochanek,1,2003,41,http://adsabs.harvard.edu/abs/2003ApJ...583...49K,astro-ph/0206006,
+BBN,Omega_baryon,0.028,0.011,-0.006,ApJ,Kohri,11,1997,34,http://adsabs.harvard.edu/abs/1997ApJ...490...72K,astro-ph/9612237,Parameterised value
+pec vels,Omega_M*H_0,0.75,0.05,0,ApJ,Kolatt,4,1997,58,http://adsabs.harvard.edu/abs/1997ApJ...479..592K,,Right parameter?
+combined,Omega_Lambda,0.726,0.015,0,ApJ,Komatsu,2,2009,2064,http://adsabs.harvard.edu/abs/2009ApJS..180..330K,0803.0547,
+combined,Sigma_8,0.812,0.016,0,ApJ,Komatsu,2,2009,2064,http://adsabs.harvard.edu/abs/2009ApJS..180..330K,0803.0547,
+combined,n,0.96,0.013,0,ApJ,Komatsu,2,2009,2064,http://adsabs.harvard.edu/abs/2009ApJS..180..330K,0803.0547,
+combined,Omega_baryon,0.046,0.002,0,ApJ,Komatsu,2,2009,2064,http://adsabs.harvard.edu/abs/2009ApJS..180..330K,0803.0547,
+combined,NULL,51,30,0,ApJ,Komatsu,2,2009,2064,http://adsabs.harvard.edu/abs/2009ApJS..180..330K,0803.0547,Huh?
+lensing,H_0,75,7,-6,ApJ,Koopmans,12,2003,67,http://adsabs.harvard.edu/abs/2003ApJ...599...70K,astro-ph/0306216,
+lensing,H_0,64,4,-3.5,ApJ,Koopmans,12,1999,80,http://adsabs.harvard.edu/abs/1999ApJ...527..513K,astro-ph/9907258,More than one value actually given in abstract
+SN,w_0,-0.969,0.086,-0.09,ApJ,Kowalski,10,2008,361,,,Can’t find
+SN,Omega_Lambda,0.713,0.027,-0.029,ApJ,Kowalski,10,2008,444,,,Can’t find
+lensing,H_0,64,13,0,ApJ,Kundic,6,1997,209,http://adsabs.harvard.edu/abs/1997ApJ...482...75K,astro-ph/9610162,
+Clusters,Omega_M,0.25,0.15,0,ApJ,Ledlow,5,1999,15,http://adsabs.harvard.edu/abs/1999ApJ...516L..53L,astro-ph/9903117,Bounded data
+Clusters,Sigma_8,1.01,0.09,0,ApJ,Lee,6,2006,6,http://adsabs.harvard.edu/abs/2006ApJ...643..724L,astro-ph/0508540,
+SN,H_0,59,11,0,ApJ,Leonard,9,2003,68,http://adsabs.harvard.edu/abs/2003ApJ...594..247L,astro-ph/0305259,
+other,Omega_Lambda,0.75,0.05,-0.04,ApJ,Liang,9,2008,27,http://adsabs.harvard.edu/abs/2008ApJ...685..354L,0802.4262,More parameters given in abstract
+other,w_0,-1.05,0.27,-0.4,ApJ,Liang,9,2008,27,http://adsabs.harvard.edu/abs/2008ApJ...685..354L,0802.4262,More parameters given in abstract
+NULL,Omega_M,0.31,0.18,0,ApJ,Liang,11,2005,126,http://adsabs.harvard.edu/abs/2005ApJ...633..611L,astro-ph/0504404,More range data
+NULL,Omega_Lambda,0.675,0.175,0,ApJ,Liang,11,2005,126,http://adsabs.harvard.edu/abs/2005ApJ...633..611L,astro-ph/0504404,More range data
+CMB,Omega_M,0.278,0.04,0,ApJ,Lieu,4,2005,15,http://adsabs.harvard.edu/abs/2005ApJ...623L...1L,astro-ph/0409048,
+CMB,Omega_Lambda,0.782,0.04,0,ApJ,Lieu,4,2005,15,http://adsabs.harvard.edu/abs/2005ApJ...623L...1L,astro-ph/0409048,
+other,w_0,0,0,0,ApJ,Lima,2,2002,43,http://adsabs.harvard.edu/abs/2002ApJ...566...15L,astro-ph/0109047,"More values given, and wrong number listed"
+other,H_0,71,4,0,ApJ,Lima,1,2009,10,http://adsabs.harvard.edu/abs/2009ApJ...690L..85L,0709.2195,
+other,Omega_M,0.27,0.03,0,ApJ,Lima,1,2009,10,http://adsabs.harvard.edu/abs/2009ApJ...690L..85L,0709.2195,
+Clusters,Omega_M,0,0,0,ApJ,Lin,1,2003,6,http://adsabs.harvard.edu/abs/2003ApJ...582..574L,astro-ph/0208005,Wrong value given?
+Clusters,Omega_M,0.28,0.03,0,ApJ,Lin,7,2003,154,http://adsabs.harvard.edu/abs/2003ApJ...591..749L,astro-ph/0304033,More than one value actually given in abstract
+combined,Omega_Lambda,0.62,0.16,0,ApJ,Lineweaver,10,1998,152,http://adsabs.harvard.edu/abs/1998ApJ...505L..69L,astro-ph/9805326,
+combined,Omega_M,0.24,0.1,0,ApJ,Lineweaver,10,1998,152,http://adsabs.harvard.edu/abs/1998ApJ...505L..69L,astro-ph/9805326,
+z distort,Beta,0,0,0,ApJ,Loveday,9,1996,41,http://adsabs.harvard.edu/abs/1996ApJ...468....1L,astro-ph/9505099,Zero values?
+other,H_0,85,5,0,ApJ,Lu,5,1994,12,http://adsabs.harvard.edu/abs/1994ApJ...426..473L,,Correct value?
+Clusters,Omega_M,0.35,0.05,0,ApJ,Lubin,3,1996,47,http://adsabs.harvard.edu/abs/1996ApJ...460...10L,astro-ph/9509148,I think this is right
+LSS,m_nu,0,0,0,ApJ,Ma,10,1994,110,http://adsabs.harvard.edu/abs/1994ApJ...434L...5M,astro-ph/9407085,"I think this is it, but can’t find values"
+other,H_0,72,9,0,ApJ,Madore,4,1999,68,http://adsabs.harvard.edu/abs/1999ApJ...515...29M,astro-ph/9812157,
+other,H_0,72,12,0,ApJ,Malhotra,12,1996,20,http://adsabs.harvard.edu/abs/1996ApJ...473..687M,astro-ph/9604151,
+lensing,Omega_Lambda,0,0,0,ApJ,Maoz,10,1993,193,http://adsabs.harvard.edu/abs/1993ApJ...416..425M,,Constrained value → zero
+Clusters,Omega_M,0,0,0,ApJ,Markevitch,8,1992,27,http://adsabs.harvard.edu/abs/1992ApJ...395..326M,,Maybe? Strangely stated in abstract
+Clusters,H_0,76,34,0,ApJ,Markevitch,1,1996,92,http://adsabs.harvard.edu/abs/1996ApJ...456..437M,astro-ph/9506090,Large interval given
+Clusters,Sigma_8,0.55,0.03,0,ApJ,Markevitch,9,1998,439,http://adsabs.harvard.edu/abs/1998ApJ...504...27M,astro-ph/9802059,More than one value actually given in abstract
+Clusters,Omega_M,0.32,0.05,0,ApJ,Mason,7,2001,63,http://adsabs.harvard.edu/abs/2001ApJ...555L..11M,,More than one parameter actually given
+pec vels,Omega_M*H_0,0.52,0.06,0,ApJ,Masters,12,2006,35,http://adsabs.harvard.edu/abs/2006ApJ...653..861M,astro-ph/0609249,
+other,H_0,74,6.3,0,ApJ,Masters,12,2006,35,http://adsabs.harvard.edu/abs/2006ApJ...653..861M,astro-ph/0609249,
+LSS,Sigma_8,0.79,0.08,0,ApJ,Matsubara,5,2000,24,http://adsabs.harvard.edu/abs/2000ApJ...535L...1M,astro-ph/9911151,Beta also given
+LSS,Gamma,0.16,0.1,0,ApJ,Matsubara,5,2000,24,http://adsabs.harvard.edu/abs/2000ApJ...535L...1M,astro-ph/9911151,Beta also given
+CMB,H_0,59,38,-28,ApJ,Mauskopf,8,2000,32,http://adsabs.harvard.edu/abs/2000ApJ...538..505M,,
+LSS,Sigma_8,0.68,0.04,0,ApJ,McDonald,11,2000,180,http://adsabs.harvard.edu/abs/2000ApJ...543....1M,astro-ph/9911196,
+LSS,n,0.93,0.1,0,ApJ,McDonald,11,2000,180,http://adsabs.harvard.edu/abs/2000ApJ...543....1M,astro-ph/9911196,
+CMB,Omega_K,0.05,0.2,0,ApJ,Melchiorri,6,2000,164,http://adsabs.harvard.edu/abs/2000ApJ...536L..63M,astro-ph/9911445,"I think this is it, but can’t find values"
+combined,Omega_M,0.26,0.06,-0.07,ApJ,Melchiorri,3,2003,14,http://adsabs.harvard.edu/abs/2003ApJ...586L...1M,astro-ph/0212276,
+combined,H_0,66,5,-6,ApJ,Melchiorri,3,2003,14,http://adsabs.harvard.edu/abs/2003ApJ...586L...1M,astro-ph/0212276,This is implicit in abstract from little h. Stated in article?
+combined,n,0.96,0.05,0,ApJ,Melchiorri,3,2003,14,http://adsabs.harvard.edu/abs/2003ApJ...586L...1M,astro-ph/0212276,
+combined,Sigma_8,0.76,0.09,0,ApJ,Melchiorri,3,2003,14,http://adsabs.harvard.edu/abs/2003ApJ...586L...1M,astro-ph/0212276,
+BAO,Omega_M,0.244,0.04,-0.06,ApJ,Miller,7,2001,33,http://adsabs.harvard.edu/abs/2001ApJ...555...68M,astro-ph/0103018,Parameterised value
+BAO,Omega_baryon,0.059,0.022,-0.031,ApJ,Miller,7,2001,33,http://adsabs.harvard.edu/abs/2001ApJ...555...68M,astro-ph/0103018,Parameterised value
+BAO,n,1.08,0.17,-0.2,ApJ,Miller,7,2001,33,http://adsabs.harvard.edu/abs/2001ApJ...555...68M,astro-ph/0103018,
+lensing,Omega_Lambda,0.75,0.03,0,ApJ,Mitchell,3,2005,63,http://adsabs.harvard.edu/abs/2005ApJ...622...81M,astro-ph/0401138,More than one parameter actually given
+LSS,Sigma_8,0,0,0,ApJ,Mo,7,1994,75,http://adsabs.harvard.edu/abs/1994ApJ...430L..25M,astro-ph/9402014,"I think this is it, but can’t find values, and other parameters stated"
+CMB,n,1.15,0.39,-0.34,ApJ,Mollerach,11,1999,3,http://adsabs.harvard.edu/abs/1999ApJ...525...17M,astro-ph/9906345,
+other,H_0,75,12.5,0,ApJ,Mould,8,1995,65,http://adsabs.harvard.edu/abs/1995ApJ...449..413M,,More than one value actually given in abstract
+other,H_0,71,6,0,ApJ,Mould,2,2000,229,http://adsabs.harvard.edu/abs/2000ApJ...529..786M,astro-ph/9909260,More than one value actually given in abstract
+pec vels,Omega_M,0.22,0.02,0,ApJ,Moyahee,12,2005,26,,,Can’t find
+Clusters,Omega_M,0.22,0.02,0,ApJ,Muzzin,7,2007,14,http://adsabs.harvard.edu/abs/2007ApJ...663..150M,astro-ph/0703369,
+Clusters,Gamma,0,0,0,ApJ,Myers,8,1997,112,http://adsabs.harvard.edu/abs/1997ApJ...485....1M,astro-ph/9703123,Can’t see parameter in abstract
+Clusters,H_0,54,14,0,ApJ,Myers,8,1997,112,http://adsabs.harvard.edu/abs/1997ApJ...485....1M,astro-ph/9703123,
+other,H_0,90,17,0,ApJ,Nakamura,7,1995,10,http://adsabs.harvard.edu/abs/1995ApJ...447L..65N,astro-ph/9505036,Wrong value listed?
+SN,w_0,-1.08,0.09,-0.08,ApJ,Neill,6,2007,18,http://adsabs.harvard.edu/abs/2007ApJ...661L.123N,0704.1654,More parameters given in abstract
+SN,Omega_M,0.27,0.02,0,ApJ,Neill,6,2007,18,http://adsabs.harvard.edu/abs/2007ApJ...661L.123N,0704.1654,More parameters given in abstract
+Clusters,Omega_M,0,0,0,ApJ,Nevalainen,11,1999,17,http://adsabs.harvard.edu/abs/1999ApJ...526....1N,astro-ph/9906286,Constraint given
+Clusters,Omega_M,0,0,0,ApJ,Nevalainen,6,2000,28,http://adsabs.harvard.edu/abs/2000ApJ...536...73N,astro-ph/0001162,Constraint given
+pec vels,Omega_M,0,0,0,ApJ,Nusser,3,1993,73,http://adsabs.harvard.edu/abs/1993ApJ...405..437N,,Maybe?
+BBN,Omega_baryon,0.039,0.003,0,ApJ,OMeara,5,2001,279,http://adsabs.harvard.edu/abs/2001ApJ...552..718O,astro-ph/0011179,Parameterised value
+lensing,Sigma_8,1,0.2,-0.1,ApJ,Oguri,4,2004,64,http://adsabs.harvard.edu/abs/2004ApJ...605...78O,astro-ph/0312429,
+lensing,H_0,68,10,0,ApJ,Oguri,5,2007,41,http://adsabs.harvard.edu/abs/2007ApJ...660....1O,astro-ph/0609694,More than one value actually given in abstract
+LSS,Omega_M,0.218,0.047,-0.037,ApJ,Okumua,4,2008,47,,,
+LSS,w_0,-0.93,0.45,-0.35,ApJ,Okumua,4,2008,47,,,
+z distort,Beta,0.51,0.15,0,ApJ,Padilla,6,2001,14,http://adsabs.harvard.edu/abs/2001ApJ...554..873P,,Value and constraint?
+lensing,H_0,66,6,-4,ApJ,Paraficz,4,2010,0,http://adsabs.harvard.edu/abs/2010ApJ...712.1378P,1002.2570,More than one value actually given in abstract
+LSS,Omega_M,0,0,0.13,ApJ,Park,12,1991,20,http://adsabs.harvard.edu/abs/1991ApJ...382L..59P,,"I think this is it, but can’t find values"
+lensing,NULL,0,0,0,ApJ,Park,11,1997,21,http://adsabs.harvard.edu/abs/1997ApJ...489..476P,astro-ph/9702173,Um…?
+pec vels,Omega_M*H_0,0.56,0.27,-0.21,ApJ,Park,1,2006,8,http://adsabs.harvard.edu/abs/2006ApJ...637....1P,astro-ph/0509740,Lots of numbers given for different things in abstract
+pec vels,Omega_M,0.3,0.09,-0.05,ApJ,Park,1,2006,8,http://adsabs.harvard.edu/abs/2006ApJ...637....1P,astro-ph/0509740,Lots of numbers given for different things in abstract
+SN,H_0,58.5,6.3,0,ApJ,Parodi,9,2000,97,http://adsabs.harvard.edu/abs/2000ApJ...540..634P,astro-ph/0004063,
+Clusters,H_0,52.2,11.4,-11.9,ApJ,Patel,9,2000,27,http://adsabs.harvard.edu/abs/2000ApJ...541...37P,,Multiple values given
+Clusters,Sigma_8,0.88,0.09,0,ApJ,Pedersen,9,2007,25,http://adsabs.harvard.edu/abs/2007ApJ...667...26P,astro-ph/0603260,
+lensing,Omega_M,0,0,0,ApJ,Pen,8,2003,48,http://adsabs.harvard.edu/abs/2003ApJ...592..664P,astro-ph/0302031,Constrained value → zero
+BAO,Omega_M,0.256,0.029,-0.024,ApJ,Percival,3,2007,76,http://adsabs.harvard.edu/abs/2007ApJ...657...51P,astro-ph/0608635,
+SN,Omega_Lambda,0.72,0.11,0,ApJ,Perlmutter,6,1999,4964,http://adsabs.harvard.edu/abs/1999ApJ...517..565P,astro-ph/9812133,"I think this is it, but can’t find values"
+SN,Omega_M,0.94,0.17,-0.14,ApJ,Perlmutter,7,1997,789,http://adsabs.harvard.edu/abs/1997ApJ...483..565P,astro-ph/9608192,
+SN,Omega_M,0.28,0.09,-0.08,ApJ,Perlmutter,6,1999,5270,http://adsabs.harvard.edu/abs/1999ApJ...517..565P,astro-ph/9812133,
+BBN,Omega_baryon,0.051,0.002,0,ApJ,Pettini,10,2001,141,http://adsabs.harvard.edu/abs/2001ApJ...560...41P,astro-ph/0104474,Parameterised value
+SN,H_0,86,12,0,ApJ,Pierce,5,1992,24,http://adsabs.harvard.edu/abs/1992ApJ...390L..45P,,"I think this is it, but can’t find values"
+pec vels,Sigma_8,0.85,0.05,0,ApJ,Pike,12,2005,23,http://adsabs.harvard.edu/abs/2005ApJ...635...11P,astro-ph/0511012,More than one value actually given in abstract
+LSS,Beta,0.45,0.12,0,ApJ,Pope,6,2004,100,http://adsabs.harvard.edu/abs/2004ApJ...607..655P,astro-ph/0401249,More parameters given in abstract
+LSS,Gamma,0.264,0.043,0,ApJ,Pope,6,2004,100,http://adsabs.harvard.edu/abs/2004ApJ...607..655P,astro-ph/0401249,More parameters given in abstract
+CMB,Omega_K,0,0.04,0,ApJ,Pryke,3,2002,388,http://adsabs.harvard.edu/abs/2002ApJ...568...46P,astro-ph/0104490,
+CMB,Omega_Lambda,0.6,0.15,0,ApJ,Pryke,3,2002,388,http://adsabs.harvard.edu/abs/2002ApJ...568...46P,astro-ph/0104490,
+CMB,Omega_M,0.4,0.15,0,ApJ,Pryke,3,2002,388,http://adsabs.harvard.edu/abs/2002ApJ...568...46P,astro-ph/0104490,
+CMB,n,1.01,0.08,-0.06,ApJ,Pryke,3,2002,388,http://adsabs.harvard.edu/abs/2002ApJ...568...46P,astro-ph/0104490,
+CMB,Omega_baryon,0.044,0.008,-0.003,ApJ,Pryke,3,2002,388,http://adsabs.harvard.edu/abs/2002ApJ...568...46P,astro-ph/0104490,
+LSS,Omega_baryon,0,0,0,ApJ,Rauch,11,1997,281,http://adsabs.harvard.edu/abs/1997ApJ...489....7R,astro-ph/9612245,"Constrained value, but constraint is greater than"
+Clusters,H_0,63,24,0,ApJ,Reese,4,2000,71,http://adsabs.harvard.edu/abs/2000ApJ...533...38R,astro-ph/9912071,More than one value actually given in abstract (is this the right paper?)
+Clusters,H_0,60,13,-18,ApJ,Reese,12,2002,123,http://adsabs.harvard.edu/abs/2002ApJ...581...53R,astro-ph/0205350,
+Clusters,H_0,63,12,-9,ApJ,Reese,4,2000,73,http://adsabs.harvard.edu/abs/2000ApJ...533...38R,astro-ph/9912071,More than one value actually given in abstract (is this the right paper?)
+lensing,Sigma_8,0.94,0.17,0,ApJ,Refregier,6,2002,110,http://adsabs.harvard.edu/abs/2002ApJ...572L.131R,astro-ph/0203131,
+Clusters,Omega_M,1,0.4,0,ApJ,Reichart,6,1999,81,http://adsabs.harvard.edu/abs/1999ApJ...518..521R,astro-ph/9802153,More than one value actually given in abstract
+lensing,Sigma_8,0.91,0.25,-0.3,ApJ,Rhodes,5,2001,77,http://adsabs.harvard.edu/abs/2001ApJ...552L..85R,astro-ph/0101213,Parameterised value
+Clusters,Omega_M,0,0,0,ApJ,Richstone,7,1992,210,http://adsabs.harvard.edu/abs/1992ApJ...393..477R,,"I think this is it, but can’t find values"
+SN,H_0,64,6,0,ApJ,Riess,12,1996,355,http://adsabs.harvard.edu/abs/1996ApJ...473...88R,astro-ph/9604143,
+pec vels,Beta,0.4,0.15,0,ApJ,Riess,10,1997,71,http://adsabs.harvard.edu/abs/1997ApJ...488L...1R,astro-ph/9707261,
+SN,Omega_Lambda,0.71,0.05,-0.03,ApJ,Riess,6,2004,1921,http://adsabs.harvard.edu/abs/2004ApJ...607..665R,astro-ph/0402512,More parameters given in abstract
+SN,w_0,-1.02,0.13,-0.19,ApJ,Riess,6,2004,1921,http://adsabs.harvard.edu/abs/2004ApJ...607..665R,astro-ph/0402512,More parameters given in abstract
+SN,H_0,73,6.4,0,ApJ,Riess,7,2005,96,http://adsabs.harvard.edu/abs/2005ApJ...627..579R,astro-ph/0503159,
+combined,H_0,74.2,3.6,0,ApJ,Riess,7,2009,142,http://adsabs.harvard.edu/abs/2009ApJ...699..539R,0905.0695,
+lensing,H_0,61,6.5,-7.5,ApJ,Romanowsky,5,1999,42,http://adsabs.harvard.edu/abs/1999ApJ...516...18R,astro-ph/9805080,
+LSS,Sigma_8,0.79,0.05,0,ApJ,Ross,8,2008,4,http://adsabs.harvard.edu/abs/2008ApJ...682..737R,0804.3325,
+SN,H_0,56,9,0,ApJ,Saha,12,1996,59,http://adsabs.harvard.edu/abs/1996ApJS..107..693S,,More than one value actually given in abstract
+other,H_0,58,7,-8,ApJ,Saha,9,1997,111,http://adsabs.harvard.edu/abs/1997ApJ...486....1S,,They state an incorrect value from another paper in abstract
+SN,H_0,60,2,0,ApJ,Saha,9,1999,104,http://adsabs.harvard.edu/abs/1999ApJ...522..802S,astro-ph/9904389,
+SN,H_0,52,9,0,ApJ,Saha,4,1994,144,http://adsabs.harvard.edu/abs/1994ApJ...425...14S,,
+other,Omega_M,0.35,0.15,0,ApJ,Salucci,3,1993,2,http://adsabs.harvard.edu/abs/1993ApJ...405..459S,,
+other,H_0,52,2,0,ApJ,Sandage,12,1990,110,http://adsabs.harvard.edu/abs/1990ApJ...365....1S,,
+SN,H_0,47,5,0,ApJ,Sandage,9,1993,89,http://adsabs.harvard.edu/abs/1993ApJ...415....1S,,
+other,H_0,45,12,0,ApJ,Sandage,2,1993,23,http://adsabs.harvard.edu/abs/1993ApJ...404..419S,,
+SN,H_0,56,4,0,ApJ,Sandage,3,1996,121,http://adsabs.harvard.edu/abs/1996ApJ...460L..15S,,More than one value actually given in abstract
+other,H_0,62,9,0,ApJ,Sandage,6,1996,15,http://adsabs.harvard.edu/abs/1996ApJ...464L..51S,,
+other,H_0,62.3,5.2,0,ApJ,Sandage,12,2006,103,http://adsabs.harvard.edu/abs/2006ApJ...653..843S,astro-ph/0603647,
+combined,H_0,55,3,0,ApJ,Sandage,12,1999,43,http://adsabs.harvard.edu/abs/1999ApJ...527..479S,,More than one value actually given in abstract
+LSS,Omega_M,0.2,0.1,0,ApJ,Saslaw,5,2000,3,http://adsabs.harvard.edu/abs/2000ApJ...534....1S,,Wrong value given?
+LSS,Omega_M,0.4,0.1,-0.06,ApJ,Schade,3,1994,2,http://adsabs.harvard.edu/abs/1994ApJ...423L..85S,,
+SN,H_0,55,8,0,ApJ,Schaefer,12,1998,19,http://adsabs.harvard.edu/abs/1998ApJ...509...80S,astro-ph/9808157,
+SN,H_0,60,10,0,ApJ,Schmidt,8,1992,104,http://adsabs.harvard.edu/abs/1992ApJ...395..366S,astro-ph/9204004,
+SN,Omega_M,0.4,0.5,-0.4,ApJ,Schmidt,11,1998,661,http://adsabs.harvard.edu/abs/1998ApJ...507...46S,astro-ph/9805200,
+SN,Omega_Lambda,0.6,0.4,-0.5,ApJ,Schmidt,11,1998,661,http://adsabs.harvard.edu/abs/1998ApJ...507...46S,astro-ph/9805200,
+LSS,NULL,0,0,0,ApJ,Schuecker,3,1998,5,http://adsabs.harvard.edu/abs/1998ApJ...496..635S,,Um…?
+pec vels,Beta,1.3,0.4,-0.3,ApJ,Seljak,6,1994,12,http://adsabs.harvard.edu/abs/1994ApJ...427..523S,astro-ph/9311072,Wrong parameter listed?
+pec vels,Omega_M,0.065,0.035,0,ApJ,Shaya,5,1992,33,http://adsabs.harvard.edu/abs/1992ApJ...391...16S,,"I think this is it, but can’t find values"
+Clusters,Sigma_8,0.73,0.27,-0.11,ApJ,Shimasaku,11,1997,7,http://adsabs.harvard.edu/abs/1997ApJ...489..501S,astro-ph/9701201,More than one value actually given in abstract
+Clusters,n,-1.5,0.12,-0.4,ApJ,Shimasaku,11,1997,7,http://adsabs.harvard.edu/abs/1997ApJ...489..501S,astro-ph/9701201,More than one value actually given in abstract
+combined,Omega_Lambda,0.7,0.05,0,ApJ,Sievers,7,2003,206,http://adsabs.harvard.edu/abs/2003ApJ...591..599S,astro-ph/0205387,Wrong value given?
+combined,H_0,69,4,0,ApJ,Sievers,7,2003,206,http://adsabs.harvard.edu/abs/2003ApJ...591..599S,astro-ph/0205387,Implicit in abstract from little h
+combined,n,1.08,0.11,-0.1,ApJ,Sievers,7,2003,206,http://adsabs.harvard.edu/abs/2003ApJ...591..599S,astro-ph/0205387,
+combined,Omega_K,0.08,0.11,-0.12,ApJ,Sievers,7,2003,206,http://adsabs.harvard.edu/abs/2003ApJ...591..599S,astro-ph/0205387,Not given in abstract?
+pec vels,Beta,0.89,0.12,0,ApJ,Sigad,3,1998,102,http://adsabs.harvard.edu/abs/1998ApJ...495..516S,astro-ph/9708141,
+pec vels,Omega_M*H_0,0.49,0.06,0,ApJ,Silberman,8,2001,28,http://adsabs.harvard.edu/abs/2001ApJ...557..102S,astro-ph/0101361,
+pec vels,Omega_M,0.32,0.06,0,ApJ,Silberman,8,2001,28,http://adsabs.harvard.edu/abs/2001ApJ...557..102S,astro-ph/0101361,
+lensing,Omega_M,0,0,0,ApJ,Smail,4,1997,131,http://adsabs.harvard.edu/abs/1997ApJ...479...70S,astro-ph/9610270,"I think this is it, but can’t find values"
+other,Omega_baryon,0.043,0.004,0,ApJ,Sonneborn,12,2000,64,http://adsabs.harvard.edu/abs/2000ApJ...545..277S,astro-ph/0007238,Parameterised value
+combined,H_0,71,4,-3,ApJ,Spergel,9,2003,6011,http://adsabs.harvard.edu/abs/2003ApJS..148..175S,astro-ph/0302209,Implicit in abstract from little h
+combined,Sigma_8,0.84,0.04,0,ApJ,Spergel,9,2003,6011,http://adsabs.harvard.edu/abs/2003ApJS..148..175S,astro-ph/0302209,
+combined,n,0.93,0.03,0,ApJ,Spergel,9,2003,6011,http://adsabs.harvard.edu/abs/2003ApJS..148..175S,astro-ph/0302209,
+combined,Omega_M,0.275,0.008,-0.009,ApJ,Spergel,9,2003,6011,http://adsabs.harvard.edu/abs/2003ApJS..148..175S,astro-ph/0302209,"Parameterised, and other omega values given"
+combined,m_nu,0,0,-0.009,ApJ,Spergel,9,2003,6011,http://adsabs.harvard.edu/abs/2003ApJS..148..175S,astro-ph/0302209,Constrained value → zero
+combined,w_0,-0.967,0.073,-0.072,ApJ,Spergel,6,2007,4286,http://adsabs.harvard.edu/abs/2007ApJS..170..377S,astro-ph/0603449,
+combined,Omega_K,-0.011,0.012,0,ApJ,Spergel,6,2007,4286,http://adsabs.harvard.edu/abs/2007ApJS..170..377S,astro-ph/0603449,
+combined,Omega_Lambda,0.716,0.055,0,ApJ,Spergel,6,2007,4286,http://adsabs.harvard.edu/abs/2007ApJS..170..377S,astro-ph/0603449,
+combined,m_nu,0,0,0,ApJ,Spergel,6,2007,4286,http://adsabs.harvard.edu/abs/2007ApJS..170..377S,astro-ph/0603449,
+CMB,Sigma_8,0.761,0.049,0,ApJ,Spergel,6,2007,4286,http://adsabs.harvard.edu/abs/2007ApJS..170..377S,astro-ph/0603449,
+BBN,Omega_baryon,0.168,0.083,0,ApJ,Steigman,11,1995,41,http://adsabs.harvard.edu/abs/1995ApJ...453..173S,astro-ph/9502067,Parameterised value
+CMB,Omega_baryon,0.067,0.013,0,ApJ,Stompor,11,2001,235,http://adsabs.harvard.edu/abs/2001ApJ...561L...7S,astro-ph/0105062,Parameterised value
+CMB,Omega_K,-0.1,0.18,-0.16,ApJ,Stompor,11,2001,235,http://adsabs.harvard.edu/abs/2001ApJ...561L...7S,astro-ph/0105062,Can’t find value in abstract
+CMB,Omega_M,0.25,0.15,0,ApJ,Sugiyama,12,1990,26,http://adsabs.harvard.edu/abs/1990ApJ...365..432S,,Range data in abstract
+CMB,H_0,75,25,0,ApJ,Sugiyama,12,1990,26,http://adsabs.harvard.edu/abs/1990ApJ...365..432S,,Range data in abstract
+combined,Omega_M,0.37,0.01,0,ApJ,Susperregi,12,2001,4,http://adsabs.harvard.edu/abs/2001ApJ...563..473S,astro-ph/0102319,
+CMB,Omega_K,0.07,0.155,0,ApJ,Tegmark,11,2000,101,http://adsabs.harvard.edu/abs/2000ApJ...544...30T,astro-ph/0002091,Range data in abstract
+LSS,Gamma,0.213,0.023,0,ApJ,Tegmark,5,2004,767,http://adsabs.harvard.edu/abs/2004ApJ...606..702T,astro-ph/0310725,"I think this is it, but can’t find values, and other parameters stated"
+SN,Omega_M,0.28,0.05,0,ApJ,Tonry,9,2003,1011,http://adsabs.harvard.edu/abs/2003ApJ...594....1T,astro-ph/0305008,
+SN,w_0,-1.1,0.38,0,ApJ,Tonry,9,2003,1011,http://adsabs.harvard.edu/abs/2003ApJ...594....1T,astro-ph/0305008,
+Clusters,H_0,77,4,0,ApJ,Tonry,2,2000,159,http://adsabs.harvard.edu/abs/2000ApJ...530..625T,astro-ph/9907062,
+Clusters,Omega_M,0,0,0,ApJ,Trevese,2,2000,6,http://adsabs.harvard.edu/abs/2000ApJ...530..680T,astro-ph/9912056,Constrained value → zero
+SN,H_0,62,5,0,ApJ,Tripp,11,1999,20,http://adsabs.harvard.edu/abs/1999ApJ...525..209T,astro-ph/9904347,
+other,H_0,77,8,0,ApJ,Tully,4,2000,141,http://adsabs.harvard.edu/abs/2000ApJ...533..744T,astro-ph/9911052,
+combined,Omega_M,0.33,0.035,0,ApJ,Turner,9,2002,77,http://adsabs.harvard.edu/abs/2002ApJ...576L.101T,astro-ph/0106035,Value actually stated in title
+combined,Omega_baryon,0.039,0.007,0,ApJ,Turner,9,2002,77,http://adsabs.harvard.edu/abs/2002ApJ...576L.101T,astro-ph/0106035,
+other,H_0,71,7.1,0,ApJ,Tytler,12,2004,74,http://adsabs.harvard.edu/abs/2004ApJ...617....1T,astro-ph/0403688,
+other,Omega_baryon,0.044,0.002,0,ApJ,Tytler,12,2004,74,http://adsabs.harvard.edu/abs/2004ApJ...617....1T,astro-ph/0403688,
+other,Omega_Lambda,0.73,0.044,0,ApJ,Tytler,12,2004,74,http://adsabs.harvard.edu/abs/2004ApJ...617....1T,astro-ph/0403688,
+other,Sigma_8,0.9,0.036,0,ApJ,Tytler,12,2004,74,http://adsabs.harvard.edu/abs/2004ApJ...617....1T,astro-ph/0403688,
+Clusters,H_0,67,30,-18,ApJ,Udompraser,11,2004,22,,,Can’t find
+z distort,Beta,0.7,0.1,0,ApJ,Vedel,7,1998,13,http://adsabs.harvard.edu/abs/1998ApJ...501..509V,astro-ph/9710076,"I think this is it, but can’t find values"
+Clusters,Sigma_8,0.747,0.05,0,ApJ,Viana,4,2002,89,http://adsabs.harvard.edu/abs/2002ApJ...569L..75V,astro-ph/0111394,Parameterised value
+Clusters,Omega_Lambda,0.47,0.43,0,ApJ,Vikhlinin,6,2003,51,http://adsabs.harvard.edu/abs/2003ApJ...590...15V,astro-ph/0212075,"I think this is it, but can’t find values, and other parameters stated"
+combined,w_0,-0.991,0.045,0,ApJ,Vikhlinin,2,2009,134,http://adsabs.harvard.edu/abs/2009ApJ...692.1060V,0812.2720,More than one value actually given in abstract
+combined,m_nu,0.33,0,-0.165,ApJ,Vikhlinin,2,2009,134,http://adsabs.harvard.edu/abs/2009ApJ...692.1060V,0812.2720,Given an constraint
+Clusters,Sigma_8,0.72,0.04,0,ApJ,Voevodkin,1,2004,51,,,Can’t find
+Clusters,Gamma,0.13,0.07,0,ApJ,Voevodkin,1,2004,51,,,Can’t find
+SN,H_0,65,1,0,ApJ,Wang,6,2000,70,http://adsabs.harvard.edu/abs/2000ApJ...536..531W,astro-ph/9907405,
+SN,Omega_Lambda,1.2,0.5,0,ApJ,Wang,6,2000,70,http://adsabs.harvard.edu/abs/2000ApJ...536..531W,astro-ph/9907405,Multiple values given
+other,H_0,65,1,0,ApJ,Watanabe,8,1998,3,http://adsabs.harvard.edu/abs/1998ApJ...503..553W,astro-ph/9801256,
+combined,Omega_M,0.39,0.14,-0.1,ApJ,Webster,12,1998,36,http://adsabs.harvard.edu/abs/1998ApJ...509L..65W,,
+combined,H_0,53,5,-14,ApJ,Webster,12,1998,36,http://adsabs.harvard.edu/abs/1998ApJ...509L..65W,,Implicit in abstract from little h
+LSS,Omega_baryon,0,0,0,ApJ,Weinberg,12,1997,145,http://adsabs.harvard.edu/abs/1997ApJ...490..564W,astro-ph/9701012,Lower bound given
+LSS,Omega_M,0.34,0.13,0,ApJ,Weinberg,9,1999,39,http://adsabs.harvard.edu/abs/1999ApJ...522..563W,astro-ph/9810011,Multiple values given
+pec vels,Beta,0.49,0.07,0,ApJ,Willick,9,1997,120,http://adsabs.harvard.edu/abs/1997ApJ...486..629W,astro-ph/9612240,
+lensing,Omega_M,0.1,0.02,0,ApJ,Wilson,8,2001,52,http://adsabs.harvard.edu/abs/2001ApJ...556..601W,astro-ph/0102396,Multiple values given
+lensing,H_0,44,9,0,ApJ,Winn,8,2002,36,http://adsabs.harvard.edu/abs/2002ApJ...575..103W,astro-ph/0201551,
+SN,w_0,-1.07,0.16,0,ApJ,Wood-Vasey,9,2007,440,http://adsabs.harvard.edu/abs/2007ApJ...666..694W,astro-ph/0701041,
+SN,Omega_M,0.274,0.033,-0.02,ApJ,Wood-Vasey,9,2007,440,http://adsabs.harvard.edu/abs/2007ApJ...666..694W,astro-ph/0701041,
+other,Omega_M,0.15,0.45,-0.13,ApJ,Xu,11,2005,44,http://adsabs.harvard.edu/abs/2005ApJ...633..603X,astro-ph/0501458,Multiple values given
+LSS,Omega_M,0.35,0.15,0,ApJ,Yamamoto,4,2004,5,http://adsabs.harvard.edu/abs/2004ApJ...605..620Y,astro-ph/0401039,Range data in abstract
+lensing,w_0,-0.88,0.65,1.03,ApJ,Zhang,4,2009,8,http://adsabs.harvard.edu/abs/2009ApJ...694.1402Z,0708.2164,Multiple values given
+CMB,Omega_M,0.255,0.015,-0.017,ApJSS,Bennett,9,2003,2882,http://adsabs.harvard.edu/abs/2003ApJS..148....1B,astro-ph/0302207,Parameterised value
+CMB,Omega_baryon,0.042,0.002,0,ApJSS,Bennett,9,2003,2882,http://adsabs.harvard.edu/abs/2003ApJS..148....1B,astro-ph/0302207,Parameterised value
+CMB,w_0,-0.78,0,0,ApJSS,Bennett,9,2003,2882,http://adsabs.harvard.edu/abs/2003ApJS..148....1B,astro-ph/0302207,Constraint given
+CMB,Omega_Lambda,0.742,0.03,0,ApJSS,Dunkley,2,2009,995,http://adsabs.harvard.edu/abs/2009ApJS..180..306D,0803.0586,More parameters given in abstract
+CMB,Sigma_8,0.796,0.036,0,ApJSS,Dunkley,2,2009,995,http://adsabs.harvard.edu/abs/2009ApJS..180..306D,0803.0586,More parameters given in abstract
+combined,Sigma_8,0.812,0.026,0,ApJSS,Hinshaw,2,2009,668,http://adsabs.harvard.edu/abs/2009ApJS..180..225H,0803.0732,
+combined,H_0,70.5,1.3,0,ApJSS,Hinshaw,2,2009,668,http://adsabs.harvard.edu/abs/2009ApJS..180..225H,0803.0732,
+combined,Omega_baryon,0.046,0.002,0,ApJSS,Hinshaw,2,2009,668,http://adsabs.harvard.edu/abs/2009ApJS..180..225H,0803.0732,
+combined,Omega_Lambda,0.726,0.015,0,ApJSS,Hinshaw,2,2009,668,http://adsabs.harvard.edu/abs/2009ApJS..180..225H,0803.0732,
+combined,Omega_K,0.005,0.002,0,ApJSS,Hinshaw,2,2009,668,http://adsabs.harvard.edu/abs/2009ApJS..180..225H,0803.0732,
+SN,Omega_M,0.307,0.019,0,ApJSS,Kessler,11,2009,72,http://adsabs.harvard.edu/abs/2009ApJS..185...32K,0908.4274,
+SN,w_0,-0.76,0.07,0,ApJSS,Kessler,11,2009,72,http://adsabs.harvard.edu/abs/2009ApJS..185...32K,0908.4274,Multiple values given
+SN,Omega_M,0.265,0.016,0,ApJSS,Kessler,11,2009,72,http://adsabs.harvard.edu/abs/2009ApJS..185...32K,0908.4274,
+pec vels,Sigma_8,0.91,0.22,-0.18,MNRAS,Abate,12,2009,2,http://adsabs.harvard.edu/abs/2009MNRAS.400.1541A,0905.2967,
+CMB,Omega_K,-0.11,0.26,-0.19,MNRAS,Abroe,7,2002,43,http://adsabs.harvard.edu/abs/2002MNRAS.334...11A,astro-ph/0111010,Can’t see parameter in abstract
+CMB,n,1.02,0.31,-0.1,MNRAS,Abroe,7,2002,43,http://adsabs.harvard.edu/abs/2002MNRAS.334...11A,astro-ph/0111010,
+CMB,Omega_baryon,0.053,0.04,-0.022,MNRAS,Abroe,7,2002,43,http://adsabs.harvard.edu/abs/2002MNRAS.334...11A,astro-ph/0111010,Parameterised value
+SN,w_0,0,0,0,MNRAS,Alam,10,2003,178,http://adsabs.harvard.edu/abs/2003MNRAS.344.1057A,astro-ph/0303009,"Constrained value, but constraint is greater than"
+other,w_0,0,0,0,MNRAS,Alcaniz,4,2003,33,http://adsabs.harvard.edu/abs/2003MNRAS.340L..39A,astro-ph/0301226,Constrained value → zero
+other,Omega_Lambda,0,0,0,MNRAS,Alcaniz,4,2003,33,http://adsabs.harvard.edu/abs/2003MNRAS.340L..39A,astro-ph/0301226,"Constrained value, but constraint is greater than"
+Clusters,Omega_M,0.3,0.04,-0.03,MNRAS,Allen,8,2002,179,http://adsabs.harvard.edu/abs/2002MNRAS.334L..11A,astro-ph/0205007,
+Clusters,Omega_Lambda,0.95,0.48,-0.72,MNRAS,Allen,8,2002,179,http://adsabs.harvard.edu/abs/2002MNRAS.334L..11A,astro-ph/0205007,
+Clusters,Sigma_8,0.695,0.042,0,MNRAS,Allen,6,2003,120,http://adsabs.harvard.edu/abs/2003MNRAS.342..287A,astro-ph/0208394,
+Clusters,Omega_M,0.287,0.036,0,MNRAS,Allen,6,2003,120,http://adsabs.harvard.edu/abs/2003MNRAS.342..287A,astro-ph/0208394,
+combined,m_nu,0.2,0.1,0,MNRAS,Allen,12,2003,88,http://adsabs.harvard.edu/abs/2003MNRAS.346..593A,astro-ph/0306386,
+combined,Sigma_8,0.74,0.12,-0.07,MNRAS,Allen,12,2003,88,http://adsabs.harvard.edu/abs/2003MNRAS.346..593A,astro-ph/0306386,
+combined,H_0,68.4,2,-1.4,MNRAS,Allen,12,2003,88,http://adsabs.harvard.edu/abs/2003MNRAS.346..593A,astro-ph/0306386,
+combined,Omega_M,0.31,0.02,0,MNRAS,Allen,12,2003,88,http://adsabs.harvard.edu/abs/2003MNRAS.346..593A,astro-ph/0306386,
+combined,Omega_baryon,0.048,0.002,0,MNRAS,Allen,12,2003,88,http://adsabs.harvard.edu/abs/2003MNRAS.346..593A,astro-ph/0306386,Parameterised value
+Clusters,w_0,-1.26,0.24,0,MNRAS,Allen,9,2004,292,http://adsabs.harvard.edu/abs/2004MNRAS.353..457A,astro-ph/0405340,More parameters given in abstract
+Clusters,Omega_Lambda,0.94,0.21,-0.23,MNRAS,Allen,9,2004,292,http://adsabs.harvard.edu/abs/2004MNRAS.353..457A,astro-ph/0405340,More parameters given in abstract
+Clusters,Omega_M,0.253,0.021,0,MNRAS,Allen,1,2008,122,http://adsabs.harvard.edu/abs/2008MNRAS.383..879A,0706.0033,
+Clusters,w_0,-0.98,0.07,0,MNRAS,Allen,1,2008,122,http://adsabs.harvard.edu/abs/2008MNRAS.383..879A,0706.0033,
+SN,H_0,71,8,0,MNRAS,Altavilla,4,2004,70,http://adsabs.harvard.edu/abs/2004MNRAS.349.1344A,astro-ph/0401273,
+other,Omega_Lambda,0.78,0.18,0,MNRAS,Amati,12,2008,44,http://adsabs.harvard.edu/abs/2008MNRAS.391..577A,0805.0377,"I think this is it, but can’t find values"
+z distort,Beta,1.04,0.3,0,MNRAS,Ballinger,10,1995,28,http://adsabs.harvard.edu/abs/1995MNRAS.276L..59B,,
+LSS,Beta,0.2,0.029,-0.016,MNRAS,Basilakos,4,2004,1,http://adsabs.harvard.edu/abs/2004MNRAS.349..882B,astro-ph/0304551,
+LSS,Omega_M,0.26,0.05,0,MNRAS,Basilakos,11,2009,1,http://adsabs.harvard.edu/abs/2009MNRAS.400L..57B,0909.3919,
+LSS,w_0,-0.93,0.11,-0.19,MNRAS,Basilakos,11,2009,1,http://adsabs.harvard.edu/abs/2009MNRAS.400L..57B,0909.3919,
+z distort,Beta,0.2,0.19,-0.199,MNRAS,Baugh,5,1996,79,http://adsabs.harvard.edu/abs/1996MNRAS.280..267B,astro-ph/9512011,Lots of range data
+lensing,Sigma_8,0.84,0.05,0,MNRAS,Benjamin,10,2007,91,http://adsabs.harvard.edu/abs/2007MNRAS.381..702B,astro-ph/0703570,Correct value? Seems to be parameterised
+LSS,Gamma,0.195,0.023,0,MNRAS,Blake,2,2007,77,http://adsabs.harvard.edu/abs/2007MNRAS.374.1527B,astro-ph/0605303,Correct parameter?
+BBN,Omega_baryon,0.029,0.006,-0.007,MNRAS,Bonifacio,3,1997,213,http://adsabs.harvard.edu/abs/1997MNRAS.285..847B,astro-ph/9611043,"I think this is it, but can’t find values"
+LSS,Gamma,0.125,0.075,0,MNRAS,Borgani,5,1999,42,http://adsabs.harvard.edu/abs/1999MNRAS.305..866B,astro-ph/9812417,"I think this is it, but can’t find values"
+LSS,Sigma_8,1.4,-0.6,0,MNRAS,Borgani,5,1999,42,http://adsabs.harvard.edu/abs/1999MNRAS.305..866B,astro-ph/9812417,
+pec vels,Beta,0.6,0.22,0,MNRAS,Branchini,9,1999,97,http://adsabs.harvard.edu/abs/1999MNRAS.308....1B,astro-ph/9901366,Very strange way of writing values…
+pec vels,Omega_M,0.99,0.36,0,MNRAS,Branchini,4,2000,19,http://adsabs.harvard.edu/abs/2000MNRAS.313..491B,astro-ph/9911046,"I think this is it, but can’t find values"
+pec vels,Beta,0.42,0.04,0,MNRAS,Branchini,9,2001,24,http://adsabs.harvard.edu/abs/2001MNRAS.326.1191B,astro-ph/0104430,
+combined,Omega_M,0.37,0.06,0,MNRAS,Bridle,12,1999,38,http://adsabs.harvard.edu/abs/1999MNRAS.310..565B,astro-ph/9903472,Range data in abstract
+combined,H_0,54,5,0,MNRAS,Bridle,12,1999,38,http://adsabs.harvard.edu/abs/1999MNRAS.310..565B,astro-ph/9903472,Range data in abstract
+combined,Sigma_8,0.74,0.05,0,MNRAS,Bridle,12,1999,38,http://adsabs.harvard.edu/abs/1999MNRAS.310..565B,astro-ph/9903472,Range data in abstract
+combined,Omega_M,0.28,0.05,0,MNRAS,Bridle,2,2001,39,http://adsabs.harvard.edu/abs/2001MNRAS.321..333B,astro-ph/0006170,
+combined,Sigma_8,1.17,0.1,0,MNRAS,Bridle,2,2001,39,http://adsabs.harvard.edu/abs/2001MNRAS.321..333B,astro-ph/0006170,
+combined,H_0,74,5,0,MNRAS,Bridle,2,2001,39,http://adsabs.harvard.edu/abs/2001MNRAS.321..333B,astro-ph/0006170,
+BBN,Omega_baryon,0.078,0.024,0,MNRAS,Bristow,3,1994,30,http://adsabs.harvard.edu/abs/1994MNRAS.267...13B,,"I think this is it, but can’t find values"
+lensing,Omega_M,0.27,0.02,-0.01,MNRAS,Brown,5,2003,115,http://adsabs.harvard.edu/abs/2003MNRAS.341..100B,astro-ph/0210213,
+lensing,Sigma_8,0.73,0.06,-0.03,MNRAS,Brown,5,2003,115,http://adsabs.harvard.edu/abs/2003MNRAS.341..100B,astro-ph/0210213,
+lensing,Omega_baryon,0.176,0.019,-0.012,MNRAS,Brownstein,11,2007,24,http://adsabs.harvard.edu/abs/2007MNRAS.382...29B,astro-ph/0702146,
+CMB,Beta,0.25,0.06,0,MNRAS,Brunozzi,12,1995,19,http://adsabs.harvard.edu/abs/1995MNRAS.277.1210B,astro-ph/9506110,More than one value actually given in abstract
+ISW,Omega_Lambda,0.825,0.025,0,MNRAS,Cabre,10,2006,68,http://adsabs.harvard.edu/abs/2006MNRAS.372L..23C,astro-ph/0603690,
+lensing,Omega_M,0.31,0.029,0,MNRAS,Chae,12,2003,58,http://adsabs.harvard.edu/abs/2003MNRAS.346..746C,astro-ph/0211244,
+pec vels,Beta,0.66,0.21,-0.07,MNRAS,Ciecielg,4,2004,5,http://adsabs.harvard.edu/abs/2004MNRAS.349..945C,astro-ph/0401195,
+z distort,Beta,0.35,0.05,0,MNRAS,Cole,4,1994,100,http://adsabs.harvard.edu/abs/1994MNRAS.267..785C,astro-ph/9308003,
+z distort,Beta,0.52,0.13,0,MNRAS,Cole,7,1995,85,http://adsabs.harvard.edu/abs/1995MNRAS.275..515C,astro-ph/9412062,More than one value actually given in abstract
+CMB,Omega_M,0.325,0.075,0,MNRAS,Cole,7,1997,50,http://adsabs.harvard.edu/abs/1997MNRAS.289...37C,astro-ph/9702082,
+LSS,Gamma,0.168,0.016,0,MNRAS,Cole,9,2005,617,http://adsabs.harvard.edu/abs/2005MNRAS.362..505C,astro-ph/0501174,"I think this is it, but can’t find values"
+other,H_0,42,9,0,MNRAS,Collier,1,1999,26,http://adsabs.harvard.edu/abs/1999MNRAS.302L..24C,astro-ph/9811278,
+Clusters,Omega_M,0.55,0.075,0,MNRAS,Collins,6,1998,41,http://adsabs.harvard.edu/abs/1998MNRAS.297..128C,astro-ph/9712104,
+z distort,Beta,0.46,0.14,0,MNRAS,Croft,5,1999,21,http://adsabs.harvard.edu/abs/1999MNRAS.305..547C,astro-ph/9801254,
+Clusters,H_0,74,4,-3.5,MNRAS,Cunha,7,2007,9,http://adsabs.harvard.edu/abs/2007MNRAS.379L...1C,astro-ph/0611934,
+z distort,Omega_M,0.35,0.19,-0.13,MNRAS,DaAngela,7,2005,19,,,
+z distort,Omega_M,0.55,0.45,-0.16,MNRAS,DaAngela,8,2005,6,,,
+LSS,m_nu,2.48,0,-1.24,MNRAS,De,1,2010,2,http://adsabs.harvard.edu/abs/2010MNRAS.401.1989D,0910.1310,
+CMB,Omega_Lambda,0,0,0,MNRAS,Durrer,1,1990,5,http://adsabs.harvard.edu/abs/1990MNRAS.242..221D,,Constrained value → zero
+combined,Omega_M,0.25,0.09,-0.06,MNRAS,Efstathiou,3,1999,114,http://adsabs.harvard.edu/abs/1999MNRAS.303L..47E,astro-ph/9812226,
+combined,Omega_Lambda,0.63,0.085,0.115,MNRAS,Efstathiou,3,1999,114,http://adsabs.harvard.edu/abs/1999MNRAS.303L..47E,astro-ph/9812226,
+combined,w_0,0,0,0,MNRAS,Efstathiou,12,1999,125,http://adsabs.harvard.edu/abs/1999MNRAS.310..842E,astro-ph/9904356,
+combined,Omega_Lambda,0.75,0.1,0,MNRAS,Efstathiou,2,2002,241,http://adsabs.harvard.edu/abs/2002MNRAS.330L..29E,astro-ph/0109152,Range data in abstract
+Clusters,Sigma_8,1,0.077,0,MNRAS,Eke,9,1996,909,http://adsabs.harvard.edu/abs/1996MNRAS.282..263E,astro-ph/9601088,"I think this is it, but can’t find values"
+Clusters,Omega_M,0.45,0.25,0,MNRAS,Eke,8,1998,240,http://adsabs.harvard.edu/abs/1998MNRAS.298.1145E,astro-ph/9802350,
+Clusters,Sigma_8,0.89,0.2,0,MNRAS,Eke,8,2006,23,http://adsabs.harvard.edu/abs/2006MNRAS.370.1147E,astro-ph/0510643,Parameterised value
+combined,Omega_M,0.26,0.06,0,MNRAS,Erdogdu,4,2003,11,http://adsabs.harvard.edu/abs/2003MNRAS.340..573E,astro-ph/0202357,
+Clusters,Omega_M,0,0,0,MNRAS,Ettori,5,1999,178,http://adsabs.harvard.edu/abs/1999MNRAS.305..834E,astro-ph/9901304,
+pec vels,Gamma,0.09,0.04,0,MNRAS,Feldman,6,2008,8,http://adsabs.harvard.edu/abs/2008MNRAS.387..825F,0802.2961,More than one value actually given in abstract
+other,Omega_Lambda,0.72,0.03,0,MNRAS,Firmani,6,2005,62,http://adsabs.harvard.edu/abs/2005MNRAS.360L...1F,astro-ph/0501395,"I think this is it, but can’t find values"
+z distort,Beta,0.45,0.27,-0.18,MNRAS,Fisher,4,1994,154,http://adsabs.harvard.edu/abs/1994MNRAS.267..927F,astro-ph/9308013,
+pec vels,Beta,1,0.2,0,MNRAS,Fisher,1,1994,92,http://adsabs.harvard.edu/abs/1994MNRAS.266..219F,astro-ph/9309027,
+z distort,Beta,0.6,0.2,0,MNRAS,Fisher,3,1996,42,http://adsabs.harvard.edu/abs/1996MNRAS.279L...1F,astro-ph/9510049,Correct parameter?
+LSS,Gamma,0.14,0.02,0,MNRAS,Frith,12,2005,7,http://adsabs.harvard.edu/abs/2005MNRAS.364..593F,astro-ph/0507215,
+LSS,Gamma,0.45,0.1,0,MNRAS,Gaztanaga,2,1998,80,http://adsabs.harvard.edu/abs/1998MNRAS.294..229G,astro-ph/9704246,Correct parameter?
+LSS,Sigma_8,0.88,0.12,-0.1,MNRAS,Gaztanaga,12,2005,29,http://adsabs.harvard.edu/abs/2005MNRAS.364..620G,astro-ph/0506249,
+ISW,Omega_Lambda,0.7,0.05,0,MNRAS,Gaztanaga,1,2006,39,http://adsabs.harvard.edu/abs/2006MNRAS.365..171G,astro-ph/0407022,
+ISW,w_0,-1.02,0.17,0,MNRAS,Gaztanaga,1,2006,39,http://adsabs.harvard.edu/abs/2006MNRAS.365..171G,astro-ph/0407022,
+combined,Omega_M,0.28,0.05,0,MNRAS,Gaztanaga,10,2009,7,http://adsabs.harvard.edu/abs/2009MNRAS.399..801G,0807.2448,
+combined,Omega_baryon,0.079,0.025,0,MNRAS,Gaztanaga,10,2009,7,http://adsabs.harvard.edu/abs/2009MNRAS.399..801G,0807.2448,
+Clusters,H_0,84,19,0,MNRAS,Grainge,2,2002,22,http://adsabs.harvard.edu/abs/2002MNRAS.329..890G,astro-ph/0102496,
+pec vels,Omega_M,0.235,0.035,0,MNRAS,Gramann,8,2000,4,http://adsabs.harvard.edu/abs/2000MNRAS.316..631G,astro-ph/0003455,Range data in abstract
+CMB,n,1.1,0.1,0,MNRAS,Hancock,8,1997,41,http://adsabs.harvard.edu/abs/1997MNRAS.289..505H,astro-ph/9703043,
+CMB,n,1.1,0.1,0,MNRAS,Hancock,2,1998,96,http://adsabs.harvard.edu/abs/1998MNRAS.294L...1H,astro-ph/9708254,
+CMB,Omega_K,0.7,0.8,-0.5,MNRAS,Hancock,2,1998,96,http://adsabs.harvard.edu/abs/1998MNRAS.294L...1H,astro-ph/9708254,
+combined,Omega_M,0.45,0.07,0,MNRAS,Hannestad,10,1999,0,http://adsabs.harvard.edu/abs/1999MNRAS.309..556H,,
+combined,Omega_M,39,14,-13,MNRAS,Hannestad,10,1999,0,http://adsabs.harvard.edu/abs/1999MNRAS.309..556H,,Wrong paramer
+LSS,Sigma_8,0.97,0.06,0,MNRAS,Harker,12,2007,3,http://adsabs.harvard.edu/abs/2007MNRAS.382.1503H,0709.3470,
+pec vels,Beta,0.55,0.04,0,MNRAS,Hatton,12,1999,21,http://adsabs.harvard.edu/abs/1999MNRAS.310.1137H,astro-ph/9905186,
+z distort,Beta,0.49,0.09,0,MNRAS,Hawkins,11,2003,343,http://adsabs.harvard.edu/abs/2003MNRAS.346...78H,astro-ph/0212375,Final value not listed?
+pec vels,Omega_M,0,0,0,MNRAS,Heavens,7,1991,5,http://adsabs.harvard.edu/abs/1991MNRAS.251..267H,,"I think this is it, but can’t find values"
+z distort,Beta,1.1,0.3,0,MNRAS,Heavens,7,1995,83,http://adsabs.harvard.edu/abs/1995MNRAS.275..483H,astro-ph/9409027,
+other,H_0,65,6,0,MNRAS,Hendry,6,2001,5,http://adsabs.harvard.edu/abs/2001MNRAS.324..717H,,
+lensing,Sigma_8,0.71,0.11,0,MNRAS,Heymans,1,2004,60,http://adsabs.harvard.edu/abs/2004MNRAS.347..895H,astro-ph/0310174,Correct value? Seems to be parameterised
+lensing,Sigma_8,0.68,0.13,0,MNRAS,Heymans,7,2005,62,http://adsabs.harvard.edu/abs/2005MNRAS.361..160H,astro-ph/0411324,Correct value? Seems to be parameterised
+LSS,Sigma_8,0.811,0.089,0,MNRAS,Hilbert,5,2010,2,http://adsabs.harvard.edu/abs/2010MNRAS.404..486H,0907.4371,Range data in abstract
+z distort,Beta,0.6,0.35,0,MNRAS,Hoyle,11,1999,30,http://adsabs.harvard.edu/abs/1999MNRAS.309..659H,astro-ph/9812137,
+LSS,Gamma,0,0,0,MNRAS,Hoyle,1,2002,27,http://adsabs.harvard.edu/abs/2002MNRAS.329..336H,astro-ph/0102163,Correct value?
+pec vels,Beta,0.49,0.18,-0.11,MNRAS,Hudson,11,1993,43,http://adsabs.harvard.edu/abs/1993MNRAS.265...72H,,Multiple values given
+pec vels,Omega_M,0.2,0.3,-0.14,MNRAS,Hudson,11,1993,52,http://adsabs.harvard.edu/abs/1993MNRAS.265...72H,,Can’t see values in abstract
+pec vels,Beta,0.32,0.06,0,MNRAS,Hudson,1,1994,45,http://adsabs.harvard.edu/abs/1994MNRAS.266..475H,,Wrong parameter or value
+pec vels,Beta,0.74,0.13,0,MNRAS,Hudson,5,1995,39,http://adsabs.harvard.edu/abs/1995MNRAS.274..305H,astro-ph/9501074,
+pec vels,Beta,0.39,0.17,0,MNRAS,Hudson,7,2004,63,http://adsabs.harvard.edu/abs/2004MNRAS.352...61H,astro-ph/0404386,
+Clusters,H_0,66,14,-11,MNRAS,Jones,2,2005,50,http://adsabs.harvard.edu/abs/2005MNRAS.357..518J,astro-ph/0103046,
+pec vels,Beta,1.16,0.21,0,MNRAS,Kaiser,9,1991,130,http://adsabs.harvard.edu/abs/1991MNRAS.252....1K,,
+Clusters,Omega_M,0.4,0.3,0,MNRAS,Kay,9,1999,14,http://adsabs.harvard.edu/abs/1999MNRAS.308..664K,astro-ph/9807240,"I think this is it, but can’t find values"
+lensing,w_0,-1.08,0.63,-0.58,MNRAS,Kitching,4,2007,26,http://adsabs.harvard.edu/abs/2007MNRAS.376..771K,astro-ph/0610284,
+other,Omega_Lambda,0.63,0.11,-0.14,MNRAS,Kodama,11,2008,22,http://adsabs.harvard.edu/abs/2008MNRAS.391L...1K,0802.3428,Data in tuple again
+Clusters,Sigma_8,1.04,0.078,0,MNRAS,Komatsu,11,2002,166,http://adsabs.harvard.edu/abs/2002MNRAS.336.1256K,astro-ph/0205468,Correct value? Seems to be parameterised
+combined,w_0,-0.81,0.16,-0.18,MNRAS,Lampeitl,2,2010,10,http://adsabs.harvard.edu/abs/2010MNRAS.401.2331L,0910.2193,
+combined,Omega_M,0.22,0.09,-0.08,MNRAS,Lampeitl,2,2010,10,http://adsabs.harvard.edu/abs/2010MNRAS.401.2331L,0910.2193,
+CMB,m_nu,0.24,0.06,0,MNRAS,Lhav,6,2010,2,,,
+lensing,H_0,76,18,-10,MNRAS,Lidman,4,1999,37,http://adsabs.harvard.edu/abs/1999ApJ...514L..57L,astro-ph/9902317,Actually APJ?
+other,w_0,0,0,0,MNRAS,Lima,10,2000,45,http://adsabs.harvard.edu/abs/2000MNRAS.317..893L,astro-ph/0005441,Constrained value → zero
+Clusters,Omega_M,0.29,0.1,0,MNRAS,Lokas,8,2003,86,http://adsabs.harvard.edu/abs/2003MNRAS.343..401L,astro-ph/0302461,
+Clusters,Omega_M,0.32,0.15,0,MNRAS,Lokas,4,2004,28,http://adsabs.harvard.edu/abs/2004MNRAS.349..595L,astro-ph/0309485,
+Clusters,Sigma_8,0.85,0.38,-0.12,MNRAS,Lokas,4,2004,28,http://adsabs.harvard.edu/abs/2004MNRAS.349..595L,astro-ph/0309485,
+pec vels,Beta,0,0,0,MNRAS,Loke,4,1996,0,http://adsabs.harvard.edu/abs/1996MNRAS.279.1303L,,"I think this is it, but can’t find values"
+LSS,Gamma,0.25,0.05,0,MNRAS,Maddox,12,1996,127,http://adsabs.harvard.edu/abs/1996MNRAS.283.1227M,astro-ph/9601103,"I think this is it, but can’t find values"
+combined,Omega_M,0.23,0.04,0,MNRAS,Mantz,8,2010,24,http://adsabs.harvard.edu/abs/2010MNRAS.406.1759M,0909.3098,
+combined,w_0,-1.01,0.2,0,MNRAS,Mantz,8,2010,24,http://adsabs.harvard.edu/abs/2010MNRAS.406.1759M,0909.3098,
+combined,w_0,-0.88,0.21,0,MNRAS,Mantz,8,2010,24,http://adsabs.harvard.edu/abs/2010MNRAS.406.1759M,0909.3098,
+combined,Sigma_8,0.79,0.03,0,MNRAS,Mantz,8,2010,24,http://adsabs.harvard.edu/abs/2010MNRAS.406.1759M,0909.3098,
+lensing,Omega_M,0.36,0.15,-0.12,MNRAS,Marri,9,2000,12,http://adsabs.harvard.edu/abs/2000MNRAS.317..265M,astro-ph/0001469,
+combined,Omega_M,0.269,0.016,0,MNRAS,Matz,7,2008,66,,,
+combined,Sigma_8,0.82,0.003,0,MNRAS,Matz,7,2008,66,,,
+combined,w_0,-1.002,0.006,0,MNRAS,Matz,7,2008,66,,,
+Clusters,Omega_M,0.36,0.11,-0.08,MNRAS,McCarthy,6,2007,36,http://adsabs.harvard.edu/abs/2007MNRAS.377.1457M,astro-ph/0609314,
+z distort,Beta,0,0,0,MNRAS,Moore,8,1994,31,http://adsabs.harvard.edu/abs/1994MNRAS.269..742M,astro-ph/9403042,"I think this is it, but can’t find parameters"
+Clusters,Sigma_8,0.85,0.45,0,MNRAS,Moscardnin,10,2001,17,,,
+Clusters,Gamma,0.18,0.06,0,MNRAS,Moscardnin,10,2001,17,,,
+LSS,Omega_M,0.61,0.15,0,MNRAS,Nusser,4,2000,38,http://adsabs.harvard.edu/abs/2000MNRAS.313..364N,astro-ph/9906406,
+LSS,Beta,0.5,0.1,0,MNRAS,Nusser,1,2001,23,http://adsabs.harvard.edu/abs/2001MNRAS.320L..21N,astro-ph/0006062,
+Clusters,Omega_M,0.66,0.11,0,MNRAS,Oukbir,9,2001,4,http://adsabs.harvard.edu/abs/2001MNRAS.326..453O,,
+z distort,Beta,0.45,0.17,0,MNRAS,Outram,3,2001,8,http://adsabs.harvard.edu/abs/2001MNRAS.321..497O,astro-ph/0009387,Multiple values given
+z distort,Omega_Lambda,0.77,0.13,-0.44,MNRAS,Outram,11,2001,14,http://adsabs.harvard.edu/abs/2001MNRAS.328..174O,astro-ph/0106012,Implicit in abstract
+LSS,Gamma,0.19,0.05,0,MNRAS,Outram,6,2003,27,http://adsabs.harvard.edu/abs/2003MNRAS.342..483O,astro-ph/0302280,Correct parameter?
+LSS,Omega_Lambda,0.71,0.09,-0.17,MNRAS,Outram,3,2004,14,http://adsabs.harvard.edu/abs/2004MNRAS.348..745O,astro-ph/0310873,Multiple values given
+pec vels,Beta,0.6,0.13,-0.11,MNRAS,Padilla,11,1999,3,http://adsabs.harvard.edu/abs/1999MNRAS.310...21P,astro-ph/9910353,Why are there two of these?
+pec vels,Beta,0.6,0.11,-0.13,MNRAS,Padilla,11,1999,3,http://adsabs.harvard.edu/abs/1999MNRAS.310...21P,astro-ph/9910353,Why are there two of these?
+LSS,Omega_M,0.3,0.03,0,MNRAS,Padmanabha,7,2007,131,,,
+LSS,Beta,0.51,0.13,-0.08,MNRAS,Park,12,2000,2,http://adsabs.harvard.edu/abs/2000MNRAS.319..573P,astro-ph/0012066,
+z distort,Beta,1,0.2,0,MNRAS,Peacock,4,1994,628,http://adsabs.harvard.edu/abs/1994MNRAS.267.1020P,astro-ph/9311057,
+LSS,Gamma,0.2,0.03,0,MNRAS,Percival,11,2001,504,http://adsabs.harvard.edu/abs/2001MNRAS.327.1297P,astro-ph/0105252,Correct parameter?
+combined,H_0,66.5,4.7,0,MNRAS,Percival,12,2002,216,http://adsabs.harvard.edu/abs/2002MNRAS.337.1068P,astro-ph/0206256,Little h
+combined,Omega_M,0.31,0.055,0,MNRAS,Percival,12,2002,216,http://adsabs.harvard.edu/abs/2002MNRAS.337.1068P,astro-ph/0206256,
+combined,Omega_baryon,0.044,0.004,0,MNRAS,Percival,12,2002,216,http://adsabs.harvard.edu/abs/2002MNRAS.337.1068P,astro-ph/0206256,
+BAO,Omega_M,0.249,0.018,0,MNRAS,Percival,11,2007,263,http://adsabs.harvard.edu/abs/2007MNRAS.381.1053P,0705.3323,
+BAO,w_0,-1.004,0.089,0,MNRAS,Percival,11,2007,263,http://adsabs.harvard.edu/abs/2007MNRAS.381.1053P,0705.3323,
+z distort,Omega_M*H_0,0.46,0.06,0,MNRAS,Percival,10,2004,23,http://adsabs.harvard.edu/abs/2004MNRAS.353.1201P,astro-ph/0406513,Correct parameter?
+combined,Omega_M,0.286,0.018,0,MNRAS,Percival,2,2010,127,http://adsabs.harvard.edu/abs/2010MNRAS.401.2148P,0907.1660,
+combined,H_0,68.2,2.2,0,MNRAS,Percival,2,2010,127,http://adsabs.harvard.edu/abs/2010MNRAS.401.2148P,0907.1660,
+combined,Omega_K,-0.006,0.008,0,MNRAS,Percival,2,2010,127,http://adsabs.harvard.edu/abs/2010MNRAS.401.2148P,0907.1660,
+combined,w_0,-0.97,0.1,0,MNRAS,Percival,2,2010,127,http://adsabs.harvard.edu/abs/2010MNRAS.401.2148P,0907.1660,
+combined,Omega_baryon,0.046,0.001,0,MNRAS,Pettini,12,2008,24,http://adsabs.harvard.edu/abs/2008MNRAS.391.1499P,0805.0594,Parameterised value
+combined,n,0.959,0.013,0,MNRAS,Pettini,12,2008,24,http://adsabs.harvard.edu/abs/2008MNRAS.391.1499P,0805.0594,
+Clusters,Sigma_8,1.02,0.07,-0.076,MNRAS,Pierpaoli,7,2001,151,http://adsabs.harvard.edu/abs/2001MNRAS.325...77P,astro-ph/0010039,"I think this is it, but can’t find values"
+Clusters,Sigma_8,0.77,0.05,0,MNRAS,Pierpaoli,6,2003,110,http://adsabs.harvard.edu/abs/2003MNRAS.342..163P,astro-ph/0210567,
+lensing,H_0,66,10,0,MNRAS,Pijpers,8,1997,20,http://adsabs.harvard.edu/abs/1997MNRAS.289..933P,,
+pec vels,Beta,0,0,0,MNRAS,Plionis,3,1993,17,,,
+combined,m_nu,0,0,0,MNRAS,Pogosyan,11,1993,35,http://adsabs.harvard.edu/abs/1993MNRAS.265..507P,,"I think this is it, but can’t find parameters"
+pec vels,Beta,0.55,0.06,0,MNRAS,RadburnSmi,12,2004,24,,,
+combined,w_0,-1.05,0.1,-0.12,MNRAS,Rapetti,6,2005,81,http://adsabs.harvard.edu/abs/2005MNRAS.360..555R,astro-ph/0409574,Multiple values given
+combined,Omega_M,0.306,0.042,-0.04,MNRAS,Rapetti,3,2007,41,http://adsabs.harvard.edu/abs/2007MNRAS.375.1510R,astro-ph/0605683,
+combined,w_0,-1.15,0.014,-0.18,MNRAS,Rapetti,3,2007,41,http://adsabs.harvard.edu/abs/2007MNRAS.375.1510R,astro-ph/0605683,
+z distort,Beta,0.55,0.12,0,MNRAS,Ratcliffe,8,1996,46,http://adsabs.harvard.edu/abs/1996MNRAS.281L..47R,,
+CMB,H_0,73,8,-0.05,MNRAS,Rebolo,9,2004,79,http://adsabs.harvard.edu/abs/2004MNRAS.353..747R,astro-ph/0402466,Little h
+CMB,Omega_baryon,0.047,0.002,-0.003,MNRAS,Rebolo,9,2004,79,http://adsabs.harvard.edu/abs/2004MNRAS.353..747R,astro-ph/0402466,
+CMB,n,0.97,0.06,-0.03,MNRAS,Rebolo,9,2004,79,http://adsabs.harvard.edu/abs/2004MNRAS.353..747R,astro-ph/0402466,
+combined,Omega_M,0.3,0.15,0,MNRAS,Ross,10,2007,69,http://adsabs.harvard.edu/abs/2007MNRAS.381..573R,astro-ph/0612400,Lots of numbers given for different things in abstract
+pec vels,Omega_M,0.7,0.3,-0.2,MNRAS,Rowan-Rob,11,1990,176,,,
+pec vels,Omega_M,0.18,0.05,0,MNRAS,Rubano,9,2002,12,http://adsabs.harvard.edu/abs/2002MNRAS.335...30R,astro-ph/0203205,
+combined,Omega_M,0.28,0.14,-0.07,MNRAS,Rubino,6,2003,56,,,
+combined,Omega_Lambda,0.72,0.07,-0.13,MNRAS,Rubino,6,2003,56,,,
+combined,n,1.04,0.11,-0.08,MNRAS,Rubino,6,2003,56,,,
+combined,Omega_baryon,0.058,0.018,0,MNRAS,Rubino,6,2003,56,,,
+LSS,Omega_M,0.237,0.02,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,Omega_baryon,0.041,0.002,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,H_0,74,2,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,Sigma_8,0.77,0.05,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,n,0.954,0.002,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,w_0,-0.85,0.18,-0.17,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+LSS,m_nu,0,0,0,MNRAS,Sanchez,2,2006,139,http://adsabs.harvard.edu/abs/2006MNRAS.366..189S,astro-ph/0507583,
+Clusters,Omega_M,0,0,0,MNRAS,Sanderson,11,2003,44,http://adsabs.harvard.edu/abs/2003MNRAS.345.1241S,astro-ph/0307457,Constrained value → zero
+Clusters,H_0,85,20,-17,MNRAS,Saunders,5,2003,24,http://adsabs.harvard.edu/abs/2003MNRAS.341..937S,astro-ph/9904168,
+Clusters,H_0,69,8,0,MNRAS,Schmidt,8,2004,29,http://adsabs.harvard.edu/abs/2004MNRAS.352.1413S,astro-ph/0405374,
+other,Omega_M,0.4,0.09,0,MNRAS,Schmidt,11,2001,98,http://adsabs.harvard.edu/abs/2001MNRAS.327.1057S,astro-ph/0107311,
+z distort,Beta,0.7,0.35,-0.2,MNRAS,Schmoldt,4,1999,37,http://adsabs.harvard.edu/abs/1999MNRAS.304..893S,astro-ph/9901087,
+LSS,Omega_M,0.22,0.16,0,MNRAS,Schuecker,9,2002,14,http://adsabs.harvard.edu/abs/2002MNRAS.335..807S,astro-ph/0205342,Range and parameterised
+LSS,Omega_M,0.15,0.05,0,MNRAS,Seljak,12,2002,10,http://adsabs.harvard.edu/abs/2002MNRAS.337..774S,astro-ph/0203117,
+lensing,w_0,-0.84,0.14,0,MNRAS,Sereno,11,2004,5,http://adsabs.harvard.edu/abs/2004MNRAS.354.1255S,astro-ph/0409119,
+lensing,Omega_M,0,0,0,MNRAS,Sereno,11,2004,5,http://adsabs.harvard.edu/abs/2004MNRAS.354.1255S,astro-ph/0409119,
+lensing,Omega_M,0.31,0.12,-0.14,MNRAS,Sereno,1,2005,4,http://adsabs.harvard.edu/abs/2005MNRAS.356..937S,astro-ph/0410441,
+SN,Omega_M,0.276,0.023,0,MNRAS,Shafieloo,10,2007,24,http://adsabs.harvard.edu/abs/2007MNRAS.380.1573S,astro-ph/0703034,
+other,H_0,69,8,0,MNRAS,Shanks,10,1997,29,http://adsabs.harvard.edu/abs/1997MNRAS.290L..77S,,Multiple values given
+other,Omega_Lambda,0.79,0.12,-0.3,MNRAS,Siegel,1,2005,7,http://adsabs.harvard.edu/abs/2005MNRAS.356.1117S,astro-ph/0410612,Implicit in abstract
+CMB,H_0,72,15,-13,MNRAS,Slosar,6,2003,40,http://adsabs.harvard.edu/abs/2003MNRAS.341L..29S,astro-ph/0212497,Little h
+CMB,Sigma_8,1.17,0.25,-0.3,MNRAS,Slosar,6,2003,40,http://adsabs.harvard.edu/abs/2003MNRAS.341L..29S,astro-ph/0212497,
+CMB,n,1.07,0.06,0,MNRAS,Slosar,6,2003,40,http://adsabs.harvard.edu/abs/2003MNRAS.341L..29S,astro-ph/0212497,
+CMB,w_0,-1.06,0.2,-0.25,MNRAS,Slosar,6,2003,40,http://adsabs.harvard.edu/abs/2003MNRAS.341L..29S,astro-ph/0212497,
+z distort,Beta,0.47,0.16,0,MNRAS,Tadros,5,1999,58,http://adsabs.harvard.edu/abs/1999MNRAS.305..527T,astro-ph/9901351,
+z distort,Sigma_8,0.7,0.05,0,MNRAS,Taylor,10,1996,52,http://adsabs.harvard.edu/abs/1996MNRAS.282..767T,astro-ph/9604020,
+z distort,Beta,0.49,0.16,0,MNRAS,Tegmark,10,2002,140,http://adsabs.harvard.edu/abs/2002MNRAS.335..887T,astro-ph/0111575,
+lensing,H_0,56,23,0,MNRAS,Tortora,10,2004,9,http://adsabs.harvard.edu/abs/2004MNRAS.354..343T,astro-ph/0407134,
+lensing,H_0,59,12,-7,MNRAS,Treu,12,2002,64,http://adsabs.harvard.edu/abs/2002MNRAS.337L...6T,astro-ph/0210002,
+LSS,Beta,0.55,0.1,0,MNRAS,Valentine,12,2000,13,http://adsabs.harvard.edu/abs/2000MNRAS.319L..13V,,
+Clusters,Omega_M,0.75,0.3,0,MNRAS,Viana,3,1999,211,http://adsabs.harvard.edu/abs/1999MNRAS.303..535V,astro-ph/9803244,
+Clusters,Sigma_8,0.78,0.15,-0.03,MNRAS,Viana,11,2003,29,http://adsabs.harvard.edu/abs/2003MNRAS.346..319V,astro-ph/0211090,
+LSS,Sigma_8,0.94,0.08,0,MNRAS,Viel,12,2004,42,http://adsabs.harvard.edu/abs/2004MNRAS.355L..23V,astro-ph/0407294,
+LSS,n,0.99,0.03,0,MNRAS,Viel,12,2004,42,http://adsabs.harvard.edu/abs/2004MNRAS.355L..23V,astro-ph/0407294,
+LSS,Omega_M,0.28,0.03,0,MNRAS,Viel,1,2006,65,http://adsabs.harvard.edu/abs/2006MNRAS.365..231V,astro-ph/0508177,
+LSS,Sigma_8,0.91,0.07,0,MNRAS,Viel,1,2006,65,http://adsabs.harvard.edu/abs/2006MNRAS.365..231V,astro-ph/0508177,
+LSS,n,0.95,0.04,0,MNRAS,Viel,1,2006,65,http://adsabs.harvard.edu/abs/2006MNRAS.365..231V,astro-ph/0508177,
+ISW,Omega_Lambda,0.73,0.11,-0.14,MNRAS,Vielva,1,2006,42,http://adsabs.harvard.edu/abs/2006MNRAS.365..891V,astro-ph/0408252,
+ISW,w_0,-0.75,0.32,-0.41,MNRAS,Vielva,1,2006,42,http://adsabs.harvard.edu/abs/2006MNRAS.365..891V,astro-ph/0408252,
+other,Omega_M,0.29,0.03,0,MNRAS,Wang,5,2006,18,http://adsabs.harvard.edu/abs/2006MNRAS.368..371W,astro-ph/0512279,
+pec vels,Gamma,0.13,0.09,-0.05,MNRAS,Watkins,7,2007,16,http://adsabs.harvard.edu/abs/2007MNRAS.379..343W,astro-ph/0702751,
+Clusters,Sigma_8,1.42,0.17,0,MNRAS,White,6,1993,529,http://adsabs.harvard.edu/abs/1993MNRAS.262.1023W,,Range data in abstract
+Clusters,Omega_M,0,0,0,MNRAS,White,8,1994,52,http://adsabs.harvard.edu/abs/1994MNRAS.269..589W,,Constrained value → zero
+Clusters,n,0.84,0.325,0,MNRAS,Wu,10,2001,18,http://adsabs.harvard.edu/abs/2001MNRAS.327..629W,astro-ph/0012207,
+Clusters,Gamma,0.27,0.21,-0.08,MNRAS,Wu,10,2001,18,http://adsabs.harvard.edu/abs/2001MNRAS.327..629W,astro-ph/0012207,
+Clusters,Omega_M,0.35,0.09,0,MNRAS,Wu,2,2000,12,http://adsabs.harvard.edu/abs/2000MNRAS.311..825W,astro-ph/9909205,
+lensing,H_0,78,3,0,MNRAS,Wucknitz,3,2004,27,http://adsabs.harvard.edu/abs/2004MNRAS.349...14W,astro-ph/0312263,
+lensing,H_0,70,5,0,MNRAS,York,2,2005,36,http://adsabs.harvard.edu/abs/2005MNRAS.357..124Y,astro-ph/0405115,
+pec vels,Omega_M*H_0,0.88,0.15,0,MNRAS,Zaroubi,9,1997,55,http://adsabs.harvard.edu/abs/1997ApJ...486...21Z,astro-ph/9610226,Actually APJ? Correct parameter?
+pec vels,Omega_M*H_0,1,0.25,0,MNRAS,Zaroubi,9,2001,23,http://adsabs.harvard.edu/abs/2001MNRAS.326..375Z,astro-ph/0005558,"I think this is it, but can’t find parameters"
+pec vels,Beta,0.51,0.06,0,MNRAS,Zaroubi,11,2002,18,http://adsabs.harvard.edu/abs/2002MNRAS.336.1234Z,astro-ph/0207356,
+LSS,Omega_M,0.25,0.09,-0.07,MNRAS,daAangela,1,2008,70,,,
+combined,Beta,0.6,0.1,0,MNRAS,daCosta,9,1998,62,http://adsabs.harvard.edu/abs/1998MNRAS.299..425D,astro-ph/9707299,
+Clusters,H_0,62,6,0,MNRAS,dellaValle,8,1998,28,http://adsabs.harvard.edu/abs/1998MNRAS.299..267D,astro-ph/9805024,
+SN,H_0,62,6,0,MNRAS,dellavalle,8,1998,28,http://adsabs.harvard.edu/abs/1998MNRAS.299..267D,astro-ph/9805024,
+other,H_0,76,8,0,MNRAS,vanLeeuwen,8,2007,76,,,
+LSS,Omega_M,0.24,0.035,0,MNRAS,vandenBosc,11,2003,79,,,
+LSS,Sigma_8,0.74,0.065,-0.1,MNRAS,vandenBosc,11,2003,79,,,
+other,Omega_baryon,0.057,0.034,-0.019,Phys.Rev.D,Balbi,9,2001,114,http://adsabs.harvard.edu/abs/2001ApJ...558L.145B,astro-ph/0005124,"Is this right? Parameterised value, and possible APJ"
+LSS,Sigma_8,0.83,0.11,-0.16,Phys.Rev.D,Basilakos,5,2010,1,http://adsabs.harvard.edu/abs/2010ApJ...714L.185B,1003.2559,Actually APJ?
+LSS,w_0,-0.9,0.1,-0.16,Phys.Rev.D,Basilakos,5,2010,1,http://adsabs.harvard.edu/abs/2010ApJ...714L.185B,1003.2559,Actually APJ?
+LSS,Omega_M,0.24,0.06,0,Phys.Rev.D,Basilakos,5,2010,1,http://adsabs.harvard.edu/abs/2010ApJ...714L.185B,1003.2559,Actually APJ?
+other,H_0,84,26,0,Phys.Rev.D,Battistell,12,2003,19,,,
+CMB,Sigma_8,1.34,0.1,0,Phys.Rev.D,Bunn,3,1995,70,http://adsabs.harvard.edu/abs/1995ApJ...441L...9B,astro-ph/9409003,Actually APJ?
+LSS,Omega_baryon,0.041,0.003,0,Phys.Rev.D,Fosalba,12,2004,14,http://adsabs.harvard.edu/abs/2004ApJ...617L..95F,astro-ph/0405589,Actually APJ? Parameterized value?
+SN,H_0,73,2,0,Phys.Rev.D,Gibson,2,2001,32,http://adsabs.harvard.edu/abs/2001ApJ...547L.103G,astro-ph/0011478,Actually APJ?
+lensing,H_0,71,4,0,Phys.Rev.D,Hjorth,6,2002,46,http://adsabs.harvard.edu/abs/2002ApJ...572L..11H,astro-ph/0205124,Actually APJ?
+combined,H_0,61.7,1.2,-1.1,Phys.Rev.D,Leith,1,2008,36,http://adsabs.harvard.edu/abs/2008ApJ...672L..91L,0709.2535,Actually APJ?
+Clusters,H_0,66,14,-11,Phys.Rev.D,Mason,7,2001,65,http://adsabs.harvard.edu/abs/2001ApJ...555L..11M,,Actually APJ?
+SN,H_0,74.92,2.28,0,Phys.Rev.D,Ngeow,5,2006,15,http://adsabs.harvard.edu/abs/2006ApJ...642L..29N,astro-ph/0603643,Actually APJ?
+Clusters,Sigma_8,0.75,0.05,0,Phys.Rev.D,Smith,6,2003,39,http://adsabs.harvard.edu/abs/2003ApJ...590L..79S,astro-ph/0211186,Actually APJ?
+Clusters,H_0,78,11,0,Phys.Rev.D,Whitmore,12,1995,137,http://adsabs.harvard.edu/abs/1995ApJ...454L..73W,,Actually APJ?
+BBN,Omega_baryon,0.036,0.005,0,Phys.Rev.Lett.,Burles,5,1999,118,http://adsabs.harvard.edu/abs/1999PhRvL..82.4176B,astro-ph/9901157,Parameterised value
+lensing,Omega_M,0.31,0.27,-0.14,Phys.Rev.Lett.,Chae,10,2002,84,http://adsabs.harvard.edu/abs/2002PhRvL..89o1301C,astro-ph/0209602,
+lensing,w_0,-0.55,0.18,-0.11,Phys.Rev.Lett.,Chae,10,2002,84,http://adsabs.harvard.edu/abs/2002PhRvL..89o1301C,astro-ph/0209602,Constrained value? Not listed as one
+combined,Sigma_8,0.89,0.05,0,Phys.Rev.Lett.,Contaldi,6,2003,54,http://adsabs.harvard.edu/abs/2003PhRvL..90v1303C,astro-ph/0302435,
+combined,Omega_M,0.3,0.03,0,Phys.Rev.Lett.,Contaldi,6,2003,54,http://adsabs.harvard.edu/abs/2003PhRvL..90v1303C,astro-ph/0302435,
+combined,H_0,70,3,0,Phys.Rev.Lett.,Contaldi,6,2003,54,http://adsabs.harvard.edu/abs/2003PhRvL..90v1303C,astro-ph/0302435,
+other,m_nu,0.26,0.2,-0.14,Phys.Rev.Lett.,Fodor,4,2002,70,http://adsabs.harvard.edu/abs/2002PhRvL..88q1101F,hep-ph/0105064,
+CMB,m_nu,0.6,0,-0.6,Phys.Rev.Lett.,Fukugita,2,2000,55,http://adsabs.harvard.edu/abs/2000PhRvL..84.1082F,hep-ph/9908450,"I think this is it, but can’t find parameters"
+BAO,w_0,-1.14,0.39,0,Phys.Rev.Lett.,Gaztanaga,8,2009,26,http://adsabs.harvard.edu/abs/2009PhRvL.103i1302G,0808.1921,
+BAO,Omega_M,0.24,0.06,-0.05,Phys.Rev.Lett.,Gaztanaga,8,2009,26,http://adsabs.harvard.edu/abs/2009PhRvL.103i1302G,0808.1921,
+SN,Sigma_8,0.79,0.22,0,Phys.Rev.Lett.,Gordon,8,2007,16,http://adsabs.harvard.edu/abs/2007PhRvL..99h1301G,0705.1718,
+other,m_nu,0.65,0,-0.325,Phys.Rev.Lett.,Hannestad,11,2005,74,http://adsabs.harvard.edu/abs/2005PhRvL..95v1301H,astro-ph/0505551,
+CMB,Omega_baryon,0.06,0.009,-0.008,Phys.Rev.Lett.,Jaffe,4,2001,443,http://adsabs.harvard.edu/abs/2001PhRvL..86.3475J,astro-ph/0007333,Parameterised value
+BBN,Omega_baryon,0.02,0.001,0,Phys.Rev.Lett.,Kernan,5,1994,83,http://adsabs.harvard.edu/abs/1994PhRvL..72.3309K,astro-ph/9402010,"I think this is it, but can’t find values"
+CMB,Omega_baryon,0.058,0.017,0,Phys.Rev.Lett.,Tegmark,9,2000,104,http://adsabs.harvard.edu/abs/2000PhRvL..85.2240T,astro-ph/0004393,Parameterised value

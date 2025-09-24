@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/cluster_chunks.py", line 47, in <module>
+    import cuml
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/__init__.py", line 29, in <module>
+    import cuml.feature_extraction
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/feature_extraction/__init__.py", line 17, in <module>
+    from . import text
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/feature_extraction/text.py", line 21, in <module>
+    from cuml.feature_extraction._tfidf import (  # noqa # pylint: disable=unused-import
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/feature_extraction/_tfidf.py", line 19, in <module>
+    import cuml.internals
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/internals/__init__.py", line 17, in <module>
+    from cuml.internals.api_context_managers import (
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/internals/api_context_managers.py", line 25, in <module>
+    import cuml.internals.input_utils
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cuml/internals/input_utils.py", line 19, in <module>
+    import cudf
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cudf/__init__.py", line 15, in <module>
+    validate_setup()
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/cudf/utils/gpu_utils.py", line 109, in validate_setup
+    cuda_runtime_version = runtimeGetVersion()
+                           ^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/rmm/_cuda/gpu.py", line 86, in runtimeGetVersion
+    status, version = runtime.getLocalRuntimeVersion()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "cuda/bindings/runtime.pyx", line 32803, in cuda.bindings.runtime.getLocalRuntimeVersion
+  File "cuda/bindings/cyruntime.pyx", line 948, in cuda.bindings.cyruntime.getLocalRuntimeVersion
+RuntimeError: Failed to dlopen libcudart.so.12

@@ -1,0 +1,93 @@
+{
+  "sample_info": {
+    "n_embeddings": 15000,
+    "embedding_dim": 768,
+    "n_texts": 15000
+  },
+  "diversity_analysis": {
+    "cosine_distances": {
+      "mean": 0.23786030073389805,
+      "std": 0.12199432236260363,
+      "min": 0.0008433853584615125,
+      "max": 0.8931353242917119,
+      "q25": 0.14258729292539105,
+      "q75": 0.31473052346751224
+    },
+    "euclidean_distances": {
+      "mean": 0.6668283467348334,
+      "std": 0.17620430043453905
+    },
+    "embedding_norms": {
+      "mean": 0.9999806880950928,
+      "std": 0.0008282119524665177,
+      "min": 0.9317035675048828,
+      "max": 1.0000001192092896
+    },
+    "dimensionality": {
+      "original_dim": 768,
+      "effective_dim": 101,
+      "variance_concentration": 0.2858397364616394,
+      "top_10_pc_variance": 0.794687032699585
+    },
+    "issues": [
+      "WARNING: Very similar embedding magnitudes - possible over-normalization"
+    ]
+  },
+  "methodological_separation": {
+    "method_separation": {
+      "spectroscopy": {
+        "within_similarity": 0.7519367933273315,
+        "avg_between_similarity": 0.7475712895393372,
+        "separation_ratio": 1.0058395862579346,
+        "n_samples": 50
+      },
+      "simulation": {
+        "within_similarity": 0.7893409132957458,
+        "avg_between_similarity": 0.7459079027175903,
+        "separation_ratio": 1.0582283735275269,
+        "n_samples": 50
+      },
+      "photometry": {
+        "within_similarity": 0.8146339654922485,
+        "avg_between_similarity": 0.7524776458740234,
+        "separation_ratio": 1.0826022624969482,
+        "n_samples": 50
+      },
+      "theoretical": {
+        "within_similarity": 0.7653605341911316,
+        "avg_between_similarity": 0.7504667043685913,
+        "separation_ratio": 1.0198460817337036,
+        "n_samples": 50
+      },
+      "observational": {
+        "within_similarity": 0.7403358221054077,
+        "avg_between_similarity": 0.7462247014045715,
+        "separation_ratio": 0.9921084642410278,
+        "n_samples": 50
+      }
+    },
+    "overall": {
+      "avg_within_similarity": 0.7723216056823731,
+      "avg_between_similarity": 0.7485296487808227,
+      "separation_quality": 0.023791956901550337,
+      "methods_found": [
+        "spectroscopy",
+        "simulation",
+        "photometry",
+        "theoretical",
+        "observational"
+      ]
+    },
+    "interpretation": "WEAK: Minimal methodological separation"
+  },
+  "parameter_analysis": {
+    "umap_parameter_analysis": [
+      {
+        "params": {
+          "n_neighbors": 15,
+          "min_dist": 0.1,
+          "n_components": 20
+        },
+        "n_clusters": 23,
+        "noise_pct": 29.349999999999998,
+        "silhouette_score": 

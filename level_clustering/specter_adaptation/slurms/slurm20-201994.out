@@ -1,0 +1,834 @@
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[Script start] CPU Memory: 0.28GB
+[SCAN] Using 138 chunk folders
+============================================================
+STREAMING CLUSTERING PIPELINE
+============================================================
+[Pipeline start] CPU Memory: 0.28GB
+Counting samples:   0%|          | 0/138 [00:00<?, ?it/s]Counting samples:   7%|▋         | 10/138 [00:00<00:01, 94.11it/s]Counting samples:  14%|█▍        | 20/138 [00:00<00:01, 96.09it/s]Counting samples:  22%|██▏       | 30/138 [00:00<00:01, 93.90it/s]Counting samples:  29%|██▉       | 40/138 [00:00<00:01, 94.24it/s]Counting samples:  36%|███▌      | 50/138 [00:00<00:00, 94.47it/s]Counting samples:  43%|████▎     | 60/138 [00:00<00:00, 93.71it/s]Counting samples:  51%|█████     | 70/138 [00:00<00:00, 95.19it/s]Counting samples:  58%|█████▊    | 80/138 [00:00<00:00, 93.96it/s]Counting samples:  65%|██████▌   | 90/138 [00:00<00:00, 92.45it/s]Counting samples:  73%|███████▎  | 101/138 [00:01<00:00, 95.14it/s]Counting samples:  80%|████████  | 111/138 [00:01<00:00, 95.74it/s]Counting samples:  88%|████████▊ | 121/138 [00:01<00:00, 93.75it/s]Counting samples:  95%|█████████▍| 131/138 [00:01<00:00, 93.79it/s]Counting samples: 100%|██████████| 138/138 [00:01<00:00, 94.37it/s]
+[INFO] Total samples to process: 1,375,099
+[UMAP] Creating model from sample data...
+[Before UMAP sampling] CPU Memory: 0.28GB
+Sampling for UMAP:   0%|          | 0/20 [00:00<?, ?it/s]Sampling for UMAP:   5%|▌         | 1/20 [00:00<00:04,  4.24it/s]Sampling for UMAP:  10%|█         | 2/20 [00:00<00:03,  4.59it/s]Sampling for UMAP:  15%|█▌        | 3/20 [00:00<00:03,  4.76it/s]Sampling for UMAP:  20%|██        | 4/20 [00:00<00:03,  4.87it/s]Sampling for UMAP:  25%|██▌       | 5/20 [00:01<00:03,  4.90it/s]Sampling for UMAP:  30%|███       | 6/20 [00:01<00:02,  4.94it/s]Sampling for UMAP:  35%|███▌      | 7/20 [00:01<00:02,  4.99it/s]Sampling for UMAP:  40%|████      | 8/20 [00:01<00:02,  5.02it/s]Sampling for UMAP:  45%|████▌     | 9/20 [00:01<00:02,  5.04it/s]Sampling for UMAP:  50%|█████     | 10/20 [00:02<00:01,  5.04it/s]Sampling for UMAP:  55%|█████▌    | 11/20 [00:02<00:01,  5.05it/s]Sampling for UMAP:  60%|██████    | 12/20 [00:02<00:01,  5.07it/s]Sampling for UMAP:  65%|██████▌   | 13/20 [00:02<00:01,  5.07it/s]Sampling for UMAP:  70%|███████   | 14/20 [00:02<00:01,  5.07it/s]Sampling for UMAP:  75%|███████▌  | 15/20 [00:03<00:00,  5.08it/s]Sampling for UMAP:  80%|████████  | 16/20 [00:03<00:00,  5.08it/s]Sampling for UMAP:  85%|████████▌ | 17/20 [00:03<00:00,  5.07it/s]Sampling for UMAP:  90%|█████████ | 18/20 [00:03<00:00,  5.08it/s]Sampling for UMAP:  95%|█████████▌| 19/20 [00:03<00:00,  5.07it/s]Sampling for UMAP: 100%|██████████| 20/20 [00:03<00:00,  5.06it/s]Sampling for UMAP: 100%|██████████| 20/20 [00:03<00:00,  5.00it/s]
+[UMAP] Fitting on 50000 samples with 774 dimensions
+UMAP(angular_rp_forest=True, metric='cosine', min_dist=0.05, n_components=50, n_neighbors=50, random_state=42, spread=1.5, verbose=True)
+Sun Sep  7 12:43:32 2025 Construct fuzzy simplicial set
+Sun Sep  7 12:43:32 2025 Finding Nearest Neighbors
+Sun Sep  7 12:43:32 2025 Building RP forest with 16 trees
+Sun Sep  7 12:43:37 2025 NN descent for 16 iterations
+	 1  /  16
+	 2  /  16
+	 3  /  16
+	Stopping threshold met -- exiting after 3 iterations
+Sun Sep  7 12:43:56 2025 Finished Nearest Neighbor Search
+Sun Sep  7 12:43:59 2025 Construct embedding
+Epochs completed:   0%|            0/200 [00:00]Epochs completed:   0%|            1/200 [00:00]Epochs completed:   2%| ▏          3/200 [00:00]Epochs completed:   2%| ▏          4/200 [00:01]Epochs completed:   2%| ▎          5/200 [00:01]Epochs completed:   3%| ▎          6/200 [00:01]Epochs completed:   4%| ▎          7/200 [00:02]Epochs completed:   4%| ▍          8/200 [00:02]Epochs completed:   4%| ▍          9/200 [00:02]Epochs completed:   5%| ▌          10/200 [00:03]Epochs completed:   6%| ▌          11/200 [00:03]Epochs completed:   6%| ▌          12/200 [00:03]Epochs completed:   6%| ▋          13/200 [00:04]Epochs completed:   7%| ▋          14/200 [00:04]Epochs completed:   8%| ▊          15/200 [00:05]Epochs completed:   8%| ▊          16/200 [00:05]Epochs completed:   8%| ▊          17/200 [00:05]Epochs completed:   9%| ▉          18/200 [00:06]Epochs completed:  10%| ▉          19/200 [00:06]Epochs completed:  10%| █          20/200 [00:07]Epochs completed:  10%| █          21/200 [00:07]Epochs completed:  11%| █          22/200 [00:07]Epochs completed:  12%| █▏         23/200 [00:08]Epochs completed:  12%| █▏         24/200 [00:08]Epochs completed:  12%| █▎         25/200 [00:09]Epochs completed:  13%| █▎         26/200 [00:09]Epochs completed:  14%| █▎         27/200 [00:10]Epochs completed:  14%| █▍         28/200 [00:10]Epochs completed:  14%| █▍         29/200 [00:10]Epochs completed:  15%| █▌         30/200 [00:11]Epochs completed:  16%| █▌         31/200 [00:11]Epochs completed:  16%| █▌         32/200 [00:12]Epochs completed:  16%| █▋         33/200 [00:12]Epochs completed:  17%| █▋         34/200 [00:13]Epochs completed:  18%| █▊         35/200 [00:13]Epochs completed:  18%| █▊         36/200 [00:13]Epochs completed:  18%| █▊         37/200 [00:14]Epochs completed:  19%| █▉         38/200 [00:14]Epochs completed:  20%| █▉         39/200 [00:15]Epochs completed:  20%| ██         40/200 [00:15]Epochs completed:  20%| ██         41/200 [00:16]Epochs completed:  21%| ██         42/200 [00:16]Epochs completed:  22%| ██▏        43/200 [00:16]Epochs completed:  22%| ██▏        44/200 [00:17]Epochs completed:  22%| ██▎        45/200 [00:17]Epochs completed:  23%| ██▎        46/200 [00:18]Epochs completed:  24%| ██▎        47/200 [00:18]Epochs completed:  24%| ██▍        48/200 [00:19]Epochs completed:  24%| ██▍        49/200 [00:19]Epochs completed:  25%| ██▌        50/200 [00:19]Epochs completed:  26%| ██▌        51/200 [00:20]Epochs completed:  26%| ██▌        52/200 [00:20]Epochs completed:  26%| ██▋        53/200 [00:21]Epochs completed:  27%| ██▋        54/200 [00:21]Epochs completed:  28%| ██▊        55/200 [00:22]Epochs completed:  28%| ██▊        56/200 [00:22]Epochs completed:  28%| ██▊        57/200 [00:22]Epochs completed:  29%| ██▉        58/200 [00:23]Epochs completed:  30%| ██▉        59/200 [00:23]Epochs completed:  30%| ███        60/200 [00:24]Epochs completed:  30%| ███        61/200 [00:24]Epochs completed:  31%| ███        62/200 [00:25]Epochs completed:  32%| ███▏       63/200 [00:25]Epochs completed:  32%| ███▏       64/200 [00:25]Epochs completed:  32%| ███▎       65/200 [00:26]Epochs completed:  33%| ███▎       66/200 [00:26]Epochs completed:  34%| ███▎       67/200 [00:27]Epochs completed:  34%| ███▍       68/200 [00:27]Epochs completed:  34%| ███▍       69/200 [00:28]Epochs completed:  35%| ███▌       70/200 [00:28]Epochs completed:  36%| ███▌       71/200 [00:28]Epochs completed:  36%| ███▌       72/200 [00:29]Epochs completed:  36%| ███▋       73/200 [00:29]Epochs completed:  37%| ███▋       74/200 [00:30]Epochs completed:  38%| ███▊       75/200 [00:30]Epochs completed:  38%| ███▊       76/200 [00:31]Epochs completed:  38%| ███▊       77/200 [00:31]Epochs completed:  39%| ███▉       78/200 [00:31]Epochs completed:  40%| ███▉       79/200 [00:32]Epochs completed:  40%| ████       80/200 [00:32]Epochs completed:  40%| ████       81/200 [00:33]Epochs completed:  41%| ████       82/200 [00:33]Epochs completed:  42%| ████▏      83/200 [00:34]Epochs completed:  42%| ████▏      84/200 [00:34]Epochs completed:  42%| ████▎      85/200 [00:34]Epochs completed:  43%| ████▎      86/200 [00:35]Epochs completed:  44%| ████▎      87/200 [00:35]Epochs completed:  44%| ████▍      88/200 [00:36]Epochs completed:  44%| ████▍      89/200 [00:36]Epochs completed:  45%| ████▌      90/200 [00:37]Epochs completed:  46%| ████▌      91/200 [00:37]Epochs completed:  46%| ████▌      92/200 [00:37]Epochs completed:  46%| ████▋      93/200 [00:38]Epochs completed:  47%| ████▋      94/200 [00:38]Epochs completed:  48%| ████▊      95/200 [00:39]Epochs completed:  48%| ████▊      96/200 [00:39]Epochs completed:  48%| ████▊      97/200 [00:40]Epochs completed:  49%| ████▉      98/200 [00:40]Epochs completed:  50%| ████▉      99/200 [00:40]Epochs completed:  50%| █████      100/200 [00:41]Epochs completed:  50%| █████      101/200 [00:41]Epochs completed:  51%| █████      102/200 [00:42]Epochs completed:  52%| █████▏     103/200 [00:42]Epochs completed:  52%| █████▏     104/200 [00:43]Epochs completed:  52%| █████▎     105/200 [00:43]Epochs completed:  53%| █████▎     106/200 [00:44]Epochs completed:  54%| █████▎     107/200 [00:44]Epochs completed:  54%| █████▍     108/200 [00:44]Epochs completed:  55%| █████▍     109/200 [00:45]Epochs completed:  55%| █████▌     110/200 [00:45]Epochs completed:  56%| █████▌     111/200 [00:46]Epochs completed:  56%| █████▌     112/200 [00:46]Epochs completed:  56%| █████▋     113/200 [00:47]Epochs completed:  57%| █████▋     114/200 [00:47]Epochs completed:  57%| █████▊     115/200 [00:47]Epochs completed:  58%| █████▊     116/200 [00:48]Epochs completed:  58%| █████▊     117/200 [00:48]Epochs completed:  59%| █████▉     118/200 [00:49]Epochs completed:  60%| █████▉     119/200 [00:49]Epochs completed:  60%| ██████     120/200 [00:50]Epochs completed:  60%| ██████     121/200 [00:50]Epochs completed:  61%| ██████     122/200 [00:50]Epochs completed:  62%| ██████▏    123/200 [00:51]Epochs completed:  62%| ██████▏    124/200 [00:51]Epochs completed:  62%| ██████▎    125/200 [00:52]Epochs completed:  63%| ██████▎    126/200 [00:52]Epochs completed:  64%| ██████▎    127/200 [00:53]Epochs completed:  64%| ██████▍    128/200 [00:53]Epochs completed:  64%| ██████▍    129/200 [00:53]Epochs completed:  65%| ██████▌    130/200 [00:54]Epochs completed:  66%| ██████▌    131/200 [00:54]Epochs completed:  66%| ██████▌    132/200 [00:55]Epochs completed:  66%| ██████▋    133/200 [00:55]Epochs completed:  67%| ██████▋    134/200 [00:56]Epochs completed:  68%| ██████▊    135/200 [00:56]Epochs completed:  68%| ██████▊    136/200 [00:56]Epochs completed:  68%| ██████▊    137/200 [00:57]Epochs completed:  69%| ██████▉    138/200 [00:57]Epochs completed:  70%| ██████▉    139/200 [00:58]Epochs completed:  70%| ███████    140/200 [00:58]Epochs completed:  70%| ███████    141/200 [00:59]Epochs completed:  71%| ███████    142/200 [00:59]Epochs completed:  72%| ███████▏   143/200 [00:59]Epochs completed:  72%| ███████▏   144/200 [01:00]Epochs completed:  72%| ███████▎   145/200 [01:00]Epochs completed:  73%| ███████▎   146/200 [01:01]Epochs completed:  74%| ███████▎   147/200 [01:01]Epochs completed:  74%| ███████▍   148/200 [01:02]Epochs completed:  74%| ███████▍   149/200 [01:02]Epochs completed:  75%| ███████▌   150/200 [01:03]Epochs completed:  76%| ███████▌   151/200 [01:03]Epochs completed:  76%| ███████▌   152/200 [01:03]Epochs completed:  76%| ███████▋   153/200 [01:04]Epochs completed:  77%| ███████▋   154/200 [01:04]Epochs completed:  78%| ███████▊   155/200 [01:05]Epochs completed:  78%| ███████▊   156/200 [01:05]Epochs completed:  78%| ███████▊   157/200 [01:06]Epochs completed:  79%| ███████▉   158/200 [01:06]Epochs completed:  80%| ███████▉   159/200 [01:06]Epochs completed:  80%| ████████   160/200 [01:07]Epochs completed:  80%| ████████   161/200 [01:07]Epochs completed:  81%| ████████   162/200 [01:08]Epochs completed:  82%| ████████▏  163/200 [01:08]Epochs completed:  82%| ████████▏  164/200 [01:09]Epochs completed:  82%| ████████▎  165/200 [01:09]Epochs completed:  83%| ████████▎  166/200 [01:09]Epochs completed:  84%| ████████▎  167/200 [01:10]Epochs completed:  84%| ████████▍  168/200 [01:10]Epochs completed:  84%| ████████▍  169/200 [01:11]Epochs completed:  85%| ████████▌  170/200 [01:11]Epochs completed:  86%| ████████▌  171/200 [01:12]Epochs completed:  86%| ████████▌  172/200 [01:12]Epochs completed:  86%| ████████▋  173/200 [01:12]Epochs completed:  87%| ████████▋  174/200 [01:13]Epochs completed:  88%| ████████▊  175/200 [01:13]Epochs completed:  88%| ████████▊  176/200 [01:14]Epochs completed:  88%| ████████▊  177/200 [01:14]Epochs completed:  89%| ████████▉  178/200 [01:15]Epochs completed:  90%| ████████▉  179/200 [01:15]Epochs completed:  90%| █████████  180/200 [01:16]Epochs completed:  90%| █████████  181/200 [01:16]Epochs completed:  91%| █████████  182/200 [01:16]Epochs completed:  92%| █████████▏ 183/200 [01:17]Epochs completed:  92%| █████████▏ 184/200 [01:17]Epochs completed:  92%| █████████▎ 185/200 [01:18]Epochs completed:  93%| █████████▎ 186/200 [01:18]Epochs completed:  94%| █████████▎ 187/200 [01:19]Epochs completed:  94%| █████████▍ 188/200 [01:19]Epochs completed:  94%| █████████▍ 189/200 [01:19]Epochs completed:  95%| █████████▌ 190/200 [01:20]Epochs completed:  96%| █████████▌ 191/200 [01:20]Epochs completed:  96%| █████████▌ 192/200 [01:21]Epochs completed:  96%| █████████▋ 193/200 [01:21]Epochs completed:  97%| █████████▋ 194/200 [01:22]Epochs completed:  98%| █████████▊ 195/200 [01:22]Epochs completed:  98%| █████████▊ 196/200 [01:22]Epochs completed:  98%| █████████▊ 197/200 [01:23]Epochs completed:  99%| █████████▉ 198/200 [01:23]Epochs completed: 100%| █████████▉ 199/200 [01:24]Epochs completed: 100%| ██████████ 200/200 [01:24]Epochs completed: 100%| ██████████ 200/200 [01:24]
+Sun Sep  7 12:45:34 2025 Finished embedding
+[After UMAP fitting] CPU Memory: 1.45GB
+[STREAM] Transforming chunks individually...
+[Before streaming transform] CPU Memory: 1.45GB
+Streaming transform:   0%|          | 0/138 [00:00<?, ?it/s]Sun Sep  7 12:45:39 2025 Worst tree score: 0.92538000
+Sun Sep  7 12:45:39 2025 Mean tree score: 0.92810250
+Sun Sep  7 12:45:39 2025 Best tree score: 0.93038000
+Sun Sep  7 12:45:40 2025 Forward diversification reduced edges from 2500000 to 439041
+Sun Sep  7 12:45:43 2025 Reverse diversification reduced edges from 439041 to 439041
+Sun Sep  7 12:45:44 2025 Degree pruning reduced edges from 526040 to 526040
+Sun Sep  7 12:45:44 2025 Resorting data and graph based on tree order
+Sun Sep  7 12:45:44 2025 Building and compiling search function
+
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   1%|          | 1/138 [07:17<16:37:49, 437.00s/it][After chunk 0] CPU Memory: 1.45GB
+
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   1%|▏         | 2/138 [14:28<16:23:06, 433.73s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:03][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  98%| █████████▊ 98/100 [00:05][A
+Epochs completed: 100%| ██████████ 100/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   2%|▏         | 3/138 [21:44<16:18:42, 434.98s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:03][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:05][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   3%|▎         | 4/138 [29:08<16:19:01, 438.37s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   4%|▎         | 5/138 [36:32<16:16:19, 440.45s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   4%|▍         | 6/138 [44:04<16:17:45, 444.44s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  38%| ███▊       38/100 [00:02][A
+Epochs completed:  40%| ████       40/100 [00:02][A
+Epochs completed:  42%| ████▏      42/100 [00:02][A
+Epochs completed:  44%| ████▍      44/100 [00:02][A
+Epochs completed:  46%| ████▌      46/100 [00:02][A
+Epochs completed:  48%| ████▊      48/100 [00:02][A
+Epochs completed:  50%| █████      50/100 [00:02][A
+Epochs completed:  52%| █████▏     52/100 [00:02][A
+Epochs completed:  54%| █████▍     54/100 [00:02][A
+Epochs completed:  56%| █████▌     56/100 [00:03][A
+Epochs completed:  58%| █████▊     58/100 [00:03][A
+Epochs completed:  60%| ██████     60/100 [00:03][A
+Epochs completed:  62%| ██████▏    62/100 [00:03][A
+Epochs completed:  64%| ██████▍    64/100 [00:03][A
+Epochs completed:  66%| ██████▌    66/100 [00:03][A
+Epochs completed:  68%| ██████▊    68/100 [00:03][A
+Epochs completed:  70%| ███████    70/100 [00:03][A
+Epochs completed:  72%| ███████▏   72/100 [00:03][A
+Epochs completed:  74%| ███████▍   74/100 [00:03][A
+Epochs completed:  76%| ███████▌   76/100 [00:04][A
+Epochs completed:  78%| ███████▊   78/100 [00:04][A
+Epochs completed:  80%| ████████   80/100 [00:04][A
+Epochs completed:  82%| ████████▏  82/100 [00:04][A
+Epochs completed:  84%| ████████▍  84/100 [00:04][A
+Epochs completed:  86%| ████████▌  86/100 [00:04][A
+Epochs completed:  88%| ████████▊  88/100 [00:04][A
+Epochs completed:  90%| █████████  90/100 [00:04][A
+Epochs completed:  92%| █████████▏ 92/100 [00:04][A
+Epochs completed:  94%| █████████▍ 94/100 [00:05][A
+Epochs completed:  96%| █████████▌ 96/100 [00:05][A
+Epochs completed:  98%| █████████▊ 98/100 [00:05][A
+Epochs completed: 100%| ██████████ 100/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   5%|▌         | 7/138 [51:42<16:19:51, 448.79s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:03][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   6%|▌         | 8/138 [59:25<16:22:09, 453.30s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  37%| ███▋       37/100 [00:02][A
+Epochs completed:  40%| ████       40/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:03][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   7%|▋         | 9/138 [1:07:14<16:25:08, 458.21s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  38%| ███▊       38/100 [00:02][A
+Epochs completed:  40%| ████       40/100 [00:02][A
+Epochs completed:  42%| ████▏      42/100 [00:02][A
+Epochs completed:  44%| ████▍      44/100 [00:02][A
+Epochs completed:  46%| ████▌      46/100 [00:02][A
+Epochs completed:  48%| ████▊      48/100 [00:02][A
+Epochs completed:  50%| █████      50/100 [00:02][A
+Epochs completed:  52%| █████▏     52/100 [00:02][A
+Epochs completed:  54%| █████▍     54/100 [00:02][A
+Epochs completed:  56%| █████▌     56/100 [00:03][A
+Epochs completed:  58%| █████▊     58/100 [00:03][A
+Epochs completed:  60%| ██████     60/100 [00:03][A
+Epochs completed:  62%| ██████▏    62/100 [00:03][A
+Epochs completed:  64%| ██████▍    64/100 [00:03][A
+Epochs completed:  66%| ██████▌    66/100 [00:03][A
+Epochs completed:  68%| ██████▊    68/100 [00:03][A
+Epochs completed:  70%| ███████    70/100 [00:03][A
+Epochs completed:  72%| ███████▏   72/100 [00:03][A
+Epochs completed:  74%| ███████▍   74/100 [00:03][A
+Epochs completed:  76%| ███████▌   76/100 [00:04][A
+Epochs completed:  78%| ███████▊   78/100 [00:04][A
+Epochs completed:  80%| ████████   80/100 [00:04][A
+Epochs completed:  82%| ████████▏  82/100 [00:04][A
+Epochs completed:  84%| ████████▍  84/100 [00:04][A
+Epochs completed:  86%| ████████▌  86/100 [00:04][A
+Epochs completed:  88%| ████████▊  88/100 [00:04][A
+Epochs completed:  90%| █████████  90/100 [00:04][A
+Epochs completed:  92%| █████████▏ 92/100 [00:04][A
+Epochs completed:  94%| █████████▍ 94/100 [00:04][A
+Epochs completed:  96%| █████████▌ 96/100 [00:05][A
+Epochs completed:  98%| █████████▊ 98/100 [00:05][A
+Epochs completed: 100%| ██████████ 100/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   7%|▋         | 10/138 [1:15:08<16:27:42, 462.99s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   8%|▊         | 11/138 [1:23:09<16:32:05, 468.70s/it][After chunk 10] CPU Memory: 1.46GB
+
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   9%|▊         | 12/138 [1:31:15<16:34:52, 473.75s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:   9%|▉         | 13/138 [1:39:24<16:37:02, 478.58s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:03][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:  10%|█         | 14/138 [1:47:39<16:39:03, 483.41s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:  11%|█         | 15/138 [1:56:00<16:41:36, 488.59s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:  12%|█▏        | 16/138 [2:04:25<16:44:06, 493.82s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:02][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:04][A
+Epochs completed:  77%| ███████▋   77/100 [00:04][A
+Epochs completed:  79%| ███████▉   79/100 [00:04][A
+Epochs completed:  81%| ████████   81/100 [00:04][A
+Epochs completed:  83%| ████████▎  83/100 [00:04][A
+Epochs completed:  85%| ████████▌  85/100 [00:04][A
+Epochs completed:  87%| ████████▋  87/100 [00:04][A
+Epochs completed:  89%| ████████▉  89/100 [00:04][A
+Epochs completed:  91%| █████████  91/100 [00:04][A
+Epochs completed:  93%| █████████▎ 93/100 [00:04][A
+Epochs completed:  95%| █████████▌ 95/100 [00:05][A
+Epochs completed:  97%| █████████▋ 97/100 [00:05][A
+Epochs completed:  99%| █████████▉ 99/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:  12%|█▏        | 17/138 [2:12:57<16:46:42, 499.19s/it]
+Epochs completed:   0%|            0/100 [00:00][A
+Epochs completed:   1%|            1/100 [00:00][A
+Epochs completed:   9%| ▉          9/100 [00:00][A
+Epochs completed:  13%| █▎         13/100 [00:00][A
+Epochs completed:  16%| █▌         16/100 [00:00][A
+Epochs completed:  19%| █▉         19/100 [00:01][A
+Epochs completed:  22%| ██▏        22/100 [00:01][A
+Epochs completed:  25%| ██▌        25/100 [00:01][A
+Epochs completed:  28%| ██▊        28/100 [00:01][A
+Epochs completed:  31%| ███        31/100 [00:01][A
+Epochs completed:  34%| ███▍       34/100 [00:01][A
+Epochs completed:  36%| ███▌       36/100 [00:01][A
+Epochs completed:  39%| ███▉       39/100 [00:02][A
+Epochs completed:  41%| ████       41/100 [00:02][A
+Epochs completed:  43%| ████▎      43/100 [00:02][A
+Epochs completed:  45%| ████▌      45/100 [00:02][A
+Epochs completed:  47%| ████▋      47/100 [00:02][A
+Epochs completed:  49%| ████▉      49/100 [00:02][A
+Epochs completed:  51%| █████      51/100 [00:02][A
+Epochs completed:  53%| █████▎     53/100 [00:02][A
+Epochs completed:  55%| █████▌     55/100 [00:02][A
+Epochs completed:  57%| █████▋     57/100 [00:03][A
+Epochs completed:  59%| █████▉     59/100 [00:03][A
+Epochs completed:  61%| ██████     61/100 [00:03][A
+Epochs completed:  63%| ██████▎    63/100 [00:03][A
+Epochs completed:  65%| ██████▌    65/100 [00:03][A
+Epochs completed:  67%| ██████▋    67/100 [00:03][A
+Epochs completed:  69%| ██████▉    69/100 [00:03][A
+Epochs completed:  71%| ███████    71/100 [00:03][A
+Epochs completed:  73%| ███████▎   73/100 [00:03][A
+Epochs completed:  75%| ███████▌   75/100 [00:03][A
+Epochs completed:  78%| ███████▊   78/100 [00:04][A
+Epochs completed:  80%| ████████   80/100 [00:04][A
+Epochs completed:  82%| ████████▏  82/100 [00:04][A
+Epochs completed:  84%| ████████▍  84/100 [00:04][A
+Epochs completed:  86%| ████████▌  86/100 [00:04][A
+Epochs completed:  88%| ████████▊  88/100 [00:04][A
+Epochs completed:  90%| █████████  90/100 [00:04][A
+Epochs completed:  92%| █████████▏ 92/100 [00:04][A
+Epochs completed:  94%| █████████▍ 94/100 [00:04][A
+Epochs completed:  96%| █████████▌ 96/100 [00:05][A
+Epochs completed:  98%| █████████▊ 98/100 [00:05][A
+Epochs completed: 100%| ██████████ 100/100 [00:05][AEpochs completed: 100%| ██████████ 100/100 [00:05]
+Streaming transform:  13%|█▎        | 18/138 [2:21:34<16:48:58, 504.49s/it]slurmstepd: error: *** JOB 201994 ON parrot CANCELLED AT 2025-09-07T15:12:39 ***

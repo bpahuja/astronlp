@@ -1,0 +1,91 @@
+experiment_info:
+  name: Thesis Clustering Experiments
+  id: '20250919_180735'
+  description: Comparison of paragraph-level and methodological clustering pipelines
+  author: Your Name
+  created: '2025-09-19T18:07:35.728897'
+data:
+  data_path: paper_data.csv
+  paragraph_embedding_prefix: paragraph_emb_
+  method_embedding_prefix: method_emb_
+  keywords_column: keywords
+  title_column: title
+  paper_id_column: paper_id
+work_dir: thesis_results_20250919_180735
+random_state: 42
+preprocessing:
+  method: standard
+  rationale: Standardization ensures all features contribute equally to distance calculations
+dimensionality_reduction:
+  for_clustering:
+    method: umap
+    n_components: 50
+    n_neighbors: 15
+    min_dist: 0.1
+    metric: cosine
+    rationale: UMAP preserves both local and global structure for better cluster separation
+  for_visualization:
+    method: umap
+    n_components: 2
+    n_neighbors: 30
+    min_dist: 0.3
+    metric: cosine
+    rationale: 2D UMAP provides better visual cluster separation than t-SNE
+clustering:
+  kmeans:
+    n_clusters: 8
+    n_init: 10
+    max_iter: 300
+    rationale: K-means provides interpretable baseline with expected number of topics
+  hdbscan:
+    min_cluster_size: 10
+    min_samples: 5
+    epsilon: 0.0
+    cluster_selection_method: eom
+    rationale: HDBSCAN identifies natural clusters and handles noise/outliers
+k_optimization:
+  enabled: true
+  k_min: 3
+  k_max: 20
+  methods:
+  - elbow
+  - silhouette
+  - gap
+  - stability
+  consensus_voting: true
+evaluation:
+  keyword_coherence:
+    enabled: true
+    top_keywords: 10
+  manual_evaluation:
+    enabled: true
+    n_clusters_to_evaluate: 10
+    n_samples_per_cluster: 3
+  cross_pipeline_comparison:
+    enabled: true
+    metrics:
+    - adjusted_rand_index
+    - normalized_mutual_info
+    - v_measure
+pipeline_overrides:
+  paragraph:
+    clustering:
+      hdbscan:
+        min_cluster_size: 15
+  methodological:
+    clustering:
+      hdbscan:
+        min_cluster_size: 8
+execution:
+  n_jobs: -1
+  checkpoint_enabled: true
+  clear_checkpoints_on_start: false
+  verbose: true
+  save_intermediate_results: true
+visualization:
+  dpi: 300
+  figure_format: png
+  color_palette: tab20
+  plot_sizes: true
+  plot_metrics: true
+  plot_2d_projections: true

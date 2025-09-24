@@ -1,0 +1,40 @@
+PARAGRAPH CLUSTERING SUMMARY (Memory-Optimized)
+============================================================
+
+Total paragraphs: 4,089,648
+Number of clusters: 749
+Noise points: 3,977,070 (97.25%)
+GPU acceleration: Enabled
+Memory optimization: Enabled
+
+TOP 30 CLUSTER SIZES
+------------------------------
+Cluster 648: 4,231 paragraphs
+Cluster 472: 2,980 paragraphs
+Cluster 620: 2,534 paragraphs
+Cluster 604: 2,038 paragraphs
+Cluster 586: 1,528 paragraphs
+Cluster 316: 1,362 paragraphs
+Cluster 631: 1,252 paragraphs
+Cluster 188: 1,098 paragraphs
+Cluster 308: 1,008 paragraphs
+Cluster 480: 920 paragraphs
+Cluster 190: 855 paragraphs
+Cluster 565: 847 paragraphs
+Cluster 503: 790 paragraphs
+Cluster 668: 737 paragraphs
+Cluster 408: 693 paragraphs
+Cluster 735: 646 paragraphs
+Cluster 458: 626 paragraphs
+Cluster 420: 622 paragraphs
+Cluster 740: 613 paragraphs
+Cluster 676: 595 paragraphs
+Cluster 403: 586 paragraphs
+Cluster 667: 575 paragraphs
+Cluster 454: 571 paragraphs
+Cluster 402: 530 paragraphs
+Cluster 240: 462 paragraphs
+Cluster 490: 446 paragraphs
+Cluster 679: 438 paragraphs
+Cluster 310: 434 paragraphs
+Cluster 223: 423 paragraphs

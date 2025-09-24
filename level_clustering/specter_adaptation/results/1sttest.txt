@@ -1,0 +1,62 @@
+================================================================================
+EXPERIMENT COMPLETED SUCCESSFULLY
+================================================================================
+Results directory: paper_clustering/experiments_20250910_142453
+
+View the complete report: paper_clustering/experiments_20250910_142453/experiment_report.md
+(astroenv) bp824@curve04:specter_adaptation$ python clustering_paper.py --config clustering_paper_config.yaml --work_dir paper_clustering --data_path /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/exptected_input_pcluster.csv 
+Loading data from /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/exptected_input_pcluster.csv
+Loaded 166480 samples with 192 features
+Feature sparsity: 0.985
+
+Starting 12 experiments...
+================================================================================
+Running 12 experiments...
+================================================================================
+Experiment 1/12
+Running experiment: kmeans_euclidean_raw
+  ✓ Success: 8 clusters, silhouette: 0.203, time: 1.24s
+
+Experiment 2/12
+Running experiment: kmeans_euclidean_standard
+  ✓ Success: 8 clusters, silhouette: 0.149, time: 1.34s
+
+Experiment 3/12
+Running experiment: kmeans_cosine_l2norm
+  ✓ Success: 8 clusters, silhouette: 0.390, time: 1.35s
+
+Experiment 4/12
+Running experiment: kmeans_euclidean_tfidf
+  ✓ Success: 8 clusters, silhouette: 0.191, time: 1.54s
+
+Experiment 5/12
+Running experiment: kmeans_euclidean_pca20
+  ✓ Success: 8 clusters, silhouette: 0.344, time: 0.44s
+
+Experiment 6/12
+Running experiment: kmeans_euclidean_svd30
+  ✓ Success: 8 clusters, silhouette: 0.295, time: 2.56s
+
+Experiment 7/12
+Running experiment: kmeans_euclidean_nmf15
+  ✓ Success: 8 clusters, silhouette: 0.337, time: 3.64s
+
+Experiment 8/12
+Running experiment: hdbscan_euclidean_standard_min10
+  ✓ Success: 1655 clusters, silhouette: 0.891, time: 5580.86s
+
+Experiment 9/12
+Running experiment: hdbscan_cosine_l2norm_min10
+  ✗ Failed: Unrecognized metric 'cosine'
+
+Experiment 10/12
+Running experiment: hdbscan_euclidean_standard_min15
+  ✓ Success: 1132 clusters, silhouette: 0.888, time: 5655.93s
+
+Experiment 11/12
+Running experiment: hdbscan_manhattan_robust_min10
+  ✓ Success: 1602 clusters, silhouette: 0.910, time: 4092.49s
+
+Experiment 12/12
+Running experiment: hdbscan_euclidean_svd30_min10
+  ✓ Success: 2406 clusters, silhouette: 0.844, time: 103.39s

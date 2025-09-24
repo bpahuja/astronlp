@@ -1,0 +1,28 @@
+Documents: 248259
+Papers tagged by seed families (anchors): 1758
+min_df threshold: 372
+Candidates considered: 160
+Suggestions kept (PMI >= 1.0, top_k=300): 86
+
+Family document counts (seed tagging):
+  - nbody_simulation: 738
+  - radiative_transfer: 234
+  - photometric_redshift: 172
+  - time_series_periodicity: 130
+  - mhd: 111
+  - spectral_fitting_sps: 109
+  - hydrodynamics_sph: 107
+  - weak_lensing_methods: 48
+  - ml_supervised: 33
+  - grid_amr: 29
+  - ml_unsupervised: 19
+  - sampling_algorithms: 15
+  - source_detection_matching: 6
+  - deep_learning: 5
+  - clustering: 3
+  - bayesian_inference: 2
+  - optimization: 1
+  - image_deconvolution: 1
+  - variational_inference: 0
+  - gaussian_processes: 0
+  - bayesian_calibration: 0

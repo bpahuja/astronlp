@@ -1,0 +1,20 @@
+100%|██████████| 1602/1602 [1:07:53<00:00,  2.54s/it]
+{'loss': 4.2378, 'grad_norm': 7.595320224761963, 'learning_rate': 7.66990291262136e-05, 'epoch': 1.87}
+{'loss': 3.8538, 'grad_norm': 4.76253604888916, 'learning_rate': 4.2094313453536754e-05, 'epoch': 3.75}
+{'loss': 3.7867, 'grad_norm': 1.744826316833496, 'learning_rate': 7.420249653259362e-06, 'epoch': 5.62}
+{'train_runtime': 4081.3956, 'train_samples_per_second': 50.242, 'train_steps_per_second': 0.393, 'train_loss': 3.947290637222271, 'epoch': 6.0}
+Batches: 100%|██████████| 10/10 [00:02<00:00,  4.75it/s]
+Batches: 100%|██████████| 10/10 [00:02<00:00,  4.81it/s]
+Batches: 100%|██████████| 10/10 [00:02<00:00,  4.81it/s]
+[eval] adsabs_astroBERT: pos=0.9623 rand=0.7604 gap=0.2019
+[cluster] running paragraph clustering eval...
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Encode (hierarchical): 100%|██████████| 1585/1585 [00:27<00:00, 58.22it/s]
+[cluster] noise=31.9% clusters=44 paragraphs=1585
+
+=== Bake-off summary ===
+            base  pos_mean  rand_mean      gap  cluster_noise_pct  cluster_n_clusters  cluster_paragraphs
+adsabs/astroBERT  0.962252   0.760373 0.201879           31.92429                  44                1585
+
+Winner: adsabs/astroBERT (gap=0.2019)

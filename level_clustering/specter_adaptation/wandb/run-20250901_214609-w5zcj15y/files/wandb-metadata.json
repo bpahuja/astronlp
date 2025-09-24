@@ -1,0 +1,108 @@
+{
+  "os":  "Linux-6.11.0-21-generic-x86_64-with-glibc2.39",
+  "python":  "3.12.3",
+  "startedAt":  "2025-09-01T20:46:09.513358Z",
+  "args":  [
+    "--mode",
+    "hparam_search",
+    "--base_model",
+    "adsabs/astroBERT",
+    "--pairs_dir",
+    "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/pairs",
+    "--out_root",
+    "./search_astrobert",
+    "--lexicon_json",
+    "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/lexicon_v2.json",
+    "--search_trials",
+    "10",
+    "--search_epochs",
+    "4",
+    "--window_tokens",
+    "180",
+    "--stride",
+    "30",
+    "--max_seq_length",
+    "256",
+    "--hf_cache",
+    "/vol/bitbucket/bp824/hf_models",
+    "--device",
+    "auto"
+  ],
+  "program":  "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py",
+  "codePath":  "level_clustering/specter_adaptation/astro_methods_bakeoff_2.py",
+  "git":  {
+    "remote":  "https://gitlab.doc.ic.ac.uk/bp824/astro.git",
+    "commit":  "abb56507faa2f7672b729ed8a65c0ff9905fef52"
+  },
+  "email":  "bpahuja.a@gmail.com",
+  "root":  "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation",
+  "host":  "gpuvm27.doc.ic.ac.uk",
+  "username":  "bp824",
+  "executable":  "/vol/bitbucket/bp824/astro/astroenv/bin/python",
+  "codePathLocal":  "astro_methods_bakeoff_2.py",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "[Tesla T4]",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "36672405504",
+      "used":  "10869981184"
+    }
+  },
+  "memory":  {
+    "total":  "206974214144"
+  },
+  "cpu":  {
+    "count":  48,
+    "countLogical":  48
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing"
+    }
+  ],
+  "slurm":  {
+    "cluster_name":  "compute-cluster",
+    "conf":  "/etc/slurm/slurm.conf",
+    "cpus_on_node":  "6",
+    "gpus_on_node":  "1",
+    "gtids":  "0",
+    "job_account":  "doc",
+    "job_cpus_per_node":  "6",
+    "job_end_time":  "1757105137",
+    "job_gid":  "613",
+    "job_gpus":  "5",
+    "job_id":  "200208",
+    "job_name":  "summarization",
+    "job_nodelist":  "gpuvm27",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpgpuD",
+    "job_qos":  "normal",
+    "job_start_time":  "1756759537",
+    "job_uid":  "17458",
+    "job_user":  "bp824",
+    "jobid":  "200208",
+    "localid":  "0",
+    "mem_per_cpu":  "4000",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "gpuvm27",
+    "nprocs":  "1",
+    "ntasks":  "1",
+    "oom_kill_step":  "0",
+    "prio_process":  "0",
+    "procid":  "0",
+    "script_context":  "prolog_task",
+    "submit_dir":  "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation",
+    "submit_host":  "cloud-vm-40-244.doc.ic.ac.uk",
+    "task_pid":  "15628",
+    "tasks_per_node":  "1",
+    "topology_addr":  "gpuvm27",
+    "topology_addr_pattern":  "node"
+  },
+  "cudaVersion":  "12.4"
+}

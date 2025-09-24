@@ -1,0 +1,9 @@
+usage: clustering_gpu.py [-h] --embeddings_dir EMBEDDINGS_DIR --out_dir
+                         OUT_DIR [--min_cluster_size MIN_CLUSTER_SIZE]
+                         [--min_samples MIN_SAMPLES]
+                         [--target_dimensions TARGET_DIMENSIONS]
+                         [--max_dimensions_direct MAX_DIMENSIONS_DIRECT]
+                         [--chunk_size CHUNK_SIZE] [--use_gpu]
+                         [--skip_optimization] [--check_system]
+clustering_gpu.py: error: unrecognized arguments: --target_dims 150
+GPU acceleration enabled with cuML/RAPIDS

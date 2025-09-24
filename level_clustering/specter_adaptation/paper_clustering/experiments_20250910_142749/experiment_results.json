@@ -1,0 +1,448 @@
+[
+  {
+    "experiment_name": "kmeans_euclidean_raw",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "none",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 8e-06,
+    "clustering_time": 1.242414,
+    "total_time": 1.242422,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "182",
+      "max_cluster_size": "53489",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 21625.138040021848,
+      "silhouette_score": 0.20268206888506762,
+      "calinski_harabasz_score": 15852.623926133641,
+      "davies_bouldin_score": 2.146476766943134,
+      "inertia": 23161.553148648938
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_standard",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.320845,
+    "clustering_time": 1.016571,
+    "total_time": 1.337416,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "135",
+      "max_cluster_size": "154557",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 50579.362856801585,
+      "silhouette_score": 0.1492205534308193,
+      "calinski_harabasz_score": 715.8361128126096,
+      "davies_bouldin_score": 2.358328082526457,
+      "inertia": 31030144.162845287
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "kmeans_cosine_l2norm",
+    "algorithm": "kmeans",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.150086,
+    "clustering_time": 1.200493,
+    "total_time": 1.350579,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "1495",
+      "max_cluster_size": "130600",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 41680.563018030356,
+      "silhouette_score": 0.38975885999146115,
+      "calinski_harabasz_score": 11549.270670728054,
+      "davies_bouldin_score": 1.9500629710502673,
+      "inertia": 40267.0815904403
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_tfidf",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "tfidf",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.685399,
+    "clustering_time": 0.853039,
+    "total_time": 1.538438,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "1919",
+      "max_cluster_size": "74555",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 29300.155878424946,
+      "silhouette_score": 0.1905134999571339,
+      "calinski_harabasz_score": 6346.308066316411,
+      "davies_bouldin_score": 2.237699943807237,
+      "inertia": 93945.98187273911
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_pca20",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "pca",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 20
+    },
+    "preprocessing_time": 0.222615,
+    "clustering_time": 0.216431,
+    "total_time": 0.43904600000000005,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "2256",
+      "max_cluster_size": "52898",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 20185.700644267963,
+      "silhouette_score": 0.3444059621109794,
+      "calinski_harabasz_score": 41504.72053924616,
+      "davies_bouldin_score": 1.290186896505028,
+      "inertia": 9853.821267845271
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      20
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_svd30",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "svd",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 30
+    },
+    "preprocessing_time": 2.308089,
+    "clustering_time": 0.250062,
+    "total_time": 2.5581509999999996,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "882",
+      "max_cluster_size": "52886",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 21175.88872397095,
+      "silhouette_score": 0.29507370600252036,
+      "calinski_harabasz_score": 29099.10436209361,
+      "davies_bouldin_score": 1.5415270391260725,
+      "inertia": 12961.57079494734
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      30
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_nmf15",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "nmf",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 15
+    },
+    "preprocessing_time": 3.452282,
+    "clustering_time": 0.185469,
+    "total_time": 3.6377509999999997,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 8,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "min_cluster_size": "1410",
+      "max_cluster_size": "92183",
+      "avg_cluster_size": 20810.0,
+      "cluster_size_std": 32033.020439852375,
+      "silhouette_score": 0.33745073760509087,
+      "calinski_harabasz_score": 16027.481647559507,
+      "davies_bouldin_score": 1.1576427636342883,
+      "inertia": 239.01776394777013
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      15
+    ]
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_standard_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "cluster_selection_epsilon": 0.0
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.324327,
+    "clustering_time": 5580.536442,
+    "total_time": 5580.860769,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 1655,
+      "noise_ratio": 0.46906535319557907,
+      "clustered_ratio": 0.5309346468044209,
+      "min_cluster_size": "10",
+      "max_cluster_size": "33063",
+      "avg_cluster_size": 53.40785498489426,
+      "cluster_size_std": 813.4592403858445,
+      "silhouette_score": 0.8905209424785032,
+      "calinski_harabasz_score": 8606.55483540161,
+      "davies_bouldin_score": 0.4664530506773041,
+      "inertia": 98494.78836602916
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "hdbscan_cosine_l2norm_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "cluster_selection_epsilon": 0.1
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "Unrecognized metric 'cosine'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_standard_min15",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "min_cluster_size": 15,
+      "min_samples": 7,
+      "cluster_selection_epsilon": 0.0
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.324416,
+    "clustering_time": 5655.609867,
+    "total_time": 5655.9342830000005,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 1132,
+      "noise_ratio": 0.49060547813551175,
+      "clustered_ratio": 0.5093945218644882,
+      "min_cluster_size": "15",
+      "max_cluster_size": "33063",
+      "avg_cluster_size": 74.91519434628975,
+      "cluster_size_std": 982.9285342326308,
+      "silhouette_score": 0.887977032576181,
+      "calinski_harabasz_score": 9303.406728675876,
+      "davies_bouldin_score": 0.4500673663202236,
+      "inertia": 104294.26725812133
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "hdbscan_manhattan_robust_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "manhattan",
+    "preprocessing": "robust",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.463904,
+    "clustering_time": 4092.030105,
+    "total_time": 4092.494009,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 1602,
+      "noise_ratio": 0.49022104757328205,
+      "clustered_ratio": 0.5097789524267179,
+      "min_cluster_size": "10",
+      "max_cluster_size": "33063",
+      "avg_cluster_size": 52.97627965043695,
+      "cluster_size_std": 826.8166066669902,
+      "silhouette_score": 0.9101679680207646,
+      "calinski_harabasz_score": 19144.625818925935,
+      "davies_bouldin_score": 0.5886380309352603,
+      "inertia": 194.76263826780865
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_svd30_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "svd",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5
+    },
+    "preprocessing_params": {
+      "n_components": 30
+    },
+    "preprocessing_time": 2.401533,
+    "clustering_time": 100.990485,
+    "total_time": 103.39201800000001,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 2406,
+      "noise_ratio": 0.36170711196540123,
+      "clustered_ratio": 0.6382928880345987,
+      "min_cluster_size": "10",
+      "max_cluster_size": "33063",
+      "avg_cluster_size": 44.16583541147132,
+      "cluster_size_std": 674.9522752845198,
+      "silhouette_score": 0.8444569147615157,
+      "calinski_harabasz_score": 32555.98203204893,
+      "davies_bouldin_score": 0.5450732704902984,
+      "inertia": 28.064930580961285
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      30
+    ]
+  }
+]

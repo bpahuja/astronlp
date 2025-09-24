@@ -1,0 +1,42 @@
+100%|██████████| 1602/1602 [13:35<00:00,  1.96it/s]
+{'loss': 4.2832, 'grad_norm': 0.8357019424438477, 'learning_rate': 7.247043363994744e-05, 'epoch': 1.87}
+{'loss': 3.9619, 'grad_norm': 1.1476590633392334, 'learning_rate': 3.961892247043364e-05, 'epoch': 3.75}
+{'loss': 3.8846, 'grad_norm': 1.4744629859924316, 'learning_rate': 6.767411300919843e-06, 'epoch': 5.62}
+{'train_runtime': 827.7342, 'train_samples_per_second': 247.732, 'train_steps_per_second': 1.935, 'train_loss': 4.031402321195186, 'epoch': 6.0}
+Batches: 100%|██████████| 10/10 [00:00<00:00, 10.19it/s]
+Batches: 100%|██████████| 10/10 [00:00<00:00, 22.37it/s]
+Batches: 100%|██████████| 10/10 [00:00<00:00, 24.11it/s]
+[eval] allenai_specter2_base: pos=0.9564 rand=0.7724 gap=0.1840
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 122] Disk quota exceeded: '/homes/bp824/.cache/huggingface/hub/models--adsabs--astroBERT/.no_exist/b692b96fe7c386c096646f52ff2d9b52f995952e/model.safetensors.index.json'
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 122] Disk quota exceeded: '/homes/bp824/.cache/huggingface/hub/models--adsabs--astroBERT/.no_exist/b692b96fe7c386c096646f52ff2d9b52f995952e/pytorch_model.bin.index.json'
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 561, in <module>
+    main()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 519, in main
+    bakeoff(
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 402, in bakeoff
+    r = run_single_training(base_id=base, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 372, in run_single_training
+    st = build_st_with_adapter(base_id, adapter_name, adapter_type, reduction_factor, max_seq_length, device)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 194, in build_st_with_adapter
+    word = models.Transformer(base_id, max_seq_length=max_seq_length)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/models/Transformer.py", line 87, in __init__
+    self._load_model(model_name_or_path, config, cache_dir, backend, is_peft_model, **model_args)
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/models/Transformer.py", line 185, in _load_model
+    self.auto_model = AutoModel.from_pretrained(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 571, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 279, in _wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4260, in from_pretrained
+    checkpoint_files, sharded_metadata = _get_resolved_checkpoint_files(
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 1100, in _get_resolved_checkpoint_files
+    raise EnvironmentError(
+OSError: adsabs/astroBERT does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.

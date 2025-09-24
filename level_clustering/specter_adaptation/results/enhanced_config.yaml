@@ -1,0 +1,154 @@
+data:
+  path: paper_clusters2.csv
+  vector_prefix: cluster_
+  paper_id_column: paper_id
+  title_column: title
+  keywords_column: keywords
+  abstract_column: abstract  # optional, set to null if not present
+
+k_optimization:
+  k_min: 2
+  k_max: 20
+  k_methods: [elbow, gap, silhouette, stability]
+
+# Skip consensus to avoid OOM (handled in code)
+seed_heatmaps:
+  n_seeds: 5
+  kmeans:
+    preprocessing: l2_normalize
+    params:
+      n_init: 20
+      max_iter: 500
+      tol: 1.0e-4
+      init: k-means++
+  hdbscan:
+    preprocessing: svd
+    preprocessing_params:
+      n_components: 30
+    params:
+      min_cluster_size: 10
+      min_samples: 5
+      cluster_selection_method: eom
+      allow_single_cluster: false
+      metric: euclidean
+      prediction_data: true
+
+# NEW: matched-granularity block (paper level, Pipeline-2)
+matched_granularity:
+  enabled: true
+  data:
+    paper_id_column: paper_id
+    title_column: title
+    keywords_column: keywords
+    abstract_column: abstract
+  hdbscan:
+    source: from_fit            # <— changed
+    preprocessing: svd
+    preprocessing_params:
+      n_components: 30
+    params:
+      min_cluster_size: 10
+      min_samples: 5
+      cluster_selection_method: eom
+      allow_single_cluster: false
+      metric: euclidean
+      prediction_data: true
+    save_labels_csv: true       # writes hdbscan_micro_labels_autofit.csv in results_dir
+  k_targets: [50, 100]
+  attach_noise: true
+  merge_metric: cosine
+  kmeans:
+    params:
+      n_init: 20
+      max_iter: 500
+      tol: 1.0e-4
+  keyword_top_k: 10
+  umap_enabled: true
+
+
+experiments:
+  - name: kmeans_cosine_l2norm
+    algorithm: kmeans
+    distance_metric: cosine
+    preprocessing: l2_normalize
+    params:
+      n_clusters: 8  # will be overwritten to K*=2 in your current code path
+  - name: kmeans_euclidean_standard
+    algorithm: kmeans
+    distance_metric: euclidean
+    preprocessing: standard
+    params:
+      n_clusters: 8
+  - name: hdbscan_euclidean_svd30
+    algorithm: hdbscan
+    distance_metric: euclidean
+    preprocessing: svd
+    preprocessing_params:
+      n_components: 30
+    params:
+      min_cluster_size: 10
+      min_samples: 5
+      cluster_selection_method: eom
+      prediction_data: true
+
+# data:
+#   path: paper_clusters.csv
+#   vector_prefix: cluster_
+#   true_labels_column: null
+# seed_heatmaps:
+#   n_seeds: 5
+#   kmeans:
+#     preprocessing: l2_normalize
+#     params:
+#       n_init: 10
+#       max_iter: 500
+#       tol: 1.0e-4
+#       init: k-means++
+#   hdbscan:
+#     preprocessing: svd
+#     preprocessing_params:
+#       n_components: 30
+#     params:
+#       min_cluster_size: 10
+#       min_samples: 5
+#       cluster_selection_method: eom
+#       allow_single_cluster: false
+#       metric: euclidean
+#       prediction_data: true
+
+# k_optimization:
+#   k_min: 2
+#   k_max: 21
+#   k_methods:
+#   - gap
+#   - stability
+#   - prediction_strength
+#   # - elbow
+#   # - silhouette
+# experiments:
+# - name: kmeans_euclidean_standard
+#   algorithm: kmeans
+#   distance_metric: euclidean
+#   preprocessing: standard
+#   params:
+#     n_clusters: 2
+# - name: kmeans_cosine_l2norm
+#   algorithm: kmeans
+#   distance_metric: cosine
+#   preprocessing: l2_normalize
+#   params:
+    # n_clusters: 2
+# - name: hierarchical_euclidean_standard
+#   algorithm: hierarchical
+#   distance_metric: euclidean
+#   preprocessing: standard
+#   params:
+#     n_clusters: 2
+#     linkage: ward
+# - name: gmm_standard
+#   algorithm: gmm
+#   distance_metric: euclidean
+#   preprocessing: standard
+#   params:
+#     n_components: 8
+#     covariance_type: full

@@ -1,0 +1,144 @@
+[
+  {
+    "cluster_id": 489,
+    "cluster_size": 7474,
+    "score": 5,
+    "label": "Bayesian inference with MCMC",
+    "rationale": "All paragraphs employ Bayesian inference methodologies, specifically utilizing Markov Chain Monte Carlo (MCMC) techniques for parameter estimation. They consistently apply uniform priors and focus on posterior distributions, indicating a strong methodological alignment in their approaches to analyzing astrophysical data.",
+    "top_terms": "math_tex, prior, posterior, mcmc, parameters",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1304.1041",
+        "paper_id_formatted": "1304.1041",
+        "abstract": "A recent stellar occultation by dwarf planet Makemake provided an excellent opportunity to measure the size and shape of one of the largest objects in the Kuiper belt . The analysis of these results provided what were reported to be precise measurements of the lengths of the projected axes , the albedo , and even the density of Makemake , but these results were , in part , derived from qualitative arguments . We reanalyzed the occultation timing data using a quantitative statistical description , and , in general , find the previously reported results on the shape of Makemake to be unjustified . In our solution , in which we use our inference from photometric data that Makemake is being viewed nearly pole-on , we find a 1\\sigmaupper limit to the projected elongation of Makemake of 1.02 , with measured equatorial diameter of 1434\\pm14 km and a projected polar diameter of 1422\\pm14 km , yielding an albedo of 0.81^ { +0.01 } _ { -0.02 }. If we remove the external constraint on the pole position of Makemake , we find instead a 1\\sigmaupper limit to the elongation of 1.06 , with a measured equatorial diameter of 1434^ { +48 } _ { -18 }km and a projected polar diameter of 1420^ { +18 } _ { -24 }km , yielding an albedo of 0.81^ { +0.03 } _ { -0.05 }. Critically , we find that the reported measurement of the density of Makemake was based on the misapplication of the volatile retention models . A corrected analysis shows that the occultation measurements provide no meaningful constraint on the density of Makemake .",
+        "paragraphs": [
+          {
+            "para_id": "1304.1041::p0004",
+            "text": "To begin , we assume simple uniform priors in [MATH_tex=x] , [MATH_tex=y] , and [MATH_tex=d] for best comparison to O12 . To determine the probability distribution function ( PDF ) for each of the parameters , we integrate through phase space using a Markhov Chain Monte Carlo ( MCMC ) scheme .",
+            "global_index": 399902
+          }
+        ]
+      },
+      {
+        "paper_id": "1501.06573",
+        "paper_id_formatted": "1501.06573",
+        "abstract": "Hydrogen-rich Type II-Plateau supernovae exhibit correlations between the plateau luminosityL _ { pl }, the nickel massM _ { Ni }, the explosion energyE _ { exp }, and the ejecta massM _ { ej }. Using our global , self-consistent , multi-band model of nearby well-observed supernovae , we find that the covariances of these quantities are strong and that the confidence ellipsoids are oriented in the direction of the correlations , which reduces their significance . By proper treatment of the covariance matrix of the model , we discover a significant intrinsic width to the correlations betweenL _ { pl },E _ { exp }andM _ { Ni }, where the uncertainties due to the distance and the extinction dominate . For fixedE _ { exp }, the spread inM _ { Ni }is about0.25dex , which we attribute to the differences in the progenitor internal structure . We argue that the effects of incomplete\\gamma-ray trapping are not important in our sample . Similarly , the physics of the Type II-Plateau supernova light curves leads to inherently degenerate estimates ofE _ { exp }andM _ { ej }, which makes their observed correlation weak . Ignoring the covariances of supernova parameters or the intrinsic width of the correlations causes significant biases in the slopes of the fitted relations . Our results imply that Type II-Plateau supernova explosions are not described by a single physical parameter or a simple one-dimensional trajectory through the parameter space , but instead reflect the diversity of the core and surface properties of their progenitors . We discuss the implications for the physics of the explosion mechanism and possible future observational constraints .",
+        "paragraphs": [
+          {
+            "para_id": "1501.06573::p0007",
+            "text": "Specifically , we evaluate where [MATH_tex=theta] is the angle between the line and the [MATH_tex=x] axis and [MATH_tex=P(theta)] is the likelihood marginalized over the line intercept and intrinsic width together with their priors ; we assume flat prior in [MATH_tex=theta] .",
+            "global_index": 541645
+          }
+        ]
+      },
+      {
+        "paper_id": "1506.04175",
+        "paper_id_formatted": "1506.04175",
+        "abstract": "We measure planet occurrence rates using the planet candidates discovered by the Q1-Q16Keplerpipeline search . This study examines planet occurrence rates for theKeplerGK dwarf target sample for planet radii , 0.75\\leqR _ { p }\\leq2.5{ R _ { \\oplus } }, and orbital periods , 50\\leqP _ { orb }\\leq300 days , with an emphasis on a thorough exploration and identification of the most important sources of systematic uncertainties . Integrating over this parameter space , we measure an occurrence rate ofF _ { 0 }=0.77 planets per star , with an allowed range of 0.3\\leq F _ { 0 } \\leq1.9 . The allowed range takes into account both statistical and systematic uncertainties , and values ofF _ { 0 }beyond the allowed range are significantly in disagreement with our analysis . We generally find higher planet occurrence rates and a steeper increase in planet occurrence rates towards small planets than previous studies of theKeplerGK dwarf sample . Through extrapolation , we find that the one year orbital period terrestrial planet occurrence rate ,\\zeta _ { 1.0 }=0.1 , with an allowed range of 0.01\\leq \\zeta _ { 1.0 } \\leq2 , where\\zeta _ { 1.0 }is defined as the number of planets per star within 20 % of theR _ { p }andP _ { orb }of Earth . For G dwarf hosts , the\\zeta _ { 1.0 }parameter space is a subset of the larger\\eta _ { \\oplus }parameter space , thus\\zeta _ { 1.0 }places a lower limit on\\eta _ { \\oplus }for G dwarf hosts . From our analysis , we identify the leading sources of systematics impactingKepleroccurrence rate determinations as : reliability of the planet candidate sample , planet radii , pipeline completeness , and stellar parameters .",
+        "paragraphs": [
+          {
+            "para_id": "1506.04175::p0031",
+            "text": "For this application , the observed planet candidate distribution is treated as an inhomogeneous Poisson process where the PLDF describes the dependence of the Poisson process intensity on [MATH_tex=P_rm orb] and [MATH_tex=R_rm p] . We complete the Bayesian posterior calculation by specifying uniform priors for all parameters except for [MATH_tex=F_0] which has a prior that is uniform in the logarithm .",
+            "global_index": 572373
+          }
+        ]
+      },
+      {
+        "paper_id": "1803.05927",
+        "paper_id_formatted": "1803.05927",
+        "abstract": "We apply a simple axisymmetric disc model to 218 Galactic Cepheids whose accurate measurements of the distance and velocities are obtained by cross-matching an existing Cepheids catalogue with theGaiaDR2 data . Our model fit determines the \u2018 \u2018 local centrifugal speed \u2019 \u2019 ,V _ { \\mathrm { c } }\u2014defined as the rotation speed required to balance the local radial gravitational force\u2014at the Sun \u2019 s location to beV _ { c } ( R _ { 0 } ) = 236 \\pm 3km s^ { -1 }and the Sun \u2019 s azimuthal and radial peculiar motions to beV _ { \\sun } = 12.4 \\pm 0.7km s^ { -1 }andU _ { \\sun } = 7.7 \\pm 0.9km s^ { -1 }, respectively . These results are obtained with strong priors on the solar radius ,R _ { 0 } = 8.2 \\pm 0.1kpc , and Sun \u2019 s angular rotation velocity ,\\Omega _ { \\sun } = 30.24 \\pm 0.12km s^ { -1 }kpc^ { -1 }. We also applied the axisymmetric model to mock data from anN-body/hydrodynamic simulation of a Milky Way-like galaxy with a bar and spiral arms . We find that our axisymmetric model fit to the young stars recovers the local centrifugal speed reasonably well , even in the face of significant non-axisymmetry . However , the local centrifugal speed determined from our Cepheid sample could suffer from systematic uncertainty as large as 6 km s^ { -1 }.",
+        "paragraphs": [
+          {
+            "para_id": "1803.05927::p0012",
+            "text": "We use the same [MATH_tex=R_0] and [MATH_tex=Omega_sun] priors as our fiducial model fit in Section 4 . Marginalised posterior probability distribution of the parameters are shown in Fig . 5 and the results are summarised in Table 2 .",
+            "global_index": 795463
+          }
+        ]
+      },
+      {
+        "paper_id": "1812.09242",
+        "paper_id_formatted": "1812.09242",
+        "abstract": "WepresentthediscoveryandcharacterizationofanewtransitingplanetfromCampaign17oftheKeplerextendedmissionK2.HD 119130 bisawarmsub-Neptuneona17-dorbitaroundabright (V = 9.9 \\mathrm { mag }) solar-likeG3 VstarwithamassandradiusofM _ { \\star } = 1.00 \\pm 0.03 \\mathrm { M _ { \\odot } }andR _ { \\star } = 1.09 \\pm 0.03 \\mathrm { R _ { \\odot } }, respectively.WemodelsimultaneouslytheK2photometryandCARMENESspectroscopicdataandderivearadiusofR _ { \\mathrm { p } } = 2.63 _ { -0.10 } ^ { +0.12 } \\mathrm { R _ { \\oplus } }andmassofM _ { \\mathrm { p } } = 24.5 _ { -4.4 } ^ { +4.4 } \\mathrm { M _ { \\oplus } }, yieldingameandensityof\\rho _ { \\mathrm { p } } = 7.4 _ { -1.5 } ^ { +1.6 } \\mathrm { g cm ^ { -3 } }, whichmakesitoneofthedensestsub-Neptuneplanetsknowntodate.WealsodetectalineartrendinradialvelocitiesofHD 119130 (\\dot { \\gamma } _ { RV } = -0.40 ^ { +0.07 } _ { -0.07 } \\mathrm { m s ^ { -1 } d ^ { -1 } }) thatsuggestsalong-periodcompanionwithaminimummassontheorderof33 \\mathrm { M _ { \\oplus } }.Ifconfirmed , itwouldsupportaformationscenarioofHD 119130 bbymigrationcausedbyKozai-Lidovoscillations .",
+        "paragraphs": [
+          {
+            "para_id": "1812.09242::p0012",
+            "text": "Their posterior distributions are not symmetric and lean towards low values , but by fixing them interpolating the table of we retrieve the same values within [MATH_tex=1sigma] uncertainties as those derived by pyaneti using uniform priors .",
+            "global_index": 858885
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "cluster_size": 46,
+    "score": 5,
+    "label": "Cholesky decomposition methods",
+    "rationale": "All paragraphs utilize the Cholesky decomposition technique for covariance matrix analysis, indicating a consistent methodological approach. They focus on similar data processing steps involving covariance matrices and residuals, demonstrating a strong alignment in their methodologies.",
+    "top_terms": "cholesky, matrix, cholesky decomposition, decomposition, math_tex",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1510.04434",
+        "paper_id_formatted": "1510.04434",
+        "abstract": "We present timing models for 20 millisecond pulsars in the Parkes Pulsar Timing Array . The precision of the parameter measurements in these models has been improved over earlier results by using longer data sets and modelling the non-stationary noise . We describe a new noise modelling procedure and demonstrate its effectiveness using simulated data . Our methodology includes the addition of annual dispersion measure ( DM ) variations to the timing models of some pulsars . We present the first significant parallax measurements for PSRs J1024-0719 , J1045-4509 , J1600-3053 , J1603-7202 , and J1730-2304 , as well as the first significant measurements of some post-Keplerian orbital parameters in six binary pulsars , caused by kinematic effects . Improved Shapiro delay measurements have resulted in much improved pulsar mass measurements , particularly for PSRs J0437-4715 and J1909-3744 withM _ { p } = 1.44 \\pm 0.07M_ { \\odot }andM _ { p } = 1.47 \\pm 0.03M_ { \\odot }respectively . The improved orbital period-derivative measurement for PSR J0437-4715 results in a derived distance measurement at the 0.16 % level of precision ,D = 156.79 \\pm 0.25pc , one of the most fractionally precise distance measurements of any star to date .",
+        "paragraphs": [
+          {
+            "para_id": "1510.04434::p0019",
+            "text": "Finally we sum the stationary covariance matrix for the red timing noise ( C11 ) , the non-stationary covariance matrix for the [MATH_tex=Delta] DM ( t ) , and the diagonal matrix of the variances of the white noise at each sample and apply the Cholesky algorithm as originally formulated .",
+            "global_index": 599247
+          }
+        ]
+      },
+      {
+        "paper_id": "1005.4658",
+        "paper_id_formatted": "1005.4658",
+        "abstract": "The altitude distribution of optical turbulence is derived from the MASS instrument data by solving an inverse problem . In this paper , some modifications of the profile restoration are described . The principal change is the introduction of the Non Negative Least Squares algorithm which has good regularizing properties . An averaging of scintillation indices was replaced with averaging of obtained solutions what leads to clearer physical results . It is shown that restoration with a number of turbulent layers as large as 14\u201315 can be successfully performed .\\PACS95.45.+i 95.75.Pq 94.20.Bb",
+        "paragraphs": [
+          {
+            "para_id": "1005.4658::p0014",
+            "text": "Such decomposition [MATH_tex=rmSigma=rm BB^T] can always be performed , for instance by the Cholesky method <CIT> . The estimator of covariance matrix [MATH_tex=rmSigma] is calculated from the same sample of indices that is used for determination of means [MATH_tex=langle s^2rangle] .",
+            "global_index": 191414
+          }
+        ]
+      },
+      {
+        "paper_id": "1801.10609",
+        "paper_id_formatted": "1801.10609",
+        "abstract": "For 80 days in 2017 , theKepler Space Telescopecontinuously observed the transitional millisecond pulsar system PSR J1023+0038 in its accreting state . We present analyses of the 59-second cadence data , focusing on investigations of the orbital light curve of the irradiated companion star , and of flaring activity in the neutron star \u2019 s accretion disc . The underlying orbital modulation from the companion star retains a similar amplitude and asymmetric heating profile as seen in previous photometric observations of the system in its radio pulsar state , suggesting that the heating mechanism has not been affected by the state change . We also find tentative evidence that this asymmetry may vary with time . The light curve also exhibits \u2018 \u2018 flickering \u2019 \u2019 activity , evident as short time-scale flux correlations throughout the observations , and periods of rapid mode-switching activity on time scales shorter than the observation cadence . Finally , the system spent\\sim 20 \\%of the observations in a flaring state , with the length of these flares varying from< 2minutes up to several hours . The flaring behaviour is consistent with a self-organised criticality mechanism , most likely related to the build up and release of mass at the inner edge of the accretion disc .",
+        "paragraphs": [
+          {
+            "para_id": "1801.10609::p0017",
+            "text": "The resulting best-fitting values are given in Table 2 . The Cholesky decomposition additionally allows us to investigate the \u2018 \u2018 whitened \u2019 \u2019 residuals , [MATH_tex=vecR_rm W=L^-1vecR] , which should have a normalised Gaussian distribution .",
+            "global_index": 786142
+          }
+        ]
+      },
+      {
+        "paper_id": "1210.2469",
+        "paper_id_formatted": "1210.2469",
+        "abstract": "Precision astrometry is an integral component of successful pulsar timing campaigns . Astrometric parameters are commonly derived by fitting them as parameters of a timing model to a series of pulse times of arrival ( TOAs ) . TOAs measured to microsecond precision over several-year spans can yield position measurements with sub-milliarcsecond precision . However , timing-based astrometry can become biased if a pulsar displays any red spin noise , which can be compared to the red noise signal produced by the stochastic gravitational wave background . We investigate how noise of different spectral types is absorbed by timing models , leading to significant estimation biases in the astrometric parameters . We find that commonly used techniques for fitting timing models in the presence of red noise ( Cholesky whitening ) prevent the absorption of noise into the timing model remarkably well if the time baseline of observations exceeds several years , but are inadequate for dealing with shorter pulsar data sets . Independent of timing , pulsar-optimized very long baseline interferometry ( VLBI ) is capable of providing position estimates precise to the sub-milliarcsecond levels needed for high-precision timing . In order to make VLBI astrometric parameters useful in pulsar timing models , the transformation between the International Celestial Reference Frame ( ICRF ) and the dynamical solar system ephemeris used for pulsar timing must be constrained to within a few microarcseconds . We compute a transformation between the ICRF and pulsar timing frames and quantitatively discuss how the transformation will improve in coming years . We find that incorporating VLBI astrometry into the timing models of pulsars for which only a couple of years of timing data exist will lead to more realistic assessments of red spin noise and could enhance the amplitude of gravitational wave signatures in post-fit timing residuals by factors of 20 or more .",
+        "paragraphs": [
+          {
+            "para_id": "1210.2469::p0009",
+            "text": "To check that the spectral estimation of the noise covariance matrix has not been biased by spectral leakage , the Cholesky matrix [MATH_tex=boldsymbolrm U] can be applied to the post-fit residuals [MATH_tex=boldsymbolrm E] to form [MATH_tex=boldsymbolE_W=boldsymbolrm U^-1boldsymbolrm E] .",
+            "global_index": 363583
+          }
+        ]
+      },
+      {
+        "paper_id": "1604.01773",
+        "paper_id_formatted": "1604.01773",
+        "abstract": "Individual light curves of active galactic nuclei ( AGNs ) are nowadays successfully modelled with the damped random walk ( DRW ) stochastic process , characterized by the power exponential covariance matrix of the signal , with the power\\beta = 1. By Monte Carlo simulation means , we generate mock AGN light curves described by non-DRW stochastic processes (0.5 \\leq \\beta \\leq 1.5and\\beta \\neq 1) and show they can be successfully and well modelled as a single DRW process , obtaining comparable goodness of fits . A good DRW fit , in fact , may not mean that DRW is the true underlying process leading to variability and it can not be used as a proof for it . When comparing the input ( non-DRW ) and measured ( DRW ) process parameters , the recovered time-scale ( amplitude ) increases ( decreases ) with the increasing input\\beta. In practice , this means that the recovered DRW parameters may lead to biased ( or even non-existing ) correlations of the variability and physical parameters of AGNs if the true AGN variability is caused by non-DRW stochastic processes . The proper way of identifying the processes leading to variability are model-independent structure functions and/or power spectral densities and then using such information on the covariance matrix of the signal in light curve modelling .",
+        "paragraphs": [
+          {
+            "para_id": "1604.01773::p0001",
+            "text": "To simulate a light curve with [MATH_tex=N] points , first , the ( [MATH_tex=Ntimes N] ) covariance matrix of the signal must be Cholesky-decomposed as [MATH_tex=mathbfC=mathbfL^rm TmathbfL] <CIT> , where [MATH_tex=mathbfL] is the upper triangular matrix .",
+            "global_index": 637546
+          }
+        ]
+      }
+    ]
+  }
+]

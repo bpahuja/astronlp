@@ -1,0 +1,20 @@
+100%|██████████| 8552/8552 [1:56:23<00:00,  1.22it/s]   
+{'loss': 2.9285, 'grad_norm': 2.1410443782806396, 'learning_rate': 9.913846153846154e-05, 'epoch': 0.47}
+{'loss': 2.3798, 'grad_norm': 3.016333818435669, 'learning_rate': 9.298461538461539e-05, 'epoch': 0.94}
+{'loss': 2.31, 'grad_norm': 2.1379566192626953, 'learning_rate': 8.684307692307693e-05, 'epoch': 1.4}
+{'loss': 2.2899, 'grad_norm': 1.4852200746536255, 'learning_rate': 8.068923076923078e-05, 'epoch': 1.87}
+{'loss': 2.2605, 'grad_norm': 0.7652431130409241, 'learning_rate': 7.453538461538462e-05, 'epoch': 2.34}
+{'loss': 2.2544, 'grad_norm': 2.4645862579345703, 'learning_rate': 6.838153846153847e-05, 'epoch': 2.81}
+{'loss': 2.2242, 'grad_norm': 1.8324830532073975, 'learning_rate': 6.22276923076923e-05, 'epoch': 3.27}
+{'loss': 2.2214, 'grad_norm': 2.4517438411712646, 'learning_rate': 5.607384615384615e-05, 'epoch': 3.74}
+{'loss': 2.2072, 'grad_norm': 1.3064846992492676, 'learning_rate': 4.992e-05, 'epoch': 4.21}
+{'loss': 2.2079, 'grad_norm': 2.1141347885131836, 'learning_rate': 4.376615384615385e-05, 'epoch': 4.68}
+{'loss': 2.19, 'grad_norm': 2.135643720626831, 'learning_rate': 3.7612307692307693e-05, 'epoch': 5.14}
+{'loss': 2.1887, 'grad_norm': 1.1801575422286987, 'learning_rate': 3.1458461538461545e-05, 'epoch': 5.61}
+{'loss': 2.1792, 'grad_norm': 1.0611616373062134, 'learning_rate': 2.5316923076923078e-05, 'epoch': 6.08}
+{'loss': 2.1744, 'grad_norm': 0.9103248119354248, 'learning_rate': 1.9163076923076926e-05, 'epoch': 6.55}
+{'loss': 2.1777, 'grad_norm': 2.4752440452575684, 'learning_rate': 1.3009230769230772e-05, 'epoch': 7.02}
+{'loss': 2.1569, 'grad_norm': 0.8579534888267517, 'learning_rate': 6.855384615384616e-06, 'epoch': 7.48}
+{'loss': 2.1664, 'grad_norm': 14.281184196472168, 'learning_rate': 7.015384615384615e-07, 'epoch': 7.95}
+{'train_runtime': 7001.0473, 'train_samples_per_second': 39.089, 'train_steps_per_second': 1.222, 'train_loss': 2.2652911033666054, 'epoch': 8.0}
+Saved model and adapter to: /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astrobert_adapter_best_config

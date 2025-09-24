@@ -1,0 +1,35 @@
+2025-08-31 14:17:35,366 - INFO - Checking dependencies...
+2025-08-31 14:17:54,987 - INFO - All dependencies available ✓
+2025-08-31 14:17:54,990 - INFO - Visualization Configuration:
+2025-08-31 14:17:54,990 - INFO -   embeddings_dir: embeddings_v1
+2025-08-31 14:17:54,990 - INFO -   cluster_dir: cluster_out_v1
+2025-08-31 14:17:54,990 - INFO -   output_dir: ./cluster_analysis_v1
+2025-08-31 14:17:54,990 - INFO -   max_samples: 50000
+2025-08-31 14:17:54,990 - INFO -   methods: ['pca', 'umap']
+2025-08-31 14:17:54,990 - INFO -   use_gpu: True
+2025-08-31 14:17:54,990 - INFO -   network_threshold: 0.1
+2025-08-31 14:17:54,990 - INFO -   n_wordclouds: 10
+2025-08-31 14:17:54,990 - INFO -   skip_3d: False
+2025-08-31 14:17:54,990 - INFO -   skip_wordclouds: False
+2025-08-31 14:17:54,990 - INFO -   skip_network: False
+2025-08-31 14:17:54,991 - INFO - Available memory: 25.6 GB
+2025-08-31 14:17:54,992 - INFO - GPU acceleration enabled for visualizations
+2025-08-31 14:17:54,992 - INFO - Starting clustering visualization and analysis pipeline...
+2025-08-31 14:17:54,992 - INFO - Loading embeddings and clustering results...
+2025-08-31 14:17:54,993 - ERROR - Visualization pipeline failed: No module named 'cluster_specter_embeddings'
+2025-08-31 14:17:54,993 - ERROR - Visualization pipeline failed: No module named 'cluster_specter_embeddings'
+GPU acceleration enabled with cuML/RAPIDS
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 1501, in <module>
+    main()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 1418, in main
+    results = visualizer.run_visualization_pipeline()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 1183, in run_visualization_pipeline
+    self.load_data()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 117, in load_data
+    self.embeddings, self.metadata_df = self._load_embeddings_sample(max_samples)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 141, in _load_embeddings_sample
+    from cluster_specter_embeddings import load_embeddings_from_chunks
+ModuleNotFoundError: No module named 'cluster_specter_embeddings'

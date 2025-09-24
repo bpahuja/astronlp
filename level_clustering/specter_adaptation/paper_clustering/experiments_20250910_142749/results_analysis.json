@@ -1,0 +1,21 @@
+{
+  "summary_stats": "              time   n_clusters  noise_ratio  clustered_ratio  ...  silhouette_score  calinski_harabasz_score  davies_bouldin_score       inertia\ncount    11.000000    11.000000    11.000000        11.000000  ...         11.000000                11.000000             11.000000  1.100000e+01\nmean   1404.071353   622.818182     0.164691         0.835309  ...          0.494748             17336.901340              1.339287  2.855780e+06\nstd    2412.659200   900.511501     0.230979         0.230979  ...          0.316484             12379.597947              0.754540  9.344471e+06\nmin       0.439046     8.000000     0.000000         0.509395  ...          0.149221               715.836113              0.450067  2.806493e+01\n25%       1.343997     8.000000     0.000000         0.584614  ...          0.248878              8954.980782              0.566856  5.046420e+03\n50%       2.558151     8.000000     0.000000         1.000000  ...          0.344406             15852.623926              1.290187  2.316155e+04\n75%    2097.943014  1367.000000     0.415386         1.000000  ...          0.866217             24121.865091              2.048270  9.622039e+04\nmax    5655.934283  2406.000000     0.490605         1.000000  ...          0.910168             41504.720539              2.358328  3.103014e+07\n\n[8 rows x 12 columns]",
+  "best_experiments": {
+    "silhouette_score": {
+      "experiment": "hdbscan_manhattan_robust_min10",
+      "algorithm": "hdbscan",
+      "value": 0.9101679680207646
+    },
+    "calinski_harabasz_score": {
+      "experiment": "kmeans_euclidean_pca20",
+      "algorithm": "kmeans",
+      "value": 41504.72053924616
+    },
+    "davies_bouldin_score": {
+      "experiment": "hdbscan_euclidean_standard_min15",
+      "algorithm": "hdbscan",
+      "value": 0.4500673663202236
+    }
+  },
+  "algorithm_comparison": {
+    

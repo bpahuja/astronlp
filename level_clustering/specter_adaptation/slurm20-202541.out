@@ -1,0 +1,4 @@
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/cluster_chunks_ii.py", line 1126
+    print_memory_info("Script end", args.debug_memory)
+    ^
+IndentationError: expected an indented block after 'finally' statement on line 1117

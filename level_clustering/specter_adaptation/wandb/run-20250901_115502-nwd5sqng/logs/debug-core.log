@@ -1,0 +1,14 @@
+{"time":"2025-09-01T11:55:02.074122758+01:00","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp9s7y2ooc/port-4078638.txt","pid":4078638,"debug":false,"disable-analytics":false}
+{"time":"2025-09-01T11:55:02.074257231+01:00","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2025-09-01T11:55:02.074677051+01:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":4078638}
+{"time":"2025-09-01T11:55:02.075321273+01:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":42929,"Zone":""}}
+{"time":"2025-09-01T11:55:02.177956719+01:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T11:55:02.534208404+01:00","level":"INFO","msg":"handleInformInit: received","streamId":"nwd5sqng","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T11:55:02.58063598+01:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"nwd5sqng","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:57.057762356+01:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:57.059068516+01:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-09-01T13:13:57.059055576+01:00","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:57.0592168+01:00","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:59.806148551+01:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:59.806178543+01:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:34372"}
+{"time":"2025-09-01T13:13:59.806196205+01:00","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,20 @@
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+usage: improved_clustering_script.py [-h] --chunks_root CHUNKS_ROOT --work_dir
+                                     WORK_DIR [--chunk_pattern CHUNK_PATTERN]
+                                     [--meta_name META_NAME]
+                                     [--emb_name EMB_NAME]
+                                     [--max_chunks MAX_CHUNKS]
+                                     [--sample_every SAMPLE_EVERY]
+                                     [--enhance_with_methods]
+                                     [--skip_normalization]
+                                     [--backend {hdbscan_raw,umap_hdbscan,ipca_hdbscan}]
+                                     [--min_cluster_size MIN_CLUSTER_SIZE]
+                                     [--min_samples MIN_SAMPLES]
+                                     [--umap_dim UMAP_DIM]
+                                     [--n_neighbors N_NEIGHBORS]
+                                     [--ipca_dim IPCA_DIM]
+                                     [--chunk_size CHUNK_SIZE]
+                                     [--use_mmap_output] [--force_cpu]
+                                     [--debug_memory]
+improved_clustering_script.py: error: argument --backend: invalid choice: 'streaming_umap_hdbscan' (choose from 'hdbscan_raw', 'umap_hdbscan', 'ipca_hdbscan')

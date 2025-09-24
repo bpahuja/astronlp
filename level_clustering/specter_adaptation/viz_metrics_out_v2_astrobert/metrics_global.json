@@ -1,0 +1,10 @@
+{
+  "n_samples_used": 40000,
+  "n_clusters_used": 14151,
+  "silhouette_cosine": -0.09288998693227768,
+  "calinski_harabasz": 24.97362022046862,
+  "davies_bouldin": 1.0085475174034364,
+  "total_points": 1375099,
+  "points_for_metrics": 40000,
+  "clusters_total": 14152
+}

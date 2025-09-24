@@ -1,0 +1,712 @@
+[
+  {
+    "cluster_id": 489,
+    "cluster_size": 7474,
+    "score": 5,
+    "label": "Bayesian inference with MCMC",
+    "rationale": "All paragraphs employ Bayesian inference methodologies, specifically utilizing Markov Chain Monte Carlo (MCMC) techniques for parameter estimation. They consistently apply uniform priors and focus on posterior distributions, indicating a strong methodological alignment in their approaches to analyzing astrophysical data.",
+    "top_terms": "math_tex, prior, posterior, mcmc, parameters",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1304.1041",
+        "paper_id_formatted": "1304.1041",
+        "abstract": "A recent stellar occultation by dwarf planet Makemake provided an excellent opportunity to measure the size and shape of one of the largest objects in the Kuiper belt . The analysis of these results provided what were reported to be precise measurements of the lengths of the projected axes , the albedo , and even the density of Makemake , but these results were , in part , derived from qualitative arguments . We reanalyzed the occultation timing data using a quantitative statistical description , and , in general , find the previously reported results on the shape of Makemake to be unjustified . In our solution , in which we use our inference from photometric data that Makemake is being viewed nearly pole-on , we find a 1\\sigmaupper limit to the projected elongation of Makemake of 1.02 , with measured equatorial diameter of 1434\\pm14 km and a projected polar diameter of 1422\\pm14 km , yielding an albedo of 0.81^ { +0.01 } _ { -0.02 }. If we remove the external constraint on the pole position of Makemake , we find instead a 1\\sigmaupper limit to the elongation of 1.06 , with a measured equatorial diameter of 1434^ { +48 } _ { -18 }km and a projected polar diameter of 1420^ { +18 } _ { -24 }km , yielding an albedo of 0.81^ { +0.03 } _ { -0.05 }. Critically , we find that the reported measurement of the density of Makemake was based on the misapplication of the volatile retention models . A corrected analysis shows that the occultation measurements provide no meaningful constraint on the density of Makemake .",
+        "paragraphs": [
+          {
+            "para_id": "1304.1041::p0004",
+            "text": "To begin , we assume simple uniform priors in [MATH_tex=x] , [MATH_tex=y] , and [MATH_tex=d] for best comparison to O12 . To determine the probability distribution function ( PDF ) for each of the parameters , we integrate through phase space using a Markhov Chain Monte Carlo ( MCMC ) scheme .",
+            "global_index": 399902
+          }
+        ]
+      },
+      {
+        "paper_id": "1501.06573",
+        "paper_id_formatted": "1501.06573",
+        "abstract": "Hydrogen-rich Type II-Plateau supernovae exhibit correlations between the plateau luminosityL _ { pl }, the nickel massM _ { Ni }, the explosion energyE _ { exp }, and the ejecta massM _ { ej }. Using our global , self-consistent , multi-band model of nearby well-observed supernovae , we find that the covariances of these quantities are strong and that the confidence ellipsoids are oriented in the direction of the correlations , which reduces their significance . By proper treatment of the covariance matrix of the model , we discover a significant intrinsic width to the correlations betweenL _ { pl },E _ { exp }andM _ { Ni }, where the uncertainties due to the distance and the extinction dominate . For fixedE _ { exp }, the spread inM _ { Ni }is about0.25dex , which we attribute to the differences in the progenitor internal structure . We argue that the effects of incomplete\\gamma-ray trapping are not important in our sample . Similarly , the physics of the Type II-Plateau supernova light curves leads to inherently degenerate estimates ofE _ { exp }andM _ { ej }, which makes their observed correlation weak . Ignoring the covariances of supernova parameters or the intrinsic width of the correlations causes significant biases in the slopes of the fitted relations . Our results imply that Type II-Plateau supernova explosions are not described by a single physical parameter or a simple one-dimensional trajectory through the parameter space , but instead reflect the diversity of the core and surface properties of their progenitors . We discuss the implications for the physics of the explosion mechanism and possible future observational constraints .",
+        "paragraphs": [
+          {
+            "para_id": "1501.06573::p0007",
+            "text": "Specifically , we evaluate where [MATH_tex=theta] is the angle between the line and the [MATH_tex=x] axis and [MATH_tex=P(theta)] is the likelihood marginalized over the line intercept and intrinsic width together with their priors ; we assume flat prior in [MATH_tex=theta] .",
+            "global_index": 541645
+          }
+        ]
+      },
+      {
+        "paper_id": "1506.04175",
+        "paper_id_formatted": "1506.04175",
+        "abstract": "We measure planet occurrence rates using the planet candidates discovered by the Q1-Q16Keplerpipeline search . This study examines planet occurrence rates for theKeplerGK dwarf target sample for planet radii , 0.75\\leqR _ { p }\\leq2.5{ R _ { \\oplus } }, and orbital periods , 50\\leqP _ { orb }\\leq300 days , with an emphasis on a thorough exploration and identification of the most important sources of systematic uncertainties . Integrating over this parameter space , we measure an occurrence rate ofF _ { 0 }=0.77 planets per star , with an allowed range of 0.3\\leq F _ { 0 } \\leq1.9 . The allowed range takes into account both statistical and systematic uncertainties , and values ofF _ { 0 }beyond the allowed range are significantly in disagreement with our analysis . We generally find higher planet occurrence rates and a steeper increase in planet occurrence rates towards small planets than previous studies of theKeplerGK dwarf sample . Through extrapolation , we find that the one year orbital period terrestrial planet occurrence rate ,\\zeta _ { 1.0 }=0.1 , with an allowed range of 0.01\\leq \\zeta _ { 1.0 } \\leq2 , where\\zeta _ { 1.0 }is defined as the number of planets per star within 20 % of theR _ { p }andP _ { orb }of Earth . For G dwarf hosts , the\\zeta _ { 1.0 }parameter space is a subset of the larger\\eta _ { \\oplus }parameter space , thus\\zeta _ { 1.0 }places a lower limit on\\eta _ { \\oplus }for G dwarf hosts . From our analysis , we identify the leading sources of systematics impactingKepleroccurrence rate determinations as : reliability of the planet candidate sample , planet radii , pipeline completeness , and stellar parameters .",
+        "paragraphs": [
+          {
+            "para_id": "1506.04175::p0031",
+            "text": "For this application , the observed planet candidate distribution is treated as an inhomogeneous Poisson process where the PLDF describes the dependence of the Poisson process intensity on [MATH_tex=P_rm orb] and [MATH_tex=R_rm p] . We complete the Bayesian posterior calculation by specifying uniform priors for all parameters except for [MATH_tex=F_0] which has a prior that is uniform in the logarithm .",
+            "global_index": 572373
+          }
+        ]
+      },
+      {
+        "paper_id": "1803.05927",
+        "paper_id_formatted": "1803.05927",
+        "abstract": "We apply a simple axisymmetric disc model to 218 Galactic Cepheids whose accurate measurements of the distance and velocities are obtained by cross-matching an existing Cepheids catalogue with theGaiaDR2 data . Our model fit determines the \u2018 \u2018 local centrifugal speed \u2019 \u2019 ,V _ { \\mathrm { c } }\u2014defined as the rotation speed required to balance the local radial gravitational force\u2014at the Sun \u2019 s location to beV _ { c } ( R _ { 0 } ) = 236 \\pm 3km s^ { -1 }and the Sun \u2019 s azimuthal and radial peculiar motions to beV _ { \\sun } = 12.4 \\pm 0.7km s^ { -1 }andU _ { \\sun } = 7.7 \\pm 0.9km s^ { -1 }, respectively . These results are obtained with strong priors on the solar radius ,R _ { 0 } = 8.2 \\pm 0.1kpc , and Sun \u2019 s angular rotation velocity ,\\Omega _ { \\sun } = 30.24 \\pm 0.12km s^ { -1 }kpc^ { -1 }. We also applied the axisymmetric model to mock data from anN-body/hydrodynamic simulation of a Milky Way-like galaxy with a bar and spiral arms . We find that our axisymmetric model fit to the young stars recovers the local centrifugal speed reasonably well , even in the face of significant non-axisymmetry . However , the local centrifugal speed determined from our Cepheid sample could suffer from systematic uncertainty as large as 6 km s^ { -1 }.",
+        "paragraphs": [
+          {
+            "para_id": "1803.05927::p0012",
+            "text": "We use the same [MATH_tex=R_0] and [MATH_tex=Omega_sun] priors as our fiducial model fit in Section 4 . Marginalised posterior probability distribution of the parameters are shown in Fig . 5 and the results are summarised in Table 2 .",
+            "global_index": 795463
+          }
+        ]
+      },
+      {
+        "paper_id": "1812.09242",
+        "paper_id_formatted": "1812.09242",
+        "abstract": "WepresentthediscoveryandcharacterizationofanewtransitingplanetfromCampaign17oftheKeplerextendedmissionK2.HD 119130 bisawarmsub-Neptuneona17-dorbitaroundabright (V = 9.9 \\mathrm { mag }) solar-likeG3 VstarwithamassandradiusofM _ { \\star } = 1.00 \\pm 0.03 \\mathrm { M _ { \\odot } }andR _ { \\star } = 1.09 \\pm 0.03 \\mathrm { R _ { \\odot } }, respectively.WemodelsimultaneouslytheK2photometryandCARMENESspectroscopicdataandderivearadiusofR _ { \\mathrm { p } } = 2.63 _ { -0.10 } ^ { +0.12 } \\mathrm { R _ { \\oplus } }andmassofM _ { \\mathrm { p } } = 24.5 _ { -4.4 } ^ { +4.4 } \\mathrm { M _ { \\oplus } }, yieldingameandensityof\\rho _ { \\mathrm { p } } = 7.4 _ { -1.5 } ^ { +1.6 } \\mathrm { g cm ^ { -3 } }, whichmakesitoneofthedensestsub-Neptuneplanetsknowntodate.WealsodetectalineartrendinradialvelocitiesofHD 119130 (\\dot { \\gamma } _ { RV } = -0.40 ^ { +0.07 } _ { -0.07 } \\mathrm { m s ^ { -1 } d ^ { -1 } }) thatsuggestsalong-periodcompanionwithaminimummassontheorderof33 \\mathrm { M _ { \\oplus } }.Ifconfirmed , itwouldsupportaformationscenarioofHD 119130 bbymigrationcausedbyKozai-Lidovoscillations .",
+        "paragraphs": [
+          {
+            "para_id": "1812.09242::p0012",
+            "text": "Their posterior distributions are not symmetric and lean towards low values , but by fixing them interpolating the table of we retrieve the same values within [MATH_tex=1sigma] uncertainties as those derived by pyaneti using uniform priors .",
+            "global_index": 858885
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "cluster_size": 46,
+    "score": 5,
+    "label": "Cholesky decomposition methods",
+    "rationale": "All paragraphs utilize the Cholesky decomposition technique for covariance matrix analysis, indicating a consistent methodological approach. They focus on similar data processing steps involving covariance matrices and residuals, demonstrating a strong alignment in their methodologies.",
+    "top_terms": "cholesky, matrix, cholesky decomposition, decomposition, math_tex",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1510.04434",
+        "paper_id_formatted": "1510.04434",
+        "abstract": "We present timing models for 20 millisecond pulsars in the Parkes Pulsar Timing Array . The precision of the parameter measurements in these models has been improved over earlier results by using longer data sets and modelling the non-stationary noise . We describe a new noise modelling procedure and demonstrate its effectiveness using simulated data . Our methodology includes the addition of annual dispersion measure ( DM ) variations to the timing models of some pulsars . We present the first significant parallax measurements for PSRs J1024-0719 , J1045-4509 , J1600-3053 , J1603-7202 , and J1730-2304 , as well as the first significant measurements of some post-Keplerian orbital parameters in six binary pulsars , caused by kinematic effects . Improved Shapiro delay measurements have resulted in much improved pulsar mass measurements , particularly for PSRs J0437-4715 and J1909-3744 withM _ { p } = 1.44 \\pm 0.07M_ { \\odot }andM _ { p } = 1.47 \\pm 0.03M_ { \\odot }respectively . The improved orbital period-derivative measurement for PSR J0437-4715 results in a derived distance measurement at the 0.16 % level of precision ,D = 156.79 \\pm 0.25pc , one of the most fractionally precise distance measurements of any star to date .",
+        "paragraphs": [
+          {
+            "para_id": "1510.04434::p0019",
+            "text": "Finally we sum the stationary covariance matrix for the red timing noise ( C11 ) , the non-stationary covariance matrix for the [MATH_tex=Delta] DM ( t ) , and the diagonal matrix of the variances of the white noise at each sample and apply the Cholesky algorithm as originally formulated .",
+            "global_index": 599247
+          }
+        ]
+      },
+      {
+        "paper_id": "1005.4658",
+        "paper_id_formatted": "1005.4658",
+        "abstract": "The altitude distribution of optical turbulence is derived from the MASS instrument data by solving an inverse problem . In this paper , some modifications of the profile restoration are described . The principal change is the introduction of the Non Negative Least Squares algorithm which has good regularizing properties . An averaging of scintillation indices was replaced with averaging of obtained solutions what leads to clearer physical results . It is shown that restoration with a number of turbulent layers as large as 14\u201315 can be successfully performed .\\PACS95.45.+i 95.75.Pq 94.20.Bb",
+        "paragraphs": [
+          {
+            "para_id": "1005.4658::p0014",
+            "text": "Such decomposition [MATH_tex=rmSigma=rm BB^T] can always be performed , for instance by the Cholesky method <CIT> . The estimator of covariance matrix [MATH_tex=rmSigma] is calculated from the same sample of indices that is used for determination of means [MATH_tex=langle s^2rangle] .",
+            "global_index": 191414
+          }
+        ]
+      },
+      {
+        "paper_id": "1801.10609",
+        "paper_id_formatted": "1801.10609",
+        "abstract": "For 80 days in 2017 , theKepler Space Telescopecontinuously observed the transitional millisecond pulsar system PSR J1023+0038 in its accreting state . We present analyses of the 59-second cadence data , focusing on investigations of the orbital light curve of the irradiated companion star , and of flaring activity in the neutron star \u2019 s accretion disc . The underlying orbital modulation from the companion star retains a similar amplitude and asymmetric heating profile as seen in previous photometric observations of the system in its radio pulsar state , suggesting that the heating mechanism has not been affected by the state change . We also find tentative evidence that this asymmetry may vary with time . The light curve also exhibits \u2018 \u2018 flickering \u2019 \u2019 activity , evident as short time-scale flux correlations throughout the observations , and periods of rapid mode-switching activity on time scales shorter than the observation cadence . Finally , the system spent\\sim 20 \\%of the observations in a flaring state , with the length of these flares varying from< 2minutes up to several hours . The flaring behaviour is consistent with a self-organised criticality mechanism , most likely related to the build up and release of mass at the inner edge of the accretion disc .",
+        "paragraphs": [
+          {
+            "para_id": "1801.10609::p0017",
+            "text": "The resulting best-fitting values are given in Table 2 . The Cholesky decomposition additionally allows us to investigate the \u2018 \u2018 whitened \u2019 \u2019 residuals , [MATH_tex=vecR_rm W=L^-1vecR] , which should have a normalised Gaussian distribution .",
+            "global_index": 786142
+          }
+        ]
+      },
+      {
+        "paper_id": "1210.2469",
+        "paper_id_formatted": "1210.2469",
+        "abstract": "Precision astrometry is an integral component of successful pulsar timing campaigns . Astrometric parameters are commonly derived by fitting them as parameters of a timing model to a series of pulse times of arrival ( TOAs ) . TOAs measured to microsecond precision over several-year spans can yield position measurements with sub-milliarcsecond precision . However , timing-based astrometry can become biased if a pulsar displays any red spin noise , which can be compared to the red noise signal produced by the stochastic gravitational wave background . We investigate how noise of different spectral types is absorbed by timing models , leading to significant estimation biases in the astrometric parameters . We find that commonly used techniques for fitting timing models in the presence of red noise ( Cholesky whitening ) prevent the absorption of noise into the timing model remarkably well if the time baseline of observations exceeds several years , but are inadequate for dealing with shorter pulsar data sets . Independent of timing , pulsar-optimized very long baseline interferometry ( VLBI ) is capable of providing position estimates precise to the sub-milliarcsecond levels needed for high-precision timing . In order to make VLBI astrometric parameters useful in pulsar timing models , the transformation between the International Celestial Reference Frame ( ICRF ) and the dynamical solar system ephemeris used for pulsar timing must be constrained to within a few microarcseconds . We compute a transformation between the ICRF and pulsar timing frames and quantitatively discuss how the transformation will improve in coming years . We find that incorporating VLBI astrometry into the timing models of pulsars for which only a couple of years of timing data exist will lead to more realistic assessments of red spin noise and could enhance the amplitude of gravitational wave signatures in post-fit timing residuals by factors of 20 or more .",
+        "paragraphs": [
+          {
+            "para_id": "1210.2469::p0009",
+            "text": "To check that the spectral estimation of the noise covariance matrix has not been biased by spectral leakage , the Cholesky matrix [MATH_tex=boldsymbolrm U] can be applied to the post-fit residuals [MATH_tex=boldsymbolrm E] to form [MATH_tex=boldsymbolE_W=boldsymbolrm U^-1boldsymbolrm E] .",
+            "global_index": 363583
+          }
+        ]
+      },
+      {
+        "paper_id": "1604.01773",
+        "paper_id_formatted": "1604.01773",
+        "abstract": "Individual light curves of active galactic nuclei ( AGNs ) are nowadays successfully modelled with the damped random walk ( DRW ) stochastic process , characterized by the power exponential covariance matrix of the signal , with the power\\beta = 1. By Monte Carlo simulation means , we generate mock AGN light curves described by non-DRW stochastic processes (0.5 \\leq \\beta \\leq 1.5and\\beta \\neq 1) and show they can be successfully and well modelled as a single DRW process , obtaining comparable goodness of fits . A good DRW fit , in fact , may not mean that DRW is the true underlying process leading to variability and it can not be used as a proof for it . When comparing the input ( non-DRW ) and measured ( DRW ) process parameters , the recovered time-scale ( amplitude ) increases ( decreases ) with the increasing input\\beta. In practice , this means that the recovered DRW parameters may lead to biased ( or even non-existing ) correlations of the variability and physical parameters of AGNs if the true AGN variability is caused by non-DRW stochastic processes . The proper way of identifying the processes leading to variability are model-independent structure functions and/or power spectral densities and then using such information on the covariance matrix of the signal in light curve modelling .",
+        "paragraphs": [
+          {
+            "para_id": "1604.01773::p0001",
+            "text": "To simulate a light curve with [MATH_tex=N] points , first , the ( [MATH_tex=Ntimes N] ) covariance matrix of the signal must be Cholesky-decomposed as [MATH_tex=mathbfC=mathbfL^rm TmathbfL] <CIT> , where [MATH_tex=mathbfL] is the upper triangular matrix .",
+            "global_index": 637546
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 522,
+    "cluster_size": 47,
+    "score": 5,
+    "label": "Photometric Redshift Analysis",
+    "rationale": "All paragraphs focus on methodologies related to photometric redshifts and luminosity functions, employing similar statistical techniques for data analysis. They utilize comparable methods for estimating redshifts and constructing luminosity functions, indicating a high degree of methodological similarity.",
+    "top_terms": "photometric, redshifts, photometric redshifts, luminosity, math_tex",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1611.07410",
+        "paper_id_formatted": "1611.07410",
+        "abstract": "Context : Aims : The aim of this work is to characterize physical properties of Ultra Luminous Infrared Galaxies ( ULIRGs ) and Luminous Infrared Galaxies ( LIRGs ) detected in the far-infrared ( FIR ) 90\\mum band in the AKARI Deep Field-South ( ADF-S ) survey . In particular , we want to estimate the active galactic nucleus ( AGN ) contribution to the LIRGs and ULIRGs \u2019 infrared emission and which types of AGNs are related to their activity . Methods : We examined 69 galaxies at redshift\\geq0.05 detected at 90\\mum by the AKARI satellite in the AKARI Deep-Field South ( ADF-S ) , with optical counterparts and spectral coverage from the ultraviolet to the FIR . We used two independent spectral energy distribution fitting codes : one fitting the SED from FIR to FUV ( CIGALE ) ( we use the results from CIGALE as a reference ) and gray-body + power spectrum fit for the infrared part of the spectra (CMCIRSED) in order to identify a subsample of ULIRGs and LIRGs , and to estimate their properties . Results : Based on the CIGALE SED fitting , we have found that LIRGs and ULIRGs selected at the 90\\mum AKARI band compose\\sim56 % of our sample ( we found 17 ULIRGs and 22 LIRGs , spanning over the redshift range 0.06<z<1.23 ) . Their physical parameters , such as stellar mass , star formation rate ( SFR ) , and specific SFR are consistent with the ones found for other samples selected at infrared wavelengths . We have detected a significant AGN contribution to the mid-infrared luminosity for 63 % of LIRGs and ULIRGs . Our LIRGs contain Type 1 , Type 2 , and intermediate types of AGN , whereas for ULIRGs , a majority ( more than 50 % ) of AGN emission originates from Type 2 AGNs . The temperature\u2013luminosity and temperature\u2013mass relations for the dust component of ADF\u2013S LIRGs and ULIRGs indicate that these relations are shaped by the dust mass and not by the increased dust heating . Conclusions : We conclude that LIRGs contain Type 1 , Type 2 , and intermediate types of AGNs , with an AGN contribution to the mid infrared emission at the median level of 13\\pm3 % , whereas the majority of ULIRGs contain Type 2 AGNs , with a median AGN fraction equal to 19\\pm8 % .",
+        "paragraphs": [
+          {
+            "para_id": "1611.07410::p0005",
+            "text": "With such a cut , the median difference between the luminosity distance , calculated for the spectroscopic and photometric redshifts for the presented sample as [MATH_tex=rmD_L(z_spec)/D_L(z_phot)] , is as low as 1.33 [ Mpc ] ( the Median Absolute Deviation = 0.78 ) .",
+            "global_index": 690596
+          }
+        ]
+      },
+      {
+        "paper_id": "1806.01336",
+        "paper_id_formatted": "1806.01336",
+        "abstract": "We investigate what powers hyperluminous infrared galaxies ( HyLIRGs ;L _ { IR, 8 - 1000 \\mu m } >10^ { 13 }L_ { \\odot }) at z\\sim1-2 , by examining the behaviour of the infrared AGN luminosity function in relation to the infrared galaxy luminosity function . The former corresponds to emission from AGN-heated dust only , whereas the latter includes emission from dust heated by stars and AGN . Our results show that the two luminosity functions are substantially different below 10^ { 13 }L_ { \\odot }but converge in the HyLIRG regime . We find that the fraction of AGN dominated sources increases with total infrared luminosity and atL _ { IR } > 10 ^ { 13.5 } L _ { \\odot }AGN can account for the entire infrared emission . We conclude that the bright end of the1 < z < 2infrared galaxy luminosity function is shaped by AGN rather than star-forming galaxies .",
+        "paragraphs": [
+          {
+            "para_id": "1806.01336::p0000",
+            "text": "The data and functional forms of [MATH_tex=phi_rm IR,AGN] and [MATH_tex=phi_rm IR] are shown in Fig . 1 in two redshift bins within the [MATH_tex=1<z<2] interval , corresponding to the peak in comoving infrared luminosity density . [MATH_tex=z>1] is where HyLIRGs first appear in the data of both luminosity functions , and we chose [MATH_tex=zsim] 2 as a conservative upper limit relating to the reliability of photometric redshifts , because the bright end of the luminosity function is very sensitive to redshift mis-identification . [MATH_tex=phi_rm IR] is shown in the [MATH_tex=1.2<z<1.7] , [MATH_tex=1.7<z<2] redshift bins ; G13 fit the data with the function from Saunders et al .",
+            "global_index": 813085
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_9603149",
+        "paper_id_formatted": "astro-ph/9603149",
+        "abstract": "Photometric redshifts have been determined for the galaxies in the Hubble Deep Field . The resulting redshift distribution shows two peaks : one atz \\sim 0.6and one atz \\sim 2.2. Luminosity functions derived from the redshifts show strong luminosity evolution as a function of redshift . This evolution is consistent with the Babul & Rees ( 1992 )scenario wherein massive galaxies form stars at high redshift while star formation in dwarf galaxies is delayed until afterz = 1.",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_9603149::p0003",
+            "text": "Indeed , photometric redshifts have been used at [MATH_tex=zsim 0.35] to calculate LF \u2019 s identical to those determined using spectroscopic redshifts <CIT> . The luminosity functions ( LF \u2019 s ) were constructed using the [MATH_tex=1/V_a] method .",
+            "global_index": 1287972
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0411432",
+        "paper_id_formatted": "astro-ph/0411432",
+        "abstract": "We have measured the angular and spatial clustering of 671K < 18.40,R - K > 5Extremely Red Objects ( EROs ) from a0.98 ~ { } { deg } ^ { 2 }sub-region of the NOAO Deep Wide-Field Survey ( NDWFS ) . Our study covers nearly 5 times the area and has twice the sample size of any previous ERO clustering study . The wide field of view andB _ { W } RIKpassbands of the NDWFS allow us to place improved constraints on the clustering ofz \\sim 1EROs . We find the angular clustering of EROs is slightly weaker than in previous measurements , and\\omega ( 1 ^ { \\prime } ) = 0.25 \\pm 0.05forK < 18.40EROs . We find no significant correlation of ERO spatial clustering with redshift , apparent color or absolute magnitude , although given the uncertainties , such correlations remain plausible . We find the spatial clustering ofK < 18.40,R - K > 5EROs is well approximated by a power-law , withr _ { 0 } = 9.7 \\pm 1.1 ~ { } h ^ { -1 } { Mpc }in comoving coordinates . This is comparable to the clustering of\\sim 4 L ^ { * }early-type galaxies atz < 1, and is consistent with the brightest EROs being the progenitors of the most massive ellipticals . There is evidence of the angular clustering of EROs decreasing with increasing apparent magnitude , when NDWFS measurements of ERO clustering are combined with those from the literature . Unless the redshift distribution ofK \\gtrsim 20EROs is very broad , the spatial clustering of EROs decreases fromr _ { 0 } = 9.7 \\pm 1.1 ~ { } h ^ { -1 } { Mpc }forK < 18.40tor _ { 0 } \\sim 7.5 ~ { } h ^ { -1 } { Mpc }forK \\gtrsim 20EROs .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0411432::p0007",
+            "text": "For comparison , we also show two ultra-luminous infrared galaxy ( ULIRG ) templates from ( 12 ) , which have bluer [MATH_tex=B_W-R] colors than the [MATH_tex=tau] models at [MATH_tex=zsim 1] . Photometric redshifts were estimated by finding the minimum value of [MATH_tex=chi^2] as a function of redshift , spectral type ( [MATH_tex=tau] ) , and luminosity .",
+            "global_index": 1163512
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0110543",
+        "paper_id_formatted": "astro-ph/0110543",
+        "abstract": "We derive the number density evolution of massive field galaxies in the redshift range0.4 < z < 1.2using theK-band selected field galaxy sample from the Munich Near-IR Cluster Survey ( MUNICS ) . We rely on spectroscopically calibrated photometric redshifts to determine distances and absolute magnitudes in the rest-frameK-band . To assign mass-to-light ratios , we use an approach which maximizes the stellar mass for anyK-band luminosity at any redshift . We take the mass-to-light ratio ,\\mathcal { M } / L _ { K }, of a Simple Stellar Population ( SSP ) which is as old as the universe at the galaxy \u2019 s redshift as a likely upper limit . This is the most extreme case of pure luminosity evolution and in a more realistic model\\mathcal { M } / L _ { K }will probably decrease faster with redshift due to increased star formation . We compute the number density of galaxies more massive than2 \\times 10 ^ { 10 } h ^ { -2 } \\mathcal { M } _ { \\odot },5 \\times 10 ^ { 10 } h ^ { -2 } \\mathcal { M } _ { \\odot }, and1 \\times 10 ^ { 11 } h ^ { -2 } \\mathcal { M } _ { \\odot }, finding that the integrated stellar mass function is roughly constant for the lowest mass limit and that it decreases with redshift by a factor of\\sim 3and by a factor of\\sim 6for the two higher mass limits , respectively . This finding is in qualitative agreement with models of hierarchical galaxy formation , which predict that the number density of\\sim M ^ { * }objects is fairly constant while it decreases faster for more massive systems over the redshift range our data probe .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0110543::p0003",
+            "text": "and has a tail extending to [MATH_tex=zapprox 3] . To further strengthen the confidence in the photometric redshifts we show the restframe [MATH_tex=K] -band luminosity function ( LF ) obtained from these data in Fig . 2 . Additionally , the contribution of each galaxy [MATH_tex=i] is weighted by the inverse of the detection probability , [MATH_tex=P(m_K,i)] , where we assume that the detection probability is independent of the galaxy type and can be approximated by that of point-like sources .",
+            "global_index": 1042980
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 490,
+    "cluster_size": 47,
+    "score": 5,
+    "label": "Count Rate Analysis",
+    "rationale": "All paragraphs focus on the analysis of count rates and counts within specific energy bands, utilizing similar observational data processing techniques. They consistently report statistical measures related to count rates and apply similar thresholds for data selection, indicating a cohesive methodological approach.",
+    "top_terms": "counts, math_tex, counts math_tex, count, count rate",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "astro-ph_0203244",
+        "paper_id_formatted": "astro-ph/0203244",
+        "abstract": "We present results from a Chandra observation of Abell 1060 , the nearby isothermal cluster of galaxies . The ACIS-I image shows that the central cusp-like structure , previously seen from PSPC , is caused mainly by an emission from the central elliptical galaxy NGC 3311 . We confirmed that the central region is remarkably isothermal with a temperature of 3.2 keV , based on the spectral fits for fine pixels . An extended region in the northeast of NGC 3311 indicates high iron abundance . The surface brightness profile excluding the central galaxy , NGC 3311 , can be fitted only by a double\\betamodel , with core radii about 40 and 140 kpc , out to a radius of about 200 kpc . This suggests that the gravitational potential in Abell 1060 consists of 2 components .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0203244::p0000",
+            "text": "Except for 1\u20132 ks at the end of the observation , the count rate in the energy band 0.3\u201310 keV stayed almost constant at 4.1 counts s [MATH_tex=^-1] for the I3 chip , and 2.9 counts s [MATH_tex=^-1] for the I012 chips , respectively .",
+            "global_index": 1056145
+          }
+        ]
+      },
+      {
+        "paper_id": "1009.3987",
+        "paper_id_formatted": "1009.3987",
+        "abstract": "We present an analysis of X-ray observations of the Galactic supernova remnants ( SNRs ) HB21 ( G89.0+4.7 ) and CTB 1 ( G116.9+0.2 ) , two well-known members of the class of mixed-morphology ( MM ) SNRs . Our analysis draws upon observations of both SNRs made with the Advanced Satellite for Cosmology and Astrophysics (ASCA) : we have also used an archivedChandraobservation of CTB 1 as part of this effort . We find a marked contrast between the X-ray properties of HB21 and CTB 1 : in the case of HB21 , the extracted spectra of the northwest and southeast regions of the X-ray emitting plasma associated with the SNR can be fit with a single thermal model with marginally enhanced silicon and sulfur abundances . For both of these regions , the derived column density and temperature areN_ { H }\\sim0.3\\times10^ { 22 }cm^ { -2 }and\\it { kT }\\sim0.7 keV , respectively . No significant spatial differences in temperature or elemental abundances between the two regions are detected and the X-ray-emitting plasma for both regions is close to ionization equilibrium . OurChandraspectral analysis of CTB 1 reveals that this source is likely an oxygen-rich SNR with enhanced abundances of oxygen and neon : this result is quite surprising for an evolved SNR like CTB 1 . The high angular resolutionChandraobservation of CTB 1 reveals spectral variations across this SNR : in particular , we have detected localized hard emission with an angular extent of\\sim 1 ^ { \\prime }. The extractedASCAspectra for both the southwest and northeastern regions of CTB 1 can not be fit with a single thermal component and instead an additional component is required to account for the presence of excess emission seen at higher energies . Based on our fits to the extractedASCAspectra , we derive a column densityN_ { H }\\sim0.6\\times10^ { 22 }cm^ { -2 }and a temperature for the soft thermal component of\\it { kT }_ { soft }\\sim0.28 keV for both regions . The hard emission from the southwest region may be modeled with either a thermal component with a temperature\\it { kT }_ { hard }\\sim3 keV or by a power law component with a photon index\\Gamma\\sim2-3 ; for the northeast region the hard emission may be modeled with a power law component with a photon index\\Gamma= 1.4 . The detection of center-filled ejecta-dominated X-ray emission from HB21 and CTB 1 as well as other MM SNRs suggests a new scenario for the origin of contrasting X-ray and radio morphologies of this class of sources . Lastly , we have analyzed the properties of the discrete hard X-ray source 1WGA J0001.4+6229 which is seen in projection just inside the northeastern shell of CTB 1 . Our extractedASCAGIS spectra of this source are best fit using a power-law model with a photon index\\Gamma=2.2^ { +0.5 } _ { -1.2 }: this slope is typical for featureless power-law continua produced by rotation-powered pulsars . This source may be a neutron star associated with CTB 1 . We find marginal evidence for X-ray pulsations from this source with a period of 47.6154 milliseconds . A deep radio observation of this source failed to reveal any pulsations .",
+        "paragraphs": [
+          {
+            "para_id": "1009.3987::p0002",
+            "text": "The total number of counts and the corresponding count rate ( over the energy range from 0.6 keV to 10 keV ) for our GIS2 and GIS3 observations were 115 and 103 counts , and 5.71 [MATH_tex=pm] 0.53 [MATH_tex=times] 10 [MATH_tex=^-3] and 5.11 [MATH_tex=pm] 0.51 [MATH_tex=times] 10 [MATH_tex=^-3] counts per second , respectively .",
+            "global_index": 214379
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0505400",
+        "paper_id_formatted": "astro-ph/0505400",
+        "abstract": "Here we report on the firstXMM\u2013Newtonobservation of the Anomalous X-ray Pulsar 1RXS J170849.0\u2013400910 . The source was observed in 2003 August and was found at a flux level a factor of about two lower than previous observations . Moreover , a significant spectral evolution appears to be present , the source exhibiting a much softer spectrum than in the past . Comparison of the present properties of 1RXS J170849.0\u2013400910 with those from archival data shows a clear correlation between the X-ray flux and the spectral hardness . In particular , the flux and the spectral hardness reached a maximum level close to the two glitches the source experienced in 1999 and in 2001 , and successively decreased . Although the excellentXMM\u2013Newtonspectral resolution should in principle allow us to detect the absorption line reported in a phase-resolved spectrum withBeppoSAX , and interpreted as a cyclotron feature , we found no absorption features , neither in the phase averaged spectrum nor in the phase resolved spectra . We discuss in detail both the possibilities that the feature in theBeppoSAX data may have resulted from a spurious detection or that it is real and intrinsically variable . We then discuss a possible explanation for the glitches and for the softening of the source emission which followed the flux decrease , in the framework of the magnetar model .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0505400::p0004",
+            "text": "Since a higher background affected the last [MATH_tex=sim] 10 ks of the observation , we used only the data during intervals in which the count rate above 10 keV was less than 0.35 counts s [MATH_tex=^-1] .",
+            "global_index": 1185068
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_9907193",
+        "paper_id_formatted": "astro-ph/9907193",
+        "abstract": "We present an analysis of the relativistic iron K\\alphaline in the Seyfert 1 galaxy NGC 3516 , based on a continuous , five-day ASCA observation . The broad profile which has been found in several other AGN is confirmed in NGC 3516 with unprecedented signal-to-noise ratio . Disk-line models with either a Kerr or Schwarzschild metric fit the integrated profile , but both require emission very strongly concentrated in the inner disk . We find tentative evidence for the line signatures of Ni K\\alphaand/or Fe K\\beta. The continuum flux varied by\\sim 50per cent during the observation and time-resolved analysis shows that the line also changes . The line core seems to follow the continuum , but the blue wing is unrelated and shows a greater amplitude ( factor\\sim 2) of variability . The red wing is formally consistent with a constant but appears to be correlated with the blue wing . We interpret this as evidence for independent variability of the broadest parts of the line . There also appears to be an absorption feature in the profile , consistent with resonance scattering in infalling material . This variable feature may be the signature of material being accreted by the central black hole .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_9907193::p0000",
+            "text": "The mean count rates for the observation were [MATH_tex=0.978pm 0.003] , [MATH_tex=0.806pm 0.002] , [MATH_tex=0.587pm 0.002] and [MATH_tex=0.724pm 0.002] for SIS0 , SIS1 , GIS2 and GIS3 ( SIS : 0.5-10 keV ; GIS : 1-10 keV ) .",
+            "global_index": 1348839
+          }
+        ]
+      },
+      {
+        "paper_id": "0806.0626",
+        "paper_id_formatted": "0806.0626",
+        "abstract": "ChandraX-ray observations routinely resolve tens to hundreds of low-mass X-ray binaries ( LMXBs ) per galaxy in nearby massive early-type galaxies . These studies have raised important issues regarding the behavior of this population of remnants of the once massive stars in early-type galaxies , namely the connection between LMXBs and globular clusters ( GCs ) and the nature of the LMXB luminosity function ( LF ) . In this paper , we combine five epochs ofChandraobservations and one central fieldHubble Space TelescopeAdvance Camera for Surveys observation of NGC 4697 , one of the nearest , optically luminous elliptical ( E6 ) galaxies , to probe the GC-LMXB connection and LMXB-LF down to a detection/completeness limit of0.6 / 1.4 \\times 10 ^ { 37 } { ergs s } ^ { -1 }. We detect 158 sources , present their luminosities and hardness ratios , and associate 34 LMXBs with GCs . We confirm that GCs with higher encounter rates (\\Gamma _ { h }) and redder colors ( higher metallicityZ) are more likely to contain GCs , and find that the expected number of LMXBs per GC is proportional to\\Gamma _ { h } ^ { 0.79 ^ { +0.18 } _ { -0.15 } } ( Z / Z _ { \\odot } ) ^ { 0.50 ^ { +0.20 } _ { -0.18 } }, consistent with fainter X-ray sources in Galactic GCs and LMXBs in Virgo early-type galaxies . Approximately11 \\pm 2 / 8 \\pm 2% of GCs in NGC 4697 contain an LMXB at the detection/completeness limit . We propose that the larger proportion of metal-rich GCs in NGC 4697 compared to the Milky Way explains why these fractions are much higher than those of the Milky Way at similar luminosities . We confirm that a broken power-law is the best fit to the LMXB-LF , although we can not rule out a cutoff power-law , and argue that this raises the possibility that there is no universal form for the LMXB-LF in early-type galaxies . We find marginal evidence for different LFs of LMXBs in GCs and the field and different spectra of GC-LMXBs and Field-LMXBs .",
+        "paragraphs": [
+          {
+            "para_id": "0806.0626::p0012",
+            "text": "These significantly detected sources , hereafter the Analysis Sample , all have at least 18 net counts . The minimum detected count rate in the 0.3\u2013 [MATH_tex=6rm,keV] band for our Analysis Sample sources is [MATH_tex=1.0times 10^-4rm,counts,s^-1] .",
+            "global_index": 68065
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 464,
+    "cluster_size": 48,
+    "score": 5,
+    "label": "CDM model analysis",
+    "rationale": "All paragraphs utilize variations of the Cold Dark Matter (CDM) model to explore dark energy dynamics, focusing on parameterizations of the equation of state. They employ similar mathematical frameworks and perturbation equations to analyze the behavior of dark energy, indicating a high methodological similarity.",
+    "top_terms": "dark energy, math_tex, cdm model, cdm, dark",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1307.6172",
+        "paper_id_formatted": "1307.6172",
+        "abstract": "Motivated by the cosmological constant and the coincidence problems , we consider a cosmological model where the dark sectors are interacting together through a phenomenological decay law\\dot { \\rho } _ { \\Lambda } = Q \\rho _ { \\Lambda } ^ { n }in a FRW spacetime with spatial curvature . We show that the only value ofnfor which the late-time matter energy density to dark energy density ratio (r { { } _ { m } } = \\rho _ { m } / \\rho _ { \\Lambda }) is constant ( which could provide an explanation to the coincidence problem ) isn = 3 / 2. For each value ofQ, there are two distinct solutions . One of them involves a spatial curvature approaching zero at late times (\\rho _ { k } \\approx 0) and is stable when the interaction is weaker than a critical value{ Q _ { 0 } = - \\sqrt { 32 \\pi G / c ^ { 2 } } }. The other one allows for a non-negligible spatial curvature (\\rho _ { k } \\napprox 0) at late times and is stable when the interaction is stronger thanQ _ { 0 }. We constrain the model parameters using various observational data ( SNeIa , GRB , CMB , BAO , OHD ) . The limits obtained on the parameters exclude the regions where the cosmological constant problem is significantly ameliorated and do not allow for a completely satisfying explanation for the coincidence problem .",
+        "paragraphs": [
+          {
+            "para_id": "1307.6172::p0009",
+            "text": "For the [MATH_tex=Lambda(t)] CDM model , to explain this result , we have made the hypothesis that the dark energy density could decrease from an initial large value ( [MATH_tex=rho_Lambda_i] , evaluated at [MATH_tex=a=0] ) , to the current observed one ( [MATH_tex=rho_Lambda_0] ) .",
+            "global_index": 423534
+          }
+        ]
+      },
+      {
+        "paper_id": "1811.07425",
+        "paper_id_formatted": "1811.07425",
+        "abstract": "We present a systematic analysis of the cosmological constraints from the \u2018 \u2018 Pantheon Sample \u2019 \u2019 of 1048 Type Ia Supernovae ( SNe Ia ) in the redshift range0.01 < z < 2.3compiled by Scolnic et al . ( 2018 ) . Applying the flux-averaging method for detecting unknown systematic effects , we find that the \u2018 \u2018 Pantheon \u2019 \u2019 sample has been well calibrated and the bias caused by unknown systematic errors has been minimized . We present the estimate of distances measured from SNe Ia and reconstruct the expansion history of the Universe . The results are in agreement with a simple cosmological constant model and reveals the possible improvements that future SN Ia observations from WFIRST and LSST can target . We have derived distance priors using the Cosmic Microwave Background ( CMB ) data from the Planck 2018 final data release , and combine them with SNe Ia and baryon acoustic oscillation ( BAO ) data , to explore the impact from the systematic errors of SNe Ia on the combined cosmological parameter constraints . Using the combined data set of SNe Ia , BAO , and CMB distance priors , we measure the dark energy density functionX ( z ) = \\rho _ { X } ( z ) / \\rho _ { X } ( 0 )as a free function ( defined as a cubic spline of its values atz = 0.33 , 0.67 , 1.0) , along with the cosmological parameters (\\Omega _ { k },\\Omega _ { m },\\Omega _ { b },H _ { 0 }) . We find no deviation from a flat Universe dominated by a cosmological constant (X ( z ) = 1) , andH _ { 0 } = 68.4 \\pm 0.9 \\text { km s } ^ { -1 } \\text { Mpc } ^ { -1 }, straddling the Planck team \u2019 s measurement ofH _ { 0 } = 67.4 \\pm 0.5 \\text { km s } ^ { -1 } \\text { Mpc } ^ { -1 }, and Riess et al . ( 2018 ) measurement ofH _ { 0 } = 73.52 \\pm 1.62 \\text { km s } ^ { -1 } \\text { Mpc } ^ { -1 }. AddingH _ { 0 } = 73.52 \\pm 1.62 \\text { km s } ^ { -1 } \\text { Mpc } ^ { -1 }as a prior to the combined data set leads to the time dependence of the dark energy density atz \\sim 0.33at 68 % confidence level . Not including the systematic errors on SNe Ia has a similar but larger effect on the dark energy density measurement .",
+        "paragraphs": [
+          {
+            "para_id": "1811.07425::p0002",
+            "text": "For comparison with this simplistic model , we also consider parameterizations of the equation of state of dark energy [MATH_tex=w(z)] The first model is to assume [MATH_tex=w(z)=const] ( hereafter [MATH_tex=w] CDM model ) .",
+            "global_index": 850343
+          }
+        ]
+      },
+      {
+        "paper_id": "1410.6588",
+        "paper_id_formatted": "1410.6588",
+        "abstract": "We study cosmological models with modified Chaplygin gas ( in short , MCG ) to determine observational constraints on its EoS parameters . The observational data of the background and the growth tests are employed . The background test data namely ,H ( z ) - zdata , CMB shift parameter , Baryonic acoustic oscillations ( BAO ) peak parameter , SN Ia data are considered to study the dynamical aspects of the universe . The growth test data we employ here consists of the linear growth function for the large scale structures of the universe , models are explored assuming MCG as a candidate for dark energy . Considering the observational growth data for a given range of redshift from the Wiggle-Z measurements and rms mass fluctuations from Ly-\\alphameasurements , cosmological models are analyzed numerically to determine constraints on the MCG parameters . In this case , the Wang-Steinhardt ansatz for the growth index\\gammaand growth functionf( defined asf = \\Omega _ { m } ^ { \\gamma } ( a )) are also taken into account for the numerical analysis . The best-fit values of the equation of state parameters obtained here are used to study the variation of the growth function (f) , growth index (\\gamma) , equation of state parameter (\\omega) , squared sound speedc ^ { 2 } _ { s }and deceleration parameter with redshiftz. The observational constraints on the MCG parameters obtained here are then compared with those of the GCG model for viable cosmology . It is noted that MCG models satisfactorily accommodate an accelerating phase followed by a matter dominated phase of the universe . The permitted range of values of the EoS parameters and the associated parameters (f,\\gamma,\\omega,\\Omega,c ^ { 2 } _ { s },q) are compared with those obtained earlier using other observations .",
+        "paragraphs": [
+          {
+            "para_id": "1410.6588::p0002",
+            "text": "In the case of a flat dark energy model with constant equation of state [MATH_tex=omega_0] , the growth index [MATH_tex=gamma] is given by For a [MATH_tex=Lambda] CDM model , it reduces to [MATH_tex=frac611] [ <CIT> , <CIT> ] , for a matter dominated model , one gets [MATH_tex=gamma=frac47] [ <CIT> , <CIT> ] .",
+            "global_index": 522347
+          }
+        ]
+      },
+      {
+        "paper_id": "0712.0082",
+        "paper_id_formatted": "0712.0082",
+        "abstract": "We make a detailed study of matter density perturbations in both metric and Palatini formalisms . Considering general theories whose Lagrangian density is a general function ,f ( R ), of the Ricci scalarR, we derive the equation of matter density perturbations in each case , in a number of gauges , including comoving , longitudinal and uniform density gauges . We show that for viablef ( R )models that satisfy cosmological and local gravity constraints ( LGC ) , matter perturbation equations derived under a sub-horizon approximation are valid even for super-Hubble scales provided the oscillating mode ( scalaron ) does not dominate over the matter-induced mode . Such approximate equations are especially reliable in the Palatini formalism because of the absence of scalarons . Using these equations we make a comparative study of the behaviour of matter density perturbations as well as gravitational potentials for a number of classes off ( R )theories . In the metric formalism the quantitym = Rf _ { ,RR } / f _ { ,R }that characterises the deviation from the\\LambdaCDM model is constrained to be very small during a matter era in order to ensure compatibility with LGC , but the models in whichmgrows to the order of10 ^ { -1 }around the present epoch can be allowed . These models also suffer from an additional fine tuning due to the presence of scalaron oscillating modes which are absent in the Palatini case . In Palatini formalism LGC and background cosmological constraints provide only weak bounds on|m|by constraining it to be smaller than\\sim 0.1. This is in contrast to matter density perturbations which , on galactic scales , place far more stringent constraints on the present deviation parametermof the order of|m| \\lesssim 10 ^ { -5 }\u201310 ^ { -4 }. This is due to the peculiar evolution of matter perturbations in the Palatini case which exhibits a rapid growth or a damped oscillation depending on the sign ofm.",
+        "paragraphs": [
+          {
+            "para_id": "0712.0082::p0006",
+            "text": "The effective equation of state of dark energy is given by As long as the deviation from the [MATH_tex=Lambda] CDM model is small ( [MATH_tex=|m|ll 1] ) , we have [MATH_tex=w_rm effsimeq-y_1] . The perturbation equations ( 141 ) and ( 142 ) are given by Although we solve exact perturbation equations , the above perturbation equations are found to be very accurate .",
+            "global_index": 38539
+          }
+        ]
+      },
+      {
+        "paper_id": "1209.5580",
+        "paper_id_formatted": "1209.5580",
+        "abstract": "Observational growth rate data had been derived from observations of redshift distortions in galaxy redshift surveys . Here we use the growth rate data to place constraints on the dark energy model parameters . By performing a joint analysis with the Type Ia supernova , baryon acoustic oscillation and cosmic microwave background data , it is found that the growth rate data are useful for improving the constraints . The joint constraints show that the\\LambdaCDM model is still in good agreement with current observations , although a time-variant dark energy still can not be ruled out . It is argued that the growth rate data are helpful for understanding the dark energy . With more accurate data available in the future , we will have a powerful tool for constraining the cosmological and dark energy parameters .",
+        "paragraphs": [
+          {
+            "para_id": "1209.5580::p0001",
+            "text": "There are two free parameters in this model \u2013 [MATH_tex=Omega_m] and [MATH_tex=Omega_Lambda] . In the [MATH_tex=Lambda] CDM model , the equation of state of the dark energy [MATH_tex=w] is fixed to be [MATH_tex=-1] .",
+            "global_index": 360820
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 368,
+    "cluster_size": 48,
+    "score": 5,
+    "label": "Column Density Measurements",
+    "rationale": "All paragraphs focus on the measurement and inference of column density values, utilizing similar mathematical expressions and confidence intervals. The methodologies involve comparisons to previous measurements and fixing values based on derived relationships, indicating a consistent approach to data analysis.",
+    "top_terms": "column, math_tex, column density, cm, cm math_tex",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "astro-ph_0506666",
+        "paper_id_formatted": "astro-ph/0506666",
+        "abstract": "2S 0918\u2013549 is a low-mass X-ray binary ( LMXB ) with a low optical to X-ray flux ratio . Probably it is an ultracompact binary with an orbital period shorter than 60 min . Such binaries can not harbor hydrogen rich donor stars . As with other ( sometimes confirmed ) ultracompact LMXBs , 2S 0918\u2013549 is observed to have a high neon-to-oxygen abundance ratio ( Juett et al . 2001 ) which has been used to argue that the companion star is a CO or ONe white dwarf . However , type-I X-ray bursts have been observed from several of these systems implying the presence of hydrogen or helium on the neutron star surface . In this paper , we argue that the companion star in 2S 0918\u2013549 is a helium white dwarf We first present a Type I X-ray burst from 2S 0918\u2013549 with a long duration of 40 minutes . We show that this burst is naturally explained by accretion of pure helium at the inferred accretion rate of\\sim 0.01times the Eddington accretion rate . At higher accretion rates of\\sim 0.1Eddington , hydrogen is required to explain long duration bursts . However , at low rates the long duration is due to the large amount of helium that accumulates prior to the burst . We show that it is possible to form a helium white dwarf donor in an ultracompact binary if accretion starts during the first ascent of the giant branch , when the core is made of predominantly helium . Furthermore , this scenario naturally explains the high neon-to-oxgen ratio , without requiring a CO or ONe white dwarf companion . The only observational aspect of 2S 0918\u2013549 that we can not explain is the absence of helium lines in the optical spectrum . Model calculations of optical accretion disk spectra need to be carried out in order to obtain limits on the helium abundance .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0506666::p0007",
+            "text": "When modeled through an increase of the absorption , the implied maximum column density is [MATH_tex=N_rm H=8.3^+2.9_-2.5times 10^22] cm [MATH_tex=^-2] ( 90 % confidence ; compare with [MATH_tex=N_rm H=4.2times 10^21] cm [MATH_tex=^-2] outside the dip ) . What is the cause of the 1.2 min drop during the decay phase ?",
+            "global_index": 1190270
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0207102",
+        "paper_id_formatted": "astro-ph/0207102",
+        "abstract": "I present aXMM-Newtonobservation of the accretion driven millisecond X-ray pulsar SAX J1808.4\u20133658 during its 2000 outburst . The source was conclusively detected , albeit at a level of only\\sim 2 \\times 10 ^ { 32 }erg s^ { -1 }. The source spectrum could be fitted with a power-law model ( with a photon index of\\sim2.2 ) , a neutron star atmosphere model ( with a temperature of\\sim0.2 keV ) , or with a combination of a thermal ( either a black-body or an atmosphere model ) and a power-law component . During aXMM-Newtonobservation taken approximately one year later , the source was in quiescence and its luminosity was a factor of\\sim4 lower . It is possible that the source spectrum during the 2000 outburst was softer than its quiescent 2001 spectrum , however , the statistics of the data do not allow to make a firm conclusion . The results obtained are discussed in the context of the 2000 outburst of SAX J1808.4\u20133658 and the quiescent properties of the source .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0207102::p0014",
+            "text": "The column density [MATH_tex=N_rm H] was allowed to float and the value obtained was always consistent with the value ( [MATH_tex=1.22times 10^21] cm [MATH_tex=^-2] ) inferred from the [MATH_tex=A_rm v] measured by Wang et al .",
+            "global_index": 1067361
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0301123",
+        "paper_id_formatted": "astro-ph/0301123",
+        "abstract": "We present results of a 37 ks observation of CL 0016+16 with theXMM-NewtonEPIC instrument . Within 1.5 arcmin of the cluster centre we measure a gas temperature ofkT = 9.13 ^ { +0.24 } _ { -0.22 }keV and an abundance of0.22 ^ { +0.04 } _ { -0.03 }times the solar value (1 \\sigmauncertainties ) . This significant improvement over previous measurements has allowed us to revise the estimate of the Hubble constant based on CL 0016+16 to68 \\pm 8 km s ^ { -1 } Mpc ^ { -1 }( random error only ) , close to the value from the Hubble Space Telescope distance-scale project . The total gravitating mass within a radius of 248 kpc of the cluster centre is in good agreement with that found from gravitational lensing over the same region , supporting the assumption of isothermal gas in hydrostatic equilibrium . The gas mass fraction of0.13 \\pm 0.02is in remarkable agreement with that given by cosmological parameters for the Universe as a whole , suggesting that CL 0016+16 is a fair sample of the matter content of the Universe . While there is no spectral or spatial evidence to suggest a cooling flow in CL 0016+16 , we find an asymmetrical central X-ray structure which may have a harder spectrum than the cluster as a whole , and be evidence for some merger activity , in addition to a previously reported asymmetry to the west of the cluster . The nearest companion cluster to CL 0016+16 is measured to have a gas temperature ofkT = 3.8 ^ { +0.3 } _ { -0.3 }keV and an abundance of0.6 ^ { +0.3 } _ { -0.2 }times the solar value (1 \\sigmauncertainties ) . We also present spectral data for the companion quasar whose spectrum was confused with CL 0016+16 in previousASCAdata .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0301123::p0025",
+            "text": "The column density of [MATH_tex=N_rm H=5.8^+2.6_-2.3times 10^20] cm [MATH_tex=^-2] ( [MATH_tex=1sigma] errors ) is consistent with the value from 21 cm measurements <CIT> , and so we fix the value to the radio-derived measurement .",
+            "global_index": 1086087
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0602175",
+        "paper_id_formatted": "astro-ph/0602175",
+        "abstract": "We report on the results of the first simultaneous X-ray (RXTE) and optical ( SAAO ) observations of the luminous low mass X-ray binary ( LMXB ) GX 9+9 in 1999 August . The high-speed optical photometry revealed an orbital period of 4.1958 hr and confirmed previous observations , but with greater precision . No X-ray modulation was found at the orbital period . On shorter timescales , a possible 1.4-hr variability was found in the optical light curves which might be related to the mHz quasi-periodic oscillations seen in other LMXBs . We do not find any significant X-ray/optical correlation in the light curves . In X-rays , the colour-colour diagram and hardness-intensity diagram indicate that the source shows characteristics of an atoll source in the upper banana state , with a correlation between intensity and spectral hardness . Time-resolved X-ray spectroscopy suggests that two-component spectral models give a reasonable fit to the X-ray emission . Such models consist of a blackbody component which can be interpreted as the emission from an optically thick accretion disc or an optically thick boundary layer , and a hard Comptonized component for an extended corona .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0602175::p0005",
+            "text": "Hence , the column density can be derived by using the conversion of [MATH_tex=N_H/10^22] cm [MATH_tex=^-2=0.179A_V] ( ? ) and [MATH_tex=A_V=3.1E(B-V)] ( ? ) , suggesting [MATH_tex=N_H] is in the range of [MATH_tex=0.6-2.2times 10^21] cm [MATH_tex=^-2] .",
+            "global_index": 1221335
+          }
+        ]
+      },
+      {
+        "paper_id": "1012.0010",
+        "paper_id_formatted": "1012.0010",
+        "abstract": "We present a mid-infrared high spectral resolution spectrum of CRL618 in the frequency ranges778 - 784and1227 - 1249cm^ { -1 }(8.01 - 8.15and12.75 - 12.85 ~ { } \\mum ) taken with the Texas Echelon-cross-Echelle Spectrograph ( TEXES ) and the Infrared Telescope Facility ( IRTF ) . We have identified more than 170 ro-vibrational lines arising from\\textnormal { C } _ { 2 } \\textnormal { H } _ { 2 },HCN,\\textnormal { C } _ { 4 } \\textnormal { H } _ { 2 }, and\\textnormal { C } _ { 6 } \\textnormal { H } _ { 2 }. We have found no unmistakable trace of\\textnormal { C } _ { 8 } \\textnormal { H } _ { 2 }. The line profiles display a complex structure suggesting the presence of polyacetylenes in several components of the circumstellar envelope ( CSE ) . We derive total column densities of2.5 \\times 10 ^ { 17 },3.1 \\times 10 ^ { 17 },2.1 \\times 10 ^ { 17 },9.3 \\times 10 ^ { 16 }cm^ { -2 }, and\\lesssim 5 \\times 10 ^ { 16 }cm^ { -2 }forHCN,\\textnormal { C } _ { 2 } \\textnormal { H } _ { 2 },\\textnormal { C } _ { 4 } \\textnormal { H } _ { 2 },\\textnormal { C } _ { 6 } \\textnormal { H } _ { 2 }, and\\textnormal { C } _ { 8 } \\textnormal { H } _ { 2 }, respectively . The observations indicate that both the rotational and vibrational temperatures in the innermost CSE depend on the molecule , varying from100to350K for the rotational temperatures and100to500K for the vibrational temperatures . Our results support a chemistry in the innermost CSE based on radical-neutral reactions triggered by the intense UV radiation field .",
+        "paragraphs": [
+          {
+            "para_id": "1012.0010::p0029",
+            "text": "Hence , we can conclude that the total column density is [MATH_tex=simeq 2.5times 10^17] cm [MATH_tex=^-2] ( Table 1 ) , in good agreement with [MATH_tex=1.5times 10^17] cm [MATH_tex=^-2] proposed by C01a but smaller than the value of [MATH_tex=simeq 4-7times 10^17] cm [MATH_tex=^-2] , derived by Pardo et al .",
+            "global_index": 229376
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 291,
+    "cluster_size": 48,
+    "score": 5,
+    "label": "Cosmic Microwave Background Analysis",
+    "rationale": "All paragraphs utilize data from the WMAP mission and focus on fitting cosmological parameters through statistical methods. They consistently apply similar techniques for parameter estimation and confidence limit calculations, indicating a strong methodological alignment.",
+    "top_terms": "math_tex, wmap, 95, math_tex nsimeq, confidence",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "0710.2371",
+        "paper_id_formatted": "0710.2371",
+        "abstract": "We analyzeWMAP3 year data using the one-point distribution functions to probe the non-Gaussianity in the Cosmic Microwave Background ( CMB ) Anisotropy data . Computer simulations are performed to determine the uncertainties of the results . We report the non-Gaussianity parameterf _ { \\mathrm { NL } }is constrained to26 < f _ { \\mathrm { NL } } < 82for Q-band ,12 < f _ { \\mathrm { NL } } < 67for V-band ,7 < f _ { \\mathrm { NL } } < 64for W-band and23 < f _ { \\mathrm { NL } } < 75for Q+V+W combined data at 95 % confidence level ( CL ) .",
+        "paragraphs": [
+          {
+            "para_id": "0710.2371::p0004",
+            "text": "All data sets are best fitted at positive [MATH_tex=f_mathrmNL] ( dubbed [MATH_tex=f_mathrmNL^left(mathrmoptright)] ) which are consistent with one another as well as the results with previous work ( ) within the statistical errors . As is shown in Figure 1 , WMAP data fit well with finite range of the non-Gaussianity parameter [MATH_tex=f_mathrmNL] .",
+            "global_index": 30482
+          }
+        ]
+      },
+      {
+        "paper_id": "1110.0956",
+        "paper_id_formatted": "1110.0956",
+        "abstract": "We study the linear growth functionffor large scale structures in a cosmological scenario where Generalised Chaplygin Gas ( GCG ) serves as dark energy candidate . We parametrize the growth index parameter as a function of redshift and do a comparative study between the theoretical growth rate and the proposed parametrization . Moreover , we demonstrate that growth rates for a wide range of dark energy models can be modeled accurately by our proposed parametrization . Finally , we compile a data set consisting of 28 data points within redshift range ( 0.15,3.8 ) to constrain the growth rate . It includes direct growth data from various projects/surveys including the latest data from the Wiggle-Z measurements . It also includes data constraining growth indirectly through the rms mass fluctuation\\sigma _ { 8 } ( z )inferred from Ly-\\alphameasurements at various redshifts . By fitting our proposed parametrization forfto these data , we show that growth history of large scale structures of the universe although allows a transient acceleration , one can not distinguish it at present with an eternally accelerating universe .",
+        "paragraphs": [
+          {
+            "para_id": "1110.0956::p0004",
+            "text": "First we marginalise over the parameter [MATH_tex=Omega_m0] assuming the WMAP7 bound [ <CIT> ] on [MATH_tex=Omega_m0] , <CIT> , and get the best fit values for [MATH_tex=A_s] and [MATH_tex=beta] as 0.891 and -1.191 respectively .",
+            "global_index": 289924
+          }
+        ]
+      },
+      {
+        "paper_id": "0805.2966",
+        "paper_id_formatted": "0805.2966",
+        "abstract": "We present an update of cosmological constraints on single-field inflation in light of the Wilkinson Microwave Anisotropy Probe satellite mission five-year results ( WMAP5 ) . We find that the cosmic microwave background data are quite consistent with a Harrison-Zel \u2019 dovich primordial spectrum with no running and zero tensor amplitude . We find that the three main conclusions of our analysis of the WMAP three-year data ( WMAP3 ) are consistent with the WMAP5 data : ( 1 ) the Harrison\u2013Zel \u2019 dovich model is within the95 \\%confidence level contours ; ( 2 ) there is no evidence for running of the spectral index of scalar perturbations ; ( 3 ) From the WMAP 5 data alone , potentials of the formV \\propto \\phi ^ { p }are consistent with the data forp = 2, and are ruled out forp = 4. Furthermore , consistent with our WMAP3 analysis , we find no evidence for primordial tensor perturbations , this time with a95 \\%confidence upper limit ofr < 0.4for the WMAP5 data alone , andr < 0.35for the WMAP5 data taken in combination with the Arcminute Cosmology Bolometer Array ( ACBAR ) .",
+        "paragraphs": [
+          {
+            "para_id": "0805.2966::p0013",
+            "text": "Again the WMAP5 alone data correspond to the open contours and WMAP5 + ACBAR to the filled contours . Finally in Fig . 3 we show the [MATH_tex=68] % and [MATH_tex=95] % confidence limits on [MATH_tex=dn/dlnk] as a function of [MATH_tex=n] and [MATH_tex=r] as a function of [MATH_tex=dn/dlnk] .",
+            "global_index": 65824
+          }
+        ]
+      },
+      {
+        "paper_id": "0904.3201",
+        "paper_id_formatted": "0904.3201",
+        "abstract": "We show that the Cosmic Microwave Background ( CMB ) polarization data gathered by the BOOMERanG 2003 flight and WMAP provide an opportunity to investigatein-vacuobirefringence , of a type expected in some quantum pictures of space-time , with a sensitivity that extends even beyond the desired Planck-scale energy . In order to render this constraint more transparent we rely on a well studied phenomenological model of quantum-gravity-induced birefringence , in which one easily establishes that effects introduced at the Planck scale would amount to values of a dimensionless parameter , denoted by\\xi, with respect to the Planck energy which are roughly of order1. By combining BOOMERanG and WMAP data we estimate\\xi \\simeq - 0.110 \\pm 0.076at the68 \\%c.l . Moreover , we forecast on the sensitivity to\\xiachievable by future CMB polarization experiments ( PLANCK , Spider , EPIC ) , which , in the absence of systematics , will be at the1-\\sigmaconfidence of8.5 \\times 10 ^ { -4 }( PLANCK ) ,6.1 \\times 10 ^ { -3 }( Spider ) , and1.0 \\times 10 ^ { -5 }( EPIC ) respectively . The cosmic variance-limited sensitivity from CMB is6.1 \\times 10 ^ { -6 }.",
+        "paragraphs": [
+          {
+            "para_id": "0904.3201::p0006",
+            "text": "As regards to the [MATH_tex=xi] parameter , from WMAP 5-year data we constrain it to be [MATH_tex=xi=-0.09pm 0.12] , while with BOOMERanG data For the analysis using the BOOMERanG dataset , we fixed the optical depth [MATH_tex=tau] to the fiducial value of [MATH_tex=tau=0.09] . we obtain [MATH_tex=xi=-0.123pm 0.096] .",
+            "global_index": 118444
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0502234",
+        "paper_id_formatted": "astro-ph/0502234",
+        "abstract": "The review summarizes present and future applications of galaxy clusters to cosmology with emphasis on nearby X-ray clusters . The discussion includes the density of dark matter , the normalization of the matter power spectrum , neutrino masses , and especially the equation of state of the dark energy , the interaction between dark energy and ordinary matter , gravitational holography , and the effects of extra-dimensions .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0502234::p0013",
+            "text": "<CIT> showed that the WMAP data could equally well fit with [MATH_tex=Omega_rm m=0.47] , [MATH_tex=h=0.57] , and [MATH_tex=w_rm x=-0.5] once [MATH_tex=w_rm x] is regarded as a free ( constant ) parameter .",
+            "global_index": 1173309
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 145,
+    "cluster_size": 48,
+    "score": 5,
+    "label": "Advection Scheme Methodologies",
+    "rationale": "All paragraphs focus on methodologies related to advection schemes in computational fluid dynamics, employing similar mathematical frameworks and numerical techniques. They discuss staggered and unstaggered grids, transport equations, and specific algorithms for handling advection, indicating a high degree of methodological similarity.",
+    "top_terms": "advection, advection scheme, math_tex, scheme, equation",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "astro-ph_9311019",
+        "paper_id_formatted": "astro-ph/9311019",
+        "abstract": "We investigate asymptotic convergence in the\\Delta x \\rightarrow 0limit as a tool for determining whether numerical computations involving shocks are accurate . We use one-dimensional operator-split finite-difference schemes for hydrodynamics with a von Neumann artificial viscosity . An internal-energy scheme converges to demonstrably wrong solutions . We associate this failure with the presence of discontinuities in the limiting solution . Our extension of the Lax-Wendroff theorem guarantees that certain conservative , operator-split schemes converge to the correct continuum solution . For such a total-energy scheme applied to the formation of a single shock , convergence of a Cauchy error approaches the expected rate slowly . We relate this slowness to the effect of varying diffusion , due to varying linear artificial-viscous length , on small-amplitude waves . In an appendix we discuss the scaling of shock-transition regions with viscous lengths , and exhibit several difficulties for attempts to make extrapolations .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_9311019::p0004",
+            "text": "They use a staggered spatial grid , defining scalar and vector quantities at different gridpoints ; whereas our grid is unstaggered . The operator splitting proceeds as follows : for the parts of the equations ( 1 \u2013 4 ) that represent advection , we use the monotonic advection scheme of van Leer ( ( ) ) .",
+            "global_index": 1281507
+          }
+        ]
+      },
+      {
+        "paper_id": "1006.3201",
+        "paper_id_formatted": "1006.3201",
+        "abstract": "The inspiral of a stellar compact object into a massive black hole , an extreme-mass-ratio inspiral , is one of the main sources of gravitational waves for the future space-based Laser Interferometer Space Antenna . We expect to be able to detect and analyze many cycles of these slowly inspiraling systems , which makes them truly high precision tools for gravitational-wave astronomy . To that end , the use of very precise theoretical waveform templates in the data analysis is required . To build them we need to have a deep understanding of the gravitational backreaction mechanism responsible for the inspiral . The self-force approach describes the inspiral as the action of a local force that can be obtained from the regularization of the perturbations created by the stellar compact object on the massive black hole geometry . In this paper we extend a new time-domain technique for the computation of the self-force from the circular case to the case of eccentric orbits around a non-rotating black hole . The main idea behind our scheme is to use a multidomain framework in which the small compact object , described as a particle , is located at the interface between two subdomains . Then , the equations at each subdomain are homogeneous wave-type equations , without distributional sources . In thisparticle-without-particleformulation , the solution of the equations is smooth enough to provide good convergence properties for the numerical computations . This formulation is implemented by using a pseudospectral collocation method for the spatial discretization , combined with a Runge Kutta algorithm for the time evolution . We present results from several simulations of eccentric orbits in the case of a scalar charged particle around a Schwarzschild black hole , an excellent testbed model for testing the techniques for self-force computations . In particular , we show the convergence of the method and its ability to resolve the field and its derivatives across the particle location . Finally , we provide numerical values of the self-force for different orbital parameters .",
+        "paragraphs": [
+          {
+            "para_id": "1006.3201::p0006",
+            "text": "As we can see , the field is continuous across the particle , and only the time and radial derivatives of the field have a jump , which depend on the particle \u2019 s speed and satisfy the following advection-like equation : For [MATH_tex=r^ast_p=mboxconst.] , i.e . [MATH_tex=dotr^ast_p=0] , we recover the jump conditions for the circular case studied in Paper I . As mentioned above , the jump conditions ( 22 ) - ( 24 ) have to be imposed on the characteristic fields because discontinues propagate along the characteristics .",
+            "global_index": 195385
+          }
+        ]
+      },
+      {
+        "paper_id": "1104.5582",
+        "paper_id_formatted": "1104.5582",
+        "abstract": "We present a semi-analytic model for the interstellar medium that considers local processes and structures of turbulent star-forming gas . A volume element of the interstellar medium is described as a multi-phase system , comprising a cold and a warm gas phase in effective ( thermal plus turbulent ) pressure equilibrium , and a stellar component . The cooling instability of the warm gas feeds the cold phase , while various heating processes transfer cold gas to the warm phase . The cold phase consists of clumps embedded in diffuse warm gas , where only the molecular fraction of the cold gas may be converted into stars . The fraction of molecular gas is approximately calculated , using a Str\u00f6mgren-like approach , and the efficiency of star formation is determined by the state of the cold gas and by the turbulent velocity dispersion on the clump length scale . Gas can be heated by supernovae and UV-emission of massive stars , according to the evolutionary stages of the stellar populations and the initial mass function . Since turbulence has a critical impact on the shape of the gaseous phases , on the production of molecular hydrogen and on the formation of stars , the consistent treatment of turbulent energy \u2013 the kinetic energy of unresolved motions \u2013 is an important new feature of our model . Besides turbulence production by supernovae and by the cooling instability , we also take into account the forcing by large scale motions . We formulate a set of ordinary differential equations , which statistically describes star formation and the exchange between the different budgets of mass and energy in a region of the interstellar medium with given mean density , size , metallicity and external turbulence forcing . By exploring the behaviour of the solutions , we find equilibrium states , in which the star formation efficiencies are consistent with observations . Kennicutt-Schmidt-like relations naturally arise from the equilibrium solutions , while conventional star formation models in numerical simulations impose such relations with observed efficiency parameters as phenomenological calibrations . Beyond the semi-analytic approach , a potential application is a complete subgrid scale model of the unresolved multi-phase structure , star formation and turbulence in simulations of galaxies or in cosmological simulations . The formulation presented in this article combines various models focusing on particular processes and yet can be adopted to specific applications , depending on the range of resolved length scales .",
+        "paragraphs": [
+          {
+            "para_id": "1104.5582::p0010",
+            "text": "( 42 , 61 , 62 , 73 , 75 , 46 ) as partial differential equations with fluid-dynamical advection terms , where the length scale [MATH_tex=l] is given by size of the grid cells , [MATH_tex=Delta] , and [MATH_tex=e_rm t=e_rm sgs] is identified with the unresolved fraction of the kinetic energy ( see SF11 ) .",
+            "global_index": 258182
+          }
+        ]
+      },
+      {
+        "paper_id": "1302.2087",
+        "paper_id_formatted": "1302.2087",
+        "abstract": "This report describes a new magnetohydrodynamic numerical model based on a hexagonal spherical geodesic grid . The model is designed to simulate astrophysical flows of partially ionized plasmas around a central compact object , such as a star or a planet with a magnetic field . The geodesic grid , produced by a recursive subdivision of a base platonic solid ( an icosahedron ) , is free from control volume singularities inherent in spherical polar grids . Multiple populations of plasma and neutral particles , coupled via charge-exchange interactions , can be simulated simultaneously with this model . Our numerical scheme uses piecewise linear reconstruction on a surface of a sphere in a local two-dimensional \u201c Cartesian \u201d frame . The code employs HLL-type approximate Riemann solvers and includes facilities to control the divergence of magnetic field and maintain pressure positivity . Several test solutions are discussed , including a problem of an interaction between the solar wind and the local interstellar medium , and a simulation of Earth \u2019 s magnetosphere .",
+        "paragraphs": [
+          {
+            "para_id": "1302.2087::p0009",
+            "text": "The system ( 4 ) is extended with an additional transport equation for [MATH_tex=psi] where [MATH_tex=c_h] is a constant , isotropic advection speed , taken to be somewhat faster than the fastest wave speed in the problem , and [MATH_tex=c_p] is related to the rate of decay of [MATH_tex=psi] . Dedner et al .",
+            "global_index": 388118
+          }
+        ]
+      },
+      {
+        "paper_id": "1208.5943",
+        "paper_id_formatted": "1208.5943",
+        "abstract": "Low-mass objects embedded in isothermal protoplanetary discs are known to suffer rapid inward Type I migration . In non-isothermal discs , recent work has shown that a decreasing radial profile of the disc entropy can lead to a strong positive corotation torque which can significantly slow down or reverse Type I migration in laminar viscous disc models , depending on the amount of viscous and thermal diffusion operating in the planet \u2019 s horseshoe region . Since the latter is a fraction of the pressure scale height of the disc , it is not clear however how this picture changes in turbulent disc models . The aim of this study is to examine the impact of turbulence on the torque experienced by a low-mass planet embedded in a non-isothermal protoplanetary disc . We particularly focus on the role of turbulence on the corotation torque whose amplitude depends on the efficiency of diffusion processes in the planet \u2019 s horseshoe region . The main issues we want to address are whether the part of the corotation torque scaling with the entropy gradient can remain unsaturated in the presence of turbulence and whether the saturation process in non-isothermal discs can be satisfactorily modelled using laminar disc models . We performed 2D numerical simulations using a grid-based hydrodynamical code in which turbulence is modelled as stochastic forcing . In order to provide estimations for the viscous and thermal diffusion coefficients as a function of the amplitude of turbulence , we first set up non-isothermal disc models for different values of the amplitude of the turbulent forcing . We then include a low-mass planet and determine the evolution of its running time-averaged torque . We show that in non-isothermal discs , the entropy-related corotation torque can indeed remain unsaturated in the presence of turbulence . For turbulence amplitudes that do not strongly affect the disc temperature profile , we find that the running time-averaged torque experienced by an embedded protoplanet is in fairly good agreement with laminar disc models with appropriate values for the thermal and viscous diffusion coefficients and with the formulae of Paardekooper et al . ( 2011 ) for the total torque in non-isothermal discs . In discs with turbulence driven by stochastic forcing , the corotation torque therefore behaves similarly as in laminar viscous discs and can be responsible for significantly slowing down or reversing Type I migration .",
+        "paragraphs": [
+          {
+            "para_id": "1208.5943::p0012",
+            "text": "These codes employ an advection scheme based on the monotonic transport algorithm <CIT> and include the FARGO algorithm <CIT> to avoid time step limitation due to the Keplerian orbital velocity at the inner edge of the grid .",
+            "global_index": 355195
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 510,
+    "cluster_size": 49,
+    "score": 5,
+    "label": "Circular Region Analysis",
+    "rationale": "All paragraphs describe methodologies for extracting source and background counts using circular regions of varying radii. The consistent approach of using circular regions for both source and background extraction indicates a high degree of methodological similarity.",
+    "top_terms": "circular region, source, circular, region, radius",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1502.00576",
+        "paper_id_formatted": "1502.00576",
+        "abstract": "Giant gas planets in close proximity to their host stars experience strong irradiation . In extreme cases photoevaporation causes a transonic , planetary wind and the persistent mass loss can possibly affect the planetary evolution . We have identified nine hot Jupiter systems in the vicinity of the Sun , in which expanded planetary atmospheres should be detectable through Ly\\alphatransit spectroscopy according to predictions . We use X-ray observations withChandraandXMM-Newtonof seven of these targets to derive the high-energy irradiation level of the planetary atmospheres and the resulting mass loss rates . We further derive improved Ly\\alphaluminosity estimates for the host stars including interstellar absorption . According to our estimates WASP-80 b , WASP-77 b , and WASP-43 b experience the strongest mass loss rates , exceeding the mass loss rate of HD 209458 b , where an expanded atmosphere has been confirmed . Furthermore , seven out of nine targets might be amenable to Ly\\alphatransit spectroscopy . Finally , we check the possibility of angular momentum transfer from the hot Jupiters to the host stars in the three binary systems among our sample , but find only weak indications for increased stellar rotation periods of WASP-77 and HAT-P-20 .",
+        "paragraphs": [
+          {
+            "para_id": "1502.00576::p0004",
+            "text": "We extracted the source counts in a circular region with a radius of 2 [MATH_tex=^primeprime] and background counts in another circular region with a 25 [MATH_tex=^primeprime] radius placed in a source-free region close to the target position .",
+            "global_index": 543025
+          }
+        ]
+      },
+      {
+        "paper_id": "1805.00300",
+        "paper_id_formatted": "1805.00300",
+        "abstract": "The narrow-line Seyfert 1 galaxy ( NLS1 ) Mrk 335 has been continuously monitored withSwiftsince May 2007 when it fell into a long-lasting , X-ray low-flux interval . Results from the nearly 11 years of monitoring are presented here . Structure functions are used to measure the UV-optical and X-ray power spectra . The X-ray structure function measured between10 - 100days is consistent with the flat , low-frequency part of the power spectrum measured previously in Mrk 335 . The UV-optical structure functions of Mrk 335 are comparable with those of other Seyfert 1 galaxies and of Mrk 335 itself when it was in a normal bright state . There is no indication that the current X-ray low-flux state is attributed to changes in the accretion disc structure of Mrk 335 . The characteristic timescales measured in the structure functions can be attributed to thermal ( for the UV ) and dynamic ( for the optical ) timescales in a standard accretion disc . The high-quality UVW2 (\\sim 1800 { \\thinspace \\AA }in the source frame ) structure function appears to have two breaks and two different slopes between10 - 160days . Correlations between the X-ray and other bands are not highly significant when considering the entire 11-year light curves , but more significant behaviour is present when considering segments of the light curves . A correlation between the X-ray and UVW2 in 2014 ( Year-8 ) may be predominately caused by an giant X-ray flare that was interpreted as jet-like emission . In 2008 ( Year-2 ) , possible lags between the UVW2 emission and other UV-optical waveband may be consistent with reprocessing of X-ray or UV emission in the accretion disc .",
+        "paragraphs": [
+          {
+            "para_id": "1805.00300::p0003",
+            "text": "Source counts were extracted from a circular region with a radius of 94 [MATH_tex=^^primeprime] and the background counts were from a source-free , circular region with a radius 295 [MATH_tex=^^primeprime] .",
+            "global_index": 805375
+          }
+        ]
+      },
+      {
+        "paper_id": "1409.8101",
+        "paper_id_formatted": "1409.8101",
+        "abstract": "The Large Area Telescope on board theFermiGamma-raySpaceTelescopedetected a strong\\gamma-ray flare on 2011 May 15 from a source identified as 4C +49.22 , a flat spectrum radio quasar also known as S4 1150+49 . This blazar , characterised by a prominent radio-optical-X-ray jet , was in a low\\gamma-ray activity state during the first years ofFermiobservations . Simultaneous observations during the quiescent , outburst and post-flare\\gamma-ray states were obtained bySwift,Planckand optical-IR-radio telescopes ( INAOE , Catalina CSS , VLBA , Mets\u00e4hovi ) . The flare is observed from microwave to X-ray bands with correlated variability and theFermi,SwiftandPlanckdata for this FSRQ show some features more typical of BL Lac objects , like the synchrotron peak in the optical band that outshines the thermal blue-bump emission , and the X-ray spectral softening . Multi-epoch VLBA observations show the ejection of a new component close in time with the GeV\\gamma-ray flare . The radio-to-gamma-ray spectral energy distribution is modeled and fitted successfully for the outburst and the post-flare epochs using either a single flaring blob with two emission processes ( synchrotron self Compton , and external-radiation Compton ) , and a two-zone model with SSC-only mechanism . ~ { } ~ { }",
+        "paragraphs": [
+          {
+            "para_id": "1409.8101::p0033",
+            "text": "Source events were extracted from a circular region with a radius of 20 pixels ( 1 pixel [MATH_tex=sim] 2.36 [MATH_tex=arcsec] ) , while background events were extracted from a circular region with a radius of 50 pixels , away from background sources .",
+            "global_index": 516170
+          }
+        ]
+      },
+      {
+        "paper_id": "1404.2134",
+        "paper_id_formatted": "1404.2134",
+        "abstract": "Swift J1357.2\u20130933 is a confirmed very faint black hole X-ray transient and has a short estimated orbital period of2.8hr . We observed Swift J1357.2\u20130933 for\\sim50 ks withXMM-Newtonin 2013 July during its quiescent state . The source is clearly detected at a 0.5\u201310 keV unabsorbed flux of\\sim 3 \\times 10 ^ { -15 } ~ { } \\mathrm { erg~ { } cm } ^ { -2 } ~ { } \\mathrm { s } ^ { -1 }. If the source is located at a distance of 1.5 kpc ( as suggested in the literature ) , this would imply a luminosity of\\sim 8 \\times 10 ^ { 29 } ~ { } \\mathrm { erg~ { } s } ^ { -1 }, making it the faintest detected quiescent black hole LMXB . This would also imply that there is no indication of a reversal in the quiescence X-ray luminosity versus orbital period diagram down to 2.8 hr , as has been predicted theoretically and recently supported by the detection of the 2.4 hr orbital period black hole MAXI J1659-152 at a 0.5\u201310 keV X-ray luminosity of\\sim 1.2 \\times 10 ^ { 31 } ~ { } \\mathrm { erg~ { } s } ^ { -1 }. However , there is considerable uncertainty in the distance of Swift J1357.2\u20130933 and it may be as distant as 6.3 kpc . In this case , its quiescent luminosity would beL _ { \\mathrm { X } } \\sim 1.3 \\times 10 ^ { 31 } ~ { } \\mathrm { erg~ { } s } ^ { -1 }, i.e. , similar to MAXI J1659-152 and hence it would support the existence of such a bifurcation period . We also detected the source in optical atr ^ { \\prime } \\sim22.3 mag with the Liverpool telescope , simultaneously to our X-ray observation . The X-ray/optical luminosity ratio of Swift J1357.2\u20130933 agrees with the expected value for a black hole at this range of quiescent X-ray luminosities .",
+        "paragraphs": [
+          {
+            "para_id": "1404.2134::p0002",
+            "text": "We extracted events using a circular region with a radius of [MATH_tex=15^primeprime] centred on the source position <CIT> , and a circular region with a radius of [MATH_tex=45^primeprime] covering a source-free part of the CCDs to extract background events .",
+            "global_index": 477671
+          }
+        ]
+      },
+      {
+        "paper_id": "1107.1093",
+        "paper_id_formatted": "1107.1093",
+        "abstract": "Context : The blazar3C 454.3is one of the most active sources from the radio to the\\gamma-ray frequencies observed in the past few years . Aims : We present multiwavelength observations of this source from April 2008 to March 2010 . The radio to optical data are mostly from the GASP-WEBT , UV and X-ray data from Swift , and\\gamma-ray data from the AGILE and Fermi satellites . The aim is to understand the connection among emissions at different frequencies and to derive information on the emitting jet . Methods : Light curves in 18 bands were carefully assembled to study flux variability correlations . We improved the calibration of optical\u2013UV data from the UVOT and OM instruments and estimated the Ly\\alphaflux to disentangle the contributions from different components in this spectral region . Results : The observations reveal prominent variability above 8 GHz . In the optical\u2013UV band , the variability amplitude decreases with increasing frequency due to a steadier radiation from both a broad line region and an accretion disc . The optical flux reaches nearly the same levels in the 2008\u20132009 and 2009\u20132010 observing seasons ; the mm one shows similar behaviour , whereas the\\gammaand X-ray flux levels rise in the second period . Two prominent\\gamma-ray flares in mid 2008 and late 2009 show a double-peaked structure , with a variable\\gamma/optical flux ratio . The X-ray flux variations seem to follow the\\gamma-ray and optical ones by about 0.5 and 1 d , respectively . Conclusions : We interpret the multifrequency behaviour in terms of an inhomogeneous curved jet , where synchrotron radiation of increasing wavelength is produced in progressively outer and wider jet regions , which can change their orientation in time . In particular , we assume that the long-term variability is due to this geometrical effect . By combining the optical and mm light curves to fit the\\gammaand X-ray ones , we find that the\\gamma( X-ray ) emission may be explained by inverse-Comptonisation of synchrotron optical ( IR ) photons by their parent relativistic electrons ( SSC process ) . A slight , variable misalignment between the synchrotron and Comptonisation zones would explain the increased\\gammaand X-ray flux levels in 2009\u20132010 , as well as the change in the\\gamma/optical flux ratio during the outbursts peaks . The time delays of the X-ray flux changes after the\\gamma, and optical ones are consistent with the proposed scenario .",
+        "paragraphs": [
+          {
+            "para_id": "1107.1093::p0022",
+            "text": "Source counts were extracted from a 30 pixel circular region ( [MATH_tex=sim 71] arcsec ) centred on the source , and background counts were derived from a surrounding annular region with radii 110 and 160 pixels .",
+            "global_index": 271724
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cluster_id": 131,
+    "cluster_size": 49,
+    "score": 5,
+    "label": "Regularization Techniques in Optimization",
+    "rationale": "All paragraphs focus on optimization problems involving regularization parameters and functions. They discuss the balance of these parameters, the determination of optimal regularization strength, and the application of consistent regularization methods across different systems, indicating a cohesive methodological approach.",
+    "top_terms": "regularization, math_tex, solution, solution math_tex, smoothing",
+    "paragraphs": [],
+    "papers": [
+      {
+        "paper_id": "1404.4645",
+        "paper_id_formatted": "1404.4645",
+        "abstract": "Linear time-distance helioseismic inversions are carried out for vector flow velocities using travel times measured from two\\sim 100 ^ { 2 } { Mm ^ { 2 } } \\times 20 { Mm }realistic magnetohydrodynamic quiet-Sun simulations of about 20 hr . The goal is to test current seismic methods on these state-of-the-art simulations . Using recent three-dimensional inversion schemes , we find that inverted horizontal flow maps correlate well with the simulations in the upper\\sim 3Mm of the domains for several filtering schemes , including phase-speed , ridge , and combined phase-speed and ridge measurements . In several cases , however , the velocity amplitudes from the inversions severely underestimate those of the simulations , possibly indicating nonlinearity of the forward problem . We also find that , while near-surface inversions of the vertical velocites are best using phase-speed filters , in almost all other example cases these flows are irretrievable due to noise , suggesting a need for statistical averaging to obtain better inferences .",
+        "paragraphs": [
+          {
+            "para_id": "1404.4645::p0028",
+            "text": "This amounts to an optimization problem with the balance of these quantities being determined by a set of regularization parameters , denoted here by [MATH_tex=mu] , [MATH_tex=nu] , and [MATH_tex=epsilon] respectively .",
+            "global_index": 479811
+          }
+        ]
+      },
+      {
+        "paper_id": "1001.2438",
+        "paper_id_formatted": "1001.2438",
+        "abstract": "We show that the boundary curves ( profiles ) in\\R ^ { 2 }of the generalized projections of a body in\\R ^ { 3 }uniquely determine a large class of shapes , and that sparse profile data , combined with projection volume ( brightness ) data , can be used to reconstruct the shape and the spin state of a body . We also present an optimal strategy for the relative weighting of the data modes in the inverse problem , and derive the maximum compatibility estimate ( MCE ) that corresponds to the maximum likelihood or maximum a posteriori estimates in the case of a single data mode . MCE is not explicitly dependent on the noise levels , scale factors or numbers of data points of the complementary data modes , and can be determined without the mode weight parameters . We present a solution method well suitable for adaptive optics images in particular , and discuss various choices of regularization functions .",
+        "paragraphs": [
+          {
+            "para_id": "1001.2438::p0042",
+            "text": "For the examples here , the weight of the inertia regularization function [MATH_tex=g_I] was low as there were several profiles available ; virtually the same result was achieved with [MATH_tex=lambda_I=0] .",
+            "global_index": 167536
+          }
+        ]
+      },
+      {
+        "paper_id": "astro-ph_0312641",
+        "paper_id_formatted": "astro-ph/0312641",
+        "abstract": "We present new interstellar dust models which have been derived by simultaneously fitting the far\u2013ultraviolet to near\u2013infrared extinction , the diffuse infrared ( IR ) emission and , unlike previous models , the elemental abundance constraints on the dust for different interstellar medium abundances , including solar , F and G star , and B star abundances . The fitting problem is a typical ill-posed inversion problem , in which the grain size distribution is the unknown , which we solve by using the method of regularization . The dust model contains various components : PAHs , bare silicate , graphite , and amorphous carbon particles , as well as composite particles containing silicate , organic refractory material , water ice , and voids . The optical properties of these components were calculated using physical optical constants . As a special case , we reproduce the Li & Draine ( 2001 ) results , however their model requires an excessive amount of silicon , magnesium , and iron to be locked up in dust : about 50 ppm ( atoms per million of H atoms ) , significantly more than the upper limit imposed by solar abundances of these elements , about 34 , 35 , and 28 ppm , respectively . A major conclusion of this paper is that there is no unique interstellar dust model that simultaneously fits the observed extinction , diffuse IR emission , and abundances constraints . We find several classes of acceptable interstellar dust models , that comply with these constraints . The first class is identical in composition to the Li & Draine model , consisting of PAHs , bare graphite and silicate grains , but with a different size distribution that is optimized to comply with the abundances constraints . The second class of models contains in addition to PAHs bare graphite and silicate grains also composite particles . Other classes contain amorphous carbon instead of graphite particles , or no carbon at all , except for that in PAHs . All classes are consistent with solar and F & G star abundances , but have greater difficulty fitting the B star carbon abundance , which is better fit with the latter ( no carbon ) models . Additional observational constraints , such as the interstellar polarization , or x\u2013ray scattering may be able to discriminate between the various interstellar dust models .",
+        "paragraphs": [
+          {
+            "para_id": "astro-ph_0312641::p0005",
+            "text": "Thus , there exists a single unique solution for both [MATH_tex=alpha] and [MATH_tex=F^(alpha)(a)] . In the original formulation of the regularization approach ( ) , the weight function was set to [MATH_tex=w(x)] [MATH_tex=equiv] 1 .",
+            "global_index": 1125740
+          }
+        ]
+      },
+      {
+        "paper_id": "0707.2453",
+        "paper_id_formatted": "0707.2453",
+        "abstract": "The paper describes the different methods , used in the MAGIC experiment , to unfold experimental energy distributions of cosmic ray particles (\\gamma-rays ) . Questions and problems related to the unfolding are discussed . Various procedures are proposed which can help to make the unfolding robust and reliable . The different methods and procedures are implemented in the MAGIC software and are used in most of the analyses .",
+        "paragraphs": [
+          {
+            "para_id": "0707.2453::p0014",
+            "text": "Two to three of these eigenvalues are much smaller than the maximum eigenvalue , and they are the reason for the large values of [MATH_tex=Trace(T)/Trace(K)] at large iteration number ( low regularization strength ) in Fig . 1 b ) . The optimum regularization strength and thus the final solution [MATH_tex=S] was determined using the criterion [MATH_tex=Trace(T)/Trace(K)=1] .",
+            "global_index": 16179
+          }
+        ]
+      },
+      {
+        "paper_id": "nucl-th_0208055",
+        "paper_id_formatted": "nucl-th/0208055",
+        "abstract": "Spurred by the recent complete determination of the weak currents in two-nucleon systems up to{ \\cal O } ( Q ^ { 3 } )in heavy-baryon chiral perturbation theory , we carry out a parameter-free calculation of the thresholdS-factors for the solarpp( proton-fusion ) andhepprocesses in an effective field theory thatcombinesthe merits of the standard nuclear physics method and systematic chiral expansion . The power of the EFT adopted here is that one can correlate in a unified formalism the weak-current matrix elements of two- , three- and four-nucleon systems . Using the tritium\\beta-decay rate as an input to fix the only unknown parameter in the theory , we can evaluate the thresholdSfactors with drastically improved precision ; the results areS _ { pp } ( 0 ) = 3.94 \\times ( 1 \\pm 0.004 ) \\times 10 ^ { -25 } \\mbox { MeV - b }andS _ { hep } ( 0 ) = ( 8.6 \\pm 1.3 ) \\times 10 ^ { -20 } \\mbox { keV - b }. The dependence of the calculatedS-factors on the momentum cutoff parameter\\Lambdahas been examined for a physically reasonable range of\\Lambda. This dependence is found to be extremely small for theppprocess , and to be within acceptable levels for thehepprocess , substantiating the consistency of our calculational scheme .",
+        "paragraphs": [
+          {
+            "para_id": "nucl-th_0208055::p0001",
+            "text": "Furthermore , we apply the same regularization method to all the systems in order to control short-range physics in a consistent manner . The values of [MATH_tex=hatd^R] determined in this manner are : where the errors correspond to the experimental uncertainty in [MATH_tex=Gamma_beta^t] .",
+            "global_index": 1373529
+          }
+        ]
+      }
+    ]
+  }
+]

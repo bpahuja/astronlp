@@ -1,0 +1,18 @@
+{"time":"2025-09-01T11:55:02.537264359+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2025-09-01T11:55:02.53729963+01:00","level":"INFO","msg":"created symlink","path":"/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/wandb/run-20250901_115502-nwd5sqng/logs/debug-core.log"}
+{"time":"2025-09-01T11:55:02.543256922+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2025-09-01T11:55:02.580571984+01:00","level":"INFO","msg":"created new stream","id":"nwd5sqng"}
+{"time":"2025-09-01T11:55:02.580628653+01:00","level":"INFO","msg":"stream: started","id":"nwd5sqng"}
+{"time":"2025-09-01T11:55:02.580692191+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T11:55:02.580675022+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T11:55:02.580861538+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T11:55:02.869889206+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2025-09-01T11:55:02.872925098+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-09-01T13:13:57.058956718+01:00","level":"INFO","msg":"stream: closing","id":"nwd5sqng"}
+{"time":"2025-09-01T13:13:57.059096197+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-09-01T13:13:57.061911044+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-09-01T13:13:59.432990721+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-01T13:13:59.789305631+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T13:13:59.789368197+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T13:13:59.78939805+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"nwd5sqng"}}
+{"time":"2025-09-01T13:13:59.80599575+01:00","level":"INFO","msg":"stream: closed","id":"nwd5sqng"}

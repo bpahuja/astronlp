@@ -1,0 +1,103 @@
+[
+  {
+    "experiment_name": "kmeans_cosine_l2norm",
+    "algorithm": "kmeans",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "n_clusters": 2
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.34202,
+    "clustering_time": 0.985084,
+    "total_time": 1.3271039999999998,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 2,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "silhouette_score": 0.48602235619975687,
+      "calinski_harabasz_score": 40083.76204301138,
+      "davies_bouldin_score": 1.7906652992764518
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "kmeans_euclidean_standard",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "n_clusters": 2
+    },
+    "preprocessing_params": {},
+    "preprocessing_time": 0.526844,
+    "clustering_time": 0.565403,
+    "total_time": 1.092247,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 2,
+      "noise_ratio": 0.0,
+      "clustered_ratio": 1.0,
+      "silhouette_score": 0.47090255500436895,
+      "calinski_harabasz_score": 679.00005140184,
+      "davies_bouldin_score": 0.8683212612725947
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      192
+    ]
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_svd30",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "svd",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "cluster_selection_method": "eom",
+      "prediction_data": true
+    },
+    "preprocessing_params": {
+      "n_components": 30
+    },
+    "preprocessing_time": 2.663442,
+    "clustering_time": 269.951411,
+    "total_time": 272.614853,
+    "success": true,
+    "error": null,
+    "labels": "array_shape_166480",
+    "metrics": {
+      "n_clusters": 2406,
+      "noise_ratio": 0.36170711196540123,
+      "clustered_ratio": 0.6382928880345987,
+      "silhouette_score": 0.8444569147615157,
+      "calinski_harabasz_score": 32555.98203204893,
+      "davies_bouldin_score": 0.5450732704902984
+    },
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": [
+      166480,
+      30
+    ]
+  }
+]

@@ -1,0 +1,143 @@
+2025-08-31 12:44:18,973 - INFO - Configuration:
+2025-08-31 12:44:18,973 - INFO -   embeddings_dir: /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/embeddings_v1
+2025-08-31 12:44:18,973 - INFO -   out_dir: ./cluster_out_v1
+2025-08-31 12:44:18,973 - INFO -   min_cluster_size: 20
+2025-08-31 12:44:18,973 - INFO -   min_samples: 3
+2025-08-31 12:44:18,973 - INFO -   target_dimensions: 150
+2025-08-31 12:44:18,973 - INFO -   max_dimensions_direct: 150
+2025-08-31 12:44:18,973 - INFO -   chunk_size: 10000
+2025-08-31 12:44:18,973 - INFO -   use_gpu: True
+2025-08-31 12:44:18,973 - INFO -   skip_optimization: False
+2025-08-31 12:44:19,326 - INFO - GPU memory pool initialized with 1GB
+2025-08-31 12:44:19,326 - INFO - GPU acceleration enabled
+2025-08-31 12:44:19,326 - INFO - Starting SPECTER2 embedding clustering pipeline...
+2025-08-31 12:44:19,326 - INFO - Loading SPECTER2 embeddings and metadata...
+2025-08-31 12:44:19,326 - INFO - Loading embeddings from chunk directory: /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/embeddings_v1
+2025-08-31 12:44:19,388 - INFO - Found 1,375,099 paragraphs in 138 chunks
+GPU acceleration enabled with cuML/RAPIDS
+Loading embedding chunks:   0%|          | 0/138 [00:00<?, ?it/s]Loading embedding chunks:   1%|          | 1/138 [00:03<08:01,  3.52s/it]Loading embedding chunks:   1%|▏         | 2/138 [00:06<07:02,  3.11s/it]Loading embedding chunks:   2%|▏         | 3/138 [00:10<08:21,  3.71s/it]Loading embedding chunks:   3%|▎         | 4/138 [00:14<08:06,  3.63s/it]Loading embedding chunks:   4%|▎         | 5/138 [00:16<06:43,  3.03s/it]Loading embedding chunks:   4%|▍         | 6/138 [00:19<06:59,  3.18s/it]Loading embedding chunks:   5%|▌         | 7/138 [00:23<07:09,  3.28s/it]Loading embedding chunks:   6%|▌         | 8/138 [00:25<06:30,  3.00s/it]Loading embedding chunks:   7%|▋         | 9/138 [00:27<05:50,  2.72s/it]Loading embedding chunks:   7%|▋         | 10/138 [00:31<06:45,  3.17s/it]Loading embedding chunks:   8%|▊         | 11/138 [00:34<06:36,  3.12s/it]Loading embedding chunks:   9%|▊         | 12/138 [00:37<05:56,  2.83s/it]Loading embedding chunks:   9%|▉         | 13/138 [00:39<05:39,  2.71s/it]Loading embedding chunks:  10%|█         | 14/138 [00:42<06:02,  2.92s/it]Loading embedding chunks:  11%|█         | 15/138 [00:47<06:54,  3.37s/it]Loading embedding chunks:  12%|█▏        | 16/138 [00:49<06:13,  3.06s/it]Loading embedding chunks:  12%|█▏        | 17/138 [00:53<06:42,  3.33s/it]Loading embedding chunks:  13%|█▎        | 18/138 [00:56<06:09,  3.08s/it]Loading embedding chunks:  14%|█▍        | 19/138 [00:58<05:49,  2.94s/it]Loading embedding chunks:  14%|█▍        | 20/138 [01:02<06:14,  3.17s/it]Loading embedding chunks:  15%|█▌        | 21/138 [01:04<05:28,  2.80s/it]Loading embedding chunks:  16%|█▌        | 22/138 [01:06<04:48,  2.49s/it]Loading embedding chunks:  17%|█▋        | 23/138 [01:08<04:43,  2.46s/it]Loading embedding chunks:  17%|█▋        | 24/138 [01:12<05:22,  2.83s/it]Loading embedding chunks:  18%|█▊        | 25/138 [01:15<05:38,  3.00s/it]Loading embedding chunks:  19%|█▉        | 26/138 [01:18<05:17,  2.83s/it]Loading embedding chunks:  20%|█▉        | 27/138 [01:20<05:03,  2.74s/it]Loading embedding chunks:  20%|██        | 28/138 [01:22<04:35,  2.51s/it]Loading embedding chunks:  21%|██        | 29/138 [01:27<05:38,  3.10s/it]Loading embedding chunks:  22%|██▏       | 30/138 [01:28<04:54,  2.73s/it]Loading embedding chunks:  22%|██▏       | 31/138 [01:30<04:15,  2.39s/it]Loading embedding chunks:  23%|██▎       | 32/138 [01:32<04:07,  2.33s/it]Loading embedding chunks:  24%|██▍       | 33/138 [01:34<03:54,  2.23s/it]Loading embedding chunks:  25%|██▍       | 34/138 [01:37<04:17,  2.47s/it]Loading embedding chunks:  25%|██▌       | 35/138 [01:40<04:12,  2.45s/it]Loading embedding chunks:  26%|██▌       | 36/138 [01:42<03:59,  2.35s/it]Loading embedding chunks:  27%|██▋       | 37/138 [01:43<03:31,  2.09s/it]Loading embedding chunks:  28%|██▊       | 38/138 [01:45<03:13,  1.93s/it]Loading embedding chunks:  28%|██▊       | 39/138 [01:48<03:52,  2.35s/it]Loading embedding chunks:  29%|██▉       | 40/138 [01:50<03:34,  2.18s/it]Loading embedding chunks:  30%|██▉       | 41/138 [01:52<03:39,  2.26s/it]Loading embedding chunks:  30%|███       | 42/138 [01:54<03:19,  2.08s/it]Loading embedding chunks:  31%|███       | 43/138 [01:56<03:08,  1.99s/it]Loading embedding chunks:  32%|███▏      | 44/138 [01:58<03:00,  1.92s/it]Loading embedding chunks:  33%|███▎      | 45/138 [02:01<03:30,  2.27s/it]Loading embedding chunks:  33%|███▎      | 46/138 [02:03<03:30,  2.28s/it]Loading embedding chunks:  34%|███▍      | 47/138 [02:04<03:01,  1.99s/it]Loading embedding chunks:  35%|███▍      | 48/138 [02:05<02:29,  1.66s/it]Loading embedding chunks:  36%|███▌      | 49/138 [02:07<02:25,  1.64s/it]Loading embedding chunks:  36%|███▌      | 50/138 [02:10<03:00,  2.05s/it]Loading embedding chunks:  37%|███▋      | 51/138 [02:12<02:56,  2.02s/it]Loading embedding chunks:  38%|███▊      | 52/138 [02:14<03:13,  2.26s/it]Loading embedding chunks:  38%|███▊      | 53/138 [02:17<03:25,  2.42s/it]Loading embedding chunks:  39%|███▉      | 54/138 [02:21<03:45,  2.68s/it]Loading embedding chunks:  40%|███▉      | 55/138 [02:23<03:40,  2.65s/it]Loading embedding chunks:  41%|████      | 56/138 [02:24<03:02,  2.23s/it]Loading embedding chunks:  41%|████▏     | 57/138 [02:28<03:29,  2.59s/it]Loading embedding chunks:  42%|████▏     | 58/138 [02:32<04:02,  3.03s/it]Loading embedding chunks:  43%|████▎     | 59/138 [02:34<03:37,  2.76s/it]Loading embedding chunks:  43%|████▎     | 60/138 [02:37<03:46,  2.91s/it]Loading embedding chunks:  44%|████▍     | 61/138 [02:40<03:36,  2.81s/it]Loading embedding chunks:  45%|████▍     | 62/138 [02:44<03:57,  3.12s/it]Loading embedding chunks:  46%|████▌     | 63/138 [02:46<03:24,  2.73s/it]Loading embedding chunks:  46%|████▋     | 64/138 [02:47<03:04,  2.50s/it]Loading embedding chunks:  47%|████▋     | 65/138 [02:50<02:58,  2.44s/it]Loading embedding chunks:  48%|████▊     | 66/138 [02:53<03:19,  2.78s/it]Loading embedding chunks:  49%|████▊     | 67/138 [02:57<03:33,  3.01s/it]Loading embedding chunks:  49%|████▉     | 68/138 [02:59<03:12,  2.74s/it]Loading embedding chunks:  50%|█████     | 69/138 [03:02<03:12,  2.80s/it]Loading embedding chunks:  51%|█████     | 70/138 [03:07<03:46,  3.33s/it]Loading embedding chunks:  51%|█████▏    | 71/138 [03:09<03:36,  3.23s/it]Loading embedding chunks:  52%|█████▏    | 72/138 [03:14<03:48,  3.47s/it]Loading embedding chunks:  53%|█████▎    | 73/138 [03:16<03:34,  3.30s/it]Loading embedding chunks:  54%|█████▎    | 74/138 [03:18<02:56,  2.76s/it]Loading embedding chunks:  54%|█████▍    | 75/138 [03:22<03:12,  3.05s/it]Loading embedding chunks:  55%|█████▌    | 76/138 [03:24<02:56,  2.84s/it]Loading embedding chunks:  56%|█████▌    | 77/138 [03:27<02:50,  2.80s/it]Loading embedding chunks:  57%|█████▋    | 78/138 [03:28<02:22,  2.38s/it]Loading embedding chunks:  57%|█████▋    | 79/138 [03:30<02:04,  2.11s/it]Loading embedding chunks:  58%|█████▊    | 80/138 [03:31<01:54,  1.98s/it]Loading embedding chunks:  59%|█████▊    | 81/138 [03:32<01:33,  1.63s/it]Loading embedding chunks:  59%|█████▉    | 82/138 [03:36<02:03,  2.20s/it]Loading embedding chunks:  60%|██████    | 83/138 [03:39<02:17,  2.49s/it]Loading embedding chunks:  61%|██████    | 84/138 [03:41<02:13,  2.48s/it]Loading embedding chunks:  62%|██████▏   | 85/138 [03:45<02:31,  2.86s/it]Loading embedding chunks:  62%|██████▏   | 86/138 [03:48<02:37,  3.04s/it]Loading embedding chunks:  63%|██████▎   | 87/138 [03:54<03:09,  3.71s/it]Loading embedding chunks:  64%|██████▍   | 88/138 [03:56<02:46,  3.33s/it]Loading embedding chunks:  64%|██████▍   | 89/138 [04:00<02:48,  3.44s/it]Loading embedding chunks:  65%|██████▌   | 90/138 [04:03<02:46,  3.47s/it]Loading embedding chunks:  66%|██████▌   | 91/138 [04:09<03:11,  4.08s/it]Loading embedding chunks:  67%|██████▋   | 92/138 [04:11<02:39,  3.46s/it]Loading embedding chunks:  67%|██████▋   | 93/138 [04:14<02:35,  3.45s/it]Loading embedding chunks:  68%|██████▊   | 94/138 [04:18<02:30,  3.42s/it]Loading embedding chunks:  69%|██████▉   | 95/138 [04:22<02:37,  3.65s/it]Loading embedding chunks:  70%|██████▉   | 96/138 [04:26<02:40,  3.81s/it]Loading embedding chunks:  70%|███████   | 97/138 [04:31<02:52,  4.22s/it]Loading embedding chunks:  71%|███████   | 98/138 [04:37<03:02,  4.57s/it]Loading embedding chunks:  72%|███████▏  | 99/138 [04:39<02:37,  4.05s/it]Loading embedding chunks:  72%|███████▏  | 100/138 [04:41<02:09,  3.42s/it]Loading embedding chunks:  73%|███████▎  | 101/138 [04:45<02:07,  3.45s/it]Loading embedding chunks:  74%|███████▍  | 102/138 [04:51<02:30,  4.18s/it]Loading embedding chunks:  75%|███████▍  | 103/138 [04:57<02:51,  4.90s/it]Loading embedding chunks:  75%|███████▌  | 104/138 [05:01<02:32,  4.49s/it]Loading embedding chunks:  76%|███████▌  | 105/138 [05:04<02:14,  4.08s/it]Loading embedding chunks:  77%|███████▋  | 106/138 [05:07<02:03,  3.85s/it]Loading embedding chunks:  78%|███████▊  | 107/138 [05:10<01:46,  3.43s/it]Loading embedding chunks:  78%|███████▊  | 108/138 [05:16<02:09,  4.31s/it]Loading embedding chunks:  79%|███████▉  | 109/138 [05:19<01:54,  3.94s/it]Loading embedding chunks:  80%|███████▉  | 110/138 [05:24<01:53,  4.04s/it]Loading embedding chunks:  80%|████████  | 111/138 [05:26<01:38,  3.64s/it]Loading embedding chunks:  81%|████████  | 112/138 [05:29<01:25,  3.28s/it]Loading embedding chunks:  82%|████████▏ | 113/138 [05:31<01:17,  3.09s/it]Loading embedding chunks:  83%|████████▎ | 114/138 [05:34<01:10,  2.92s/it]Loading embedding chunks:  83%|████████▎ | 115/138 [05:39<01:20,  3.48s/it]Loading embedding chunks:  84%|████████▍ | 116/138 [05:44<01:26,  3.91s/it]Loading embedding chunks:  85%|████████▍ | 117/138 [05:45<01:09,  3.30s/it]Loading embedding chunks:  86%|████████▌ | 118/138 [05:49<01:05,  3.27s/it]Loading embedding chunks:  86%|████████▌ | 119/138 [05:51<00:57,  3.03s/it]Loading embedding chunks:  87%|████████▋ | 120/138 [05:56<01:06,  3.68s/it]Loading embedding chunks:  88%|████████▊ | 121/138 [06:00<01:03,  3.74s/it]Loading embedding chunks:  88%|████████▊ | 122/138 [06:02<00:50,  3.16s/it]Loading embedding chunks:  89%|████████▉ | 123/138 [06:05<00:45,  3.03s/it]Loading embedding chunks:  90%|████████▉ | 124/138 [06:08<00:44,  3.15s/it]Loading embedding chunks:  91%|█████████ | 125/138 [06:11<00:39,  3.01s/it]Loading embedding chunks:  91%|█████████▏| 126/138 [06:13<00:32,  2.68s/it]Loading embedding chunks:  92%|█████████▏| 127/138 [06:17<00:34,  3.13s/it]Loading embedding chunks:  93%|█████████▎| 128/138 [06:20<00:29,  2.99s/it]Loading embedding chunks:  93%|█████████▎| 129/138 [06:23<00:27,  3.07s/it]Loading embedding chunks:  94%|█████████▍| 130/138 [06:27<00:26,  3.29s/it]Loading embedding chunks:  95%|█████████▍| 131/138 [06:32<00:27,  3.94s/it]Loading embedding chunks:  96%|█████████▌| 132/138 [06:39<00:28,  4.68s/it]Loading embedding chunks:  96%|█████████▋| 133/138 [06:41<00:20,  4.14s/it]Loading embedding chunks:  97%|█████████▋| 134/138 [06:43<00:13,  3.41s/it]Loading embedding chunks:  98%|█████████▊| 135/138 [06:46<00:10,  3.38s/it]Loading embedding chunks:  99%|█████████▊| 136/138 [06:51<00:07,  3.84s/it]Loading embedding chunks:  99%|█████████▉| 137/138 [06:55<00:03,  3.75s/it]Loading embedding chunks: 100%|██████████| 138/138 [06:56<00:00,  2.85s/it]Loading embedding chunks: 100%|██████████| 138/138 [06:56<00:00,  3.02s/it]
+2025-08-31 12:51:15,781 - INFO - Successfully loaded 1,375,099 embeddings with dimension 768
+2025-08-31 12:51:15,782 - INFO - Loaded 1,375,099 paragraph embeddings
+2025-08-31 12:51:15,782 - INFO - Embedding dimension: 768
+2025-08-31 12:51:15,961 - INFO - Papers represented: 166,480
+2025-08-31 12:51:16,582 - INFO - Average paragraph length: 314.3 characters
+2025-08-31 12:51:16,582 - INFO - Current CPU memory usage: 5.37 GB
+2025-08-31 12:51:16,937 - INFO - GPU memory usage: 1.16/23.60 GB
+2025-08-31 12:51:16,937 - INFO - Current CPU memory usage: 5.37 GB
+2025-08-31 12:51:16,937 - INFO - GPU memory usage: 1.16/23.60 GB
+2025-08-31 12:51:16,937 - INFO - Optimizing clustering parameters...
+2025-08-31 12:51:16,981 - INFO - Using sample of 10,000 points for parameter optimization
+2025-08-31 12:51:16,982 - INFO - Applying PCA for parameter optimization
+2025-08-31 12:51:17,053 - WARNING - GPU PCA failed: __init__() got an unexpected keyword argument 'random_state', using CPU
+2025-08-31 12:51:30,961 - INFO - Min size 20: 3 clusters, 0.01 noise, silhouette: 0.272
+2025-08-31 12:51:32,450 - INFO - Min size 30: 2 clusters, 0.01 noise, silhouette: 0.381
+2025-08-31 12:51:33,272 - INFO - Min size 50: 8 clusters, 0.39 noise, silhouette: 0.133
+2025-08-31 12:51:34,288 - INFO - Min size 80: 5 clusters, 0.23 noise, silhouette: 0.236
+2025-08-31 12:51:34,488 - INFO - Best parameters: {'min_cluster_size': 30, 'silhouette_score': 0.38118705, 'num_clusters': 2, 'noise_ratio': 0.0082}
+2025-08-31 12:51:34,488 - INFO - Performing dimensionality reduction...
+2025-08-31 12:51:34,488 - INFO - Performing dimensionality reduction: 768 -> 150
+2025-08-31 12:51:34,488 - INFO - Fitting GPU incremental PCA...
+2025-08-31 12:52:14,296 - INFO - PCA fitting progress: 40,000/1,375,099
+2025-08-31 12:52:15,899 - INFO - PCA fitting progress: 80,000/1,375,099
+2025-08-31 12:52:17,494 - INFO - PCA fitting progress: 120,000/1,375,099
+2025-08-31 12:52:19,084 - INFO - PCA fitting progress: 160,000/1,375,099
+2025-08-31 12:52:20,689 - INFO - PCA fitting progress: 200,000/1,375,099
+2025-08-31 12:52:22,295 - INFO - PCA fitting progress: 240,000/1,375,099
+2025-08-31 12:52:23,887 - INFO - PCA fitting progress: 280,000/1,375,099
+2025-08-31 12:52:25,500 - INFO - PCA fitting progress: 320,000/1,375,099
+2025-08-31 12:52:27,115 - INFO - PCA fitting progress: 360,000/1,375,099
+2025-08-31 12:52:28,726 - INFO - PCA fitting progress: 400,000/1,375,099
+2025-08-31 12:52:30,336 - INFO - PCA fitting progress: 440,000/1,375,099
+2025-08-31 12:52:31,955 - INFO - PCA fitting progress: 480,000/1,375,099
+2025-08-31 12:52:33,565 - INFO - PCA fitting progress: 520,000/1,375,099
+2025-08-31 12:52:35,194 - INFO - PCA fitting progress: 560,000/1,375,099
+2025-08-31 12:52:36,857 - INFO - PCA fitting progress: 600,000/1,375,099
+2025-08-31 12:52:38,511 - INFO - PCA fitting progress: 640,000/1,375,099
+2025-08-31 12:52:40,133 - INFO - PCA fitting progress: 680,000/1,375,099
+2025-08-31 12:52:41,748 - INFO - PCA fitting progress: 720,000/1,375,099
+2025-08-31 12:52:43,383 - INFO - PCA fitting progress: 760,000/1,375,099
+2025-08-31 12:52:45,004 - INFO - PCA fitting progress: 800,000/1,375,099
+2025-08-31 12:52:46,631 - INFO - PCA fitting progress: 840,000/1,375,099
+2025-08-31 12:52:48,326 - INFO - PCA fitting progress: 880,000/1,375,099
+2025-08-31 12:52:49,997 - INFO - PCA fitting progress: 920,000/1,375,099
+2025-08-31 12:52:51,609 - INFO - PCA fitting progress: 960,000/1,375,099
+2025-08-31 12:52:53,247 - INFO - PCA fitting progress: 1,000,000/1,375,099
+2025-08-31 12:52:54,852 - INFO - PCA fitting progress: 1,040,000/1,375,099
+2025-08-31 12:52:56,465 - INFO - PCA fitting progress: 1,080,000/1,375,099
+2025-08-31 12:52:58,080 - INFO - PCA fitting progress: 1,120,000/1,375,099
+2025-08-31 12:52:59,704 - INFO - PCA fitting progress: 1,160,000/1,375,099
+2025-08-31 12:53:01,323 - INFO - PCA fitting progress: 1,200,000/1,375,099
+2025-08-31 12:53:02,936 - INFO - PCA fitting progress: 1,240,000/1,375,099
+2025-08-31 12:53:04,547 - INFO - PCA fitting progress: 1,280,000/1,375,099
+2025-08-31 12:53:06,166 - INFO - PCA fitting progress: 1,320,000/1,375,099
+2025-08-31 12:53:07,780 - INFO - PCA fitting progress: 1,360,000/1,375,099
+2025-08-31 12:53:08,517 - INFO - Transforming with GPU PCA...
+2025-08-31 12:53:10,416 - INFO - PCA transform progress: 40,000/1,375,099
+2025-08-31 12:53:10,953 - INFO - PCA transform progress: 80,000/1,375,099
+2025-08-31 12:53:11,488 - INFO - PCA transform progress: 120,000/1,375,099
+2025-08-31 12:53:12,022 - INFO - PCA transform progress: 160,000/1,375,099
+2025-08-31 12:53:12,558 - INFO - PCA transform progress: 200,000/1,375,099
+2025-08-31 12:53:13,093 - INFO - PCA transform progress: 240,000/1,375,099
+2025-08-31 12:53:13,627 - INFO - PCA transform progress: 280,000/1,375,099
+2025-08-31 12:53:14,162 - INFO - PCA transform progress: 320,000/1,375,099
+2025-08-31 12:53:14,701 - INFO - PCA transform progress: 360,000/1,375,099
+2025-08-31 12:53:15,354 - INFO - PCA transform progress: 400,000/1,375,099
+2025-08-31 12:53:15,894 - INFO - PCA transform progress: 440,000/1,375,099
+2025-08-31 12:53:16,431 - INFO - PCA transform progress: 480,000/1,375,099
+2025-08-31 12:53:16,967 - INFO - PCA transform progress: 520,000/1,375,099
+2025-08-31 12:53:17,504 - INFO - PCA transform progress: 560,000/1,375,099
+2025-08-31 12:53:18,041 - INFO - PCA transform progress: 600,000/1,375,099
+2025-08-31 12:53:18,595 - INFO - PCA transform progress: 640,000/1,375,099
+2025-08-31 12:53:19,234 - INFO - PCA transform progress: 680,000/1,375,099
+2025-08-31 12:53:19,842 - INFO - PCA transform progress: 720,000/1,375,099
+2025-08-31 12:53:20,402 - INFO - PCA transform progress: 760,000/1,375,099
+2025-08-31 12:53:20,943 - INFO - PCA transform progress: 800,000/1,375,099
+2025-08-31 12:53:21,481 - INFO - PCA transform progress: 840,000/1,375,099
+2025-08-31 12:53:22,030 - INFO - PCA transform progress: 880,000/1,375,099
+2025-08-31 12:53:22,570 - INFO - PCA transform progress: 920,000/1,375,099
+2025-08-31 12:53:23,112 - INFO - PCA transform progress: 960,000/1,375,099
+2025-08-31 12:53:23,652 - INFO - PCA transform progress: 1,000,000/1,375,099
+2025-08-31 12:53:24,194 - INFO - PCA transform progress: 1,040,000/1,375,099
+2025-08-31 12:53:24,734 - INFO - PCA transform progress: 1,080,000/1,375,099
+2025-08-31 12:53:25,276 - INFO - PCA transform progress: 1,120,000/1,375,099
+2025-08-31 12:53:25,816 - INFO - PCA transform progress: 1,160,000/1,375,099
+2025-08-31 12:53:26,361 - INFO - PCA transform progress: 1,200,000/1,375,099
+2025-08-31 12:53:27,029 - INFO - PCA transform progress: 1,240,000/1,375,099
+2025-08-31 12:53:27,649 - INFO - PCA transform progress: 1,280,000/1,375,099
+2025-08-31 12:53:28,221 - INFO - PCA transform progress: 1,320,000/1,375,099
+2025-08-31 12:53:28,783 - INFO - PCA transform progress: 1,360,000/1,375,099
+2025-08-31 12:53:29,097 - INFO - GPU streaming PCA complete
+2025-08-31 12:53:29,223 - INFO - Current CPU memory usage: 2.48 GB
+2025-08-31 12:53:29,224 - INFO - GPU memory usage: 1.20/23.60 GB
+2025-08-31 12:53:29,224 - INFO - Starting clustering with min_cluster_size=30
+2025-08-31 12:53:29,224 - INFO - Starting clustering with 1,375,099 embeddings...
+2025-08-31 12:53:29,224 - INFO - Embeddings size: 0.77 GB, Available memory: 50.93 GB
+2025-08-31 12:53:29,224 - INFO - Attempting GPU HDBSCAN clustering...
+2025-08-31 12:58:17,855 - INFO - GPU HDBSCAN complete: 532 clusters, 1,135,917 noise points
+2025-08-31 12:58:17,856 - INFO - Extracting top terms per cluster...
+2025-08-31 12:58:18,065 - INFO - Subsampling 100000 texts for TF-IDF
+Extracting terms:   0%|          | 0/532 [00:00<?, ?it/s]Extracting terms:  17%|█▋        | 90/532 [00:00<00:00, 895.10it/s]Extracting terms:  34%|███▍      | 181/532 [00:00<00:00, 900.20it/s]Extracting terms:  51%|█████     | 272/532 [00:00<00:00, 889.13it/s]Extracting terms:  68%|██████▊   | 361/532 [00:00<00:00, 877.91it/s]Extracting terms:  84%|████████▍ | 449/532 [00:00<00:00, 869.35it/s]Extracting terms: 100%|██████████| 532/532 [00:00<00:00, 832.20it/s]
+2025-08-31 12:58:30,302 - INFO - Extracted top terms for 532 clusters
+2025-08-31 12:58:30,351 - INFO - Saving results to cluster_out_v1
+2025-08-31 12:58:31,209 - INFO - Saved chunk 0
+2025-08-31 12:58:31,819 - INFO - Saved chunk 1
+2025-08-31 12:58:32,400 - INFO - Saved chunk 2
+2025-08-31 12:58:32,975 - INFO - Saved chunk 3
+2025-08-31 12:58:33,547 - INFO - Saved chunk 4
+2025-08-31 12:58:34,113 - INFO - Saved chunk 5
+2025-08-31 12:58:34,693 - INFO - Saved chunk 6
+2025-08-31 12:58:35,273 - INFO - Saved chunk 7
+2025-08-31 12:58:35,864 - INFO - Saved chunk 8
+2025-08-31 12:58:36,447 - INFO - Saved chunk 9
+2025-08-31 12:58:37,019 - INFO - Saved chunk 10
+2025-08-31 12:58:37,576 - INFO - Saved chunk 11
+2025-08-31 12:58:38,121 - INFO - Saved chunk 12
+2025-08-31 12:58:38,546 - INFO - Saved chunk 13
+2025-08-31 12:58:38,655 - INFO - Computing paper-level bag-of-clusters...
+2025-08-31 12:58:46,857 - INFO - Saved paper bag-of-methods
+2025-08-31 12:58:46,857 - INFO - Results saved successfully!
+2025-08-31 12:58:46,857 - INFO - Found 532 clusters with 82.6% noise points
+2025-08-31 12:58:46,998 - INFO - Clustering pipeline completed successfully!
+2025-08-31 12:58:47,105 - INFO - Clustering completed successfully!
+2025-08-31 12:58:47,105 - INFO - Found 532 clusters
+2025-08-31 12:58:47,105 - INFO - Noise points: 1,135,917

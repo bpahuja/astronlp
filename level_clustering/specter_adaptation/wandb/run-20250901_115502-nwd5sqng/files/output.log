@@ -1,0 +1,28 @@
+100%|██████████| 1602/1602 [38:51<00:00,  1.46s/it] 
+{'loss': 4.2845, 'grad_norm': 0.8654281497001648, 'learning_rate': 7.247043363994744e-05, 'epoch': 1.87}
+{'loss': 3.9616, 'grad_norm': 1.2233306169509888, 'learning_rate': 3.961892247043364e-05, 'epoch': 3.75}
+{'loss': 3.8851, 'grad_norm': 1.5787607431411743, 'learning_rate': 6.767411300919843e-06, 'epoch': 5.62}
+{'train_runtime': 2340.9373, 'train_samples_per_second': 87.596, 'train_steps_per_second': 0.684, 'train_loss': 4.031733252136002, 'epoch': 6.0}
+Batches: 100%|██████████| 10/10 [00:02<00:00,  3.52it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.40it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.33it/s]
+[eval] allenai_specter2_base: pos=0.9571 rand=0.7730 gap=0.1841
+There are adapters available but none are activated for the forward pass.
+[train] base=adsabs/astroBERT adapter=pfeiffer r=12 lr=0.0001 epochs=6 mask_prob=0.5
+[warn] gradient_accumulation_steps not supported by your sentence-transformers version. Falling back to no accumulation (increase --batch_size or upgrade ST).
+100%|██████████| 1602/1602 [39:15<00:00,  1.47s/it]                  
+{'loss': 4.1861, 'grad_norm': 1.5841941833496094, 'learning_rate': 7.260183968462549e-05, 'epoch': 1.87}
+{'loss': 3.8416, 'grad_norm': 1.5164539813995361, 'learning_rate': 3.97503285151117e-05, 'epoch': 3.75}
+{'loss': 3.7757, 'grad_norm': 1.4522181749343872, 'learning_rate': 6.898817345597898e-06, 'epoch': 5.62}
+{'train_runtime': 2355.5788, 'train_samples_per_second': 87.051, 'train_steps_per_second': 0.68, 'train_loss': 3.9233402056938105, 'epoch': 6.0}
+Batches: 100%|██████████| 10/10 [00:01<00:00,  7.59it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.04it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.04it/s]
+[eval] adsabs_astroBERT: pos=0.9622 rand=0.7672 gap=0.1950
+
+=== Bake-off summary ===
+                 base  pos_mean  rand_mean      gap cluster_noise_pct cluster_n_clusters cluster_paragraphs
+allenai/specter2_base  0.957085   0.772955 0.184131              None               None               None
+     adsabs/astroBERT  0.962221   0.767237 0.194985              None               None               None
+
+Winner: adsabs/astroBERT (gap=0.1950)

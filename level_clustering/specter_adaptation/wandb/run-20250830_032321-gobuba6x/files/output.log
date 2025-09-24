@@ -1,0 +1,7 @@
+100%|██████████| 2136/2136 [47:46<00:00,  1.34s/it]
+{'loss': 3.2348, 'grad_norm': 0.9458615779876709, 'learning_rate': 8.064039408866995e-05, 'epoch': 0.94}
+{'loss': 2.9625, 'grad_norm': 1.7492525577545166, 'learning_rate': 5.600985221674877e-05, 'epoch': 1.87}
+{'loss': 2.9318, 'grad_norm': 1.749359130859375, 'learning_rate': 3.137931034482759e-05, 'epoch': 2.81}
+{'loss': 2.915, 'grad_norm': 0.9616326689720154, 'learning_rate': 6.748768472906404e-06, 'epoch': 3.75}
+{'train_runtime': 2877.1977, 'train_samples_per_second': 47.513, 'train_steps_per_second': 0.742, 'train_loss': 3.00422811329588, 'epoch': 4.0}
+Saved model and adapter to: /vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/specter2_astro_adapter

@@ -1,0 +1,71 @@
+{
+  "algorithm_selection": {
+    "why_only_kmeans_and_hdbscan": {
+      "kmeans": [
+        "Baseline algorithm that all reviewers understand",
+        "Works well when number of clusters is known",
+        "Fast and scalable to large datasets",
+        "Produces convex, spherical clusters suitable for topic modeling",
+        "Easy to interpret cluster centers as topic centroids"
+      ],
+      "hdbscan": [
+        "Handles noise and outliers automatically",
+        "No need to specify number of clusters a priori",
+        "Finds clusters of varying densities",
+        "More robust to parameter choices than DBSCAN",
+        "Produces hierarchical clustering structure for analysis"
+      ],
+      "why_not_others": {
+        "spectral_clustering": "Computationally expensive for high-dimensional data",
+        "gaussian_mixture": "Assumes Gaussian distributions which may not hold",
+        "mean_shift": "Very slow and memory intensive",
+        "dbscan": "Requires careful eps tuning, superseded by HDBSCAN"
+      }
+    },
+    "dimensionality_reduction_choice": {
+      "why_umap": [
+        "Preserves both local and global structure",
+        "Faster than t-SNE for large datasets",
+        "Provides meaningful inter-cluster distances",
+        "More stable and reproducible with fixed seed",
+        "Better at preserving continuity of data"
+      ],
+      "when_to_skip_dr": [
+        "When feature dimensions are already interpretable",
+        "When dimensionality is already low (<100)",
+        "When preserving original feature space is important"
+      ]
+    },
+    "preprocessing_strategy": {
+      "standard_scaling": "Ensures all features contribute equally",
+      "l2_normalization": "Better for cosine similarity-based clustering",
+      "no_preprocessing": "When features are already normalized or meaningful"
+    }
+  },
+  "pipeline_design": {
+    "paragraph_pipeline": {
+      "strengths": [
+        "Captures fine-grained methodological patterns",
+        "Better for identifying specific techniques",
+        "More granular analysis possible"
+      ],
+      "weaknesses": [
+        "May miss paper-level coherence",
+        "Computationally more intensive",
+        "Requires paragraph-level annotations"
+      ]
+    },
+    "methodological_pipeline": {
+      "strengths": [
+        "Direct paper-level clustering",
+        "Simpler and faster",
+        "Better alignment with paper boundaries"
+      ],
+      "weaknesses": [
+        "May miss within-paper variation",
+        "Less granular insights",
+        "Depends on quality of summaries"
+      ]
+    }
+  }
+}

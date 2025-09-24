@@ -1,0 +1,250 @@
+[
+  {
+    "experiment_name": "kmeans_euclidean_raw",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "none",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_euclidean_standard",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_cosine_l2norm",
+    "algorithm": "kmeans",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_euclidean_tfidf",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "tfidf",
+    "params": {
+      "n_clusters": 8,
+      "max_iter": 300
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_euclidean_pca20",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "pca",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 20
+    },
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_euclidean_svd30",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "svd",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 30
+    },
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_euclidean_nmf15",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "nmf",
+    "params": {
+      "n_clusters": 8
+    },
+    "preprocessing_params": {
+      "n_components": 15
+    },
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_standard_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "cluster_selection_epsilon": 0.0
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_cosine_l2norm_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5,
+      "cluster_selection_epsilon": 0.1
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "Unrecognized metric 'cosine'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_standard_min15",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "min_cluster_size": 15,
+      "min_samples": 7,
+      "cluster_selection_epsilon": 0.0
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_manhattan_robust_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "manhattan",
+    "preprocessing": "robust",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "hdbscan_euclidean_svd30_min10",
+    "algorithm": "hdbscan",
+    "distance_metric": "euclidean",
+    "preprocessing": "svd",
+    "params": {
+      "min_cluster_size": 10,
+      "min_samples": 5
+    },
+    "preprocessing_params": {
+      "n_components": 30
+    },
+    "success": false,
+    "error": "__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  }
+]

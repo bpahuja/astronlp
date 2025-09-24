@@ -1,0 +1,87 @@
+keyword,kw_doc_freq,suggested_family,pmi,co_docs,regex
+gravitational wave detectors,428,source_detection_matching,4.571,1,\bgravitational\[\-\s]?wave\[\-\s]?detectors\b
+stellar populations,945,spectral_fitting_sps,4.435,35,\bstellar\[\-\s]?populations\b
+gravitational lensing,833,weak_lensing_methods,4.023,9,\bgravitational\[\-\s]?lensing\b
+supernova remnants,869,source_detection_matching,3.863,1,\bsupernova\[\-\s]?remnants\b
+dark matter halos,1120,nbody_simulation,3.593,121,\bdark\[\-\s]?matter\[\-\s]?halos\b
+dark matter haloes,545,nbody_simulation,3.543,56,\bdark\[\-\s]?matter\[\-\s]?haloes\b
+dark matter density,414,nbody_simulation,3.376,36,\bdark\[\-\s]?matter\[\-\s]?density\b
+neutron stars,2951,clustering,3.334,1,\bneutron\[\-\s]?stars\b
+active galactic,853,ml_supervised,3.276,3,\bactive\[\-\s]?galactic\b
+galactic,1147,ml_supervised,3.267,4,\bgalactic\b
+dark matter particles,639,nbody_simulation,3.072,41,\bdark\[\-\s]?matter\[\-\s]?particles\b
+gravitational wave gw,385,ml_supervised,2.972,1,\bgravitational\[\-\s]?wave\[\-\s]?gw\b
+solar flares,407,ml_supervised,2.917,1,\bsolar\[\-\s]?flares\b
+gamma ray sources,408,ml_supervised,2.914,1,\bgamma\[\-\s]?ray\[\-\s]?sources\b
+stellar evolution,1553,spectral_fitting_sps,2.868,12,\bstellar\[\-\s]?evolution\b
+dark matter,7073,nbody_simulation,2.857,366,\bdark\[\-\s]?matter\b
+red galaxies,513,photometric_redshift,2.826,6,\bred\[\-\s]?galaxies\b
+dark energy,803,ml_unsupervised,2.789,1,\bdark\[\-\s]?energy\b
+dark matter annihilation,401,nbody_simulation,2.769,19,\bdark\[\-\s]?matter\[\-\s]?annihilation\b
+cold dark matter,1232,nbody_simulation,2.727,56,\bcold\[\-\s]?dark\[\-\s]?matter\b
+cosmological simulations,458,hydrodynamics_sph,2.721,3,\bcosmological\[\-\s]?simulations\b
+supernovae,1002,ml_supervised,2.709,2,\bsupernovae\b
+telescope,538,ml_supervised,2.638,1,\btelescope\b
+dark matter dark,381,weak_lensing_methods,2.608,1,\bdark\[\-\s]?matter\[\-\s]?dark\b
+stellar masses,523,spectral_fitting_sps,2.57,3,\bstellar\[\-\s]?masses\b
+type galaxies,533,spectral_fitting_sps,2.551,3,\btype\[\-\s]?galaxies\b
+star formation rate,534,spectral_fitting_sps,2.549,3,\bstar\[\-\s]?formation\[\-\s]?rate\b
+galactic globular clusters,562,spectral_fitting_sps,2.498,3,\bgalactic\[\-\s]?globular\[\-\s]?clusters\b
+star forming galaxies,1433,spectral_fitting_sps,2.409,7,\bstar\[\-\s]?forming\[\-\s]?galaxies\b
+dark matter models,401,nbody_simulation,2.389,13,\bdark\[\-\s]?matter\[\-\s]?models\b
+early type galaxies,1051,spectral_fitting_sps,2.383,5,\bearly\[\-\s]?type\[\-\s]?galaxies\b
+galactic nuclei agns,695,ml_supervised,2.382,1,\bgalactic\[\-\s]?nuclei\[\-\s]?agns\b
+galactic nuclei agn,1447,ml_supervised,2.342,2,\bgalactic\[\-\s]?nuclei\[\-\s]?agn\b
+molecular cloud,446,hydrodynamics_sph,2.342,2,\bmolecular\[\-\s]?cloud\b
+gravitational wave,1488,ml_supervised,2.314,2,\bgravitational\[\-\s]?wave\b
+galaxy ngc,1381,ml_unsupervised,2.247,1,\bgalaxy\[\-\s]?ngc\b
+ray bursts,1386,ml_unsupervised,2.244,1,\bray\[\-\s]?bursts\b
+cosmic microwave,1647,time_series_periodicity,2.227,8,\bcosmic\[\-\s]?microwave\b
+cosmology,1879,sampling_algorithms,2.176,1,\bcosmology\b
+general relativity,598,weak_lensing_methods,2.157,1,\bgeneral\[\-\s]?relativity\b
+redshift galaxies,740,photometric_redshift,2.054,4,\bredshift\[\-\s]?galaxies\b
+galaxies redshift,391,photometric_redshift,1.999,2,\bgalaxies\[\-\s]?redshift\b
+black holes,1815,ml_unsupervised,1.974,1,\bblack\[\-\s]?holes\b
+galaxy clusters,2355,sampling_algorithms,1.95,1,\bgalaxy\[\-\s]?clusters\b
+clusters galaxies,1251,grid_amr,1.923,1,\bclusters\[\-\s]?galaxies\b
+dwarf galaxy,705,nbody_simulation,1.899,14,\bdwarf\[\-\s]?galaxy\b
+gravitational waves,1313,grid_amr,1.875,1,\bgravitational\[\-\s]?waves\b
+star clusters,1423,spectral_fitting_sps,1.857,4,\bstar\[\-\s]?clusters\b
+cosmic microwave background,2736,time_series_periodicity,1.838,9,\bcosmic\[\-\s]?microwave\[\-\s]?background\b
+galaxies observed,377,spectral_fitting_sps,1.799,1,\bgalaxies\[\-\s]?observed\b
+cosmological,2760,sampling_algorithms,1.791,1,\bcosmological\b
+kerr black hole,396,hydrodynamics_sph,1.768,1,\bkerr\[\-\s]?black\[\-\s]?hole\b
+solar wind,400,mhd,1.721,1,\bsolar\[\-\s]?wind\b
+luminosity,408,spectral_fitting_sps,1.72,1,\bluminosity\b
+galaxies ngc,434,spectral_fitting_sps,1.658,1,\bgalaxies\[\-\s]?ngc\b
+stellar mass,773,nbody_simulation,1.653,12,\bstellar\[\-\s]?mass\b
+stellar clusters,442,spectral_fitting_sps,1.64,1,\bstellar\[\-\s]?clusters\b
+star cluster,461,hydrodynamics_sph,1.616,1,\bstar\[\-\s]?cluster\b
+gamma ray bursts,2601,ml_unsupervised,1.614,1,\bgamma\[\-\s]?ray\[\-\s]?bursts\b
+lyman break galaxies,464,spectral_fitting_sps,1.591,1,\blyman\[\-\s]?break\[\-\s]?galaxies\b
+black hole spin,396,time_series_periodicity,1.573,1,\bblack\[\-\s]?hole\[\-\s]?spin\b
+mass star formation,473,spectral_fitting_sps,1.572,1,\bmass\[\-\s]?star\[\-\s]?formation\b
+mass stars,484,spectral_fitting_sps,1.549,1,\bmass\[\-\s]?stars\b
+galaxy formation,1308,nbody_simulation,1.532,18,\bgalaxy\[\-\s]?formation\b
+seyfert galaxy,422,time_series_periodicity,1.51,1,\bseyfert\[\-\s]?galaxy\b
+disk galaxies,679,nbody_simulation,1.495,9,\bdisk\[\-\s]?galaxies\b
+high redshift galaxies,649,photometric_redshift,1.492,2,\bhigh\[\-\s]?redshift\[\-\s]?galaxies\b
+large magellanic cloud,515,spectral_fitting_sps,1.487,1,\blarge\[\-\s]?magellanic\[\-\s]?cloud\b
+stellar winds,528,spectral_fitting_sps,1.462,1,\bstellar\[\-\s]?winds\b
+stellar models,530,spectral_fitting_sps,1.458,1,\bstellar\[\-\s]?models\b
+galactic nuclei,1785,ml_supervised,1.439,1,\bgalactic\[\-\s]?nuclei\b
+star formation,3341,spectral_fitting_sps,1.409,6,\bstar\[\-\s]?formation\b
+mass black holes,423,nbody_simulation,1.38,5,\bmass\[\-\s]?black\[\-\s]?holes\b
+supermassive black holes,636,hydrodynamics_sph,1.294,1,\bsupermassive\[\-\s]?black\[\-\s]?holes\b
+supernova,2138,ml_supervised,1.258,1,\bsupernova\b
+dwarf galaxies,1861,nbody_simulation,1.234,19,\bdwarf\[\-\s]?galaxies\b
+active galactic nuclei,2230,ml_supervised,1.216,1,\bactive\[\-\s]?galactic\[\-\s]?nuclei\b
+spiral galaxies,1260,nbody_simulation,1.164,12,\bspiral\[\-\s]?galaxies\b
+satellite galaxies,423,nbody_simulation,1.157,4,\bsatellite\[\-\s]?galaxies\b
+dark matter dm,878,nbody_simulation,1.12,8,\bdark\[\-\s]?matter\[\-\s]?dm\b
+forming galaxies,762,spectral_fitting_sps,1.095,1,\bforming\[\-\s]?galaxies\b
+dark energy models,574,nbody_simulation,1.075,5,\bdark\[\-\s]?energy\[\-\s]?models\b
+star forming,793,hydrodynamics_sph,1.074,1,\bstar\[\-\s]?forming\b
+cosmological model,660,time_series_periodicity,1.062,1,\bcosmological\[\-\s]?model\b
+cosmological parameters,1503,photometric_redshift,1.058,3,\bcosmological\[\-\s]?parameters\b
+galaxy cluster,728,nbody_simulation,1.02,6,\bgalaxy\[\-\s]?cluster\b

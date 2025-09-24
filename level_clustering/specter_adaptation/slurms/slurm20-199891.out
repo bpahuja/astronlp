@@ -1,0 +1,5 @@
+GPU acceleration enabled with cuML/RAPIDS
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 47, in <module>
+    from sklearn.metrics import (
+ImportError: cannot import name 'calinski_harabasz_index' from 'sklearn.metrics' (/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sklearn/metrics/__init__.py). Did you mean: 'calinski_harabasz_score'?

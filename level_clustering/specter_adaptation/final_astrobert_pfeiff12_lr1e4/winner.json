@@ -1,0 +1,12 @@
+{
+  "base": "adsabs/astroBERT",
+  "pos_mean": 0.9622524976730347,
+  "rand_mean": 0.7603733539581299,
+  "gap": 0.20187914371490479,
+  "cluster": {
+    "paragraphs": 1585,
+    "clusters": 44,
+    "noise": 506,
+    "noise_pct": 31.92429022082019
+  }
+}

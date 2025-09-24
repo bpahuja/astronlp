@@ -1,0 +1,414 @@
+data:
+  path: paper_clusters2.csv
+  vector_prefix: cluster_
+  paper_id_column: paper_id
+  title_column: title
+  keywords_column: keywords
+  abstract_column: abstract  # optional, set to null if not present
+
+k_optimization:
+  k_min: 2
+  k_max: 20
+  k_methods: [elbow, gap, silhouette, stability]
+
+# Skip consensus to avoid OOM (handled in code)
+seed_heatmaps:
+  n_seeds: 5
+  kmeans:
+    preprocessing: l2_normalize
+    params:
+      n_init: 20
+      max_iter: 500
+      tol: 1.0e-4
+      init: k-means++
+  hdbscan:
+    preprocessing: svd
+    preprocessing_params:
+      n_components: 30
+    params:
+      min_cluster_size: 10
+      min_samples: 5
+      cluster_selection_method: eom
+      allow_single_cluster: false
+      metric: euclidean
+      prediction_data: true
+
+# NEW: matched-granularity block (paper level, Pipeline-2)
+matched_granularity:
+  enabled: true
+  data:
+    paper_id_column: paper_id
+    title_column: title
+    keywords_column: keywords
+    abstract_column: abstract   # set null if not available
+  hdbscan:
+    labels_path: results/hdbscan_micro_labels_pipeline2.csv   # must contain paper_id + hdbscan_label
+    label_column: hdbscan_label
+  k_targets: [50, 100]
+  attach_noise: true
+  merge_metric: cosine          # cosine or euclidean
+  kmeans:
+    params:
+      n_init: 20
+      max_iter: 500
+      tol: 1.0e-4
+  keyword_top_k: 10
+  umap_enabled: true
+
+experiments:
+  - name: kmeans_cosine_l2norm
+    algorithm: kmeans
+    distance_metric: cosine
+    preprocessing: l2_normalize
+    params:
+      n_clusters: 8  # will be overwritten to K*=2 in your current code path
+  - name: kmeans_euclidean_standard
+    algorithm: kmeans
+    distance_metric: euclidean
+    preprocessing: standard
+    params:
+      n_clusters: 8
+  - name: hdbscan_euclidean_svd30
+    algorithm: hdbscan
+    distance_metric: euclidean
+    preprocessing: svd
+    preprocessing_params:
+      n_components: 30
+    params:
+      min_cluster_size: 10
+      min_samples: 5
+      cluster_selection_method: eom
+      prediction_data: true
+
+
+# # Clustering Experiment Configuration
+# # This file defines the experiments to run for systematic comparison of clustering methods
+
+# data:
+#   path: "paper_clusters.csv"  # Path to your input CSV file
+#   vector_prefix: "cluster_"   # Prefix for feature columns (e.g., cluster_0, cluster_1, etc.)
+#   true_labels_column: null    # Optional: column name with ground truth labels for external validation
+
+# experiments:
+#   # ============================================================================
+#   # K-MEANS EXPERIMENTS
+#   # ============================================================================
+  
+#   # Basic K-means with different preprocessing
+#   - name: "kmeans_euclidean_raw"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "none"
+#     params:
+#       n_clusters: 8
+#       max_iter: 300
+      
+#   - name: "kmeans_euclidean_standard"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "standard"
+#     params:
+#       n_clusters: 8
+#       max_iter: 300
+      
+#   - name: "kmeans_cosine_l2norm"
+#     algorithm: "kmeans"
+#     distance_metric: "cosine"  # Uses spherical k-means approach
+#     preprocessing: "l2_normalize"
+#     params:
+#       n_clusters: 8
+#       max_iter: 300
+      
+#   - name: "kmeans_euclidean_tfidf"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "tfidf"
+#     params:
+#       n_clusters: 8
+#       max_iter: 300
+
+#   # K-means with dimensionality reduction
+#   - name: "kmeans_euclidean_pca20"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "pca"
+#     preprocessing_params:
+#       n_components: 20
+#     params:
+#       n_clusters: 8
+      
+#   - name: "kmeans_euclidean_svd30"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "svd"
+#     preprocessing_params:
+#       n_components: 30
+#     params:
+#       n_clusters: 8
+      
+#   - name: "kmeans_euclidean_nmf15"
+#     algorithm: "kmeans"
+#     distance_metric: "euclidean"
+#     preprocessing: "nmf"
+#     preprocessing_params:
+#       n_components: 15
+#     params:
+#       n_clusters: 8
+
+#   # ============================================================================
+#   # HDBSCAN EXPERIMENTS  
+#   # ============================================================================
+  
+#   - name: "hdbscan_euclidean_standard_min10"
+#     algorithm: "hdbscan"
+#     distance_metric: "euclidean"
+#     preprocessing: "standard"
+#     params:
+#       min_cluster_size: 10
+#       min_samples: 5
+#       cluster_selection_epsilon: 0.0
+      
+#   - name: "hdbscan_cosine_l2norm_min10"
+#     algorithm: "hdbscan"
+#     distance_metric: "cosine"
+#     preprocessing: "l2_normalize"
+#     params:
+#       min_cluster_size: 10
+#       min_samples: 5
+#       cluster_selection_epsilon: 0.1
+      
+#   - name: "hdbscan_euclidean_standard_min15"
+#     algorithm: "hdbscan"
+#     distance_metric: "euclidean"
+#     preprocessing: "standard"
+#     params:
+#       min_cluster_size: 15
+#       min_samples: 7
+#       cluster_selection_epsilon: 0.0
+      
+#   - name: "hdbscan_manhattan_robust_min10"
+#     algorithm: "hdbscan"
+#     distance_metric: "manhattan"
+#     preprocessing: "robust"
+#     params:
+#       min_cluster_size: 10
+#       min_samples: 5
+      
+#   - name: "hdbscan_euclidean_svd30_min10"
+#     algorithm: "hdbscan"
+#     distance_metric: "euclidean"
+#     preprocessing: "svd"
+#     preprocessing_params:
+#       n_components: 30
+#     params:
+#       min_cluster_size: 10
+#       min_samples: 5
+
+#   # ============================================================================
+#   # HIERARCHICAL CLUSTERING
+#   # ============================================================================
+  
+#   # - name: "hierarchical_ward_standard"
+#   #   algorithm: "hierarchical"
+#   #   distance_metric: "euclidean"  # Ward requires Euclidean
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     n_clusters: 8
+#   #     linkage: "ward"
+      
+#   # - name: "hierarchical_average_cosine"
+#   #   algorithm: "hierarchical"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     n_clusters: 8
+#   #     linkage: "average"
+      
+#   # - name: "hierarchical_complete_manhattan"
+#   #   algorithm: "hierarchical"
+#   #   distance_metric: "manhattan"
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     n_clusters: 8
+#   #     linkage: "complete"
+
+#   # # ============================================================================
+#   # # SPECTRAL CLUSTERING
+#   # # ============================================================================
+  
+#   # - name: "spectral_rbf_standard"
+#   #   algorithm: "spectral"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     n_clusters: 8
+#   #     affinity: "rbf"
+#   #     gamma: 1.0
+      
+#   # - name: "spectral_cosine_l2norm"
+#   #   algorithm: "spectral"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     n_clusters: 8
+#   #     affinity: "cosine"
+      
+#   # - name: "spectral_nearest_neighbors"
+#   #   algorithm: "spectral"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     n_clusters: 8
+#   #     affinity: "nearest_neighbors"
+#   #     n_neighbors: 10
+
+#   # # ============================================================================
+#   # # DBSCAN EXPERIMENTS
+#   # # ============================================================================
+  
+#   # - name: "dbscan_euclidean_standard_eps05"
+#   #   algorithm: "dbscan"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     eps: 0.5
+#   #     min_samples: 5
+      
+#   # - name: "dbscan_cosine_l2norm_eps03"
+#   #   algorithm: "dbscan"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     eps: 0.3
+#   #     min_samples: 5
+      
+#   # - name: "dbscan_manhattan_robust_eps07"
+#   #   algorithm: "dbscan"
+#   #   distance_metric: "manhattan"
+#   #   preprocessing: "robust"
+#   #   params:
+#   #     eps: 0.7
+#   #     min_samples: 7
+
+#   # # ============================================================================
+#   # # GAUSSIAN MIXTURE MODEL
+#   # # ============================================================================
+  
+#   # - name: "gmm_full_standard"
+#   #   algorithm: "gmm"
+#   #   distance_metric: "euclidean"  # Not used for GMM, but required for consistency
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     n_components: 8
+#   #     covariance_type: "full"
+#   #     max_iter: 200
+      
+#   # - name: "gmm_tied_pca20"
+#   #   algorithm: "gmm"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "pca"
+#   #   preprocessing_params:
+#   #     n_components: 20
+#   #   params:
+#   #     n_components: 8
+#   #     covariance_type: "tied"
+#   #     max_iter: 200
+      
+#   # - name: "gmm_diag_tfidf"
+#   #   algorithm: "gmm"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "tfidf"
+#   #   params:
+#   #     n_components: 8
+#   #     covariance_type: "diag"
+#   #     max_iter: 200
+
+#   # # ============================================================================
+#   # # OPTICS (Alternative to DBSCAN)
+#   # # ============================================================================
+  
+#   # - name: "optics_euclidean_standard"
+#   #   algorithm: "optics"
+#   #   distance_metric: "euclidean"
+#   #   preprocessing: "standard"
+#   #   params:
+#   #     min_samples: 5
+#   #     max_eps: 2.0
+#   #     cluster_method: "xi"
+#   #     xi: 0.05
+      
+#   # - name: "optics_cosine_l2norm"
+#   #   algorithm: "optics"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     min_samples: 5
+#   #     max_eps: 1.0
+#   #     cluster_method: "xi"
+#   #     xi: 0.05
+
+#   # # ============================================================================
+#   # # PARAMETER SENSITIVITY EXPERIMENTS
+#   # # ============================================================================
+  
+#   # # Multiple K values for K-means
+#   # - name: "kmeans_k5_cosine_l2norm"
+#   #   algorithm: "kmeans"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     n_clusters: 5
+      
+#   # - name: "kmeans_k12_cosine_l2norm"
+#   #   algorithm: "kmeans"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     n_clusters: 12
+      
+#   # - name: "kmeans_k15_cosine_l2norm"
+#   #   algorithm: "kmeans"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     n_clusters: 15
+
+#   # # Different min_cluster_size for HDBSCAN
+#   # - name: "hdbscan_cosine_min5"
+#   #   algorithm: "hdbscan"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     min_cluster_size: 5
+#   #     min_samples: 3
+      
+#   # - name: "hdbscan_cosine_min20"
+#   #   algorithm: "hdbscan"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "l2_normalize"
+#   #   params:
+#   #     min_cluster_size: 20
+#   #     min_samples: 10
+
+#   # # ============================================================================
+#   # # ADVANCED COMBINATIONS
+#   # # ============================================================================
+  
+#   # # Best practices combinations
+#   # - name: "best_practice_sparse_counts"
+#   #   algorithm: "hdbscan"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "tfidf"  # TF-IDF for count data
+#   #   params:
+#   #     min_cluster_size: 10
+#   #     min_samples: 5
+#   #     cluster_selection_epsilon: 0.1
+      
+#   # - name: "best_practice_dense_representation"
+#   #   algorithm: "kmeans"
+#   #   distance_metric: "cosine"
+#   #   preprocessing: "svd"
+#   #   preprocessing_params:
+#   #     n_components: 50
+#   #   params:
+#   #     n_clusters: 8

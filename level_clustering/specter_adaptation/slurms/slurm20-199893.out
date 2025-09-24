@@ -1,0 +1,5 @@
+GPU acceleration enabled with cuML/RAPIDS
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/visualize.py", line 73, in <module>
+    from wordcloud import WordCloud
+ModuleNotFoundError: No module named 'wordcloud'

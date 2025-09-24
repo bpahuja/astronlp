@@ -1,0 +1,26 @@
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[GPU] GPU Available: True
+[GPU] CUML Available: True
+[scan] Using 10 shard folders
+[load] Total paragraphs (after sampling): 100000, dim=768
+Load shards:   0%|          | 0/10 [00:00<?, ?chunk/s]Load shards:  10%|█         | 1/10 [00:00<00:08,  1.06chunk/s]Load shards:  20%|██        | 2/10 [00:02<00:08,  1.04s/chunk]Load shards:  30%|███       | 3/10 [00:04<00:11,  1.68s/chunk]Load shards:  40%|████      | 4/10 [00:07<00:12,  2.02s/chunk]Load shards:  50%|█████     | 5/10 [00:09<00:10,  2.17s/chunk]Load shards:  60%|██████    | 6/10 [00:12<00:09,  2.49s/chunk]Load shards:  70%|███████   | 7/10 [00:15<00:08,  2.77s/chunk]Load shards:  80%|████████  | 8/10 [00:19<00:05,  2.87s/chunk]Load shards:  90%|█████████ | 9/10 [00:22<00:03,  3.04s/chunk]Load shards: 100%|██████████| 10/10 [00:24<00:00,  2.60s/chunk]Load shards: 100%|██████████| 10/10 [00:24<00:00,  2.40s/chunk]
+[norm] L2-normalizing embeddings
+[norm] Using GPU for L2 normalization
+[umap] dim=60 n_neighbors=240
+[GPU-UMAP] Processing 100000 points, reducing to 60 dimensions
+[2025-09-04 18:03:00.732] [CUML] [info] build_algo set to brute_force_knn because random_state is given
+[2025-09-04 18:03:01.574] [CUML] [debug] Computing KNN Graph
+[2025-09-04 18:03:10.218] [CUML] [debug] Computing fuzzy simplicial set
+[hdbscan] metric=euclidean min_cluster_size=12 min_samples=1
+[GPU-HDBSCAN] Clustering 100000 points with metric=euclidean
+
+=== Summary ===
+{
+  "paragraphs": 100000,
+  "clusters": 1744,
+  "noise": 40461,
+  "noise_pct": 40.461
+}
+[write] Labels  -> cluster_out_v2_astrobert/labels_paragraph.csv
+[write] Summary -> cluster_out_v2_astrobert/cluster_summary.json

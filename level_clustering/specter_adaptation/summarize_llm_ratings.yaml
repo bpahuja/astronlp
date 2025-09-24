@@ -1,0 +1,37 @@
+# Map (method, K) → a labels file to derive true cluster sizes
+partitions:
+  - method: hdbscan
+    K: -1                # native HDBSCAN labels
+    labels_path: results/hdbscan_labels.npy
+    labels_format: npy   # npy|csv|json|pkl (auto-inferred if omitted)
+    # if CSV, set: label_column: label
+    ignore_noise: true   # exclude -1 when computing sizes
+
+  # If you also rated merged HDBSCAN clusters at K=50 and K=100:
+  - method: hdbscan
+    K: 50
+    labels_path: results/hdbmerge_K50.csv
+    labels_format: csv
+    label_column: merged_label
+    ignore_noise: true
+
+  - method: hdbscan
+    K: 100
+    labels_path: results/hdbmerge_K100.csv
+    labels_format: csv
+    label_column: merged_label
+    ignore_noise: true
+
+# Normalize method spellings in older JSONLs
+method_aliases:
+  hdbscan_merge: hdbscan
+  hdbmerge: hdbscan
+  hdbscan-merge: hdbscan
+
+# JSONL schema (override here or via CLI flags)
+schema:
+  method_field: method
+  k_field: K
+  cluster_field: cluster_id
+  rating_field: rating
+  rater_field: rater

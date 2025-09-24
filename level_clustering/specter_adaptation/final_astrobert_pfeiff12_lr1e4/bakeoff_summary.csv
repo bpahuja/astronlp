@@ -1,0 +1,2 @@
+base,pos_mean,rand_mean,gap,cluster_noise_pct,cluster_n_clusters,cluster_paragraphs
+adsabs/astroBERT,0.9622524976730347,0.7603733539581299,0.20187914371490479,31.92429022082019,44,1585

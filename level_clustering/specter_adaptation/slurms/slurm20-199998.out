@@ -1,0 +1,16 @@
+There are adapters available but none are activated for the forward pass.
+[device] Using cuda
+[train] base=allenai/specter2_base adapter=pfeiffer r=12 lr=0.0001 epochs=6 mask_prob=0.5
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff.py", line 584, in <module>
+    main()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff.py", line 541, in main
+    bakeoff(
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff.py", line 407, in bakeoff
+    r = run_single_training(base_id=base, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff.py", line 378, in run_single_training
+    train_contrastive(st, train_loader, epochs=epochs, lr=lr, grad_accum=grad_accum, use_amp=True)
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff.py", line 238, in train_contrastive
+    st_model.fit(
+TypeError: FitMixin.fit() got an unexpected keyword argument 'gradient_accumulation_steps'

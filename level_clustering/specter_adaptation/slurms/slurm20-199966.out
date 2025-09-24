@@ -1,0 +1,63 @@
+2025-08-31 21:32:09,054 - INFO - Loading faiss with AVX512 support.
+2025-08-31 21:32:13,895 - INFO - Successfully loaded faiss with AVX512 support.
+2025-08-31 21:32:28,281 - INFO - Starting LLM evaluation of SPECTER2 clusters...
+2025-08-31 21:32:28,282 - INFO - Loading embeddings...
+2025-08-31 21:32:28,285 - INFO - Loading 1375099 embeddings from 138 chunks
+2025-08-31 21:35:15,352 - INFO - Loaded 1375099 embeddings with dimension 768
+2025-08-31 21:35:15,387 - INFO - Loading cluster results...
+2025-08-31 21:35:45,218 - INFO - Loaded 1375099 cluster assignments
+2025-08-31 21:35:45,218 - INFO - Found 532 clusters with 82.60619780830325% noise
+2025-08-31 21:35:45,442 - INFO - Evaluating clusters with LLM...
+2025-08-31 21:35:45,442 - INFO - Total paragraphs: 1375099
+2025-08-31 21:35:45,479 - INFO - Total clusters: 532
+2025-08-31 21:36:01,621 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:01,634 - INFO - Evaluated cluster 0 (size=37): score=5, label=Noise Reduction Techniques
+2025-08-31 21:36:04,694 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:04,696 - INFO - Evaluated cluster 1 (size=117): score=4, label=Nucleation and Detection Methods
+2025-08-31 21:36:07,225 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:07,226 - INFO - Evaluated cluster 2 (size=78): score=5, label=Dendrogram Analysis Methods
+2025-08-31 21:36:09,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:09,215 - INFO - Evaluated cluster 3 (size=50): score=5, label=Hypergeometric Function Analysis
+2025-08-31 21:36:12,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:12,045 - INFO - Evaluated cluster 4 (size=35): score=5, label=Piezo-electric actuator systems
+2025-08-31 21:36:14,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:14,244 - INFO - Evaluated cluster 5 (size=42): score=5, label=Void Identification Techniques
+2025-08-31 21:36:17,012 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:17,016 - INFO - Evaluated cluster 6 (size=72): score=5, label=Spitzer Data Processing
+2025-08-31 21:36:19,708 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:19,710 - INFO - Evaluated cluster 7 (size=2101): score=5, label=SPH simulations and methodologies
+2025-08-31 21:36:25,973 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:25,977 - INFO - Evaluated cluster 8 (size=247): score=5, label=Metropolis-Hastings MCMC
+2025-08-31 21:36:28,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-31 21:36:28,134 - INFO - Evaluated cluster 9 (size=65): score=5, label=Leapfrog Integration Methods
+2025-08-31 21:36:28,807 - INFO - Writing cluster_llm_evaluation_specter2.csv and cluster_llm_evaluation_specter2.jsonl
+
+============================================================
+TOP 10 CLUSTERS BY LLM SCORE:
+============================================================
+ cluster_id  cluster_size                              picked_indices                                                                top_terms  score                             label                                                                                                                                                                                                                                                                                                                                                                        rationale
+          7          2101 [1024782, 1147955, 688926, 1342256, 477936]                          sph, particle, particles, math_tex, simulations      5 SPH simulations and methodologies All paragraphs focus on Smoothed Particle Hydrodynamics (SPH) as their primary simulation method, discussing various aspects such as particle merging, artificial viscosity, and comparisons with grid-based methods. They also share a common approach to modeling astrophysical phenomena, emphasizing the treatment of shocks and validation against other numerical methods.
+          8           247    [661886, 461162, 481707, 385164, 624687] metropolis, hastings, metropolis hastings, algorithm, hastings algorithm      5          Metropolis-Hastings MCMC                                                        All paragraphs utilize the Metropolis-Hastings algorithm within a Markov Chain Monte Carlo (MCMC) framework for parameter estimation and posterior distribution analysis. The methodologies are consistent in their approach to sampling and convergence criteria, indicating a high degree of methodological similarity.
+          2            78    [664226, 864480, 928007, 957285, 856181]                dendrogram, dendrograms, math_tex, structures, clustering      5       Dendrogram Analysis Methods                                                                         All paragraphs utilize dendrogram analysis as a core methodology for extracting and characterizing astrophysical structures from observational data. They consistently apply similar parameters and thresholds for source identification, indicating a unified approach to data processing and analysis.
+          6            72  [1162895, 1234012, 1152441, 1152118, 2342]                          som, spitzer, ssc, ssc spitzer, spitzer caltech      5           Spitzer Data Processing                                                        All paragraphs describe methodologies related to the Spitzer Space Telescope's data processing, specifically referencing the Spitzer Observers Manual and the SSC pipeline. They consistently discuss the calibration and processing of spectral and imaging data, indicating a high degree of methodological similarity.
+          9            65  [62775, 1278370, 576502, 1294629, 1294628]                            leapfrog, math_tex, time, scheme, integration      5      Leapfrog Integration Methods                                                                                         All paragraphs describe methodologies centered around the leapfrog integration scheme for numerical simulations. They detail similar approaches to time-stepping and updating particle positions and velocities, indicating a consistent methodological framework across the paragraphs.
+          3            50  [132691, 564073, 1372646, 402460, 1132674]        hypergeometric, hypergeometric function, math_tex, equation, form      5  Hypergeometric Function Analysis                                                                               All paragraphs utilize hypergeometric functions in their methodologies, focusing on solving differential equations and applying boundary conditions. The consistent use of mathematical functions and similar approaches to derive solutions indicates a high degree of methodological similarity.
+          5            42     [512421, 571460, 528763, 12104, 604215]                               watershed, void, voids, transform, voronoi      5    Void Identification Techniques   All paragraphs utilize the VIDE toolkit for void identification, which is based on the ZOBOV algorithm and employs Voronoi tessellation and watershed transforms. The methodologies are closely aligned in their approach to identifying and analyzing voids in astrophysical simulations, demonstrating a consistent application of similar techniques across the paragraphs.
+          0            37    [197598, 177130, 497658, 355072, 497730]                            noise, bolometers, threshold, kev, electronic      5        Noise Reduction Techniques                                                         All paragraphs focus on methodologies for minimizing noise in bolometric detectors, particularly addressing microphonic noise and electronic noise. They describe similar data processing techniques, including the use of thresholds, custom data cuts, and destriping routines to enhance signal quality and accuracy.
+          4            35      [31680, 31682, 1374139, 31678, 893137]                                     piezo, electric, beam, actuators, si      5   Piezo-electric actuator systems                                   All paragraphs describe methodologies involving piezo-electric actuators for controlling the spacing and resolution of etalons in optical systems. They focus on similar data processing techniques related to the manipulation of physical components and error correction mechanisms, indicating a high degree of methodological similarity.
+          1           117    [288501, 328140, 784951, 868543, 891942]                    nucleation, grains, math_tex, bubble, nucleation rate      4  Nucleation and Detection Methods       The methodologies across these paragraphs focus on nucleation processes, with a strong emphasis on modeling and experimental setups related to bubble nucleation and grain formation. They utilize similar theoretical frameworks and experimental techniques, such as the Seitz model and gas phase density calculations, indicating a close methodological relationship.
+
+============================================================
+SCORE DISTRIBUTION:
+============================================================
+Score 4: 1 clusters
+Score 5: 9 clusters
+
+============================================================
+SUMMARY STATISTICS:
+============================================================
+Total clusters evaluated: 10
+Mean score: 4.90
+Median score: 5.0
+Mean cluster size: 284.4
+Total paragraphs in evaluated clusters: 2844

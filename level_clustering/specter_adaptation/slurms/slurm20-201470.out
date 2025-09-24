@@ -1,0 +1,162 @@
+/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/umap/__init__.py:36: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[Script start] CPU: 0.60GB | GPU: 0.00GB used / 0.00GB total
+[GPU] GPU Available: True
+[GPU] CUML Available: True
+[scan] Using 138 shard folders
+[Before consolidation] CPU: 0.60GB | GPU: 0.00GB used / 0.00GB total
+[mmap] Counting total samples...
+Counting:   0%|          | 0/138 [00:00<?, ?chunk/s]Counting:   6%|▌         | 8/138 [00:00<00:01, 78.93chunk/s]Counting:  14%|█▍        | 19/138 [00:00<00:01, 96.86chunk/s]Counting:  21%|██        | 29/138 [00:00<00:01, 86.86chunk/s]Counting:  28%|██▊       | 39/138 [00:00<00:01, 89.74chunk/s]Counting:  38%|███▊      | 52/138 [00:00<00:00, 102.76chunk/s]Counting:  46%|████▋     | 64/138 [00:00<00:00, 101.61chunk/s]Counting:  54%|█████▍    | 75/138 [00:00<00:00, 103.59chunk/s]Counting:  62%|██████▏   | 86/138 [00:00<00:00, 92.13chunk/s] Counting:  71%|███████   | 98/138 [00:01<00:00, 98.34chunk/s]Counting:  80%|████████  | 111/138 [00:01<00:00, 106.86chunk/s]Counting:  90%|████████▉ | 124/138 [00:01<00:00, 113.39chunk/s]Counting:  99%|█████████▉| 137/138 [00:01<00:00, 116.97chunk/s]Counting: 100%|██████████| 138/138 [00:01<00:00, 104.05chunk/s]
+[mmap] Total samples: 1,375,099, dimensions: 768
+[mmap] Consolidating embeddings...
+Consolidating:   0%|          | 0/138 [00:00<?, ?chunk/s]Consolidating:   1%|          | 1/138 [00:00<01:38,  1.39chunk/s]Consolidating:   1%|▏         | 2/138 [00:01<01:43,  1.31chunk/s]Consolidating:   2%|▏         | 3/138 [00:01<01:21,  1.66chunk/s]Consolidating:   3%|▎         | 4/138 [00:06<05:02,  2.26s/chunk]Consolidating:   4%|▎         | 5/138 [00:08<04:26,  2.01s/chunk]Consolidating:   4%|▍         | 6/138 [00:09<03:59,  1.82s/chunk]Consolidating:   5%|▌         | 7/138 [00:10<03:22,  1.55s/chunk]Consolidating:   6%|▌         | 8/138 [00:11<02:33,  1.18s/chunk]Consolidating:   7%|▋         | 9/138 [00:11<02:01,  1.06chunk/s]Consolidating:   7%|▋         | 10/138 [00:14<03:32,  1.66s/chunk]Consolidating:   8%|▊         | 11/138 [00:15<02:41,  1.27s/chunk]Consolidating:   9%|▊         | 12/138 [00:16<02:44,  1.31s/chunk]Consolidating:   9%|▉         | 13/138 [00:16<02:08,  1.03s/chunk]Consolidating:  10%|█         | 14/138 [00:17<01:47,  1.15chunk/s]Consolidating:  11%|█         | 15/138 [00:17<01:28,  1.39chunk/s]Consolidating:  12%|█▏        | 16/138 [00:18<01:28,  1.38chunk/s]Consolidating:  12%|█▏        | 17/138 [00:30<08:03,  4.00s/chunk]Consolidating:  13%|█▎        | 18/138 [00:30<05:49,  2.91s/chunk]Consolidating:  14%|█▍        | 19/138 [00:30<04:16,  2.16s/chunk]Consolidating:  14%|█▍        | 20/138 [00:31<03:11,  1.62s/chunk]Consolidating:  15%|█▌        | 21/138 [00:34<04:11,  2.15s/chunk]Consolidating:  16%|█▌        | 22/138 [00:40<06:27,  3.34s/chunk]Consolidating:  17%|█▋        | 23/138 [00:41<04:41,  2.45s/chunk]Consolidating:  17%|█▋        | 24/138 [00:41<03:28,  1.83s/chunk]Consolidating:  18%|█▊        | 25/138 [00:43<03:13,  1.72s/chunk]Consolidating:  19%|█▉        | 26/138 [00:43<02:44,  1.47s/chunk]Consolidating:  20%|█▉        | 27/138 [00:45<02:44,  1.48s/chunk]Consolidating:  20%|██        | 28/138 [00:46<02:34,  1.41s/chunk]Consolidating:  21%|██        | 29/138 [00:47<01:59,  1.10s/chunk]Consolidating:  22%|██▏       | 30/138 [00:47<01:35,  1.13chunk/s]Consolidating:  22%|██▏       | 31/138 [00:47<01:18,  1.36chunk/s]Consolidating:  23%|██▎       | 32/138 [00:48<01:17,  1.36chunk/s]Consolidating:  24%|██▍       | 33/138 [00:48<01:06,  1.57chunk/s]Consolidating:  25%|██▍       | 34/138 [00:49<01:12,  1.44chunk/s]Consolidating:  25%|██▌       | 35/138 [00:50<01:09,  1.48chunk/s]Consolidating:  26%|██▌       | 36/138 [00:51<01:10,  1.46chunk/s]Consolidating:  27%|██▋       | 37/138 [00:51<01:07,  1.49chunk/s]Consolidating:  28%|██▊       | 38/138 [00:52<00:58,  1.71chunk/s]Consolidating:  28%|██▊       | 39/138 [00:52<00:51,  1.92chunk/s]Consolidating:  29%|██▉       | 40/138 [00:52<00:46,  2.09chunk/s]Consolidating:  30%|██▉       | 41/138 [00:58<03:06,  1.92s/chunk]Consolidating:  30%|███       | 42/138 [00:58<02:20,  1.46s/chunk]Consolidating:  31%|███       | 43/138 [01:01<03:06,  1.97s/chunk]Consolidating:  32%|███▏      | 44/138 [01:02<02:32,  1.62s/chunk]Consolidating:  33%|███▎      | 45/138 [01:02<01:56,  1.25s/chunk]Consolidating:  33%|███▎      | 46/138 [01:14<06:51,  4.47s/chunk]Consolidating:  34%|███▍      | 47/138 [01:16<05:21,  3.54s/chunk]Consolidating:  35%|███▍      | 48/138 [01:16<03:52,  2.59s/chunk]Consolidating:  36%|███▌      | 49/138 [01:17<02:59,  2.02s/chunk]Consolidating:  36%|███▌      | 50/138 [01:18<02:38,  1.80s/chunk]Consolidating:  37%|███▋      | 51/138 [01:19<02:07,  1.46s/chunk]Consolidating:  38%|███▊      | 52/138 [01:20<01:45,  1.23s/chunk]Consolidating:  38%|███▊      | 53/138 [01:20<01:28,  1.04s/chunk]Consolidating:  39%|███▉      | 54/138 [01:21<01:30,  1.08s/chunk]Consolidating:  40%|███▉      | 55/138 [01:24<02:11,  1.58s/chunk]Consolidating:  41%|████      | 56/138 [01:25<01:59,  1.46s/chunk]Consolidating:  41%|████▏     | 57/138 [01:26<01:53,  1.40s/chunk]Consolidating:  42%|████▏     | 58/138 [01:28<01:59,  1.50s/chunk]Consolidating:  43%|████▎     | 59/138 [01:29<01:47,  1.36s/chunk]Consolidating:  43%|████▎     | 60/138 [01:30<01:27,  1.12s/chunk]Consolidating:  44%|████▍     | 61/138 [01:30<01:12,  1.07chunk/s]Consolidating:  45%|████▍     | 62/138 [01:31<01:02,  1.21chunk/s]Consolidating:  46%|████▌     | 63/138 [01:31<00:52,  1.44chunk/s]Consolidating:  46%|████▋     | 64/138 [01:32<00:45,  1.62chunk/s]Consolidating:  47%|████▋     | 65/138 [01:32<00:40,  1.82chunk/s]Consolidating:  48%|████▊     | 66/138 [01:33<00:43,  1.66chunk/s]Consolidating:  49%|████▊     | 67/138 [01:33<00:38,  1.86chunk/s]Consolidating:  49%|████▉     | 68/138 [01:42<03:36,  3.10s/chunk]Consolidating:  50%|█████     | 69/138 [01:43<02:43,  2.37s/chunk]Consolidating:  51%|█████     | 70/138 [01:43<02:00,  1.77s/chunk]Consolidating:  51%|█████▏    | 71/138 [01:44<01:36,  1.44s/chunk]Consolidating:  52%|█████▏    | 72/138 [01:45<01:17,  1.18s/chunk]Consolidating:  53%|█████▎    | 73/138 [01:45<01:00,  1.07chunk/s]Consolidating:  54%|█████▎    | 74/138 [01:46<00:53,  1.20chunk/s]Consolidating:  54%|█████▍    | 75/138 [01:46<00:44,  1.43chunk/s]Consolidating:  55%|█████▌    | 76/138 [01:47<00:42,  1.46chunk/s]Consolidating:  56%|█████▌    | 77/138 [01:47<00:36,  1.68chunk/s]Consolidating:  57%|█████▋    | 78/138 [01:48<00:37,  1.60chunk/s]Consolidating:  57%|█████▋    | 79/138 [01:49<00:41,  1.41chunk/s]Consolidating:  58%|█████▊    | 80/138 [01:49<00:35,  1.62chunk/s]Consolidating:  59%|█████▊    | 81/138 [01:49<00:31,  1.83chunk/s]Consolidating:  59%|█████▉    | 82/138 [01:54<01:35,  1.70s/chunk]Consolidating:  60%|██████    | 83/138 [01:55<01:19,  1.45s/chunk]Consolidating:  61%|██████    | 84/138 [01:55<01:01,  1.13s/chunk]Consolidating:  62%|██████▏   | 85/138 [01:55<00:47,  1.11chunk/s]Consolidating:  62%|██████▏   | 86/138 [01:56<00:48,  1.08chunk/s]Consolidating:  63%|██████▎   | 87/138 [01:57<00:44,  1.15chunk/s]Consolidating:  64%|██████▍   | 88/138 [01:58<00:44,  1.13chunk/s]Consolidating:  64%|██████▍   | 89/138 [01:58<00:36,  1.36chunk/s]Consolidating:  65%|██████▌   | 90/138 [02:00<00:45,  1.05chunk/s]Consolidating:  66%|██████▌   | 91/138 [02:00<00:40,  1.15chunk/s]Consolidating:  67%|██████▋   | 92/138 [02:02<00:48,  1.06s/chunk]Consolidating:  67%|██████▋   | 93/138 [02:02<00:38,  1.16chunk/s]Consolidating:  68%|██████▊   | 94/138 [02:04<00:48,  1.11s/chunk]Consolidating:  69%|██████▉   | 95/138 [02:29<05:49,  8.14s/chunk]Consolidating:  70%|██████▉   | 96/138 [02:29<04:06,  5.87s/chunk]Consolidating:  70%|███████   | 97/138 [02:30<02:58,  4.35s/chunk]Consolidating:  71%|███████   | 98/138 [02:31<02:17,  3.45s/chunk]Consolidating:  72%|███████▏  | 99/138 [02:33<01:50,  2.84s/chunk]Consolidating:  72%|███████▏  | 100/138 [02:34<01:28,  2.33s/chunk]Consolidating:  73%|███████▎  | 101/138 [02:34<01:06,  1.80s/chunk]Consolidating:  74%|███████▍  | 102/138 [02:35<00:49,  1.38s/chunk]Consolidating:  75%|███████▍  | 103/138 [02:41<01:39,  2.84s/chunk]Consolidating:  75%|███████▌  | 104/138 [02:43<01:25,  2.51s/chunk]Consolidating:  76%|███████▌  | 105/138 [02:44<01:05,  1.99s/chunk]Consolidating:  77%|███████▋  | 106/138 [02:48<01:30,  2.83s/chunk]Consolidating:  78%|███████▊  | 107/138 [03:03<03:19,  6.43s/chunk]Consolidating:  78%|███████▊  | 108/138 [03:11<03:20,  6.68s/chunk]Consolidating:  79%|███████▉  | 109/138 [03:12<02:26,  5.04s/chunk]Consolidating:  80%|███████▉  | 110/138 [03:15<02:05,  4.50s/chunk]Consolidating:  80%|████████  | 111/138 [03:15<01:28,  3.27s/chunk]Consolidating:  81%|████████  | 112/138 [03:16<01:03,  2.43s/chunk]Consolidating:  82%|████████▏ | 113/138 [03:17<00:49,  1.99s/chunk]Consolidating:  83%|████████▎ | 114/138 [03:18<00:39,  1.65s/chunk]Consolidating:  83%|████████▎ | 115/138 [03:18<00:29,  1.27s/chunk]Consolidating:  84%|████████▍ | 116/138 [03:19<00:23,  1.07s/chunk]Consolidating:  85%|████████▍ | 117/138 [03:19<00:18,  1.15chunk/s]Consolidating:  86%|████████▌ | 118/138 [03:20<00:15,  1.27chunk/s]Consolidating:  86%|████████▌ | 119/138 [03:20<00:14,  1.32chunk/s]Consolidating:  87%|████████▋ | 120/138 [03:21<00:12,  1.45chunk/s]Consolidating:  88%|████████▊ | 121/138 [03:22<00:11,  1.45chunk/s]Consolidating:  88%|████████▊ | 122/138 [03:22<00:09,  1.66chunk/s]Consolidating:  89%|████████▉ | 123/138 [03:23<00:09,  1.60chunk/s]Consolidating:  90%|████████▉ | 124/138 [03:23<00:09,  1.53chunk/s]Consolidating:  91%|█████████ | 125/138 [03:24<00:08,  1.59chunk/s]Consolidating:  91%|█████████▏| 126/138 [03:25<00:08,  1.36chunk/s]Consolidating:  92%|█████████▏| 127/138 [03:26<00:09,  1.14chunk/s]Consolidating:  93%|█████████▎| 128/138 [03:30<00:16,  1.67s/chunk]Consolidating:  93%|█████████▎| 129/138 [03:30<00:12,  1.37s/chunk]Consolidating:  94%|█████████▍| 130/138 [03:31<00:08,  1.08s/chunk]Consolidating:  95%|█████████▍| 131/138 [03:31<00:06,  1.14chunk/s]Consolidating:  96%|█████████▌| 132/138 [03:35<00:10,  1.83s/chunk]Consolidating:  96%|█████████▋| 133/138 [03:41<00:15,  3.06s/chunk]Consolidating:  97%|█████████▋| 134/138 [03:41<00:09,  2.27s/chunk]Consolidating:  98%|█████████▊| 135/138 [03:42<00:05,  1.70s/chunk]Consolidating:  99%|█████████▊| 136/138 [03:42<00:02,  1.31s/chunk]Consolidating:  99%|█████████▉| 137/138 [03:43<00:01,  1.04s/chunk]Consolidating: 100%|██████████| 138/138 [03:43<00:00,  1.24chunk/s]Consolidating: 100%|██████████| 138/138 [03:43<00:00,  1.62s/chunk]
+[After consolidation] CPU: 4.69GB | GPU: 0.00GB used / 0.00GB total
+[mmap] Consolidated 1,375,099 embeddings to cluster_out_v2_astrobert/consolidated_embeddings.dat
+[mmap] Loaded embeddings shape: (1375099, 768)
+[umap] dim=100 n_neighbors=280
+[Before chunked GPU UMAP] CPU: 0.76GB | GPU: 0.00GB used / 0.00GB total
+[GPU-UMAP] Processing 1,375,099 points, reducing to 100 dimensions
+[GPU-UMAP] Large dataset detected, subsampling for UMAP fit
+[2025-09-05 20:05:23.401] [CUML] [info] build_algo set to brute_force_knn because random_state is given
+[2025-09-05 20:05:25.226] [CUML] [debug] Computing KNN Graph
+[2025-09-05 20:06:14.194] [CUML] [debug] Computing fuzzy simplicial set
+UMAP transform:   0%|          | 0/14 [00:00<?, ?chunk/s]UMAP transform:   7%|▋         | 1/14 [00:44<09:36, 44.32s/chunk]UMAP transform:  14%|█▍        | 2/14 [01:24<08:23, 41.93s/chunk]UMAP transform:  21%|██▏       | 3/14 [02:09<07:54, 43.12s/chunk]UMAP transform:  29%|██▊       | 4/14 [02:50<07:06, 42.62s/chunk]UMAP transform:  36%|███▌      | 5/14 [03:32<06:19, 42.19s/chunk]UMAP transform:  43%|████▎     | 6/14 [04:11<05:28, 41.00s/chunk]UMAP transform:  50%|█████     | 7/14 [04:51<04:45, 40.80s/chunk]UMAP transform:  57%|█████▋    | 8/14 [05:31<04:03, 40.56s/chunk]UMAP transform:  64%|██████▍   | 9/14 [06:12<03:22, 40.53s/chunk]UMAP transform:  71%|███████▏  | 10/14 [06:53<02:43, 40.80s/chunk]UMAP transform:  79%|███████▊  | 11/14 [07:45<02:12, 44.15s/chunk]UMAP transform:  86%|████████▌ | 12/14 [08:22<01:24, 42.07s/chunk]UMAP transform:  93%|█████████▎| 13/14 [09:00<00:40, 40.72s/chunk]UMAP transform: 100%|██████████| 14/14 [09:30<00:00, 37.70s/chunk]UMAP transform: 100%|██████████| 14/14 [09:30<00:00, 40.77s/chunk]
+[2025-09-05 20:09:25.465] [CUML] [debug] Running transform
+[2025-09-05 20:09:25.465] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:09:49.538] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:09:49.625] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:09:49.677] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:09:56.752] [CUML] [debug] n_epochs=30
+[2025-09-05 20:09:56.811] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:09:56.811] [CUML] [debug] Performing optimization
+[2025-09-05 20:10:06.358] [CUML] [debug] Running transform
+[2025-09-05 20:10:06.358] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:10:30.458] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:10:30.545] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:10:30.598] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:10:37.672] [CUML] [debug] n_epochs=30
+[2025-09-05 20:10:37.731] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:10:37.732] [CUML] [debug] Performing optimization
+[2025-09-05 20:10:50.861] [CUML] [debug] Running transform
+[2025-09-05 20:10:50.861] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:11:14.993] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:11:15.082] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:11:15.134] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:11:22.205] [CUML] [debug] n_epochs=30
+[2025-09-05 20:11:22.264] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:11:22.265] [CUML] [debug] Performing optimization
+[2025-09-05 20:11:32.684] [CUML] [debug] Running transform
+[2025-09-05 20:11:32.685] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:11:56.826] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:11:56.912] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:11:56.969] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:12:04.045] [CUML] [debug] n_epochs=30
+[2025-09-05 20:12:04.104] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:12:04.104] [CUML] [debug] Performing optimization
+[2025-09-05 20:12:14.125] [CUML] [debug] Running transform
+[2025-09-05 20:12:14.125] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:12:38.289] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:12:38.376] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:12:38.428] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:12:45.502] [CUML] [debug] n_epochs=30
+[2025-09-05 20:12:45.561] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:12:45.561] [CUML] [debug] Performing optimization
+[2025-09-05 20:12:52.525] [CUML] [debug] Running transform
+[2025-09-05 20:12:52.525] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:13:16.655] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:13:16.741] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:13:16.794] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:13:23.870] [CUML] [debug] n_epochs=30
+[2025-09-05 20:13:23.929] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:13:23.929] [CUML] [debug] Performing optimization
+[2025-09-05 20:13:33.418] [CUML] [debug] Running transform
+[2025-09-05 20:13:33.418] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:13:57.379] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:13:57.467] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:13:57.520] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:14:04.595] [CUML] [debug] n_epochs=30
+[2025-09-05 20:14:04.653] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:14:04.654] [CUML] [debug] Performing optimization
+[2025-09-05 20:14:13.389] [CUML] [debug] Running transform
+[2025-09-05 20:14:13.389] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:14:37.416] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:14:37.502] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:14:37.555] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:14:44.628] [CUML] [debug] n_epochs=30
+[2025-09-05 20:14:44.686] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:14:44.687] [CUML] [debug] Performing optimization
+[2025-09-05 20:14:53.789] [CUML] [debug] Running transform
+[2025-09-05 20:14:53.789] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:15:17.889] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:15:17.976] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:15:18.028] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:15:25.105] [CUML] [debug] n_epochs=30
+[2025-09-05 20:15:25.169] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:15:25.171] [CUML] [debug] Performing optimization
+[2025-09-05 20:15:35.175] [CUML] [debug] Running transform
+[2025-09-05 20:15:35.175] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:15:59.308] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:15:59.393] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:15:59.446] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:16:06.518] [CUML] [debug] n_epochs=30
+[2025-09-05 20:16:06.576] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:16:06.577] [CUML] [debug] Performing optimization
+[2025-09-05 20:16:26.567] [CUML] [debug] Running transform
+[2025-09-05 20:16:26.567] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:16:50.708] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:16:50.793] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:16:50.845] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:16:57.919] [CUML] [debug] n_epochs=30
+[2025-09-05 20:16:57.978] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:16:57.979] [CUML] [debug] Performing optimization
+[2025-09-05 20:17:04.212] [CUML] [debug] Running transform
+[2025-09-05 20:17:04.212] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:17:28.332] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:17:28.421] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:17:28.473] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:17:35.546] [CUML] [debug] n_epochs=30
+[2025-09-05 20:17:35.605] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:17:35.605] [CUML] [debug] Performing optimization
+[2025-09-05 20:17:41.841] [CUML] [debug] Running transform
+[2025-09-05 20:17:41.841] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:18:05.969] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:18:06.060] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:18:06.112] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:18:13.184] [CUML] [debug] n_epochs=30
+[2025-09-05 20:18:13.242] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:18:13.243] [CUML] [debug] Performing optimization
+[2025-09-05 20:18:20.647] [CUML] [debug] Running transform
+[2025-09-05 20:18:20.647] [CUML] [debug] Building KNN Graph
+[2025-09-05 20:18:38.826] [CUML] [debug] Smoothing KNN distances
+[2025-09-05 20:18:38.892] [CUML] [debug] Executing fuzzy simplicial set
+[2025-09-05 20:18:38.932] [CUML] [debug] Performing L1 normalization
+[2025-09-05 20:18:44.225] [CUML] [debug] n_epochs=30
+[2025-09-05 20:18:44.277] [CUML] [debug] Computing # of epochs for training each sample
+[2025-09-05 20:18:44.278] [CUML] [debug] Performing optimization
+[After chunked GPU UMAP] CPU: 5.54GB | GPU: 0.00GB used / 0.00GB total
+[hdbscan] metric=euclidean min_cluster_size=10
+[Before GPU HDBSCAN] CPU: 1.59GB | GPU: 0.00GB used / 0.00GB total
+[GPU-HDBSCAN] Clustering 1,375,099 points with metric=euclidean
+[After GPU HDBSCAN] CPU: 1.72GB | GPU: 0.00GB used / 0.00GB total
+
+============================================================
+CLUSTERING RESULTS
+============================================================
+{
+  "paragraphs": 1375099,
+  "clusters": 3,
+  "noise": 1482,
+  "noise_pct": 0.11,
+  "avg_cluster_size": 457872.33,
+  "median_cluster_size": 1957,
+  "min_cluster_size": 224,
+  "max_cluster_size": 1371436
+}
+============================================================
+
+[write] Labels saved to: cluster_out_v2_astrobert/labels_paragraph.csv
+[write] Summary saved to: cluster_out_v2_astrobert/cluster_summary.json
+[write] Config saved to: cluster_out_v2_astrobert/cluster_config.json
+[Script end] CPU: 1.76GB | GPU: 0.00GB used / 0.00GB total
+
+✓ Memory-optimized clustering completed successfully!

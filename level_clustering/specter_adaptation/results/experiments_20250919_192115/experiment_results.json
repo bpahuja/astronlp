@@ -1,0 +1,40 @@
+[
+  {
+    "experiment_name": "kmeans_euclidean_standard",
+    "algorithm": "kmeans",
+    "distance_metric": "euclidean",
+    "preprocessing": "standard",
+    "params": {
+      "n_clusters": 2
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  },
+  {
+    "experiment_name": "kmeans_cosine_l2norm",
+    "algorithm": "kmeans",
+    "distance_metric": "cosine",
+    "preprocessing": "l2_normalize",
+    "params": {
+      "n_clusters": 2
+    },
+    "preprocessing_params": {},
+    "success": false,
+    "error": "KMeans.__init__() got an unexpected keyword argument 'n_jobs'",
+    "labels": "array_shape_0",
+    "metrics": {},
+    "X_shape_original": [
+      166480,
+      192
+    ],
+    "X_shape_processed": null
+  }
+]

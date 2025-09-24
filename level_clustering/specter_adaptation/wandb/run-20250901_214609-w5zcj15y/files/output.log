@@ -1,0 +1,149 @@
+100%|██████████| 1068/1068 [25:03<00:00,  1.41s/it]
+{'loss': 4.1735, 'grad_norm': 0.9395737051963806, 'learning_rate': 2.8177339901477835e-05, 'epoch': 1.87}
+{'loss': 3.7243, 'grad_norm': 1.439839482307434, 'learning_rate': 3.5467980295566506e-06, 'epoch': 3.75}
+{'train_runtime': 1505.5395, 'train_samples_per_second': 90.801, 'train_steps_per_second': 0.709, 'train_loss': 3.9326520055420837, 'epoch': 4.0}
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.35it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.46it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.44it/s]
+
+[search 2/10] pfeiffer r=16 lr=5e-05 mask_prob=0.5 bs=128 ga=2
+There are adapters available but none are activated for the forward pass.
+[warn] gradient_accumulation_steps not supported by your sentence-transformers version. Falling back to no accumulation (increase --batch_size or upgrade ST).
+100%|██████████| 1068/1068 [25:01<00:00,  1.41s/it]                  
+{'loss': 4.3677, 'grad_norm': 1.0452378988265991, 'learning_rate': 2.8128078817733995e-05, 'epoch': 1.87}
+{'loss': 4.0263, 'grad_norm': 1.9456729888916016, 'learning_rate': 3.5467980295566506e-06, 'epoch': 3.75}
+{'train_runtime': 1501.7023, 'train_samples_per_second': 91.033, 'train_steps_per_second': 0.711, 'train_loss': 4.1828281531173195, 'epoch': 4.0}
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.27it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.25it/s]
+Batches: 100%|██████████| 10/10 [00:01<00:00,  8.28it/s]
+
+[search 3/10] houlsby r=8 lr=0.0001 mask_prob=0.0 bs=128 ga=1
+There are adapters available but none are activated for the forward pass.
+[warn] gradient_accumulation_steps not supported by your sentence-transformers version. Falling back to no accumulation (increase --batch_size or upgrade ST).
+  0%|          | 0/1068 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py", line 228, in train_contrastive
+    st_model.fit(
+TypeError: FitMixin.fit() got an unexpected keyword argument 'gradient_accumulation_steps'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py", line 584, in <module>
+    main()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py", line 567, in main
+    hparam_search(
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py", line 457, in hparam_search
+    train_contrastive(st, train_loader, epochs=search_epochs, lr=lr, grad_accum=ga, use_amp=True)
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_2.py", line 241, in train_contrastive
+    st_model.fit(
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/fit_mixin.py", line 408, in fit
+    trainer.train(resume_from_checkpoint=resume_from_checkpoint)
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/trainer.py", line 2245, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/trainer.py", line 2560, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/trainer.py", line 3736, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/trainer.py", line 431, in compute_loss
+    loss = loss_fn(features, labels)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/losses/MultipleNegativesRankingLoss.py", line 113, in forward
+    embeddings = [self.model(sentence_feature)["sentence_embedding"] for sentence_feature in sentence_features]
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/accelerate/utils/operations.py", line 820, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/accelerate/utils/operations.py", line 808, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/amp/autocast_mode.py", line 43, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/SentenceTransformer.py", line 1132, in forward
+    input = module(input, **module_kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/sentence_transformers/models/Transformer.py", line 234, in forward
+    outputs = self.auto_model(**trans_features, **kwargs, return_dict=True)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/adapters/context.py", line 165, in wrapper_func
+    results = ctx._call_forward(self, f, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/adapters/context.py", line 115, in _call_forward
+    results = f(model, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/adapters/model_mixin.py", line 2053, in forward
+    return super().forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1144, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 695, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1603, in _call_impl
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 627, in forward
+    layer_output = apply_chunking_to_forward(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/pytorch_utils.py", line 253, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 639, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 540, in forward
+    hidden_states = self.intermediate_act_fn(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/bitbucket/bp824/astro/astroenv/lib/python3.12/site-packages/transformers/activations.py", line 78, in forward
+    return self.act(input)
+           ^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 14.57 GiB of which 46.75 MiB is free. Including non-PyTorch memory, this process has 14.52 GiB memory in use. Of the allocated memory 14.17 GiB is allocated by PyTorch, and 214.82 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

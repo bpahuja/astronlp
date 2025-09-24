@@ -1,0 +1,8 @@
+There are adapters available but none are activated for the forward pass.
+Using CUDA device: cuda
+Traceback (most recent call last):
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/train_adapter.py", line 179, in <module>
+    main()
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/train_adapter.py", line 160, in main
+    model.fit(
+TypeError: FitMixin.fit() got an unexpected keyword argument 'gradient_accumulation_steps'

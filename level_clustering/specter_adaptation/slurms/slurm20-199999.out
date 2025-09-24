@@ -1,0 +1,4 @@
+  File "/vol/bitbucket/bp824/astro/level_clustering/specter_adaptation/astro_methods_bakeoff_1.py", line 445
+    print(f\"\n[search {i}/{len(combos)}] {atype} r={rf} lr={lr} mask_prob={mprob} bs={bs} ga={ga}\")
+            ^
+SyntaxError: unexpected character after line continuation character
